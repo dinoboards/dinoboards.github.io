@@ -1,0 +1,8 @@
+remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+title: dinoboards
+description: Dinoboard Site
+author: Dean Netherton
+github_username:  dinoboards
