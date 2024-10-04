@@ -3,10 +3,7 @@ layout: default
 ---
 
 
-Dinoboard website
-
-
-# Dinoboard Retro Computer Kits
+# Dinoboards Retro Computer Kits
 
 I have designed and developed a number of retro computer kits, based on technology from the 1980s.  They are designed around the RC2014 and RCBus platforms.
 
@@ -103,6 +100,17 @@ The idea is that you can build each board one at a time, test it and play with i
 
 
 ### MSX Memory Module
+
+<div class="product-listing">
+  <div>
+    <a href="./msx-memory"><img src="{{ site.baseurl }}/assets/msx-memory/assembled.jpg" alt="MSX Memory Module"></a>
+  </div>
+  <div>
+    <p>Give your RC2014 the power of 512K ROM and 1024K RAM.</p>
+    <p><a href="./msx-memory">Click here for full details</a></p>
+  </div>
+</div>
+
 
 ### PPI Module & Keyboard
 

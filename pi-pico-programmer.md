@@ -139,3 +139,5 @@ ZDI>
 </ol>
 
 > To see your retro computer, you will need to have the UART serial connection of the Interface Module connected to a terminal application.
+
+{% include disclaimer.md %}

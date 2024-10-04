@@ -3,6 +3,6 @@ plugins:
   - jekyll-remote-theme
   - jekyll-feed
 title: dinoboards
-description: Dinoboard Site
+description: Dinoboards Site
 author: Dean Netherton
 github_username:  dinoboards
