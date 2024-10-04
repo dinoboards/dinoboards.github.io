@@ -3,11 +3,10 @@ layout: default
 github_url: https://github.com/dinoboards/ez80-for-rc
 hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes
 personal_journal_url: https://www.dinoboards.com.au/ez80-for-rc2014-backplanes/
+tindie_product_url: https://www.tindie.com/products/dinotron/ez80-for-rc/
 ---
 
 ## eZ80 for RC
-
-
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
@@ -278,8 +277,4 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 
 > If installing this module in a case, take into account the available space and select the appropriate type for the 6-pin UART header. You can choose either a right-angle or straight header based on your requirements and preferences.
 
-## Disclaimer
-
-Please note that this is a kit, produced by a non-expert (me) for hackers, DIYers' and retro lovers, to tinker with. Please exercise caution and follow good safety practices. You will be working with sharp knives, a hot soldering iron, and small metal components. Be mindful of the risks involved in the build process. I will do my best to answer any questions you may have.
-
-This kit is provided as-is, with no guarantees or warranties. By assembling and using this kit, you acknowledge that you do so at your own risk. The creator cannot be held responsible for any damage, injury, or loss that may occur during the assembly or operation of this kit.
+{% include disclaimer.md %}

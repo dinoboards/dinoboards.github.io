@@ -22,11 +22,27 @@ There are 2 main sets of kits:
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
-<div style="display: flex;">
-  <div style="flex: 30%;">
-    <img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed-profile-front.jpg" alt="eZ80 on RC2014" style="max-width: 100%;">
+<style>
+  .product-listing {
+    display: flex;
+  }
+  .product-listing > div:first-child {
+    flex: 30%;
+  }
+  .product-listing > div:first-child img {
+    max-width: 100%;
+  }
+  .product-listing > div:nth-child(2) {
+    flex: 70%;
+    padding-left: 10px;
+  }
+</style>
+
+<div class="product-listing">
+  <div>
+    <img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed-profile-front.jpg" alt="eZ80 on RC2014">
   </div>
-  <div style="flex: 70%; padding-left: 10px;">
+  <div>
     <p>The eZ80 for RC module is an alternative CPU module for your RC2014 or RCBus based computer.  Upgrade your Z80 to Zilog enhanced version of the chip.  Running at 20Mhz (and overclockable to 40Mhz or more), and take advantage of its many on-chip facilities such as flash ROM, RAM, GPIO and much more.</p>
     <p><a href="./ez80-for-rc">Click here for full details</a></p>
   </div>
@@ -34,3 +50,36 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
 
 ## Yellow MSX Series
 
+These are a series of boards developed to achieve MSX+ compatibility.
+
+The idea is that you can build each board one at a time, test it and play with it under RomWBW - and then once you have the set - load up some MSX games!
+
+### 12+1 Backplane
+
+<div class="product-listing">
+  <div style="flex: 45%">
+    <img src="{{ site.baseurl }}/assets/backplane/profile-powered.jpg" alt="12+1 backplane powered">
+  </div>
+  <div>
+    <p>A Backplane for RC2014 systems, with 80 lanes, ideal for MSX configuration.</p>
+    <p><a href="./backplane">Click here for full details</a></p>
+  </div>
+</div>
+
+### MSX Cartridge Slot Extension for the 12+1 Backplane
+
+### MSX Cassette + USB Module
+
+### MSX Memory Module
+
+### PPI Module & Keyboard
+
+### Real-Time-Clock Module
+
+### Turbo CPU
+
+### V99x8 MSX Video Module
+
+### YM2149 Game Module
+
+### YM2413 MSX-Music Module

@@ -26,11 +26,16 @@
         <div  style="margin-left: 165px">
           <a href="/" class="button "><strong>Home</strong></a>
 
-        <a href="https://www.tindie.com/stores/dinotron/" class="button" target="_newWindow">
-          <img src="/assets/images/tindie-logo.png" style="height: 20px; height: 20px; margin-left: -8px; margin-top: -5px; padding: 0; position: fixed;"/>
-          <strong style="margin-left: 17px">Tindie Store</strong>
-        </a>
-
+          <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button" target="_newWindow">
+            <img src="/assets/images/tindie-logo.png" style="height: 20px; height: 20px; margin-left: -8px; margin-top: -5px; padding: 0; position: fixed;"/>
+            <strong style="margin-left: 17px">
+              {% if page.tindie_product_url %}
+                Buy on Tindie
+              {% else %}
+                Tindie Store
+              {% endif %}
+            </strong>
+          </a>
         <!-- <a href="https://lectronz.com/stores/dino-boards" class="button" target="_newWindow"><strong>Lectronz Store</strong></a> -->
         {% if page.github_url %}
           <a href="{{page.github_url}}" class="button" style="float:right" target="_newWindow"><strong>Github Site</strong></a>
