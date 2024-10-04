@@ -36,11 +36,25 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
     flex: 70%;
     padding-left: 10px;
   }
+
+
+  .product-listing a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
+  .product-listing img {
+    transition: transform 0.3s ease;
+  }
+  .product-listing img:hover {
+    transform: scale(1.05);
+  }
+
 </style>
 
 <div class="product-listing">
   <div>
-    <img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed-profile-front.jpg" alt="eZ80 on RC2014">
+    <a href="./ez80-for-rc"><img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed-profile-front.jpg" alt="eZ80 on RC2014"></a>
   </div>
   <div>
     <p>The eZ80 for RC module is an alternative CPU module for your RC2014 or RCBus based computer.  Upgrade your Z80 to Zilog enhanced version of the chip.  Running at 20Mhz (and overclockable to 40Mhz or more), and take advantage of its many on-chip facilities such as flash ROM, RAM, GPIO and much more.</p>
@@ -58,7 +72,7 @@ The idea is that you can build each board one at a time, test it and play with i
 
 <div class="product-listing">
   <div style="flex: 45%">
-    <img src="{{ site.baseurl }}/assets/backplane/profile-powered.jpg" alt="12+1 backplane powered">
+    <a href="./backplane"><img src="{{ site.baseurl }}/assets/backplane/profile-powered.jpg" alt="12+1 backplane powered"></a>
   </div>
   <div>
     <p>A Backplane for RC2014 systems, with 80 lanes, ideal for MSX configuration.</p>
@@ -67,6 +81,17 @@ The idea is that you can build each board one at a time, test it and play with i
 </div>
 
 ### MSX Cartridge Slot Extension for the 12+1 Backplane
+
+<div class="product-listing">
+  <div>
+    <a href="./slot-extension"><img src="{{ site.baseurl }}/assets/slot-extension/profile-powered.jpg" alt="Slot Extension"></a>
+  </div>
+  <div>
+    <p>A extension module for RC2014 backplanes to support MSX Cartridges</p>
+    <p><a href="./slot-extension">Click here for full details</a></p>
+  </div>
+</div>
+
 
 ### MSX Cassette + USB Module
 

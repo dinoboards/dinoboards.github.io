@@ -6,7 +6,7 @@ personal_journal_url: https://www.dinoboards.com.au/ez80-for-rc2014-backplanes/
 tindie_product_url: https://www.tindie.com/products/dinotron/ez80-for-rc/
 ---
 
-## eZ80 for RC
+# eZ80 for RC
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
@@ -16,7 +16,7 @@ The eZ80 Zilog CPU is an updated version of Z80 CPU. It comes in a few variation
   <img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed-profile-front.jpg" alt="eZ80 on RC2014" width="50%">
 </div>
 
-## What is the eZ80 CPU
+# What is the eZ80 CPU
 
 The eZ80 CPU is an enhanced version of the original Z80, largely maintaining compatibility with its predecessor while offering significant improvements. It can directly address up to 16MB of memory and achieves far greater performance per clock cycle due to increased instruction efficiency and pipelining. Additionally, it integrates various on-chip peripherals such as timers, UART, SPI, I2C, and GPIOs, reducing the need for external hardware components.
 
@@ -24,7 +24,7 @@ While the eZ80 might appear slow and limited by today's standards, it represents
 
 See the Wikipedia page for basic overview of the CPU (<a href="https://en.wikipedia.org/wiki/Zilog_eZ80">https://en.wikipedia.org/wiki/Zilog_eZ80</a>)
 
-## Key features
+# Key features
 
 <ul>
   <li>Compatibility with many existing RCBus and RC2014<strong>&trade;</strong> retro modules.</li>
@@ -33,23 +33,23 @@ See the Wikipedia page for basic overview of the CPU (<a href="https://en.wikipe
   <li>Lots of potential for to do your own hacking and tinkering with the eZ80.</li>
 </ul>
 
-## Demo Video
+# Demo Video
 
 Here's a video of the eZ80 for RC module running in the RC2014<strong>&trade;</strong> backplane with a few retro modules:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qMu8Gz7rkQ0?si=xwUMK4sWBoN0tg-j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Schematics
+# Schematics
 
 * [eZ80 Interface Module (v1.7)]({{ site.baseurl }}/assets/images/SCHEMATIC-EZ80-INTERFACE-V1.7.pdf)
 * [ez80 CPU Module (v1.3)]({{ site.baseurl }}/assets/images/SCHEMATIC-EZ80-V1.3.pdf)
 
-## Kit Details
+# Kit Details
 
 Coming soon to my Tindie Store, will be the *eZ80 for RC* kit.  For you to assemble and expand your RC2014<strong>&trade;</strong> or RCBus system.
 
 
-## What's included in the kit
+# What's included in the kit
 
 The full kits includes everything you need.  Including the PCBs, capacitors, IC sockets, connectors, and the various ICs.  The included Programmable Logic Device (PLD) will also be flashed with the required logic.
 
@@ -57,7 +57,7 @@ The eZ80 CPU module will come with all the surface mounted components soldered. 
 
 A 20Mhz and an optional 25Mhz crystal to allow you to 'overclock' your eZ80.
 
-## Bill Of Materials
+# Bill Of Materials
 
 |Quantity | Component|
 |--------| -----------------------------------------|
@@ -88,7 +88,7 @@ A 20Mhz and an optional 25Mhz crystal to allow you to 'overclock' your eZ80.
 
 \** The battery holder and 3.3V (TLV1117) DC converter are surface mounted components - but are not hard to solder with a conventional soldering iron.
 
-## What else is needed
+# What else is needed
 
 This kit is designed for RCBus and RC2014<strong>&trade;</strong>
 
@@ -103,7 +103,7 @@ This kit is designed for RCBus and RC2014<strong>&trade;</strong>
 
 * You will also need a way to flash an image onto the eZ80's internal ROM. See next section **Flashing the internal ROM**
 
-## Flashing the internal ROM
+# Flashing the internal ROM
 
 Before you can boot your RCBus/RC2014<strong>&trade;</strong> system, you will need to have written an image onto the eZ80's internal ROM.  For that you will need a 'programmer'.
 
@@ -112,17 +112,17 @@ There are 2 options for the programmer.  The Zilog's official programmer (*Zilog
 * [Digikey link](https://www.digikey.com.au/en/products/detail/zilog/ZUSBASC0200ZACG/17374332)
 * [Mouser link](https://au.mouser.com/ProductDetail/692-ZUSBASC0200ZACG)
 
-### Pi Pico Programmer
+## Pi Pico Programmer
 
 An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here for instructions of setting up a Pi Pico Programmer](./pi-pico-programmer)
 
-## Caveats
+# Caveats
 
 * Only a limited number of RCBus/RC2014 modules have been tested to date. (Please see my [project development journal](https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes) describing the progress with porting and testing of various modules.)
 * The ez80's SPI interface has no software support nor has it been tested yet.
 * The I2C interface has limited software support at this stage.
 
-## Images
+# Images
 
 <div class="image-gallery">
   <div class="image-column">
@@ -149,7 +149,7 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
   </div>
 </div>
 
-## Jumpers/Headers
+# Jumpers/Headers
 
 #### J1 - UART 5V Enable
 
@@ -191,7 +191,7 @@ The voltage level for operating the I2C bus.
 
 * The eZ80's SPI interface.
 
-## Assembly Guide
+# Assembly Guide
 
 Here are my recommendation for how to approach assembling and soldering the eZ80 Interface PCB and the CPU Module.
 
