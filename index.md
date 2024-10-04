@@ -36,8 +36,6 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
     flex: 70%;
     padding-left: 10px;
   }
-
-
   .product-listing a {
     display: block;
     text-decoration: none;
@@ -49,7 +47,6 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
   .product-listing img:hover {
     transform: scale(1.05);
   }
-
 </style>
 
 <div class="product-listing">
@@ -92,8 +89,18 @@ The idea is that you can build each board one at a time, test it and play with i
   </div>
 </div>
 
-
 ### MSX Cassette + USB Module
+
+<div class="product-listing">
+  <div>
+    <a href="./cassette-and-usb"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg" alt="Cassette + USB"></a>
+  </div>
+  <div>
+    <p>Save your MSX-BASIC programs to cassette tape and give your Z80 access to a wide range of USB devices.</p>
+    <p><a href="./cassette-and-usb">Click here for full details</a></p>
+  </div>
+</div>
+
 
 ### MSX Memory Module
 
