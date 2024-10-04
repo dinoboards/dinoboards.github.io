@@ -35,7 +35,17 @@
         {% if page.github_url %}
           <a href="{{page.github_url}}" class="button" style="float:right" target="_newWindow"><strong>Github Site</strong></a>
         {% endif %}
-        </div>
+
+
+        {% if page.hackaday_url %}
+        <a href="{{page.hackaday_url}}" class="button" style="float:right" target="_newWindow"><strong>Hackaday Project</strong></a>
+      {% endif %}
+
+
+        {% if page.personal_journal_url %}
+        <a href="{{page.personal_journal_url}}" class="button" style="float:right" target="_newWindow"><strong>Journal</strong></a>
+      {% endif %}
+      </div>
 
         {% if site.show_downloads %}
           <div class="downloads">

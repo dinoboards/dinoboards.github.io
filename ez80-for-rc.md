@@ -1,6 +1,8 @@
 ---
 layout: default
 github_url: https://github.com/dinoboards/ez80-for-rc
+hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes
+personal_journal_url: https://www.dinoboards.com.au/ez80-for-rc2014-backplanes/
 ---
 
 ## eZ80 for RC
