@@ -1,5 +1,6 @@
 ---
 layout: default
+github_url: https://github.com/dinoboards/ez80-for-rc
 ---
 
 ## eZ80 for RC

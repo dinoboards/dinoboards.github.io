@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Pi Pico Programmer
+github_url: https://github.com/dinoboards/ez80-for-rc/tree/main/programmer
 ---
 
 The official programmer from Zilog enables flashing and debugging of the eZ80, but at cost of over $100 USD is certainly not a cheap option.
