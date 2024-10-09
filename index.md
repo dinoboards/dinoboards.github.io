@@ -13,38 +13,21 @@ There are 2 main sets of kits:
 * *Green Mean Machine Series* - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
 
 
-## Mean Green Machine Series
+<hr/>
+# Mean Green Machine Series
+
+The *Mean Green Machine Series* is a series that is still under development, with the *eZ80 for RC* the first kit in the set.  The series goal is to offer as much compatibility as possible with existing RC2014/RCBus module.  With new modules planned to utilise and explore all the capabilities of Zilog's Z80 compatible CPU.
+
 
 ### eZ80 for RC
 
-The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+</div>
 
-<style>
-  .product-listing {
-    display: flex;
-  }
-  .product-listing > div:first-child {
-    flex: 30%;
-  }
-  .product-listing > div:first-child img {
-    max-width: 100%;
-  }
-  .product-listing > div:nth-child(2) {
-    flex: 70%;
-    padding-left: 10px;
-  }
-  .product-listing a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-  }
-  .product-listing img {
-    transition: transform 0.3s ease;
-  }
-  .product-listing img:hover {
-    transform: scale(1.05);
-  }
-</style>
+The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
 <div class="product-listing">
   <div>
@@ -56,13 +39,19 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
   </div>
 </div>
 
-## Yellow MSX Series
+<hr/>
+# Yellow MSX Series
 
 These are a series of boards developed to achieve MSX+ compatibility.
 
 The idea is that you can build each board one at a time, test it and play with it under RomWBW - and then once you have the set - load up some MSX games!
 
+<hr/>
 ### 12+1 Backplane
+
+<div class="tags">
+  <div class="tag msx recommended"></div>
+</div>
 
 <div class="product-listing">
   <div style="flex: 45%">
@@ -74,8 +63,12 @@ The idea is that you can build each board one at a time, test it and play with i
   </div>
 </div>
 
+<hr/>
 ### MSX Cartridge Slot Extension for the 12+1 Backplane
-
+<div class="tags">
+  <div class="tag msx optional"></div>
+  <div class="tag">12+1 Backplane required</div>
+</div>
 <div class="product-listing">
   <div>
     <a href="./slot-extension"><img src="{{ site.baseurl }}/assets/slot-extension/profile-powered.jpg" alt="Slot Extension"></a>
@@ -86,20 +79,32 @@ The idea is that you can build each board one at a time, test it and play with i
   </div>
 </div>
 
+<hr/>
 ### MSX Cassette + USB Module
+
+<div class="tags">
+  <div class="tag romwbw">*</div>
+  <div class="tag msx optional"></div>
+  <div class="tag">* Only the USB module will work under RomWBW</div>
+</div>
 
 <div class="product-listing">
   <div>
     <a href="./cassette-and-usb"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg" alt="Cassette + USB"></a>
   </div>
   <div>
-    <p>Save your MSX-BASIC programs to cassette tape and give your Z80 access to a wide range of USB devices.</p>
+    <p>Save your MSX-BASIC programs to cassette tape and give your Z80 access to a wide range of USB devices. (USB Module compatible with RomWBW)</p>
     <p><a href="./cassette-and-usb">Click here for full details</a></p>
+
   </div>
 </div>
 
-
+<hr/>
 ### MSX Memory Module
+
+<div class="tags">
+  <div class="tag msx required"></div>
+</div>
 
 <div class="product-listing">
   <div>
@@ -111,15 +116,35 @@ The idea is that you can build each board one at a time, test it and play with i
   </div>
 </div>
 
-
+<hr/>
 ### PPI Module & Keyboard
 
+<div class="tags">
+  <div class="tag romwbw"></div>
+  <div class="tag msx required"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="./ppi-and-keyboard"><img src="{{ site.baseurl }}/assets/ppi-and-keyboard/assembled-blue-caps-rainbow-connector.jpg" alt="PPI Module and keyboard"></a>
+  </div>
+  <div>
+    <p>A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.</p>
+    <p><a href="./ppi-and-keyboard">Click here for full details</a></p>
+  </div>
+</div>
+
+<hr/>
 ### Real-Time-Clock Module
 
+<hr/>
 ### Turbo CPU
 
+<hr/>
 ### V99x8 MSX Video Module
 
+<hr/>
 ### YM2149 Game Module
 
+<hr/>
 ### YM2413 MSX-Music Module

@@ -92,3 +92,88 @@ nav ul li.tag-h2 + .tag-h1 {
   }
 }
 
+.tags {
+  margin-top: -10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 3px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1;
+}
+
+.tag.romwbw::before {
+  content: "RomWBW";
+}
+
+.tag.rcbus::before {
+  content: "RCBus";
+}
+
+.tag.rc2014::before {
+  content: "RC2014";
+}
+
+.tag.msx.required::before {
+  content: "MSX Required";
+}
+
+.tag.msx.optional::before {
+  content: "MSX Optional";
+}
+
+.tag.msx.recommended::before {
+  content: "MSX Recommended";
+}
+
+.tag.rcbus {
+  background-color: green;
+  color: white;
+}
+
+.tag.rc2014 {
+  background-color: rgb(70, 70, 164);
+  color: white;
+}
+
+.tag.romwbw {
+  background-color: green;
+  color: white;
+}
+
+.tag.msx {
+  background-color: #fdd14b;
+  color: black;
+}
+
+.product-listing {
+  display: flex;
+}
+.product-listing > div:first-child {
+  flex: 30%;
+}
+.product-listing > div:first-child img {
+  max-width: 100%;
+}
+.product-listing > div:nth-child(2) {
+  flex: 70%;
+  padding-left: 10px;
+}
+.product-listing a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.product-listing img {
+  transition: transform 0.3s ease;
+}
+.product-listing img:hover {
+  transform: scale(1.05);
+}
