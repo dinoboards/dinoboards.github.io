@@ -150,6 +150,24 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
   </div>
 </div>
 
+# Errata
+
+For PCB version 1.7, please note the following corrections:
+
+1. Battery type is incorrectly stated as CR2016.  It should state support for batteries of type CR1225 or CR1216.
+2. The main crystal oscillator (OSC1) is labelled with a frequency of 18.432MHz. It can actually support any frequency from 7.372MHz up to 20MHz. Overclocking is also possible; I have tested it up to 40MHz. For optimal performance, I recommend using a 25MHz crystal.
+3. The pinout for the SPI interface is incorrect. The correct pinout from Pin 1 (at the top) down is:
+
+<div style="padding-left: 20px;margin-top:-10px">
+<ol>
+<li>GND</li>
+<li>SS</li>
+<li>SCK</li>
+<li>MISO</li>
+<li>MOSI</li>
+</ol>
+</div>
+
 # Jumpers/Headers
 
 #### J1 - UART 5V Enable
@@ -191,6 +209,7 @@ The voltage level for operating the I2C bus.
 #### H4 - SPI
 
 * The eZ80's SPI interface.
+
 
 # Assembly Guide
 
