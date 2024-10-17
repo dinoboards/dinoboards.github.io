@@ -137,6 +137,21 @@ The idea is that you can build each board one at a time, test it and play with i
 <hr/>
 ### Real-Time-Clock Module
 
+<div class="tags">
+  <div class="tag romwbw"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="./rtc-and-f4"><img src="{{ site.baseurl }}/assets/rtc-and-f4/assembled.jpg" alt="RP5C01 RTC and MSX F4"></a>
+  </div>
+  <div>
+    <p>An MSX compatible Real time clock and MSX F4 Boot register.</p>
+    <p><a href="./rtc-and-f4">Click here for full details</a></p>
+  </div>
+</div>
+
 <hr/>
 ### Turbo CPU
 
