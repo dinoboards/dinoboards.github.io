@@ -46,10 +46,24 @@ These are a series of boards developed to achieve MSX+ compatibility.
 
 The idea is that you can build each board one at a time, test it and play with it under RomWBW - and then once you have the set - load up some MSX games!
 
+A working/bootable MSX system can be constructed in various configurations.  You can have all *Yellow* series modules, or use a mixture of Yellow and stock RC2014 modules.
+
+For a full MSX system you need at least:
+
+| Name | Options |
+| ---- | --------|
+| Backplane | The RC2014 Pro can work, although some signals will need to be connected via jumpers.  The Yellow 12+1 Backplane is recommended. |
+| CPU  | The Yellow Turbo CPU module or a stock RC2014 Z80 and stock RC2014 Clock Module |
+| Memory | The MSX Memory Module is required. |
+| Keyboard | The PPI Module & Keyboard is required. |
+| Video | The Yellow V99x8 MSX Video Module is required. |
+| Sound | The Yellow YM2149 Game Module is required. |
+
 <hr/>
 ### 12+1 Backplane
 
 <div class="tags">
+  <div class="tag rc2014"></div>
   <div class="tag msx recommended"></div>
 </div>
 
@@ -83,6 +97,7 @@ The idea is that you can build each board one at a time, test it and play with i
 ### MSX Cassette + USB Module
 
 <div class="tags">
+  <div class="tag rc2014"></div>
   <div class="tag romwbw">*</div>
   <div class="tag msx optional"></div>
   <div class="tag">* Only the USB module will work under RomWBW</div>
@@ -120,6 +135,7 @@ The idea is that you can build each board one at a time, test it and play with i
 ### PPI Module & Keyboard
 
 <div class="tags">
+  <div class="tag rc2014"></div>
   <div class="tag romwbw"></div>
   <div class="tag msx required"></div>
 </div>
@@ -138,6 +154,7 @@ The idea is that you can build each board one at a time, test it and play with i
 ### Real-Time-Clock Module
 
 <div class="tags">
+  <div class="tag rc2014"></div>
   <div class="tag romwbw"></div>
   <div class="tag msx optional"></div>
 </div>
@@ -154,6 +171,22 @@ The idea is that you can build each board one at a time, test it and play with i
 
 <hr/>
 ### Turbo CPU
+
+<div class="tags">
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="./turbo-cpu"><img src="{{ site.baseurl }}/assets/turbo-cpu/assembled-top.jpg" alt="Turbo CPU"></a>
+  </div>
+  <div>
+    <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014 modules.</p>
+    <p><a href="./turbo-cpu">Click here for full details</a></p>
+  </div>
+</div>
 
 <hr/>
 ### V99x8 MSX Video Module
