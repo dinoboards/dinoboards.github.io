@@ -191,6 +191,23 @@ For a full MSX system you need at least:
 <hr/>
 ### V99x8 MSX Video Module
 
+<div class="tags">
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx required"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="./video-v9958"><img src="{{ site.baseurl }}/assets/video-v9958/rgb-v3.8-profile.jpg" alt="Turbo CPU"></a>
+  </div>
+  <div>
+    <p>Give your RC2014 the advanced graphic capabilities of the mid to late 80s. This kit is powered by a V9938 or V9958 Video Display Processors (VDP)</p>
+
+    <p><a href="./video-v9958">Click here for full details</a></p>
+  </div>
+</div>
+
 <hr/>
 ### YM2149 Game Module
 
