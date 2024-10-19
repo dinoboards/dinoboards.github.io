@@ -18,12 +18,20 @@
   <body>
 
       <header>
-        <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-      </header>
+        {% if page.tindie_product_url %}
+        <img class="primary-logo main" src="logo.png"/>
+        <h1 class="section-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        {% else %}
+        <img class="primary-logo home" src="logo.png"/>
+        {% endif %}
+    </div>
+  </header>
 
-      <div id="banner">
+      <!-- <div id="banner"> -->
+        <div id="banner" class="{% if page.tindie_product_url %}product{% else %}home{% endif %}">
         <div class="banner-bar">
+
           <a href="/" class="button "><strong>Home</strong></a>
 
           <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button" target="_newWindow">
