@@ -48,7 +48,7 @@ The idea is that you can build each board one at a time, test it and play with i
 
 A working/bootable MSX system can be constructed in various configurations.  You can have all *Yellow* series modules, or use a mixture of Yellow and stock RC2014 modules.
 
-For a full MSX system you need at least:
+For a bootable MSX system you need at least:
 
 | Name | Options |
 | ---- | --------|
@@ -230,3 +230,18 @@ For a full MSX system you need at least:
 
 <hr/>
 ### MSX YM2413 Music Module
+
+<div class="tags">
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="./music"><img src="{{ site.baseurl }}/assets/music/assembled-profile.jpg" alt="MSX YM2413 Music Module"></a>
+  </div>
+  <div>
+    <p>Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip.</p>
+
+    <p><a href="./music">Click here for full details</a></p>
+  </div>
+</div>
