@@ -132,7 +132,7 @@ For a full MSX system you need at least:
 </div>
 
 <hr/>
-### PPI Module & Keyboard
+### MSX PPI Module & Keyboard
 
 <div class="tags">
   <div class="tag rc2014"></div>
@@ -151,7 +151,7 @@ For a full MSX system you need at least:
 </div>
 
 <hr/>
-### Real-Time-Clock Module
+### MSX Real-Time-Clock Module
 
 <div class="tags">
   <div class="tag rc2014"></div>
@@ -189,7 +189,7 @@ For a full MSX system you need at least:
 </div>
 
 <hr/>
-### V99x8 MSX Video Module
+### MSX V99x8 Video Module
 
 <div class="tags">
   <div class="tag rc2014"></div>
@@ -209,7 +209,24 @@ For a full MSX system you need at least:
 </div>
 
 <hr/>
-### YM2149 Game Module
+### MSX YM2149 Game Module
+
+<div class="tags">
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx required"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="./game"><img src="{{ site.baseurl }}/assets/game/installed.jpeg" alt="YM2149 Game Module"></a>
+  </div>
+  <div>
+    <p>MSX compatible Sound and Game Controller Module</p>
+
+    <p><a href="./game">Click here for full details</a></p>
+  </div>
+</div>
 
 <hr/>
-### YM2413 MSX-Music Module
+### MSX YM2413 Music Module
