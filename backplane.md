@@ -74,6 +74,11 @@ Please note that mounting stand-offs are not supplied.
 
 * [schematic.pdf]({{ site.baseurl }}/assets/backplane/schematic.pdf "Schematic"){:target="_blank"}
 
+# Dimensions
+
+* Backplane: [dimensions.png]({{ site.baseurl }}/assets/backplane/dimensions.png "Dimensions"){:target="_blank"}
+* Typical Module: [dimensions.png]({{ site.baseurl }}/assets/backplane/module-dimensions.png "Module Dimensions"){:target="_blank"}
+
 {% include disclaimer.md %}
 
 # See Also
