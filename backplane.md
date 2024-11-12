@@ -76,8 +76,16 @@ Please note that mounting stand-offs are not supplied.
 
 # Dimensions
 
-* Backplane: [dimensions.png]({{ site.baseurl }}/assets/backplane/dimensions.png "Dimensions"){:target="_blank"}
-* Typical Module: [dimensions.png]({{ site.baseurl }}/assets/backplane/module-dimensions.png "Module Dimensions"){:target="_blank"}
+<div class="image-gallery">
+  <div class="image-column">
+    <a href="{{ site.baseurl }}/assets/backplane/backplane-dimensions.png" target="_blank">
+      <img src="{{ site.baseurl }}/assets/backplane/backplane-dimensions.png" alt="Assembled" />
+    </a>
+    <a href="{{ site.baseurl }}/assets/backplane/module-dimensions.png"  target="_blank">
+      <img src="{{ site.baseurl }}/assets/backplane/module-dimensions.png" style="width:70%" alt="Top & Bottom" />
+    </a>
+  </div>
+</div>
 
 {% include disclaimer.md %}
 
