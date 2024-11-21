@@ -122,6 +122,7 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
 * Only a limited number of RCBus/RC2014 modules have been tested to date. (Please see my [project development journal](https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes) describing the progress with porting and testing of various modules.)
 * The ez80's SPI interface has no software support nor has it been tested yet.
 * The I2C interface has limited software support at this stage.
+* **The onboard battery for the RTC seems to drain within a 1 or 2 month period.**
 
 # Images
 
