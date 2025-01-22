@@ -324,7 +324,7 @@ COPY MYTEXT.TXT PRN
 
 # Resources
 
-* Schematic: [schematic](usb-for-rc/schematic.pdf)
+* Schematic: [schematic](assets/usb-for-rc/schematic.pdf)
 * Datasheet: [CH376](assets/ch376ds1.pdf)
 
 {% include disclaimer.md %}
