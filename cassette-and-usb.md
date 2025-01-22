@@ -53,7 +53,7 @@ The USB interface use the cheap CH376S module.  A module that handles the low le
 <table>
   <tr>
     <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-assembled-top.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-assembled-top.jpg" width="90%"/></a></td>
-    <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-cassette.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg" width="90%"/></a></td>
+    <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg" width="90%"/></a></td>
   </tr>
   <tr>
     <td width="50%"><a href=""><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-top.jpg" width="90%"/></a></td>
@@ -347,6 +347,6 @@ COPY MYTEXT.TXT PRN
 
 * Schematic: [schematic](./schematic.pdf)
 * Datasheet: [LM311N Voltage Comparator](./datasheets/lm311-n.pdf)
-* Datasheet: [CH376](./datasheets/CH376DS1.PDF)
+* Datasheet: [CH376](../ch376ds1.pdf)
 
 {% include disclaimer.md %}

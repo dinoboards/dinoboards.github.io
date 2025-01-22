@@ -39,6 +39,28 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
   </div>
 </div>
 
+### CH376 USB Module for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+
+Let your Z80 directly enumerate and operate many different types of USB devices, including USB Hubs, Mass Storage, 3.5 USB Floppy drives and USB Keyboards. (With many new device types to be supported in the future)
+
+<div class="product-listing">
+  <div>
+    <a href="./usb-for-rc"><img src="{{ site.baseurl }}/assets/usb-for-rc/profile.jpg" alt="USB for RCBus/RC2014"></a>
+  </div>
+  <div>
+    <p>The USB for RC module is based on the <a href="#msx-cassette--usb-module">MSX Cassette + USB Module</a>, with the MSX cassette interface components removed.  The native USB drivers written for  MSX-DOS have been ported to RomWBW - enabling full CP/M access to USB Hubs, USB Mass storage, 3.5 USB floppy disk, keyboards and potentially new devices as required drivers are written.</p>
+    <p><a href="./usb-for-rc">Click here for full details</a></p>
+  </div>
+</div>
+
 <hr/>
 # Yellow MSX Series
 
