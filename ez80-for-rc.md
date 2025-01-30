@@ -134,16 +134,19 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
     <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" alt="eZ80 Interface PCB Top Layer">
     </a>
-    <a href="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" alt="ez80 for rc kit parts (wrapped)">
-    </a>
     <a href="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" alt="eZ80 CPU module">
+    </a>
+    <a href="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" alt="ez80 for rc kit parts (wrapped)">
     </a>
   </div>
   <div class="image-column">
     <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" alt="eZ80 Interface PCB Bottom Layer">
+    </a>
+    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10//assembled-with-cpu.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10//assembled-with-cpu.jpg">
     </a>
     <a href="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" alt="ez80 for rc kit parts">
