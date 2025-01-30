@@ -7,9 +7,9 @@ personal_journal_url: https://www.dinoboards.com.au/ez80-for-rc2014-backplanes/
 tindie_product_url: https://www.tindie.com/products/dinotron/ez80-for-rc/
 ---
 
-# eZ80 for RC
+# eZ80 for RC (Retired revision 1.10 and below)
 
-(Revision 1.10)
+(Revision 1.7 to 1.9)
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
@@ -44,7 +44,7 @@ Here's a video of the eZ80 for RC module running in the RC2014<strong>&trade;</s
 
 # Schematics
 
-* [eZ80 Interface Module (v1.10)]({{ site.baseurl }}/assets/ez80-for-rc/v1.10/schematic.pdf)
+* [eZ80 Interface Module (v1.7)]({{ site.baseurl }}/assets/docs/SCHEMATIC-EZ80-INTERFACE-V1.7.pdf)
 * [ez80 CPU Module (v1.3)]({{ site.baseurl }}/assets/docs/SCHEMATIC-EZ80-V1.3.pdf)
 
 # Kit Details
@@ -69,7 +69,7 @@ A 20Mhz and an optional 25Mhz crystal to allow you to 'overclock' your eZ80.
 |   1    | 10uF Radial                              |
 |   2    | 1uF Radial                               |
 |   2    | HDR M 2.54 1x40                          |
-|   2    | Shunts 1x2                               |
+|   5    | Shunts 1x2                               |
 |   1    | 3mm Green LED                            |
 |   1    | 20MHz Crystal Oscillator                 |
 |   4    | 3.4mm 4.7kΩ resistor                     |
@@ -80,13 +80,14 @@ A 20Mhz and an optional 25Mhz crystal to allow you to 'overclock' your eZ80.
 |   5    | 74HCT245                                 |
 |   1    | ATF16V8C-7PU                             |
 |   1    | TLV1117LV33DCYR**                        |
-|   1    | BAT-HLD-006-SMT**                        |
+|   1    | BAT-HLD-012-SMT* **                      |
 |   1    | MCP130-475DI/TO                          |
 |   6    | 20 POS IC DIP SOCKET                     |
 |   1    | 4 POS SOCKET FOR OSCILLATOR              |
 |  1     | Interface PCB for RC2014/RCBus Backplane |
 |  1     | pre-assembled eZ80 CPU Module            |
 
+\* The batter holder **BAT-HLD-012-SMT** can support battery types of CR1225 or CR1216.  Please note in the V1.7 of the PCB,  the silkscreen incorrectly states a battery size of CR2016.
 
 \** The battery holder and 3.3V (TLV1117) DC converter are surface mounted components - but are not hard to solder with a conventional soldering iron.
 
@@ -123,27 +124,28 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
 * Only a limited number of RCBus/RC2014 modules have been tested to date. (Please see my [project development journal](https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes) describing the progress with porting and testing of various modules.)
 * The ez80's SPI interface has no software support nor has it been tested yet.
 * The I2C interface has limited software support at this stage.
-* The main crystal oscillator (OSC1) is labelled with a frequency of 18.432MHz. It can actually support any frequency from 7.372MHz up to 20MHz. Overclocking is also possible; I have tested it up to 40MHz. For optimal performance, I recommend using a 25MHz crystal.
-* This revision has support for a much larger battery (CR2450) and so battery life should be much improved over the old version.
-* Also note, when using an oscillator other than 20Mhz, and there is no battery power, the system will not be able to adjust the speed of the serial correctly.  You would need to use a battery or build a custom firmware image.
+* **The onboard battery for the RTC seems to drain within a 1 or 2 month period.**
 
 # Images
 
 <div class="image-gallery">
   <div class="image-column">
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" alt="eZ80 Interface PCB Top Layer">
-    </a>
-    <a href="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" alt="ez80 for rc kit parts (wrapped)">
+    <a href="{{ site.baseurl }}/assets/images/pcb-interface-front.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/pcb-interface-front.jpg" alt="eZ80 Interface PCB Top Layer">
     </a>
     <a href="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" alt="eZ80 CPU module">
     </a>
+    <a href="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" alt="ez80 for rc kit parts (wrapped)">
+    </a>
   </div>
   <div class="image-column">
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" alt="eZ80 Interface PCB Bottom Layer">
+    <a href="{{ site.baseurl }}/assets/images/pcb-interface-back.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/pcb-interface-back.jpg" alt="eZ80 Interface PCB Bottom Layer">
+    </a>
+    <a href="{{ site.baseurl }}/assets/images/ez80-V1.7-installed.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed.jpg" alt="ez80 module installed">
     </a>
     <a href="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" alt="ez80 for rc kit parts">
@@ -153,15 +155,9 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
 
 # Errata
 
-Current PCB revision is 1.10.
-
-For revision 1.9 and below, see the old version of this page: [v1.9 and below](./ez80-for-rc-v1.9-and-below)
-
-1. Increased battery size to CR2450
-2. Battery holder moved to bottom side of PCB
-3. The PCB now has support for a right angle header at the top for an external battery - please ensure power polarity is correct.
-4. Some of the images and videos on this page may include an older revision of the PCB.
-5. The pinout for the SPI interface is incorrect. The correct pinout from Pin 1 (at the top) down is:
+1. Battery type is incorrectly stated as CR2016.  It should state support for batteries of type CR1225 or CR1216.
+2. The main crystal oscillator (OSC1) is labelled with a frequency of 18.432MHz. It can actually support any frequency from 7.372MHz up to 20MHz. Overclocking is also possible; I have tested it up to 40MHz. For optimal performance, I recommend using a 25MHz crystal.
+3. The pinout for the SPI interface is incorrect. The correct pinout from Pin 1 (at the top) down is:
 
 <div style="padding-left: 20px;margin-top:-10px">
 <ol>
@@ -280,26 +276,22 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 <li>Solder the 2x3 (6pin) programming header on the CPU Module.  That will complete the CPU Module.</li>
 
 
-<li>Before soldering the (CR2540) battery holder, you may want to place a small amount of solder on its ground pad.  This will ensure a good contact when you insert a battery.</li>
+<li>Before soldering the (CR1216/CR1225) battery holder, you may want to place a small amount of solder on its ground pad.  This will ensure a good contact when you insert a battery.</li>
 
 <div style="text-align: center;">
-  <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pre-soldering-battery-pads.jpg" target="_blank">
-    <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pre-soldering-battery-pads.jpg" width="50%" style="width: 50%;">
-  </a>
+<img src="{{ site.baseurl }}/assets/images/closeup-of-battery-ground-pad.jpg" width="50%" style="width: 50%;"/>
 </div>
 
 <li>Solder the SMD battery holder, then the SMD 3.3V (TLV1117LV33DCYR) DC converter.  Pay attention to the orientation of the battery holder otherwise you will not be able to insert a battery.</li>
 
 <div style="text-align: center;">
-  <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/battery-holder-soldered.jpg" target="_blank">
-    <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/battery-holder-soldered.jpg" width="50%" style="width: 50%;">
-  </a>
+<img src="{{ site.baseurl }}/assets/images/closeup-of-battery-and-converter.jpg" width="50%" style="width: 50%;"/>
 </div>
 
 <li>Next solder all the remaining passive through hole components, resistors, capacitors, then the sockets and headers.</li>
 
 <div style="text-align: center;">
-<img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/assembled-without-cpu.jpg" width="85%" style="width: 85%;"/>
+<img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-assembled.jpg" width="85%" style="width: 85%;"/>
 </div>
 </ol>
 
