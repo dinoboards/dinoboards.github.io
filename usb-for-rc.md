@@ -253,6 +253,7 @@ The full kits includes everything you need (PCB, capacitors, IC sockets, CH376S 
 | 2      |	14 POS IC SOCKET          |
 | 1      |	16 POS IC SOCKET          |
 | 1      |	512MB USB Flash Drive (optional)     |
+| 1      | PCB |
 
 
 # What else do I need to make this work?
