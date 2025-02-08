@@ -29,15 +29,40 @@ The *Mean Green Machine Series* is a series that is still under development, wit
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
+
+
 <div class="product-listing">
   <div>
     <a href="./ez80-for-rc"><img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed-profile-front.jpg" alt="eZ80 on RC2014"></a>
   </div>
   <div>
     <p>The eZ80 for RC module is an alternative CPU module for your RC2014 or RCBus based computer.  Upgrade your Z80 to Zilog enhanced version of the chip.  Running at 20Mhz (and overclockable to 40Mhz or more), and take advantage of its many on-chip facilities such as flash ROM, RAM, GPIO and much more.</p>
-    <p><a href="./ez80-for-rc">Click here for full details</a></p>
+    <p style="float: left"><a href="./ez80-for-rc">Click here for full details</a>
+
+  <div style="    border: 1px solid #dba500;
+    background: linear-gradient(#ffe788, #ffce38);
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
+    background-color: #FFE788;
+    margin-left: 5px;
+    padding: 5px 6px;
+    margin-top: -7px;
+    line-height: 14px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    float:right">
+<a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button" target="_newWindow">
+Buy on <img src="/assets/images/lectronz.svg" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px"/>
+</a>
+</div>
+</p>
+
   </div>
 </div>
+
 
 ### CH376 USB Module for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
 

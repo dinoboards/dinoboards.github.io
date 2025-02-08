@@ -21,7 +21,7 @@
         {% if page.tindie_product_url %}
         <img class="primary-logo main" src="logo.png"/>
         <h1 class="section-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
         {% else %}
         <img class="primary-logo home" src="logo.png"/>
         {% endif %}
@@ -29,22 +29,35 @@
   </header>
 
       <!-- <div id="banner"> -->
-        <div id="banner" class="{% if page.tindie_product_url %}product{% else %}home{% endif %}">
+        <div id="banner" class="{% if page.tindie_product_url or page.lectronz_product_url %}product{% else %}home{% endif %}">
+
         <div class="banner-bar">
 
           <a href="/" class="button "><strong>Home</strong></a>
 
+          {% if page.lectronz_product_url %}
+          <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button" target="_newWindow">
+            <strong style="margin-left: 2px">
+              {% if page.lectronz_product_url %}
+              Buy on <img src="/assets/images/lectronz.svg" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px"/>
+              {% else %}
+              <img src="/assets/images/lectronz.svg" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px;padding-right:4px;"/> Store
+              {% endif %}
+            </strong>
+          </a>
+          {% endif %}
+
           <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button" target="_newWindow">
-            <img src="/assets/images/tindie-logo.png" style="height: 20px; height: 20px; margin-left: -8px; margin-top: -5px; padding: 0; position: absolute;"/>
-            <strong style="margin-left: 17px">
+            <strong style="margin-left: 0px">
               {% if page.tindie_product_url %}
                 Buy on Tindie
               {% else %}
                 Tindie Store
               {% endif %}
+              <img src="/assets/images/tindie-logo.png" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px" />
             </strong>
           </a>
-        <!-- <a href="https://lectronz.com/stores/dino-boards" class="button" target="_newWindow"><strong>Lectronz Store</strong></a> -->
+
         {% if page.github_url %}
           <a href="{{page.github_url}}" class="button" style="float:right" target="_newWindow"><strong>Github Site</strong></a>
         {% endif %}
