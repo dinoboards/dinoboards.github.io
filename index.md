@@ -37,29 +37,17 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
   </div>
   <div>
     <p>The eZ80 for RC module is an alternative CPU module for your RC2014 or RCBus based computer.  Upgrade your Z80 to Zilog enhanced version of the chip.  Running at 20Mhz (and overclockable to 40Mhz or more), and take advantage of its many on-chip facilities such as flash ROM, RAM, GPIO and much more.</p>
-    <p style="float: left"><a href="./ez80-for-rc">Click here for full details</a>
-
-  <div style="    border: 1px solid #dba500;
-    background: linear-gradient(#ffe788, #ffce38);
-    border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), 0px 1px 1px rgba(0, 0, 0, 0.1);
-    background-color: #FFE788;
-    margin-left: 5px;
-    padding: 5px 6px;
-    margin-top: -7px;
-    line-height: 14px;
-    font-size: 14px;
-    color: #333;
-    font-weight: bold;
-    display: inline-block;
-    text-align: center;
-    float:right">
-<a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button" target="_newWindow">
-Buy on <img src="/assets/images/lectronz.svg" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px"/>
-</a>
-</div>
-</p>
-
+    <p style="float: left"><a href="./ez80-for-rc">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://lectronz.com/products/ez80-for-rc" class="button" target="_newWindow">
+        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
+      </a>
+    </div>
+    <div class="buy-on-container">
+      <a href="https://www.tindie.com/products/dinotron/ez80-for-rc" class="button" target="_newWindow">
+        Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+      </a>
+    </div>
   </div>
 </div>
 
@@ -82,7 +70,17 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
   </div>
   <div>
     <p>The USB for RC module is based on the <a href="#msx-cassette--usb-module">MSX Cassette + USB Module</a>, with the MSX cassette interface components removed.  The native USB drivers written for  MSX-DOS have been ported to RomWBW - enabling full CP/M access to USB Hubs, USB Mass storage, 3.5 USB floppy disk, keyboards and potentially new devices as required drivers are written.</p>
-    <p><a href="./usb-for-rc">Click here for full details</a></p>
+    <p style="float: left"><a href="./usb-for-rc">Click here for full details</a></p>
+      <div class="buy-on-container">
+        <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button" target="_newWindow">
+          Coming soon to <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
+        </a>
+      </div>
+      <div class="buy-on-container">
+        <a href="https://www.tindie.com/products/dinotron/usb-for-rc" class="button" target="_newWindow">
+          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+        </a>
+    </div>
   </div>
 </div>
 
