@@ -72,8 +72,8 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
     <p>The USB for RC module is based on the <a href="#msx-cassette--usb-module">MSX Cassette + USB Module</a>, with the MSX cassette interface components removed.  The native USB drivers written for  MSX-DOS have been ported to RomWBW - enabling full CP/M access to USB Hubs, USB Mass storage, 3.5 USB floppy disk, keyboards and potentially new devices as required drivers are written.</p>
     <p style="float: left"><a href="./usb-for-rc">Click here for full details</a></p>
       <div class="buy-on-container">
-        <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button" target="_newWindow">
-          Coming soon to <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
+        <a href="https://lectronz.com/products/usb-for-rc" class="button" target="_newWindow">
+          Buy on <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
         </a>
       </div>
       <div class="buy-on-container">
