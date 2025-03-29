@@ -84,6 +84,39 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
   </div>
 </div>
 
+
+
+### 6 SLOT GREEN BACKPLANE <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+</div>
+
+
+Mount your Green Machine Modules in style, with this matching, colour coordinated backplane.
+
+<div class="product-listing">
+  <div>
+    <a href="./green-6-slot-backplane"><img src="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled-profile.jpg" alt="6 slot green backplane"></a>
+  </div>
+  <div>
+    <p>A Small 6 slot 80 way backplane for Green Machine Modules and other compatible RC2014/RCBus modules</p>
+    <p style="float: left"><a href="./green-6-slot-backplane">Click here for full details</a></p>
+      <div class="buy-on-container">
+        <a href="https://lectronz.com/products/?????" class="button" target="_newWindow">
+          Buy on <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
+        </a>
+      </div>
+      <div class="buy-on-container">
+        <a href="https://www.tindie.com/products/dinotron/????" class="button" target="_newWindow">
+          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+        </a>
+    </div>
+  </div>
+</div>
+
 <hr/>
 # Yellow MSX Series
 
