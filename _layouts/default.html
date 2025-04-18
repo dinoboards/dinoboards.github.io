@@ -19,11 +19,11 @@
 
       <header>
         {% if page.tindie_product_url %}
-        <img class="primary-logo main" src="logo.png"/>
+        <img class="primary-logo main" src="/logo.png"/>
         <h1 class="section-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
         {% else %}
-        <img class="primary-logo home" src="logo.png"/>
+        <img class="primary-logo home" src="/logo.png"/>
         {% endif %}
     </div>
   </header>
