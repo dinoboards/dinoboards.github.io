@@ -10,6 +10,8 @@ Bare bones kit only includes:
 * 2 x 74HCT670
 * 1 x PCB
 
+#### Bill of Materials
+
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
 | 13 | 0.1uF | | [Link](https://www.digikey.com.au/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5UL2/2820511) | [Link](https://au.mouser.com/ProductDetail/594-K104K15X7RF5UL2) | |
@@ -37,6 +39,8 @@ Bare bones kit only includes:
 Bare bones kit only includes:
 * 1 x PCB
 
+#### Bill of Materials
+
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
 | 3 | 0.1uF | | [Link](https://www.digikey.com.au/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5UL2/2820511) | [Link](https://au.mouser.com/ProductDetail/594-K104K15X7RF5UL2) | |
@@ -58,6 +62,8 @@ Bare bones kit only includes:
 Bare bones kit only includes:
 * 1 x PCB
 
+#### Bill of Materials
+
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
 | 1 | 0.1uF | | [Link](https://www.digikey.com.au/en/products/detail/vishay-beyschlag-draloric-bc-components/K104K15X7RF5UL2/2820511) | [Link](https://au.mouser.com/ProductDetail/594-K104K15X7RF5UL2) | |
@@ -72,6 +78,8 @@ Bare bones kit only includes:
 
 Bare bones kit only includes:
 * 1 x PCB
+
+#### Bill of Materials
 
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
@@ -110,6 +118,8 @@ Bare bones kit only includes:
 * 1 x In-circuit Tested ADM691A
 * 1 x PCB
 
+#### Bill of Materials
+
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
 | 1 | CR2032 | | [Link](https://www.digikey.com.au/product-detail/en/BH-25F-1/2057-BH-25F-1-ND/13537755) | [Link](https://au.mouser.com/ProductDetail/Eagle-Plastic-Devices/122-2420-GR?qs=%2Fha2pyFadujoQAcwyLVcUkPYLxraQ8oyA1ijZi4npYswn2TPzguMAw%3D%3D) | |
@@ -145,6 +155,8 @@ Bare bones kit only includes:
 Bare bones kit only includes:
 * 1 x In-circuit Tested YM2149
 * 1 x PCB
+
+#### Bill of Materials
 
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
@@ -182,6 +194,8 @@ Bare bones kit only includes:
 Bare bones kit only includes:
 * 1 x In-circuit Tested YM2413
 * 1 x PCB
+
+#### Bill of Materials
 
 | Qty | Component | Notes | Digikey | Mouser | Other |
 |--:|:--|:--|:--|:--|:--|
