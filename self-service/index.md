@@ -2,6 +2,8 @@
 
 [Download CSV Version of this list here](./list.csv)
 
+> I can not provide any guarantee that all items listed here are correct.  Products on the main distributors websites may be retired, or other subtle changes may happen to the listings.  Also it possible I have mis-listed some items.  Please review carefully yourself.
+
 ### MSX Memory Module
 
 Bare bones kit only includes:
