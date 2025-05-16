@@ -1,98 +1,111 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="{{ site.lang | default: " en-US" }}">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-3.3.0.min.js" integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <script src="https://code.jquery.com/jquery-3.3.0.min.js"
+    integrity="sha256-RTQy8VOmNlT6b2PIRur37p6JEBZUE7o8wPgMvu18MC4=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    {% include head-custom.html %}
-  </head>
-  <body>
+  {% include head-custom.html %}
+</head>
 
-      <header>
-        {% if page.tindie_product_url %}
-        <img class="primary-logo main" src="/logo.png"/>
-        <h1 class="section-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-        <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
-        {% else %}
-        <img class="primary-logo home" src="/logo.png"/>
-        {% endif %}
+<body>
+
+  <header>
+    {% if page.tindie_product_url %}
+    <img class="primary-logo main" src="/logo.png" />
+    <h1 class="section-title">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+    <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
+    {% else %}
+    <img class="primary-logo home" src="/logo.png" />
+    {% endif %}
     </div>
   </header>
 
-      <!-- <div id="banner"> -->
-        <div id="banner" class="{% if page.tindie_product_url or page.lectronz_product_url %}product{% else %}home{% endif %}">
+  <!-- <div id="banner"> -->
+  <div id="banner"
+    class="{% if page.tindie_product_url or page.lectronz_product_url %}product{% else %}home{% endif %}">
 
-        <div class="banner-bar">
+    <div class="banner-bar">
 
-          <a href="/" class="button "><strong>Home</strong></a>
+      <a href="/" class="button "><strong>Home</strong></a>
 
-          <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button" target="_newWindow">
-            <strong style="margin-left: 2px">
-              {% if page.lectronz_product_url %}
-              Buy on <img src="/assets/images/lectronz.svg" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px"/>
-              {% elsif page.coming_lectronz_product_url %}
-              Coming soon to <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
-              {% else %}
-              <img src="/assets/images/lectronz.svg" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px;padding-right:4px;"/> Store
-              {% endif %}
-            </strong>
-          </a>
+      <a href="/journal" class="button"
+        target="_newWindow"><strong>Journal</strong></a>
 
-          <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button" target="_newWindow">
-            <strong style="margin-left: 0px">
-              {% if page.tindie_product_url %}
-                Buy on Tindie
-              {% else %}
-                Tindie Store
-              {% endif %}
-              <img src="/assets/images/tindie-logo.png" style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px" />
-            </strong>
-          </a>
+      <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button"
+        target="_newWindow">
+        <strong style="margin-left: 2px">
+          {% if page.lectronz_product_url %}
+          Buy on <img src="/assets/images/lectronz.svg"
+            style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px" />
+          {% elsif page.coming_lectronz_product_url %}
+          Coming soon to <img src="/assets/images/lectronz.svg" class="buy-on-lectronz" />
+          {% else %}
+          <img src="/assets/images/lectronz.svg"
+            style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px;width:80px;padding-right:4px;" />
+          Store
+          {% endif %}
+        </strong>
+      </a>
 
-        {% if page.github_url %}
-          <a href="{{page.github_url}}" class="button" style="float:right" target="_newWindow"><strong>Github Site</strong></a>
-        {% endif %}
+      <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button"
+        target="_newWindow">
+        <strong style="margin-left: 0px">
+          {% if page.tindie_product_url %}
+          Buy on Tindie
+          {% else %}
+          Tindie Store
+          {% endif %}
+          <img src="/assets/images/tindie-logo.png"
+            style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px" />
+        </strong>
+      </a>
 
-        {% if page.hackaday_url %}
-          <a href="{{page.hackaday_url}}" class="button" style="float:right" target="_newWindow"><strong>Hackaday Project</strong></a>
-        {% endif %}
-
-        {% if page.personal_journal_url %}
-        <a href="{{page.personal_journal_url}}" class="button" style="float:right" target="_newWindow"><strong>Journal</strong></a>
+      {% if page.github_url %}
+      <a href="{{page.github_url}}" class="button" style="float:right" target="_newWindow"><strong>Github
+          Site</strong></a>
       {% endif %}
-      </div>
 
-        {% if site.show_downloads %}
-          <div class="downloads">
-            <span>Downloads:</span>
-            <ul>
-              <li><a href="{{ site.github.zip_url }}" class="button">ZIP</a></li>
-              <li><a href="{{ site.github.tar_url }}" class="button">TAR</a></li>
-            </ul>
-          </div>
-        {% endif %}
-      </div><!-- end banner -->
+      {% if page.hackaday_url %}
+      <a href="{{page.hackaday_url}}" class="button" style="float:right" target="_newWindow"><strong>Hackaday
+          Project</strong></a>
+      {% endif %}
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        {{ content }}
-
-      </section>
-      <footer>
-          <p>Copyright Dean Netherton 2024</p>
-      </footer>
     </div>
-  </body>
+
+    {% if site.show_downloads %}
+    <div class="downloads">
+      <span>Downloads:</span>
+      <ul>
+        <li><a href="{{ site.github.zip_url }}" class="button">ZIP</a></li>
+        <li><a href="{{ site.github.tar_url }}" class="button">TAR</a></li>
+      </ul>
+    </div>
+    {% endif %}
+  </div><!-- end banner -->
+
+  <div class="wrapper">
+    <nav>
+      <ul></ul>
+    </nav>
+    <section>
+      {{ content }}
+
+    </section>
+    <footer>
+      <p>Copyright Dean Netherton 2025</p>
+    </footer>
+  </div>
+</body>
+
 </html>

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+# Journal
+
+<style>
+.journal-list {
+  list-style: none;
+  padding: 0;
+}
+
+.year-header {
+  margin-top: 2em;
+  color: #ffcc00;
+  border-bottom: 1px solid #444;
+}
+
+.journal-entry {
+  margin: 1em 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.entry-date {
+  flex: 0 0 120px;
+  color: #666;
+  font-family: monospace;
+}
+
+.entry-title {
+  flex: 1;
+}
+
+.entry-title a {
+
+  text-decoration: none;
+}
+
+.entry-title a:hover {
+  color: #ffcc00;
+}
+
+</style>
+
+{% assign posts = site.posts | sort: 'date' | reverse %}
+{% assign currentYear = "" %}
+
+<ul class="journal-list">
+{% for post in posts %}
+  {% assign postYear = post.date | date: "%Y" %}
+
+  {% if currentYear != postYear %}
+    {% assign currentYear = postYear %}
+    <h2 class="year-header">{{ currentYear }}</h2>
+  {% endif %}
+
+  <li class="journal-entry">
+    <span class="entry-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+    <span class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
+  </li>
+{% endfor %}
+</ul>
