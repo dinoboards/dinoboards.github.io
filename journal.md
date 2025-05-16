@@ -43,6 +43,10 @@ layout: default
 
 </style>
 
+This page lists a number of my blog posts regarding the development of the Yellow MSX Series and the Green eZ80 Green modules.
+
+Many of these entries are dual posted on my hackaday site at: [https://hackaday.io/projects/hacker/522193](https://hackaday.io/projects/hacker/522193)
+
 {% assign posts = site.posts | sort: 'date' | reverse %}
 {% assign currentYear = "" %}
 
