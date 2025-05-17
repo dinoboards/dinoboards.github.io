@@ -86,7 +86,7 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
 
 
 
-### 6 SLOT GREEN BACKPLANE <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+<!-- ### 6 SLOT GREEN BACKPLANE <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
 
 <div class="tags">
   <div class="tag rcbus"></div>
@@ -115,7 +115,7 @@ Mount your Green Machine Modules in style, with this matching, colour coordinate
         </a>
     </div>
   </div>
-</div>
+</div> -->
 
 <hr/>
 # Yellow MSX Series
