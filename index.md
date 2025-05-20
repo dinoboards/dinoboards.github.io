@@ -129,6 +129,34 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
 </div>
 
 
+### 2MB Linear SRAM <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+</div>
+
+
+Let your eZ80 break the 64K barrier with this 2MB memory module.  Write applications that can address upto 2 megabytes of RAM, without the need for banking or paging.
+
+<div class="product-listing">
+  <div>
+    <a href="./2mb-linear-sram"><img src="{{ site.baseurl }}/assets/2mb-linear-sram/pcb-profile.jpg" alt="2MB Linear Memory"></a>
+  </div>
+  <div>
+    <p>Install up to 4 512K SRAM chips to enable your eZ80 to address a total of 2MB of memory directly.</p>
+    <p style="float: left"><a href="./2mb-linear-sram">Click here for full details</a></p>
+      <div class="buy-on-container">
+        <a href="https://lectronz.com/products/?????" class="button" target="_newWindow">
+          Buy on <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
+        </a>
+      </div>
+      <div class="buy-on-container">
+        <a href="https://www.tindie.com/products/dinotron/????" class="button" target="_newWindow">
+          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+        </a>
+    </div>
+  </div>
+</div> -
 
 <!-- ### 6 SLOT GREEN BACKPLANE <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
 
