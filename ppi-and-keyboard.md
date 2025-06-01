@@ -46,7 +46,7 @@ With diodes associated with every switch, it possible to identify all multi key 
 | 2      | 14 POS IC SOCKET | PPI |
 | 2      | 16 POS IC SOCKET | PPI |
 | 1      | 40 POS IC SOCKET | PPI |
-| 1 | PCB |PPI|
+| 1      | PCB              |PPI|
 | 2	     | 0.1uF               | KEYBOARD-C1,C2  |
 | 81     | 1N4148	             | KEYBOARD-D1-D81 |
 | 3      | 3mm LEDS            |KEYBOARD|
@@ -75,6 +75,19 @@ This project includes both the keyboard kit and the PPI interface board kit.
 * PPI PCB and components (passive components, IDC socket, and ICs including the 82C55 chip)
 
 > Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://www.tindie.com/products/dinotron/keycap-set-for-msx-rc2014-keyboard/) and [compatible switches here](https://www.tindie.com/products/dinotron/switches-and-stabilizers-for-msx-rc2014-keyboard/)
+
+### Rainbow Cable types
+
+Its important that the correct rainbow 16 IDC cable is used.  It needs to be a 'straight thru' type - as per image below.
+
+<div style="text-align: center;">
+  <a href="{{ site.baseurl }}/assets/ppi-and-keyboard/rainbow-cable.jpg" target="_newwindow">
+    <img src="{{ site.baseurl }}/assets/ppi-and-keyboard/rainbow-cable.jpg" alt="Closeup of rainbow 16pin IDC cable" width="40%"/>
+  </a>
+</div>
+> If the cable you received does not match this image - please contact me for a replacement.
+
+<br/>
 
 # What else do I need to make this work?
 
