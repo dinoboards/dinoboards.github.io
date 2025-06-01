@@ -127,6 +127,7 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
 * The main crystal oscillator (OSC1) is labelled with a frequency of 18.432MHz. It can actually support any frequency from 7.372MHz up to 20MHz. Overclocking is also possible; I have tested it up to 40MHz. For optimal performance, I recommend using a 25MHz crystal.
 * This revision has support for a much larger battery (CR2450) and so battery life should be much improved over the old version.
 * Also note, when using an oscillator other than 20Mhz, and there is no battery power, the system will not be able to adjust the speed of the serial correctly.  You would need to use a battery or build a custom firmware image.
+* The on board led is connected to the eZ80's gpio **PC0** pin.  But the current firmware does not activate or control this led.
 
 # Images
 
