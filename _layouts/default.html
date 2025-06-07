@@ -18,6 +18,15 @@
   {% include head-custom.html %}
 </head>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1Q640HFK84"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-1Q640HFK84');
+</script>
+
 <body>
 
   <header>
@@ -102,6 +111,8 @@
 
     </section>
     <footer>
+      <p><a href="{{ site.baseurl }}/feed.xml" target="_blank" style="color: black">Atom/RSS Feed</a></p>
+
       <p>Copyright Dean Netherton 2025</p>
     </footer>
   </div>
