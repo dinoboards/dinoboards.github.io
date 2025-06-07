@@ -2,7 +2,7 @@
 layout: default
 title: RP5C01 RTC and MSX F4 board for RC2014
 description: An MSX compatible Real time clock and MSX F4 Boot register.
-tindie_product_url: https://www.tindie.com/products/dinotron/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014
+tindie_product_url: https://www.tindie.com/products/dinotron/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/rtc#readme
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014
 ---

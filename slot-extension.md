@@ -2,7 +2,7 @@
 layout: default
 title: Cartridge Slot Extension
 description: A extension module for RC2014 backplanes to support MSX Cartridges
-tindie_product_url: https://www.tindie.com/products/dinotron/msx-cartridge-slot-extension-for-rc2014-bus
+tindie_product_url: https://www.tindie.com/products/dinotron/msx-cartridge-slot-extension-for-rc2014-bus/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/turbo-cpu/readme.md
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/200617-slot-extension-for-msx-cartridges
 ---
@@ -72,7 +72,7 @@ Although NEXTOR can operator with 2 kernel systems active, there seems to be a c
 
 The process below, details how to update the kernel and disk images in the MegaFlashROM to a compatible new version.
 
-> Please note, MegaFlashROM requires the a version MSX-BASIC/BIOS.  It is not compatible with CBIOS, the version of the ROM supplied with the MSX Module.  See the file [msx/README.md](../msx/README.md) for details on updating your main ROM image.
+> Please note, MegaFlashROM requires the a version MSX-BASIC/BIOS.  It is not compatible with CBIOS, the version of the ROM supplied with the MSX Module.  See the file [https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/msx/README.md](https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/msx/README.md) for details on updating your main ROM image.
 
 > At this stage, you also need the Compact Flash module working in your MSX platform, to store the new MegaFlashROM images - These files are currently too large for the RamDisk.  (There is an item on my backlog to remove the need for the CompactFlash module)
 

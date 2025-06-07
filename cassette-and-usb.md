@@ -270,7 +270,7 @@ The full kits includes everything you need (PCB, capacitors, IC sockets, CH376S 
 # What else do I need to make this work?
 
 * A working MSX system on RC2014 bus
-* An updated system ROM for the [MSX Memory Board for RC2014](../memory/README.md)
+* An updated system ROM for the [MSX Memory Board for RC2014](../msx-memory)
 
 > You need a ROM image released on or after `2023-10-20`.  You can find prebuilt images under the [project's github releases.](https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases)
 
@@ -345,8 +345,8 @@ COPY MYTEXT.TXT PRN
 
 # Resources
 
-* Schematic: [schematic](./schematic.pdf)
-* Datasheet: [LM311N Voltage Comparator](./datasheets/lm311-n.pdf)
-* Datasheet: [CH376](../ch376ds1.pdf)
+* Schematic: [schematic]({{ site.baseurl }}/assets/cassette-and-usb/schematic.pdf)
+* Datasheet: [LM311N Voltage Comparator]({{ site.baseurl }}/assets/lm311-n.pdf)
+* Datasheet: [CH376]({{ site.baseurl }}/assets/ch376ds1.pdf)
 
 {% include disclaimer.md %}

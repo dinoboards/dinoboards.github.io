@@ -2,7 +2,7 @@
 layout: default
 title: 12+1 Backplane
 description: A Backplane for RC2014 systems, with 80 lanes, ideal for MSX configuration.
-tindie_product_url: https://www.tindie.com/products/dinotron/121-backplane-designed-for-rc2014-systems
+tindie_product_url: https://www.tindie.com/products/dinotron/121-backplane-designed-for-rc2014-systems/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/backplane/readme.md
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014
 ---
@@ -46,7 +46,7 @@ Please note that mounting stand-offs are not supplied.
 
 \* different colours available
 
-\*\* pcb footprint is 7805 compatible - a non-isolated switching regulator DC converter can be optionally included [muRata OKI-78SR-5/1.5-W36-C](https://www.murata.com/products/productdata/8807037992990/oki-78sr.pdf)  *(7-36V to 5V @ upto 1.5 amps)*
+\*\* pcb footprint is 7805 compatible - a non-isolated switching regulator DC converter can be optionally included [muRata OKI-78SR-5/1.5-W36-C]({{ site.baseurl }}/assets/backplane/oki-78sr.pdf)  *(7-36V to 5V @ upto 1.5 amps)*
 
 # Images
 

@@ -121,9 +121,12 @@ Some things to try out and get a feel for your MSX on RC2014 system.
   </tbody>
 </table>
 
-> This page can not provide a full description of using MSX-DOS - that would be a whole book.  I suggest the [starting guide here](https://github.com/dinoboards/Nextor/blob/v2.1/docs/Nextor%202.1%20Getting%20Started%20Guide.md), [MSX-DOS User Manual](../msx/docs/command.txt), and [Nextor's User Manual](https://github.com/dinoboards/Nextor/blob/v2.1/docs/Nextor%202.1%20User%20Manual.md)
+> This page can not provide a full description of using MSX-DOS - that would be a whole book.  I suggest reading through:
+* [starting guide here](https://github.com/dinoboards/Nextor/blob/v2.1/docs/Nextor%202.1%20Getting%20Started%20Guide.md)
+* [MSX-DOS User Manual](https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/msx/docs/msxdos-command.txt)
+* [Nextor's User Manual](https://github.com/dinoboards/Nextor/blob/v2.1/docs/Nextor%202.1%20User%20Manual.md)
 
-> And if you would like a bit of history of the OS - where is started - https://www.msx.org/wiki/The_History_of_MSX-DOS
+> And if you would like a bit of history of the OS - where is started - [https://www.msx.org/wiki/The_History_of_MSX-DOS](https://www.msx.org/wiki/The_History_of_MSX-DOS)
 
 ## Compact Flash Module
 

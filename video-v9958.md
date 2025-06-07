@@ -158,7 +158,7 @@ The first 2 ports are identical as per the TMS9918 chip.  The V9938/58 have addi
 
 ## Programming the chip
 
-Have a look at the sample apps included in this repo [apps-rc2014](../apps-rc2014).
+Have a look at the sample apps included in this repo [apps-rc2014](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/apps-rc2014).
 
 For specific details on programming the chip, I recommend:
 

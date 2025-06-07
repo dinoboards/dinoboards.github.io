@@ -144,7 +144,7 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
     <a href="{{ site.baseurl }}/assets/images/pcb-interface-back.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/pcb-interface-back.jpg" alt="eZ80 Interface PCB Bottom Layer">
     </a>
-    <a href="{{ site.baseurl }}/assets/images/ez80-V1.7-installed.jpg" target="_blank">
+    <a href="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/eZ80-V1.7-installed.jpg" alt="ez80 module installed">
     </a>
     <a href="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" target="_blank">
