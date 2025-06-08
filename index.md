@@ -13,6 +13,50 @@ There are 2 main sets of kits:
 * *Green Mean Machine Series* - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
 
 
+<style>
+.journal-highlights {
+}
+.journal-highlights ul {
+  margin: 0 0 1em 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 4em;
+  font-family: monospace;
+}
+.journal-highlights li {
+  margin: 0;
+  padding: 0 0 0.1em 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.7em;
+}
+.journal-highlights .journal-date {
+  color: #888;
+  font-size: 0.98em;
+  min-width: 6.2em;
+  display: inline-block;
+  text-align: left;
+}
+.journal-highlights .rss-link {
+  transition: color 0.2s, text-decoration 0.2s;
+  /* text-decoration: none; */
+}
+</style>
+
+<div class="journal-highlights">
+
+<p>Follow along with my journey of developing these kits. (<a href="{{ site.baseurl }}/feed.xml" target="_blank" class="rss-link">Atom/RSS Feed Link</a>)</p>
+
+<ul>
+{% for post in site.posts limit:3 %}
+<li>
+  <a href="{{post.url}}"><span class="journal-date">{{ post.date | date: "%Y-%m-%d" }} </span>{{ post.title }}
+  </a>
+</li>
+{% endfor %}
+</ul>
+</div>
+
 <hr/>
 # Mean Green Machine Series
 

@@ -762,9 +762,7 @@ screen and (max-width: 580px) {
 }
 
 .product-listing a {
-  // display: block;
   text-decoration: none;
-  color: inherit;
 }
 
 .product-listing img {
@@ -846,4 +844,11 @@ screen and (max-width: 310px) {
   top: 8px;
   margin-right: -3px;
   width: 80px;
+}
+
+a {
+  color: #0074d9;
+}
+a:hover {
+  text-decoration: underline;
 }
