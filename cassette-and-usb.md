@@ -346,7 +346,16 @@ COPY MYTEXT.TXT PRN
 # Resources
 
 * Schematic: [schematic]({{ site.baseurl }}/assets/cassette-and-usb/schematic.pdf)
+* Schematic: [schematic 1.0]({{ site.baseurl }}/assets/cassette-and-usb/schematic1.0.pdf)
 * Datasheet: [LM311N Voltage Comparator]({{ site.baseurl }}/assets/lm311-n.pdf)
 * Datasheet: [CH376]({{ site.baseurl }}/assets/ch376ds1.pdf)
+
+## CH376
+
+Please note there are at least 2 form factors for the CH376 module.  See blog post: [https://www.dinoboards.com.au/2023/11/19/CH376-Module-Challenge.html](https://www.dinoboards.com.au/2023/11/19/CH376-Module-Challenge.html)
+
+Here is a close up image of the module I have used:
+
+<a href="{{ site.baseurl }}/assets/cassette-and-usb/ch376s.jpg" target="_newwindow"><img src="{{ site.baseurl }}/assets/cassette-and-usb/ch376s.jpg" width="20%"/></a>
 
 {% include disclaimer.md %}
