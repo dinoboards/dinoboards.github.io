@@ -10,7 +10,7 @@ I have designed and developed a number of retro computer kits, based on technolo
 There are 2 main sets of kits:
 
 * *Yellow MSX Series* - a series of RC2014/RCBus compatible modules, when connected together allow for a full working reproduction of an original MSX Computer
-* *Green Mean Machine Series* - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
+* *Mean Green Machine Series* - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
 
 
 <style>
@@ -95,8 +95,10 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
   </div>
 </div>
 
+<hr/>
 
-### CH376 USB Module for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+
+### CH376 USB Module for RC
 
 <div class="tags">
   <div class="tag rcbus"></div>
@@ -128,6 +130,7 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
   </div>
 </div>
 
+<hr/>
 
 ### 2MB Linear SRAM <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
 
@@ -156,16 +159,17 @@ Let your eZ80 break the 64K barrier with this 2MB memory module.  Write applicat
         </a>
     </div>
   </div>
-</div> -
+</div>
 
-<!-- ### 6 SLOT GREEN BACKPLANE <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+<hr/>
+
+### 6 SLOT Green Backplane <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
 
 <div class="tags">
   <div class="tag rcbus"></div>
   <div class="tag rc2014"></div>
   <div class="tag romwbw"></div>
 </div>
-
 
 Mount your Green Machine Modules in style, with this matching, colour coordinated backplane.
 
@@ -187,7 +191,7 @@ Mount your Green Machine Modules in style, with this matching, colour coordinate
         </a>
     </div>
   </div>
-</div> -->
+</div>
 
 <hr/>
 # Yellow MSX Series
