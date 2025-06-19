@@ -16,21 +16,21 @@ is_new: true
 
 A standard 80-way RCBus/RC2014 compatible backplane.
 
-Suitable for the Mean Green Machine series of of kits.
+Suitable for the Mean Green Machine series of kits.
 
 # Key features
 
 * Onboard 5V DC converter
-* Onboard switch and power-on led
-* Onboard system Reset switch
-* Single Ground plane for maximum signal integrity
+* Onboard switch and power-on LED
+* Onboard system reset switch
+* Single ground plane for maximum signal integrity
 * Optional bypass support for direct 5V powering
-* Screw terminal for external 5V out
+* Screw terminal for external 5V output
 * RCBus and RC2014 compatibility
 
 ## What is the Green Machine Series of Retro Kits
 
-The green machine series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and broadly compatible with many RC2014 and RCBus kits, including CP/M and RomWBW software stacks.
+The green machine series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits.ncluding CP/M and RomWBW software stacks.
 
 For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 
@@ -39,7 +39,7 @@ For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 <table><tr>
 <td>Can I use other backplanes - do I have to use this one for an eZ80 build?</td>
 
-<td>You can use any RCBus compatible backplane that supports all 80 bus lines.  You can even use none green ones!  Just make sure its got the full 80 lanes (2x40 pin headers)</td>
+<td>You can use any RCBus compatible backplane that supports all 80 bus lines.  You can even use non-green ones!  Just make sure it has the full 80 lanes (2x40 pin headers)</td>
 </tr></table>
 
 # Images
