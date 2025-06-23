@@ -19,7 +19,7 @@ Experience retro sounds with the YM2149 sound and controller module. This module
 
 * YM2149 PSG - 3 channel audio, +1 noise channel
 * 2 Controller Inputs (joystick, game-pad, and other input types) - MSX compatible
-* optional additional audio input lines, for mixing into the audio out.
+* optional additional audio output line, for connecting to optional MSX-MUSIC module
 
 <div style="text-align: center;">
 <iframe width="336" height="189" src="https://www.youtube.com/embed/dUCEZpBlxgY?si=SQ1P0Dx_X_H-1MLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -88,6 +88,12 @@ The following table describes the registers of the PSG:
 | 11-13	| Envelope generator control |
 | 14-15	| I/O ports A & B |
 
+## Jumper
+
+J1 - MSX_KYB_TYPE
+
+Used by MSX system to detect alternative keyboard types.  Leave this unconnected.
+
 # Images
 
 ## Assembled
@@ -117,7 +123,8 @@ The following table describes the registers of the PSG:
 
 # Schematic
 
-* Schematic: [schematic.pdf](./assets/game/schematic.pdf "Schematic")
+* Schematic (1.1): [schematic.pdf](./assets/game/schematic1.1.pdf "Schematic")
+* Schematic (1.6): [schematic.pdf](./assets/game/schematic.pdf "Schematic")
 
 
 {% include disclaimer.md %}
