@@ -262,7 +262,7 @@ The full kits includes everything you need (PCB, capacitors, IC sockets, CH376S 
 * A working RC2014/RCBus system
 * An updated RomWBW ROM image configured to enable the CH376 'native' driver.
 
-## Updating RomWBW
+# Updating RomWBW
 
 You will probably need to update your image of RomWBW.  Please refer to the official instructions for updating and flashing the ROM at [https://github.com/wwarthen/RomWBW](https://github.com/wwarthen/RomWBW)
 
@@ -279,7 +279,7 @@ CHUFIENABLE    .SET TRUE  ; CH376: ENABLE CH376 NATIVE UFI FLOPPY DISK DEVICES (
 CHNATIVEFORCE	 .SET	TRUE	; CH376: DISABLE AUTO-DETECTION OF MODULE - ASSUMES ITS INSTALLED
 ```
 
-> At this time, the USB drivers are not on the mainline (master) of RomWBW - you can use my fork of the project [https://github.com/dinoboards/RomWBW/tree/dean-ch376-usb-native-5](https://github.com/dinoboards/RomWBW/tree/dean-ch376-usb-native-5) to build an image for your system.
+> At this time (2025-07-20), the usb drivers have been merged into the master branch of Wayne Warthen's RomWBW repo -- its not an official release yet - but available in the dev releases
 
 As the CH376 native driver code size is quite large compared to many other HBIOS drivers, you may need to disable other drivers in your configuration (such as `IDEENABLE`, `FDENABLE`, `SDENABLE`)
 
