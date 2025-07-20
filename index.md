@@ -9,8 +9,8 @@ I have designed and developed a number of retro computer kits, based on technolo
 
 There are 2 main sets of kits:
 
-* *Yellow MSX Series* - a series of RC2014/RCBus compatible modules, when connected together allow for a full working reproduction of an original MSX Computer
-* *Mean Green Machine Series* - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
+* **Yellow MSX Series** - a series of RC2014/RCBus compatible modules, when connected together allow for a full working reproduction of an original MSX Computer
+* **Mean Green Machine Series** - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
 
 
 <style>
@@ -160,6 +160,40 @@ Let your eZ80 break the 64K barrier with this 2MB memory module.  Write applicat
     </div>
   </div>
 </div>
+
+<hr/>
+
+### HDMI for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx"></div>
+</div>
+
+Tang Nano 20K FPGA driven HDMI Video adapter.
+
+<div class="product-listing">
+  <div>
+    <a href="./hdmi-for-rc"><img src="{{ site.baseurl }}/assets/hdmi-for-rc/hdmi-profile.jpg" alt="HDMI for RC"></a>
+  </div>
+  <div>
+    <p>A kit based on the Tang Nano 20K FPGA, emulating a V9958 Video Processor Unit - with support for custom extended video modes.  Generate crisp clear video output - learn and and play with a simple-to-use FPGA module</p>
+    <p style="float: left"><a href="./hdmi-for-rc">Click here for full details</a></p>
+      <div class="buy-on-container">
+        <a href="https://lectronz.com/products/?????" class="button" target="_newWindow">
+          Buy on <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
+        </a>
+      </div>
+      <div class="buy-on-container">
+        <a href="https://www.tindie.com/products/dinotron/????" class="button" target="_newWindow">
+          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+        </a>
+    </div>
+  </div>
+</div>
+
 
 <hr/>
 
