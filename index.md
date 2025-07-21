@@ -132,6 +132,8 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
 
 <hr/>
 
+{% if false %}
+
 ### 2MB Linear SRAM <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
 
 <div class="tags">
@@ -226,6 +228,8 @@ Mount your Green Machine Modules in style, with this matching, colour coordinate
     </div>
   </div>
 </div>
+
+{% endif %}
 
 <hr/>
 # Yellow MSX Series

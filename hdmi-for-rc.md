@@ -1,11 +1,10 @@
 ---
 layout: default
-title: USB for HDMI
-description: Let your Z80 talk directly to enumerate and operate many different types of USB devices
+title: HDMI for RC
+description: Generate crisp clear video output - learn and and play with a simple-to-use FPGA module.
 tindie_product_url: https://www.tindie.com/products/dinotron/hdmi-for-rc/
-github_url: https://github.com/dinoboards/ez80-for-rc
-hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes/log/237947-belated-progress-report
-lectronz_product_url: https://lectronz.com/products/hdmi-for-rc
+github_url: https://github.com/dinoboards/V9958-Super
+coming_lectronz_product_url: https://lectronz.com/products/hdmi-for-rc
 is_new: true
 ---
 
