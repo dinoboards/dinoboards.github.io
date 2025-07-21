@@ -2,9 +2,9 @@
 layout: default
 title: 6 Slot Backplane
 description: 6 Slot Green Backplane
-tindie_product_url: https://www.tindie.com/products/dinotron/???/
-github_url: https://github.com/dinoboards/???
-lectronz_product_url: https://lectronz.com/products/???
+tindie_product_url: https://www.tindie.com/products/dinotron/6-slot-green-rcbus-backplane/
+github_url: https://github.com/dinoboards/ez80-for-rc
+coming_lectronz_product_url: https://lectronz.com/products/
 is_new: true
 ---
 
@@ -30,7 +30,7 @@ Suitable for the Green Machine Series of kits.
 
 ## What is the Green Machine Series of Retro Kits
 
-The Green Machine Series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits.ncluding CP/M and RomWBW software stacks.
+The Green Machine Series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits and CP/M and RomWBW software stacks.
 
 For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 
@@ -53,6 +53,11 @@ For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
     <td width="30%"><a href="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled.jpg"><img src="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled.jpg" width="90%"/></a></td>
     <td width="70%"><a href="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled-profile.jpg"><img src="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled-profile.jpg" width="90%"/></a></td>
   </tr>
+
+  <tr>
+    <td colspan="2" style="text-align: center;" ><a href="{{ site.baseurl }}/assets/green-6-slot-backplane/6slot-parts.jpg"><img src="{{ site.baseurl }}/assets/green-6-slot-backplane/6slot-parts.jpg" width="45%"/></a></td>
+  </tr>
+
 </table>
 
 # Bill of Materials

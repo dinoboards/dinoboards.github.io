@@ -4,7 +4,7 @@ title: HDMI for RC
 description: Generate crisp clear video output - learn and and play with a simple-to-use FPGA module.
 tindie_product_url: https://www.tindie.com/products/dinotron/hdmi-for-rc/
 github_url: https://github.com/dinoboards/V9958-Super
-coming_lectronz_product_url: https://lectronz.com/products/hdmi-for-rc
+coming_lectronz_product_url: https://lectronz.com/products/
 is_new: true
 ---
 

@@ -2,10 +2,9 @@
 layout: default
 title: 2MB Linear SRAM
 description: Provide up to 2MB of linearly addressable memory for your eZ80 CPU
-tindie_product_url: https://www.tindie.com/products/dinotron/???/
-github_url: https://github.com/dinoboards/???
-hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes/log/???
-lectronz_product_url: https://lectronz.com/products/???
+tindie_product_url: https://www.tindie.com/products/dinotron/2mb-linear-sram-for-ez80/
+github_url: https://github.com/dinoboards/ez80-for-rc
+coming_lectronz_product_url: https://lectronz.com/products/
 is_new: true
 ---
 
@@ -30,7 +29,7 @@ Unlike standard Z80 memory modules that only work with a 16-bit address, the ***
 
 ## What is the Green Machine Series of Retro Kits
 
-The Green Machine Series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits.ncluding CP/M and RomWBW software stacks.
+The Green Machine Series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits and CP/M and RomWBW software stacks.
 
 For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 
