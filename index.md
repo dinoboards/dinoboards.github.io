@@ -214,9 +214,10 @@ Mount your Green Machine Modules in style, with this matching, colour coordinate
   </div>
 </div>
 
+<hr/>
+
 {% endif %}
 
-<hr/>
 # Yellow MSX Series
 
 These are a series of boards developed to achieve MSX+ compatibility.
