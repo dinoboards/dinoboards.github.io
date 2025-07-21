@@ -7,6 +7,12 @@ github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/186078-v9958-video-board
 ---
 
+# MSX V99x8 Video Module
+
+<div style="text-align: center;">
+  <img src="{{ site.baseurl }}/assets/video-v9958/rgb-v3.8-profile.jpg" width="70%"/>
+</div>
+
 A complete kit to give your RC2014 the advanced graphic capabilities of the mid to late 80s. It based around the V9938 or V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
 
 The board can be configured to operate the V9938 or the V9958 processors.
@@ -28,9 +34,6 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 * A LM311 Voltage Comparator for improved image stability, especially for V9938 chips.
 
 # Images
-<table>
-  <tr><td style="text-align: center"><img src="{{ site.baseurl }}/assets/video-v9958/rgb-v3.8-profile.jpg" width="60%"/></td></tr>
-</table>
 
 <table>
   <tr>

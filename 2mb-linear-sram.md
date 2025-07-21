@@ -28,6 +28,12 @@ Unlike standard Z80 memory modules that only work with a 16-bit address, the ***
 * Supports up to 4 512K SRAM chips.
 * Operates at lower latencies compared to 512K RAM/ROM modules.
 
+## What is the Green Machine Series of Retro Kits
+
+The Green Machine Series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits.ncluding CP/M and RomWBW software stacks.
+
+For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
+
 # Other technical notes
 
 * The 2MB Linear memory module is only active when the eZ80's Chip Select 0 (CS0) is asserted
@@ -60,17 +66,10 @@ There are currently a number of software projects under development to take adva
 
 > \* These languages enable the writing of application to take full advantage of the extended memory module.  The ports are still under active development.  See their respective repos for details of porting progress.
 
-> The **EXE.COM** allow execution of CP/M programs running in the extended address space - with the CLang runtime support to marshall all the CP/M operations to the 64K page.
-> The CLang port still requires the 64K paged memory module (512K ROM/RAM) module with RomWBW and CP/M installed.
+* The **EXE.COM** allow execution of CP/M programs running in the extended address space - with the CLang runtime support to marshall all the CP/M operations to the 64K page.
+* The CLang port still requires the 64K paged memory module (512K ROM/RAM) module with RomWBW and CP/M installed.
 
-## Writing your own programs
-
-While it is certainly possible to use the Zilog ZDS II development studio to develop your own firmware in C and Assembly and write code that uses this extended memory, you  Although you may prefer to take advantage of some of the software tooling that I have been developing.
-
-While you can use the Zilog ZDS II development studio to create your own firmware in C and Assembly that utilizes this extended memory -- you may prefer to take advantage of the software tools I have developed:
-
-1. The port of **BBC-BASIC** (Version 5) that runs within this extended memory.  Write BASIC programs than can use all of the 2MB of RAM.
-2. Or, use the port of **Clang** for the platform - to write C or Assembly language programs.
+> Although it may be possible to use the official Zilog ZDS II development studio to create your own 'applications' - this is not a recommended approach.
 
 # What's included in this kit
 
@@ -92,7 +91,7 @@ The full kit includes everything you need: PCB, capacitors, IC sockets, a 74HCT1
 
 * eZ80 Module
 * An RCBus compatible 80 way backplane
-* Appropriate Software to use the linear memory space.
+* Software to use the linear memory space.
 * You still need a 16 bit memory module (such as the 512K RAM/ROM RC2014 compatible modules)*
 
 \* It is technically possible to develop your own firmware and create your own BIOS/application systems that use this module, allowing you to create a bootable system that does not require a 16-bit memory module.

@@ -15,18 +15,27 @@ is_new: true
   <img src="{{ site.baseurl }}/assets/hdmi-for-rc/hdmi-profile.jpg" width="70%"/>
 </div>
 
-Generate crisp clear video output - learn and and play with a simple-to-use FPGA module
+Generate crisp clear video output - learn and and play with a simple-to-use FPGA module.
+
+# General Description
+
+This RC2014/RCBus compatible module is based around the [Tang Nano 20K FPGA module from sipeed](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html).  Its a FGPA module
+that includes a HDMI output connector.
+
+In conjunction with the appropriate [FGPA code](https://github.com/dinoboards/V9958-Super), it will emulate a Yamaha V9958 VDP.  This emulated processor, supports all the original features of the Yamaha VDP, with some
+additional extensions included to support higher resolutions and an extended palette size of 256 entries with each entry supporting full 24bit colour depth.
+
+The module also has a 3 pin breakout for attaching an optional WS2812 LED strip.
+
+This module is an alternative to the [MSX V99x8 Video Module](./video-v9958.md)
+
+# Key features
 
 * Emulate a V9958 VDP
 * Support experimental higher resolutions (640x480)
 * Attach and control an external WS2812 LED strip
-* Or flash the FPGA with your own code
-
-# General Description
-
-
-# Key features
-
+* Digitise an analogue audio input and transmit as a digital signal to the HDMI output
+* Or flash the FPGA with your own code and make it do whatever you want
 
 # Images
 
@@ -47,11 +56,13 @@ Generate crisp clear video output - learn and and play with a simple-to-use FPGA
 
 # Testing Status
 
-The Tang Nano (if supplied) will include an image to emulate a V9958 VDP (with extensions) and will also support control of an optionally attached WS2812 LED strip.
+The Tang Nano 20K (if you select to include it) will come flashed with an image to emulate a V9958 VDP (with extensions).  This image will also support the ability to control an optionally attached WS2812 LED strip.
 
 The code for the Tang Nano and the associated notes can be found on its github project site [https://github.com/dinoboards/V9958-Super](https://github.com/dinoboards/V9958-Super)
 
 The FPGA code is derived from [https://github.com/lfantoniosi/tn_vdp](https://github.com/lfantoniosi/tn_vdp).  The code has been adapted to work with the RC2014/RCBus Z80 interface; the VHDL code converted to verilog; and extensions and other changes have been applied.  As such, there is a possibility that there are now some regression to V9958 compatibility.
+
+The HDMI/DVI output has been tested on a handful of monitor and with some passive HDMI to DVI converters.  The passive converters will typically not work if the Audio (J1) is shorted.
 
 # What's included in this kit
 
@@ -91,8 +102,8 @@ The full kits includes everything you need (PCB, capacitors, resistors, IC socke
 
 # Port Mapping
 
-The Tang Nano 20K is wired to the RC2014/RCBus interface such that the code within the FPGA can be configured to respond to any I/O port request.  So the port this
-module will respond to is dependant on what image is flashed onto the Tang Nano 20K.
+The Tang Nano 20K is wired to the RC2014/RCBus interface such that the code within the FPGA can be configured to respond to any I/O port request.  So the ports this
+module will respond to are dependant on what image is flashed onto the Tang Nano 20K.
 
 Please see [https://github.com/dinoboards/V9958-Super](https://github.com/dinoboards/V9958-Super) for the code to emulate a V9958.  If the Tang Nano 20K is included
 in the order, it will be supplied with a version from that repository already flashed.
@@ -112,9 +123,20 @@ in the order, it will be supplied with a version from that repository already fl
 * The $98 to $9B are as per a standard TMS/V9938/V9958 VDP.
 * The $30 to $32 are for controlling an attached WS2812 led strip
 
+# Jumpers/Headers
+
+| Name | Description |
+| ---- | ----------- |
+| J1   | When shorted, the module will digitise any incoming analogue signal and send to the HDMI.  Please note, passive HDMI to DVI converters may not work with this enabled. |
+| J2   | Program/Operate. Short the 3 jumpers when in operations.  When programming the Tang Nano, its advised to remove these jumpers |
+| J3   | Transmit a clock signal to the RC2014/RCBus backplane.  Do not short this is a clock signal is already supplied to backplane |
+| H1   | WS2812 connection.  Top Pin is GND, bottom pin is 5V and middle pin is the Data (D0) signal |
+
 # Tang Nano 20K
 
 The Tang Nano 20K is a FPGA module from [sipeed.com](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html).
+
+To update or change the flash FPGA code, please review the instruction at: [https://github.com/dinoboards/V9958-Super/blob/main/README.md](https://github.com/dinoboards/V9958-Super/blob/main/README.md)
 
 ## Programming for the V9958
 
@@ -144,9 +166,9 @@ There are 3 ports to control an attached WS2812 LED strip.
 
 | Port Address | Port Name | Description |
 | ------------ | --------- | ----------- |
-| $30 | WS2812_LEDIDX | Assign the LED strip pixel read/write zero based index. Assign to this port the index of an RGB pixel you wish to write, or read, the discrete RGB values of. Values are exchanged with the `WS2812_LEDVAL` port.
-| $31 | WS2812_LEDVAL | Read or write the 3 separate RGB values for current pixel.  After assigning the index with port `WS2812_LEDIDX`, three bytes are expected to be written or read on this port. The three bytes represent the current pixel's Red, Green and Blue 8 bit values. After the 3 bytes are exchanged, the index is auto incremented. |
-| $32 | WS2812_LEDCNT | Define the current maximum number of pixels available on the attached strip.  When auto indexing reaches the end (as per this setting), the index is automatically reset back to 0. |
+| $30 | `WS2812_LEDIDX` | Set the LED strip's pixel read/write zero based index. Once set, send 3 bytes to the `WS2812_LEDVAL` port to set the RGB values of the pixel.
+| $31 | `WS2812_LEDVAL` | Write the 3 separate RGB values for current pixel.  After assigning the index with port `WS2812_LEDIDX`, three bytes are expected to be written to this port. The three bytes represent the current pixel's Red, Green and Blue 8 bit values. After the 3 bytes are exchanged, the index is auto incremented. |
+| $32 | `WS2812_LEDCNT` | Define the current maximum number of pixels available on the attached strip.  When auto indexing reaches the end (as per this setting), the index is automatically reset back to 0. |
 
 # eZ80 Support
 
@@ -159,6 +181,6 @@ Some sample applications (for eZ80 only) can be found in the Apps section of [ht
 # Resources
 
 * Schematic: [schematic](assets/hdmi-for-rc/schematic.pdf)
-* Datasheet: [Tang Nano 20K](assets/???.pdf)
+* Datasheet: [Tang Nano 20K](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html#Hardware-information)
 
 {% include disclaimer.md %}

@@ -16,7 +16,7 @@ is_new: true
 
 A standard 80-way RCBus/RC2014 compatible backplane.
 
-Suitable for the Mean Green Machine series of kits.
+Suitable for the Green Machine Series of kits.
 
 # Key features
 
@@ -30,7 +30,7 @@ Suitable for the Mean Green Machine series of kits.
 
 ## What is the Green Machine Series of Retro Kits
 
-The green machine series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits.ncluding CP/M and RomWBW software stacks.
+The Green Machine Series of kits are designed around the RCBus/RC2014 bus, powered by an eZ80 CPU (as apposed to the Z80 CPU), and are broadly compatible with many RC2014 and RCBus kits.ncluding CP/M and RomWBW software stacks.
 
 For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 

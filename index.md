@@ -10,7 +10,7 @@ I have designed and developed a number of retro computer kits, based on technolo
 There are 2 main sets of kits:
 
 * **Yellow MSX Series** - a series of RC2014/RCBus compatible modules, when connected together allow for a full working reproduction of an original MSX Computer
-* **Mean Green Machine Series** - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
+* **Green Machine Series** - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
 
 
 <style>
@@ -58,9 +58,9 @@ There are 2 main sets of kits:
 </div>
 
 <hr/>
-# Mean Green Machine Series
+# Green Machine Series
 
-The *Mean Green Machine Series* is a series that is still under development, with the *eZ80 for RC* the first kit in the set.  The series goal is to offer as much compatibility as possible with existing RC2014/RCBus module.  With new modules planned to utilise and explore all the capabilities of Zilog's Z80 compatible CPU.
+The *Green Machine Series* is a series that is still under development, with the *eZ80 for RC* the first kit in the set.  The series goal is to offer as much compatibility as possible with existing RC2014/RCBus module.  With new modules planned to utilise and explore all the capabilities of Zilog's Z80 compatible CPU.
 
 
 ### eZ80 for RC
