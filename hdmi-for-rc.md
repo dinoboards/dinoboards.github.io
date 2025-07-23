@@ -131,11 +131,13 @@ in the order, it will be supplied with a version from that repository already fl
 | J3   | Transmit a clock signal to the RC2014/RCBus backplane.  Do not short this is a clock signal is already supplied to backplane |
 | H1   | WS2812 connection.  Top Pin is GND, bottom pin is 5V and middle pin is the Data (D0) signal |
 
-# Tang Nano 20K
+## Flashing Tang Nano 20K
 
 The Tang Nano 20K is a FPGA module from [sipeed.com](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html).
 
 To update or change the flash FPGA code, please review the instruction at: [https://github.com/dinoboards/V9958-Super/blob/main/README.md](https://github.com/dinoboards/V9958-Super/blob/main/README.md)
+
+> You can flash the Tang Nano in-circuit, but please remove the 3 Jumpers for J2 and do **not** power to your RC2014/RCBus system.
 
 ## Programming for the V9958
 
