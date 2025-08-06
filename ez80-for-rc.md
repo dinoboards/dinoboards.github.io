@@ -9,7 +9,7 @@ lectronz_product_url: https://lectronz.com/products/ez80-for-rc
 
 # eZ80 for RC
 
-(Revision 1.10)
+(Revision 1.10/1.11)
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.
 
@@ -41,16 +41,6 @@ See the Wikipedia page for basic overview of the CPU (<a href="https://en.wikipe
 Here's a video of the eZ80 for RC module running in the RC2014<strong>&trade;</strong> backplane with a few retro modules:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qMu8Gz7rkQ0?si=xwUMK4sWBoN0tg-j" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-# Schematics
-
-* [eZ80 Interface Module (v1.10)]({{ site.baseurl }}/assets/ez80-for-rc/v1.10/schematic.pdf)
-* [ez80 CPU Module (v1.3)]({{ site.baseurl }}/assets/docs/SCHEMATIC-EZ80-V1.3.pdf)
-
-# Kit Details
-
-Coming soon to my Tindie Store, will be the *eZ80 for RC* kit.  For you to assemble and expand your RC2014<strong>&trade;</strong> or RCBus system.
-
 
 # What's included in the kit
 
@@ -123,10 +113,9 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
 * Only a limited number of RCBus/RC2014 modules have been tested to date. (Please see my [project development journal](https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes) describing the progress with porting and testing of various modules.)
 * The ez80's SPI interface has no software support nor has it been tested yet.
 * The I2C interface has limited software support at this stage.
-* The main crystal oscillator (OSC1) is labelled with a frequency of 18.432MHz. It can actually support any frequency from 7.372MHz up to 20MHz. Overclocking is also possible; I have tested it up to 40MHz. For optimal performance, I recommend using a 25MHz crystal.
+* The main crystal oscillator (OSC1) is labelled with a frequency of 20MHz. It can actually support any frequency from 7.372MHz up to 20MHz. Overclocking is also possible; I have tested it up to 40MHz. For optimal performance, I recommend using a 25MHz crystal.
 * This revision has support for a much larger battery (CR2450) and so battery life should be much improved over the old version.
 * Also note, when using an oscillator other than 20Mhz, and there is no battery power, the system will not be able to adjust the speed of the serial correctly.  You would need to use a battery or build a custom firmware image.
-* The on board led is connected to the eZ80's gpio **PC0** pin.  But the current firmware does not activate or control this led.
 
 # Images
 
@@ -135,37 +124,45 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
     <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" alt="eZ80 Interface PCB Top Layer">
     </a>
-    <a href="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" alt="eZ80 CPU module">
+    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled.jpg">
     </a>
-    <a href="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/ez80-parts-wrapped.jpg" alt="ez80 for rc kit parts (wrapped)">
+     <a href="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" alt="eZ80 CPU module">
     </a>
   </div>
   <div class="image-column">
     <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" alt="eZ80 Interface PCB Bottom Layer">
     </a>
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10//assembled-with-cpu.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10//assembled-with-cpu.jpg">
+    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled-with-cpu.jpg" target="_blank">
+      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled-with-cpu.jpg">
     </a>
     <a href="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" target="_blank">
       <img src="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" alt="ez80 for rc kit parts">
     </a>
-  </div>
+ </div>
+
 </div>
 
 # Errata
 
-Current PCB revision is 1.10.
+V1.11
+  * Added silkscreen to external bat connector
+  * External battery header footprint orientation updated such that pin 1 is ground - physical orientation unchanged
+  * Fix silkscreen for SPI pinout (see note below)
 
-For revision 1.9 and below, see the old version of this page: [v1.9 and below](./ez80-for-rc-v1.9-and-below)
+V1.10
+  * Increased battery size to CR2450
+  * Added support for a right angle header at the top for an external battery - please ensure power polarity is correct.
+  * Battery holder moved to bottom side of PCB
 
-1. Increased battery size to CR2450
-2. Battery holder moved to bottom side of PCB
-3. The PCB now has support for a right angle header at the top for an external battery - please ensure power polarity is correct.
-4. Some of the images and videos on this page may include an older revision of the PCB.
-5. The pinout for the SPI interface is incorrect. The correct pinout from Pin 1 (at the top) down is:
+V1.9
+  * For revision 1.9 and below, see the old version of this page: [v1.9 and below](./ez80-for-rc-v1.9-and-below)
+
+> Some of the images and videos on this page may include an older revision of the PCB.
+
+The pinout for the SPI interface, prior to revision 1.11 was incorrect. The correct pinout from Pin 1 (at the top) down is:
 
 <div style="padding-left: 20px;margin-top:-10px">
 <ol>
@@ -218,6 +215,18 @@ The voltage level for operating the I2C bus.
 
 * The eZ80's SPI interface.
 
+# Schematics
+
+* [eZ80 Interface Module (v1.11)]({{ site.baseurl }}/assets/ez80-for-rc/v1.11/ez80-interface-schematic.pdf)
+* [ez80 CPU Module (v1.4)]({{ site.baseurl }}/assets/ez80-for-rc/v1.11//cpu-module-schematic.pdf)
+
+# eZ80 CPU Module pinout
+
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/ez80-for-rc/ez80-cpu-module-pinout.png" target="_blank">
+  <img src="{{ site.baseurl }}/assets/ez80-for-rc/ez80-cpu-module-pinout.png" style="width:80%;" alt="ez80 for rc kit parts">
+</a>
+  </div>
 
 # Assembly Guide
 
