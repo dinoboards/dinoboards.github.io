@@ -151,10 +151,15 @@ Tang Nano 20K FPGA driven HDMI Video adapter.
     <p>A kit based on the Tang Nano 20K FPGA, emulating a V9958 Video Processor Unit - with support for custom extended video modes.  Generate crisp clear video output - learn and and play with a simple-to-use FPGA module</p>
     <p style="float: left"><a href="./hdmi-for-rc">Click here for full details</a></p>
       <div class="buy-on-container">
+      <a href="https://lectronz.com/products/hdmi-for-rc" class="button" target="_newWindow">
+        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
+      </a>
+    </div>
+     <div class="buy-on-container">
         <a href="https://www.tindie.com/products/dinotron/hdmi-for-rc/" class="button" target="_newWindow">
           Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
         </a>
-    </div>
+      </div>
   </div>
 </div>
 
@@ -177,10 +182,15 @@ Let your eZ80 break the 64K barrier with this 2MB memory module.  Write applicat
   <div>
     <p>Install up to 4 512K SRAM chips to enable your eZ80 to address a total of 2MB of memory directly.</p>
     <p style="float: left"><a href="./2mb-linear-sram">Click here for full details</a></p>
-      <div class="buy-on-container">
-        <a href="https://www.tindie.com/products/dinotron/2mb-linear-sram-for-ez80/" class="button" target="_newWindow">
-          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
-        </a>
+    <div class="buy-on-container">
+      <a href="https://lectronz.com/products/-2mb-linear-sram-for-ez80" class="button" target="_newWindow">
+        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
+      </a>
+    </div>
+    <div class="buy-on-container">
+      <a href="https://www.tindie.com/products/dinotron/2mb-linear-sram-for-ez80/" class="button" target="_newWindow">
+        Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+      </a>
     </div>
   </div>
 </div>
@@ -204,6 +214,11 @@ Mount your Green Machine Modules in style, with this matching, colour coordinate
   <div>
     <p>A Small 6 slot 80 way backplane for Green Machine Modules and other compatible RC2014/RCBus modules</p>
     <p style="float: left"><a href="./green-6-slot-backplane">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://lectronz.com/products/-6-slot-green-rcbus-backplane" class="button" target="_newWindow">
+        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
+      </a>
+    </div>
       <div class="buy-on-container">
         <a href="https://www.tindie.com/products/dinotron/6-slot-green-rcbus-backplane" class="button" target="_newWindow">
           Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
