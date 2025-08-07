@@ -105,7 +105,7 @@ blockquote {
 }
 
 code {
-  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  font-family:'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Cascadia Code, Hack;
   font-size: 13px;
   color: #efefef;
   text-shadow: 0px 1px 0px #000;
@@ -552,12 +552,6 @@ screen and (max-height: 580px) {
     width: auto;
   }
 }
-
-
-
-
-
-
 
 @font-face {
   font-family: 'GamePlayed';

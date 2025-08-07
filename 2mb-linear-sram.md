@@ -63,12 +63,70 @@ There are currently a number of software projects under development to take adva
 * **EZ80.COM** - a CP/M program to allow for managing and testing the extended memory.
 * **EXE.COM** - a program for loading and executing programs in the extended memory.
 
-> \* These languages enable the writing of application to take full advantage of the extended memory module.  The ports are still under active development.  See their respective repos for details of porting progress.
+> \* The languages enable the writing of application to take full advantage of the extended memory module.  The ports are still under active development.  See their respective repos for details of porting progress.
 
 * The **EXE.COM** allow execution of CP/M programs running in the extended address space - with the CLang runtime support to marshall all the CP/M operations to the 64K page.
 * The CLang port still requires the 64K paged memory module (512K ROM/RAM) module with RomWBW and CP/M installed.
 
 > Although it may be possible to use the official Zilog ZDS II development studio to create your own 'applications' - this is not a recommended approach.
+
+The **EZ80.COM** and **EXE.COM** applications can be downloaded from the one of the official releases on the github repo : [https://github.com/dinoboards/ez80-for-rc/releases](https://github.com/dinoboards/ez80-for-rc/releases).  Download the releases.zip under the Assets section of the release you want to use.  Within that zip file you find the compiled applications.  These are standard CP/M applications and will only execute on an eZ80 CPU.
+
+# Testing the memory
+
+The **EZ80.COM** CP/M application can be used to verify your memory module is working.  Once you have copied it onto your system (typically with xmodem) you can run it to scan, test and adjust the timings of the memory.
+
+Running **EZ80.COM** with no arguments will report timings:
+
+```text
+C>EZ80
+          CPU frequency: 25000000 Hz
+        Z80 Environment: eZ80's Z80 Compatibility
+      On-chip Flash W/S: 1  (80ns)
+        Main Memory B/C: 1  (120ns)
+Extended Memory CS0 W/S: 2  (120ns)
+Extended Memory CS1 W/S: 1  (80ns)
+                I/O B/C: 4  (480ns)
+         TMR1 Tick rate: 50 (Counter: 11673)
+```
+
+To get a list of command line options, run with the `-?` argument
+
+```text
+C>EZ80 -?
+Usage: ez80 [options]
+Options:
+  -F=<number>W      Set On-chip Flash Wait States
+  -M=<number>[W|B]  Set Main Memory Wait States or Bus Cycles (CS3)
+  -M0=<number>[W|B] Set Extended Memory Wait States or Bus Cycles (CS0)
+  -M1=<number>[W|B] Set Extended Memory Wait States or Bus Cycles (CS1)
+                    Wait States: 0-7, Bus Cycles: 1-15
+  -I=<number>[W|B]  Set I/O Wait States or Bus Cycles (CS2)
+  -S                Scan extended memory
+  -P                Measure Main Memory Performance
+  -T=<number>       Set tick frequency rate (50 or 60)
+  -? /?             Show this help message
+```
+
+As shown in the help above, to scan and verify your extended memory is working run with the `-S` option:
+
+```text
+C>EZ80 -S
+Searching for memory installed from 0x200000 to 0x5F0000
+512K bank at 0x200000: OK
+512K bank at 0x280000: OK
+512K bank at 0x300000: OK
+512K bank at 0x380000: OK
+512K bank at 0x400000: None
+512K bank at 0x480000: None
+512K bank at 0x500000: None
+512K bank at 0x580000: None
+
+2048kb available at 0x200000
+
+Memory @ 0x200000: 3471.18 KB/s
+```
+
 
 # What's included in this kit
 
