@@ -170,6 +170,7 @@ Tang Nano 20K FPGA driven HDMI Video adapter.
 
 <div class="tags">
   <div class="tag rcbus"></div>
+  <div class="tag ez80"></div>
 </div>
 
 
