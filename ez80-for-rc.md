@@ -99,7 +99,7 @@ This kit is designed for RCBus and RC2014<strong>&trade;</strong>
 
 Before you can boot your RCBus/RC2014<strong>&trade;</strong> system, you will need to have written an image onto the eZ80's internal ROM.  For that you will need a 'programmer'.
 
-There are 2 options for the programmer.  The Zilog's official programmer (*Zilog eZ80 Acclaim USB Smart Cable*), available from many hardware suppliers such as digikey or mouse:
+There are 2 options for the programmer.  The Zilog's official programmer (*Zilog eZ80 Acclaim USB Smart Cable*), available from many hardware suppliers such as digikey or mouser:
 
 * [Digikey link](https://www.digikey.com.au/en/products/detail/zilog/ZUSBASC0200ZACG/17374332)
 * [Mouser link](https://au.mouser.com/ProductDetail/692-ZUSBASC0200ZACG)

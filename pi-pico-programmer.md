@@ -27,7 +27,7 @@ There are 2 downloads available.  tagged Releases and general releases.  The tag
 * <a href="https://github.com/dinoboards/ez80-for-rc/actions/workflows/ez80-for-rc.yml?query=branch%3Amain+is%3Asuccess" target="_blank">General Releases</a>
   Click on a build, then under *Artifacts* select the **pi-pico-firmware** download.
 
-### Flash your Pi Pico
+### Updating your Pi Pico
 
 1. Press and hold the BOOTSEL button on the Pi Pico
 2. While holding BOOTSEL, plug the USB cable from the Pico into your PC
@@ -139,5 +139,58 @@ ZDI>
 </ol>
 
 > To see your retro computer, you will need to have the UART serial connection of the Interface Module connected to a terminal application.
+
+
+### Operating instructions
+
+Within your serial connection to the Pi Pico Programmer, you can issue a number of commands.
+
+`help` Will show the list of commands available
+
+The current implemented commands are:
+
+```
+Commands:
+
+help or h
+  Display this help message
+
+status or s
+  Display the ZDI status register (ZDI_STAT)
+
+flash [upload]
+  Flash the eZ80 with a new firmware image
+  default loads the firmware stored on Pi Pico
+  upload: expects an intel hex file to be streamed over stdin
+
+verify [upload]
+  Read the current firmware version image
+  and compare to verify correctness
+  upload: expects an intel hex file to be streamed over stdin
+
+break or b
+  break the ez80
+
+continue or c
+  continue the ez80
+
+reset
+  reset the ez80 (internal only reset line is not triggered)
+
+mode or m [ADL|Z80]
+  Set the CPU mode to ADL or Z80
+
+led [on|off]
+  Configure PC0 as output and turn led on or off
+
+rd or read [ADDR]
+  Read bytes from memory
+
+str [ADDR]
+  Read a null terminated string from memory
+
+reboot
+  Reset and restart the eZ80 firmware
+```
 
 {% include disclaimer.md %}

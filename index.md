@@ -62,6 +62,7 @@ There are 2 main sets of kits:
 
 The *Green Machine Series* is a series that is still under development, with the *eZ80 for RC* the first kit in the set.  The series goal is to offer as much compatibility as possible with existing RC2014/RCBus module.  With new modules planned to utilise and explore all the capabilities of Zilog's Z80 compatible CPU.
 
+A FAQ for the green series is being constructed.  You can read it here [Green Series FAQ](./green-faq)
 
 ### eZ80 for RC
 
