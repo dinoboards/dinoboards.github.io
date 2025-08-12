@@ -56,12 +56,12 @@ The USB interface use the cheap CH376S module.  A module that handles the low le
     <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg" width="90%"/></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href=""><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-top.jpg" width="90%"/></a></td>
-    <td width="50%"><a href=""><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-bottom.jpg" width="90%"/></a></td>
+    <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-top.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-top.jpg" width="90%"/></a></td>
+    <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-bottom.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-bottom.jpg" width="90%"/></a></td>
   </tr>
   <tr>
-    <td width="50%"><a href=""><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-cassette.jpg" width="90%"/></a></td>
-    <td width="50%"><a href=""><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-bottom.jpg" width="90%"/></a></td>
+    <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-cassette.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-cassette.jpg" width="90%"/></a></td>
+    <td width="50%"><a href="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-bottom.jpg"><img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-bottom.jpg" width="90%"/></a></td>
   </tr>
 </table>
 

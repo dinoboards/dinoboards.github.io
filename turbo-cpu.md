@@ -147,18 +147,54 @@ Please pay careful attention when you insert the oscillator into the DIP socket 
 
 # Jumper settings for clock control
 
-### CLK1 & CLK2
+## Revision V1.8 and up
+
+There are some minor difference with the jumpers from Revision 1.8.  The changes enable the board to bypass its internal slow clock and use externally supplied slow clock source.
+
+#### CLK1 & CLK2
+
+In the top right of the PCB, you will see all the jumper settings to manage the clock signals for your RC2014.
+
+The jumpers CLK1 and CLK2, set the clock rate to be optionally transmitted to the respective RC2014 bus lanes.  Modules such at the SIO/2 use these signals to control the baud rates for its serial communication.  For default MSX configuration, set CLK1 to 3.6864 and CLK2 to 0.3073.
+
+> **IMPORTANT**: If you have an external clock source on your system, do not populate the respective CLKx jumper.
+
+#### TURBO
+The Turbo Jumper, is use to set the CPU's boost speed.  If you short the bottom 2 pins, the CPU will never run faster than 7.3728 Mhz (stock RC2014) - this is a safe speed that matches the stock RC2014 CPU module.
+
+If you instead short the top 2 pins, then the CPU will be boosted to the speed of the installed oscillator.
+
+Typically the top two pins are shorted to get maximum turbo performance from your CPU.
+
+#### J1 (SLOW-CLOCK SOURCE)
+
+This jumper allows you to configure the source of the 'slow clock' for the CPU.  When the CPU is communicating with I/O devices, such as the Serial I/O modules, the CPU frequency will be controlled by this jumper.
+
+If CLKx jumpers are configured, then shorting the 2 left pins or the 2 right pins, will configure your CPU slow clock as per the respective CLKx setting.
+
+If the CLKx jumpers are not set, then the CPU slow clock will be driven by your external clock source (A clock module or the V9958 with Bus Clock jumper applied)
+
+Typically the two left pins are shorted to set the slow clock to the CLK1 source.
+
+
+<div style="text-align: center;">
+<img src="{{ site.baseurl }}/assets/turbo-cpu/turbo-cpu-1.8-jumpers.jpg" alt="Jumpers" width="40%"/>
+</div>
+
+## Revisions prior to V1.8
+
+#### CLK1 & CLK2
 
 In the top right of the PCB, you will see all the jumper settings to manage the clock signals for your RC2014.
 
 The jumpers CLK1 and CLK2, set the clock rate to be transmitted on the respective RC2014 clock lines.  Modules such at the SIO/2 use these signals to control the baud rates for its serial communication.  For default MSX configuration, set CLK1 to 3.6864 and CLK2 to 0.3073.
 
-### TURBO
+#### TURBO
 The Turbo Jumper, is use to set the CPU's boost speed.  If you short the bottom 2 pins, the CPU will never run faster than 7.3728MHz (stock RC2014) - this is a safe speed that matches the stock RC2014 CPU module.
 
 If you instead short the top 2 pins, then the CPU will be boosted to the speed of the installed oscillator.
 
-### J1
+#### J1
 
 This jumper is typically just shorted.  This jumper maps the 3.6864Mhz clock signal to the CPU slow down speed.  This is the speed the CPU will be clocked at, when any I/O operations are performed (eg: when the CPU talks to your other modules such at the serial or video modules).  For MSX configuration, this jumper needs to be shorted.
 
@@ -185,24 +221,45 @@ The 3 way slider's state is sent to these 2 chips to allow the user to select 2 
 
 ### Installed
 ---------
-<img src="{{ site.baseurl }}/assets/turbo-cpu/installed.jpg" alt="Installed" width="100%"/>
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/turbo-cpu/installed.jpg" target="_newwindow">
+<img src="{{ site.baseurl }}/assets/turbo-cpu/installed.jpg" alt="Installed" width="80%"/>
+</a>
+</div>
 
 ### Assembled
 ---------
-<img src="{{ site.baseurl }}/assets/turbo-cpu/assembled-top.jpg" alt="Assembled Top" width="100%"/>
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/turbo-cpu/pcb1.8-assembled.jpg" target="_newwindow">
+<img src="{{ site.baseurl }}/assets/turbo-cpu/pcb1.8-assembled.jpg" alt="Assembled Top" width="80%"/>
+</a>
+</div>
 
 ### PCB
 ---------
-<img src="{{ site.baseurl }}/assets/turbo-cpu/top.jpg" alt="PCB Top" width="100%"/>
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/turbo-cpu/pcb1.8-top.jpg" target="_newwindow">
+<img src="{{ site.baseurl }}/assets/turbo-cpu/pcb1.8-top.jpg" alt="PCB Top" width="80%"/>
+</a>
+</div>
 
-<img src="{{ site.baseurl }}/assets/turbo-cpu/back.jpg" alt="PCB Back" width="100%"/>
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/turbo-cpu/pcb1.8-back.jpg" target="_newwindow">
+<img src="{{ site.baseurl }}/assets/turbo-cpu/pcb1.8-back.jpg" alt="PCB Back" width="80%"/>
+</a>
+</div>
 
 ### Kit Parts
 ---------
-<img src="{{ site.baseurl }}/assets/turbo-cpu/kit.jpg" alt="PCB Back" width="100%"/>
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/turbo-cpu/kit.jpg" target="_newwindow">
+<img src="{{ site.baseurl }}/assets/turbo-cpu/kit.jpg" alt="PCB Back" width="80%"/>
+</a>
+</div>
 
 # Schematic
 
-* Schematic: [schematic.pdf](assets/turbo-cpu/schematic.pdf "Schematic")
+* Schematic 1.8: [schematic1.8.pdf](assets/turbo-cpu/schematic1.8.pdf "Schematic 1.8")
+* Schematic 1.7: [schematic.pdf](assets/turbo-cpu/schematic.pdf "Schematic")
 
 {% include disclaimer.md %}
