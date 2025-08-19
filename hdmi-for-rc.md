@@ -63,6 +63,10 @@ The FPGA code is derived from [https://github.com/lfantoniosi/tn_vdp](https://gi
 
 The HDMI/DVI output has been tested on a handful of monitor and with some passive HDMI to DVI converters.  The passive converters will typically not work if the Audio (J1) is shorted.
 
+# RC2014/RCBus Compatibility
+
+* This module is designed to operate in Z80 Interrupt Mode 1 only.
+
 # What's included in this kit
 
 The full kits includes everything you need (PCB, capacitors, resistors, IC sockets, connectors, and the ICs).  The Tang Nano 20K can be optionally included.

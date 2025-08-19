@@ -231,6 +231,9 @@ All but one of the hubs tested works.  All but one of the hub seemed to have bee
 > PRNT.SYS:    INSTALLED
 > ``` -->
 
+# RC2014/RCBus Compatibility
+
+* This module has only been tested in kit configuration using Z80 Interrupt Mode 1 only.
 
 # What's included in this kit
 
