@@ -57,6 +57,10 @@ There are 2 main sets of kits:
 </ul>
 </div>
 
+Also checkout my mastodon account for updates and demo videos: <a href="https://mastodon.social/@dinotron/with_replies"  target="_new" style="">
+          <img src="{{ site.baseurl }}/assets/mastodon-logo.svg" style="position: relative; top:4px; height: 1em" />&nbsp;mastodon.social/@dinotron
+        </a>
+
 <hr/>
 # Green Machine Series
 

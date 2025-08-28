@@ -47,6 +47,10 @@ This page lists a number of my blog posts regarding the development of the Yello
 
 Many of these entries are dual posted on my hackaday site at: [https://hackaday.io/projects/hacker/522193](https://hackaday.io/projects/hacker/522193)
 
+I also sometimes post updates on my mastodon account: <a href="https://mastodon.social/@dinotron/with_replies"  target="_new" style="">
+          <img src="{{ site.baseurl }}/assets/mastodon-logo.svg" style="position: relative; top:4px; height: 1em" />&nbsp;mastodon.social/@dinotron
+        </a>
+
 {% assign posts = site.posts | sort: 'date' | reverse %}
 {% assign currentYear = "" %}
 
