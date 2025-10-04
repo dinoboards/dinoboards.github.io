@@ -5,6 +5,7 @@ description: Save your MSX-BASIC programs to cassette tape and give your Z80 acc
 tindie_product_url: https://www.tindie.com/products/dinotron/msx-cassette-usb-module-designed-for-rc2014/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/cassette-and-usb
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/224479-cassette-usb-module
+product_url: https://shop.dinoboards.com.au/product/msx-cassette-usb-module-designed-for-rc2014
 ---
 
 # MSX Cassette + USB Module

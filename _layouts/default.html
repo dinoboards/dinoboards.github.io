@@ -51,6 +51,18 @@
 
       <a href="/journal" class="button"><strong>Journal</strong></a>
 
+      <a href="{{ page.product_url | default: 'https://shop.dinoboards.com.au' }}" class="button"
+        target="_newWindow">
+        <strong style="margin-left: 2px">
+          {% if page.product_url %}
+          BUY DIRECT <img src="/logo-black.png"
+            style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px" />
+          {% else %}
+          Dinoboard's Shop
+          {% endif %}
+        </strong>
+      </a>
+
       <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button"
         target="_newWindow">
         <strong style="margin-left: 2px">

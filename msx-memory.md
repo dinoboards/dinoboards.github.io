@@ -5,6 +5,7 @@ description: Give your RC2014 the power of 512K ROM and 1024K RAM
 tindie_product_url: https://www.tindie.com/products/dinotron/msx-memory-board-for-rc2014/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/memory#msx-memory-board-for-rc2014
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/186942-software-for-the-msx-on-rc2014
+product_url: https://shop.dinoboards.com.au/product/msx-memory-board-for-rc2014
 ---
 
 # MSX Memory Module

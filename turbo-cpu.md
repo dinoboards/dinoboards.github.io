@@ -5,6 +5,7 @@ description: Z80 CPU running at up to 20Mhz.
 tindie_product_url: https://www.tindie.com/products/dinotron/turbo-cpu-module-designed-for-rc2014/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/turbo-cpu/readme.md
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/203333-turbo-cpu
+product_url: https://shop.dinoboards.com.au/product/turbo-cpu-module-designed-for-rc2014
 ---
 
 # Turbo CPU

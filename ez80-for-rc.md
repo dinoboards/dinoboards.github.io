@@ -5,6 +5,7 @@ github_url: https://github.com/dinoboards/ez80-for-rc
 hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes
 tindie_product_url: https://www.tindie.com/products/dinotron/ez80-for-rc/
 lectronz_product_url: https://lectronz.com/products/ez80-for-rc
+product_url: https://shop.dinoboards.com.au/product/ez80-for-rc
 ---
 
 # eZ80 for RC

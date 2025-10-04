@@ -6,10 +6,10 @@ tindie_product_url: https://www.tindie.com/products/dinotron/usb-for-rc/
 github_url: https://github.com/dinoboards/ez80-for-rc
 hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes/log/237947-belated-progress-report
 lectronz_product_url: https://lectronz.com/products/usb-for-rc
-is_new: true
+product_url: https://shop.dinoboards.com.au/product/usb-for-rc
 ---
 
-# USB for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:36px; margin-left: 8px; position:absolute"/>
+# USB for RC
 
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/usb-for-rc/profile.jpg" width="70%"/>

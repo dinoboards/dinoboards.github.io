@@ -5,6 +5,7 @@ description: A extension module for RC2014 backplanes to support MSX Cartridges
 tindie_product_url: https://www.tindie.com/products/dinotron/msx-cartridge-slot-extension-for-rc2014-bus/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/turbo-cpu/readme.md
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/200617-slot-extension-for-msx-cartridges
+product_url: https://shop.dinoboards.com.au/product/msx-cartridge-slot-extension
 ---
 
 # Slot Extension

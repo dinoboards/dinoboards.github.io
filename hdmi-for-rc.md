@@ -5,10 +5,10 @@ description: Generate crisp clear video output - learn and and play with a simpl
 tindie_product_url: https://www.tindie.com/products/dinotron/hdmi-for-rc/
 github_url: https://github.com/dinoboards/V9958-Super
 lectronz_product_url: https://lectronz.com/products/hdmi-for-rc
-is_new: true
+product_url: https://shop.dinoboards.com.au/product/hdmi-for-rc
 ---
 
-# HDMI for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:36px; margin-left: 8px; position:absolute"/>
+# HDMI for RC
 
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/hdmi-for-rc/hdmi-profile.jpg" width="70%"/>

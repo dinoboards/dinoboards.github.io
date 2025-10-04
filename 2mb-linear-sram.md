@@ -5,10 +5,10 @@ description: Provide up to 2MB of linearly addressable memory for your eZ80 CPU
 tindie_product_url: https://www.tindie.com/products/dinotron/2mb-linear-sram-for-ez80/
 github_url: https://github.com/dinoboards/ez80-for-rc
 lectronz_product_url: https://lectronz.com/products/-2mb-linear-sram-for-ez80
-is_new: true
+product_url: https://shop.dinoboards.com.au/product/2mb-linear-sram-for-ez80
 ---
 
-# 2MB Linear SRAM <img src="{{ site.baseurl }}/assets/new.png" style="width:36px; margin-left: 8px; position:absolute"/>
+# 2MB Linear SRAM
 
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/2mb-linear-sram/pcb-profile.jpg" width="70%"/>

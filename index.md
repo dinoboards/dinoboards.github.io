@@ -88,13 +88,8 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
     <p>The eZ80 for RC module is an alternative CPU module for your RC2014 or RCBus based computer.  Upgrade your Z80 to Zilog enhanced version of the chip.  Running at 20Mhz (and overclockable to 40Mhz or more), and take advantage of its many on-chip facilities such as flash ROM, RAM, GPIO and much more.</p>
     <p style="float: left"><a href="./ez80-for-rc">Click here for full details</a></p>
     <div class="buy-on-container">
-      <a href="https://lectronz.com/products/ez80-for-rc" class="button" target="_newWindow">
-        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
-      </a>
-    </div>
-    <div class="buy-on-container">
-      <a href="https://www.tindie.com/products/dinotron/ez80-for-rc" class="button" target="_newWindow">
-        Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+      <a href="https://shop.dinoboards.com.au/product/ez80-for-rc" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
   </div>
@@ -122,22 +117,17 @@ Let your Z80 directly enumerate and operate many different types of USB devices,
   <div>
     <p>The USB for RC module is based on the <a href="#msx-cassette--usb-module">MSX Cassette + USB Module</a>, with the MSX cassette interface components removed.  The native USB drivers written for  MSX-DOS have been ported to RomWBW - enabling full CP/M access to USB Hubs, USB Mass storage, 3.5 USB floppy disk, keyboards and potentially new devices as required drivers are written.</p>
     <p style="float: left"><a href="./usb-for-rc">Click here for full details</a></p>
-      <div class="buy-on-container">
-        <a href="https://lectronz.com/products/usb-for-rc" class="button" target="_newWindow">
-          Buy on <img src="/assets/images/lectronz.svg"  class="buy-on-lectronz"/>
-        </a>
-      </div>
-      <div class="buy-on-container">
-        <a href="https://www.tindie.com/products/dinotron/usb-for-rc" class="button" target="_newWindow">
-          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
-        </a>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/usb-for-rc" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
     </div>
   </div>
 </div>
 
 <hr/>
 
-### HDMI for RC <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+### HDMI for RC
 
 <div class="tags">
   <div class="tag rcbus"></div>
@@ -155,23 +145,18 @@ Tang Nano 20K FPGA driven HDMI Video adapter.
   <div>
     <p>A kit based on the Tang Nano 20K FPGA, emulating a V9958 Video Processor Unit - with support for custom extended video modes.  Generate crisp clear video output - learn and and play with a simple-to-use FPGA module</p>
     <p style="float: left"><a href="./hdmi-for-rc">Click here for full details</a></p>
-      <div class="buy-on-container">
-      <a href="https://lectronz.com/products/hdmi-for-rc" class="button" target="_newWindow">
-        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/hdmi-for-rc" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
-     <div class="buy-on-container">
-        <a href="https://www.tindie.com/products/dinotron/hdmi-for-rc/" class="button" target="_newWindow">
-          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
-        </a>
-      </div>
   </div>
 </div>
 
 <hr/>
 
 
-### 2MB Linear SRAM <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+### 2MB Linear SRAM
 
 <div class="tags">
   <div class="tag rcbus"></div>
@@ -189,13 +174,8 @@ Let your eZ80 break the 64K barrier with this 2MB memory module.  Write applicat
     <p>Install up to 4 512K SRAM chips to enable your eZ80 to address a total of 2MB of memory directly.</p>
     <p style="float: left"><a href="./2mb-linear-sram">Click here for full details</a></p>
     <div class="buy-on-container">
-      <a href="https://lectronz.com/products/-2mb-linear-sram-for-ez80" class="button" target="_newWindow">
-        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
-      </a>
-    </div>
-    <div class="buy-on-container">
-      <a href="https://www.tindie.com/products/dinotron/2mb-linear-sram-for-ez80/" class="button" target="_newWindow">
-        Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
+      <a href="https://shop.dinoboards.com.au/product/2mb-linear-sram-for-ez80" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
   </div>
@@ -203,7 +183,7 @@ Let your eZ80 break the 64K barrier with this 2MB memory module.  Write applicat
 
 <hr/>
 
-### 6 SLOT Green Backplane <img src="{{ site.baseurl }}/assets/new.png" style="width:25px; margin-left: 8px; position:absolute"/>
+### 6 SLOT Green Backplane
 
 <div class="tags">
   <div class="tag rcbus"></div>
@@ -221,14 +201,9 @@ Mount your Green Machine Modules in style, with this matching, colour coordinate
     <p>A Small 6 slot 80 way backplane for Green Machine Modules and other compatible RC2014/RCBus modules</p>
     <p style="float: left"><a href="./green-6-slot-backplane">Click here for full details</a></p>
     <div class="buy-on-container">
-      <a href="https://lectronz.com/products/-6-slot-green-rcbus-backplane" class="button" target="_newWindow">
-        Buy on <img src="/assets/images/lectronz.svg" class="buy-on-lectronz"/>
+      <a href="https://shop.dinoboards.com.au/product/6-slot-green-rcbus-backplane" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div>
-      <div class="buy-on-container">
-        <a href="https://www.tindie.com/products/dinotron/6-slot-green-rcbus-backplane" class="button" target="_newWindow">
-          Buy on Tindie <img src="/assets/images/tindie-logo.png" style="height: 18px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 6px;margin-right: -3px" />
-        </a>
     </div>
   </div>
 </div>
@@ -269,6 +244,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>A Backplane for RC2014 systems, with 80 lanes, ideal for MSX configuration.</p>
     <p><a href="./backplane">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/121-backplane-designed-for-rc2014-systems" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -285,6 +265,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>A extension module for RC2014 backplanes to support MSX Cartridges</p>
     <p><a href="./slot-extension">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/msx-cartridge-slot-extension" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -305,7 +290,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>Save your MSX-BASIC programs to cassette tape and give your Z80 access to a wide range of USB devices. (USB Module compatible with RomWBW)</p>
     <p><a href="./cassette-and-usb">Click here for full details</a></p>
-
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/msx-cassette-usb-module-designed-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -323,6 +312,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>Give your RC2014 the power of 512K ROM and 1024K RAM.</p>
     <p><a href="./msx-memory">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/msx-memory-board-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -342,6 +336,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.</p>
     <p><a href="./ppi-and-keyboard">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/msx-keyboard-designed-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -361,6 +360,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>An MSX compatible Real time clock and MSX F4 Boot register.</p>
     <p><a href="./rtc-and-f4">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -380,6 +384,11 @@ For a bootable MSX system you need at least:
   <div>
     <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014 modules.</p>
     <p><a href="./turbo-cpu">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/turbo-cpu-module-designed-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -398,8 +407,12 @@ For a bootable MSX system you need at least:
   </div>
   <div>
     <p>Give your RC2014 the advanced graphic capabilities of the mid to late 80s. This kit is powered by a V9938 or V9958 Video Display Processors (VDP)</p>
-
     <p><a href="./video-v9958">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/v99x8-msx-rgb-video-module-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -418,8 +431,12 @@ For a bootable MSX system you need at least:
   </div>
   <div>
     <p>MSX compatible Sound and Game Controller Module</p>
-
     <p><a href="./game">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/ym2149-msx-game-board-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>
 
@@ -436,7 +453,11 @@ For a bootable MSX system you need at least:
   </div>
   <div>
     <p>Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip.</p>
-
     <p><a href="./music">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/ym2413-msx-music-module-designed-for-rc2014" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
   </div>
 </div>

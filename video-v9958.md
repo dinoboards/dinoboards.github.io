@@ -5,6 +5,7 @@ description: V9958/38 Video Module for RC2014/MSX
 tindie_product_url: https://www.tindie.com/products/dinotron/v99x8-msx-rgb-video-module-for-rc2014-v38/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/video/README-RGB.md
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/186078-v9958-video-board
+product_url: https://shop.dinoboards.com.au/product/v99x8-msx-rgb-video-module-for-rc2014
 ---
 
 # MSX V99x8 Video Module

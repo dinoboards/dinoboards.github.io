@@ -5,6 +5,7 @@ description: A full size keyboard kit for your RC2014 system, for use with 5 pin
 tindie_product_url: https://www.tindie.com/products/dinotron/msx-keyboard-designed-for-rc2014/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014?tab=readme-ov-file#ppi-module--keyboard
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/185774-msx-keyboard
+product_url: https://shop.dinoboards.com.au/product/msx-keyboard-designed-for-rc2014
 ---
 
 # PPI & Full Size Matrix Keyboard

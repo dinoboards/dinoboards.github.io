@@ -5,10 +5,10 @@ description: 6 Slot Green Backplane
 tindie_product_url: https://www.tindie.com/products/dinotron/6-slot-green-rcbus-backplane/
 github_url: https://github.com/dinoboards/ez80-for-rc
 lectronz_product_url: https://lectronz.com/products/-6-slot-green-rcbus-backplane
-is_new: true
+product_url: https://shop.dinoboards.com.au/product/6-slot-green-rcbus-backplane
 ---
 
-# 6 Slot Green Backplane <img src="{{ site.baseurl }}/assets/new.png" style="width:36px; margin-left: 8px; position:absolute"/>
+# 6 Slot Green Backplane
 
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled-profile.jpg" width="70%"/>

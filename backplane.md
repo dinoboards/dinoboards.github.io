@@ -5,6 +5,7 @@ description: A Backplane for RC2014 systems, with 80 lanes, ideal for MSX config
 tindie_product_url: https://www.tindie.com/products/dinotron/121-backplane-designed-for-rc2014-systems/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/blob/main/backplane/readme.md
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014
+product_url: https://shop.dinoboards.com.au/product/121-backplane-designed-for-rc2014-systems
 ---
 
 # 12+1 Backplane

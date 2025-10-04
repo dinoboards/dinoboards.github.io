@@ -5,6 +5,7 @@ description: Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip
 tindie_product_url: https://www.tindie.com/products/dinotron/ym2413-msx-music-module-designed-for-rc2014/
 github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/music
 hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/202865-msx-music
+product_url: https://shop.dinoboards.com.au/product/ym2413-msx-music-module-designed-for-rc2014
 ---
 
 # MSX YM2413 Music
