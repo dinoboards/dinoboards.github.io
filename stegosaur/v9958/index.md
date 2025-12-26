@@ -1,13 +1,11 @@
 ---
 layout: default
 title: Stegosaur V99x8 Video Module
-description: V9958/38 Video Module for RC2014/RCBus/MSX
-tindie_product_url: https://www.tindie.com/products/dinotron/???/
+description: MSX compatible Video Module for RC2014/RCBus
 product_url: https://shop.dinoboards.com.au/product/?????
 ---
 
 # Stegosaur V99x8 Video Module
-
 
 A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9938/V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
 
@@ -190,31 +188,33 @@ Have a look at the sample apps included in this repo [apps-rc2014](https://githu
 
 For specific details on programming the chip, I recommend:
 
-* <a target="_newwindow" href="http://rs.gr8bit.ru/Documentation/V9938-programmers-guide.pdf" target="_blank">V9938 Programmers Guide</a> hosted on <a target="_newwindow" href="http://www.gr8bit.ru/gr8bit-knowledge-base.html" target="_blank">gr8bit.ru</a>
+* <achref="http://rs.gr8bit.ru/Documentation/V9938-programmers-guide.pdf" target="_blank">V9938 Programmers Guide</a> hosted on <a target="_newwindow" href="http://www.gr8bit.ru/gr8bit-knowledge-base.html" target="_blank">gr8bit.ru</a>
 * <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9958/yamaha_v9938.pdf" target="_blank">V9938 Datasheet</a>
 * <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9958/yamaha_v9958.pdf" target="_blank">V9958 Datasheet</a>
 * Also worth checking out some MSX VDP specific articles at: <a target="_newwindow" href="http://map.grauw.nl/articles/" target="_blank">http://map.grauw.nl/articles/</a>.
 
 # Schematic
 
-* Schematic (revision 1.1): [version-1.1.pdf](./schematic-1.1.pdf "Schematic (revision 1.1")
+* Schematic (revision 1.1): <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
 
 # Key difference with Yellow MSX RGB module
 
-| Description                       | Yellow MSX Version                    | Green Stegosaur Version                                    |
-| --------------------------------- | ------------------------------------- | ----------------------------------------------------------- |
-| Max VRAM on main board            | 128K                                  | 64K                                                         |
-| VRAM Expandable?                  | No                                    | Yes (up to 192K)                                            |
-| V99x8 Support                     | Single PCB can support both VDP types | Different PCB needed for each VDP type                      |
-| V9958 WAIT signal supported       | Yes                                   | No                                                          |
-| RGB Video output design           | unchanged                             | unchanged*
-| Optional 5V out via RGB Connector | Yes                                   | No                                                          |
-| PCB Height                        | 8.0 cm                                | 5.5 cm                                                      |
-| Colour                            | Yellow                                | Green                                                       |
+| Description                       | Yellow MSX Version                    | Green Stegosaur Version                |
+| --------------------------------- | ------------------------------------- | -------------------------------------- |
+| Max VRAM on main board            | 128K                                  | 64K                                    |
+| VRAM Expandable?                  | No                                    | Yes (up to 192K)                       |
+| V9958 and V9958 Support           | Single PCB can support both VDP types | Different PCB needed for each VDP type |
+| V9958 WAIT signal supported       | Yes                                   | No                                     |
+| RGB Video output design           | unchanged                             | unchanged*                             |
+| Optional 5V out via RGB Connector | Yes                                   | No                                     |
+| PCB Height                        | 8.0 cm                                | 5.5 cm                                 |
+| Colour                            | Yellow                                | Green                                  |
 
 > \* The Green Stegosaur RGB kit utilizes separate PCB designs for the V9938 and V9958 VDPs. This allows the V9958's PCB, to refine the layout and tracing of the power delivery components for the V9958's DAC; minimising, as much as possible, potential EM interference appearing on your display.
 
 # Assembly Guide
+
+{% include soldering-order.md %}
 
 #### NOTE 1
 > Due to the finer pitch pins of the V9958, the soldering of this board requires a little more finesse than the typical RC2014 through-hole based boards.  If you have built a few boards already, then you should be fine.  It's recommended that a finer pitch soldering tip be used as it can be easy to accidentally bridge some of the pins.
@@ -265,11 +265,11 @@ For specific details on programming the chip, I recommend:
 1. Solder the resistors, then the 0.1uF capacitors.
 2. Solder the 6 "18 PIN IC" sockets.
 3. Clip the underside of the soldered pins of all components, including ICs, to allow for as much clearance when installing as possible.
-4. Reflow the solder joints, after clipping, to ensure a good soldering of the pins is maintained.
+4. Reflow the solder joints, after clipping, to ensure a good connection of the pins is maintained.
 5. Cut 4 lengths of 18 pins, from the Round Machine male headers.
 6. Cut 1 length of 3 pins, of Round Machine male headers.
 7. Use the V99x8 video module as a jig, by placing the headers into the relevant sockets, with the correct orientation of the pins (see image under Note 7).
-8. Place the VRAM expansion module over the top, noting the angle - ensure all headers pins have sufficient height through the VRAM expansion module. (If height is insufficient, review the underside of the VRAM Expansion module to ensure the pins are trimmed sufficiently)
+8. Place the VRAM expansion PCB over the top, noting the angle - ensure all headers pins have sufficient height through the VRAM expansion module. (If height is insufficient, review the underside of the VRAM Expansion module to ensure the pins are trimmed sufficiently)
 9. Solder the Headers on the top of VRAM Expansion module.
 
 **TODO ADD IMAGES WHEN THE 0.8mm heigh PCB arrives**
@@ -283,14 +283,6 @@ For specific details on programming the chip, I recommend:
 </div>
 
 <br/>
-#### General recommendation for soldering order for dinoboards kits:
-
-1. Resistors.
-2. Small ceramic capacitors.
-3. Any other low height components.
-4. The right angle headers (these headers are slightly lower in height than the IC sockets).
-5. IC sockets, ensuring the sockets are fully flat (solder one or 2 pins first, and visually check its flat before soldering their other pins).
-6. Electrolytic capacitors (note the correct orientation).
 
 
 {% include disclaimer.md %}
