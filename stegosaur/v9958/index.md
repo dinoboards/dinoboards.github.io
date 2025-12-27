@@ -188,7 +188,7 @@ Have a look at the sample apps included in this repo [apps-rc2014](https://githu
 
 For specific details on programming the chip, I recommend:
 
-* <achref="http://rs.gr8bit.ru/Documentation/V9938-programmers-guide.pdf" target="_blank">V9938 Programmers Guide</a> hosted on <a target="_newwindow" href="http://www.gr8bit.ru/gr8bit-knowledge-base.html" target="_blank">gr8bit.ru</a>
+* <a href="http://rs.gr8bit.ru/Documentation/V9938-programmers-guide.pdf" target="_blank">V9938 Programmers Guide</a> hosted on <a target="_newwindow" href="http://www.gr8bit.ru/gr8bit-knowledge-base.html" target="_blank">gr8bit.ru</a>
 * <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9958/yamaha_v9938.pdf" target="_blank">V9938 Datasheet</a>
 * <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9958/yamaha_v9958.pdf" target="_blank">V9958 Datasheet</a>
 * Also worth checking out some MSX VDP specific articles at: <a target="_newwindow" href="http://map.grauw.nl/articles/" target="_blank">http://map.grauw.nl/articles/</a>.
@@ -197,7 +197,7 @@ For specific details on programming the chip, I recommend:
 
 * Schematic (revision 1.1): <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
 
-# Key difference with Yellow MSX RGB module
+# Key difference with Yellow MSX RGB
 
 | Description                       | Yellow MSX Version                    | Green Stegosaur Version                |
 | --------------------------------- | ------------------------------------- | -------------------------------------- |

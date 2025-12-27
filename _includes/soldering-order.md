@@ -1,4 +1,4 @@
-### General guidelines:
+### General guidelines
 
 #### Soldering item order
 

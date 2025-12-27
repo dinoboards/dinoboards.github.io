@@ -54,11 +54,7 @@ With diodes associated with every switch, it possible to identify all multi key 
 | 1      | IDC Socket          | KEYBOARD-P1 |
 | 3      | 470 Ω               | KEYBOARD-R2,R3,R1 |
 | 1      | 10k Ω x 8           | KEYBOARD-R4 |
-| 73     | switches            | SW1-SW73 |
 | 2      | 74HC138             | KEYBOARD-U2,U1 |
-| 4	     | 2U key stabliser    |KEYBOARD|
-| 1      | 6.25U key stabliser |KEYBOARD|
-| 1	     | keycaps set         |KEYBOARD|
 | 1	     | PCB |KEYBOARD|
 
 
@@ -75,7 +71,7 @@ This project includes both the keyboard kit and the PPI interface board kit.
 * Keyboard PCB and components (passive components, IDC socket, and ICs)
 * PPI PCB and components (passive components, IDC socket, and ICs including the 82C55 chip)
 
-> Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://www.tindie.com/products/dinotron/keycap-set-for-msx-rc2014-keyboard/) and [compatible switches here](https://www.tindie.com/products/dinotron/switches-and-stabilizers-for-msx-rc2014-keyboard/)
+> Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://shop.dinoboards.com.au/product/keycap-set-for-msx-rc2014-keyboard) and [compatible switches here](https://shop.dinoboards.com.au/product/switches-and-stabilizers-for-msx-rc2014-keyboard)
 
 ### Rainbow Cable types
 
@@ -86,7 +82,6 @@ Its important that the correct rainbow 16 IDC cable is used.  It needs to be a '
     <img src="{{ site.baseurl }}/assets/ppi-and-keyboard/rainbow-cable.jpg" alt="Closeup of rainbow 16pin IDC cable" width="40%"/>
   </a>
 </div>
-> If the cable you received does not match this image - please contact me for a replacement.
 
 <br/>
 
@@ -104,7 +99,7 @@ You will certainly want to solder the diodes on the keyboard before doing the sw
 
 Mount the switches last -- you should get a satisfying click as you push the switch into the board - but be careful that both pins have come thru cleanly.  The pins are fairly thin and easy for them not to align and to be bent.
 
-Start with just one or two switches first -- push in, then check pins, then solder.  Move onto a next set of switches.  Once you are more comfortable, go for bigger batches - just keep on eye on the pins.
+Start with just one or two switches first -- push in, then check pins, then solder.  Move onto a next set of switches.  Once you are more comfortable, go for bigger batches - just keep an eye on the pins.
 
 Once all the soldering is done, you can move onto mounting the stabilizers.
 
