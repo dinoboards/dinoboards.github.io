@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stegosaur V99x8 Video Module
+title: Stegosaur V99x8 RGB Video Module
 description: MSX compatible Video Module for RC2014/RCBus
 product_url: https://shop.dinoboards.com.au/product/?????
 ---
@@ -98,7 +98,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 |   1   | LM311N                       |
 |   1   | ATF16V8B-15PU                |
 |   1   | 21.47727MHz                  |
-|   2   | Right Angle 20x2 Header      |
+|   2   | Right Angle 2x20 Header      |
 |   1   | 8 POS IC SOCKET              |
 |   2   | 18 POS IC SOCKET             |
 |   1   | 20 POS IC SOCKET             |
@@ -195,7 +195,7 @@ For specific details on programming the chip, I recommend:
 
 # Schematic
 
-* Schematic (revision 1.1): <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
+* <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
 
 # Key difference with Yellow MSX RGB
 

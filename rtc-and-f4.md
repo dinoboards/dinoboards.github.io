@@ -176,7 +176,7 @@ A driver for this chip has been submitted and accepted by Wayne Warthen and is n
 | 1      |	74HC74	| U7 |
 | 1      |	74HCT21	| U8 |
 | 1      |	32.768KHz |	X1
-| 0      |	Right Angle | 20x2 Header
+| 0      |	Right Angle | 2x20 Header
 | 2      |	Right Angle | 1x20 Header
 
 # PCB Images

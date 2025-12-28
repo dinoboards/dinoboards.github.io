@@ -32,13 +32,12 @@ The banking configuration for the ROM is controlled thru a PLD (ATF22V10C), and 
 
 The source code and build scripts for the rom images can be found in the repo, under the [msx](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/msx#yellow-msx-for-rc2014-rom-image-builder) directory.
 
-# Key features
+# Supplied ROM Image
 
-If you have purchased the kit from Tindie, then the ROM supplied will contain the following:
-  * CBIOS, an open source version of MSX BIOS
-  * NEXTOR, an officially sanctioned open source version of MSX-DOS (based on the original code)
-  * MSX-DOS driver for the RC2014 Compact Flash module
-  * MSX-DOS driver for an embedded ROM DISK image, enabling disk-less bootup
+* CBIOS, an open source version of MSX BIOS
+* NEXTOR, an officially sanctioned open source version of MSX-DOS (based on the original code)
+* MSX-DOS drivers for various hardware systems (usb, SIO/2, Compact Flash)
+* Embedded ROM DISK image, enabling disk-less boot up
 
 # Dependencies
 
@@ -59,7 +58,7 @@ For configuring and building instructions for a custom rom, have a look at the i
 
 |Count   | Name                      |  Designator |
 |:------:|---------------------------|-------------|
-| 2	     | 0.1uF                     | C1-C13      |
+| 13     | 0.1uF                     | C1-C13      |
 | 1      | BUS-MAP HEADER 2x7	       | J2          |
 | 1      | ACTIVE                    | LED1        |
 | 1      | 330 Ω                     | R1          |
@@ -73,7 +72,7 @@ For configuring and building instructions for a custom rom, have a look at the i
 | 1      | ATF22V10C (RAM SELECTOR)  | U9          |
 | 1      | ATF22V10C (ROM-MAPPER)    | U14         |
 | 2      | 74HCT670                  | U10, U12    |
-| 1      | Right Angle 20x2 Header   | B1          |
+| 1      | Right Angle 2x20 Header   | B1          |
 | 1      | Right Angle header 1x20   | B1          |
 | 1	     | PCB                       |             |
 
@@ -119,6 +118,10 @@ Some things to try out and get a feel for your MSX on RC2014 system.
       <td style="white-space: nowrap;"><code>BASIC</code></td>
       <td>If your ROM contains BASIC, jumps to the BASIC interpreter</td>
     </tr>
+    <tr>
+      <td style="white-space: nowrap;"><code>XMODEM</code></td>
+      <td>A very simply xmodem utility to allow you to download files over a compatible serial device (SIO/2)</td>
+    </tr>
   </tbody>
 </table>
 
@@ -162,21 +165,9 @@ When you first boot up, the embedded disk image will be mounted as drive A.
 If you created more than one partition, you may need to use the [MAPDRV](https://github.com/dinoboards/Nextor/blob/v2.1/docs/Nextor%202.1%20User%20Manual.md#341-mapdrv-the-drive-mapping-tool) command to mount them.
 
 
-## Xmodem for SIO/2
-
-This version of the ROM image includes a very basic serial driver for the SIO/2 chip.
-
-By use of the included `xrecv2.com` application, files can be sent to your device using xmodem.
-
-The image has been compiled on the assumption that the second clock rate is set to 0.3072Mhz (equating to 19200)
-
-If you want to send files over a serial link you will need the RC2014 Dual serial module SIO/2.  The Driver only uses the 2nd serial port - the first is unused. Configuring the 2nd Clock at 0.3072Mhz will map to a max and default baud rate of 19200. Please note that this mapping of clock frequency to baud rate is a little different than RomWBW configuration. At a clock of 0.3072Mhz, the software can select a baud rate of 19200, 9600 or 4800.
-
-*SIO/2 Driver versioning. Please note that for BIOS version 21-05-08, the dual serial clock rates were as per RomWBW - for 19200 Baud, select a clock of 1.2288Mhz. For build 2021-07-24 and after, follow settings as described above (eg: 0.3072Mhz => 19200)
-
 ## ROM Games
 
-Although this kit does not have a MSX cartridge slot, you can still play most games by using the utility `SROM`.  See the Author's page for more details https://www.louthrax.net/mgr/
+If you have not built a system with a cartridge slot, you can still play most games by using the utility `SROM`.  See the Author's page for more details https://www.louthrax.net/mgr/
 
 The `SROM` utility will load a ROM image and patch it as required, to allow it to run directly from RAM.
 

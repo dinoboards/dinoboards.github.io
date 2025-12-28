@@ -98,7 +98,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 | 1      | V9958 or V9938   |
 | 4      | 41464C  |
 | 1	     | 21.47727MHz |
-| 1	     | Right Angle 20x2 Header |
+| 1	     | Right Angle 2x20 Header |
 | 1	     | Right Angle 1x20 Header |
 | 1	     | 8 POS IC SOCKET |
 | 4	     | 18 POS IC SOCKET |

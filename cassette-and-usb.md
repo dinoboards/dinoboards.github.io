@@ -261,7 +261,7 @@ The full kits includes everything you need (PCB, capacitors, IC sockets, CH376S 
 |  1     |	74HC74    |
 |  1     |	74HCT32   |
 |  1     |	LM311N    |
-|  1     |	Right Angle 20x2 Header   |
+|  1     |	Right Angle 2x20 Header   |
 |  1     |	Right Angle 1x20 Header   |
 |  1     |	8 POS IC SOCKET   |
 |  2     |	14 POS IC SOCKET    |

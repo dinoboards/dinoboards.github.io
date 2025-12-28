@@ -26,7 +26,7 @@ Bare bones kit only includes:
 | 2 | 74HCT30 | | [Link](https://www.digikey.com.au/product-detail/en/texas-instruments/CD74HCT30E/296-2111-5-ND/38500) | [Link](https://au.mouser.com/ProductDetail/Texas-Instruments/CD74HCT30E?qs=KaAwwOlwapuINyLCJr3fLQ%3D%3D) | |
 | 1 | 74HCT138 | | [Link](https://www.digikey.com.au/product-detail/en/texas-instruments/SN74HCT138N/296-1608-5-ND/277254) | [Link](https://au.mouser.com/ProductDetail/595-SN74HCT138NE4) | |
 | 2 | Jumper wires | | | | |
-| 1 | Right Angle 20x2 Header | | [Link](https://www.digikey.com.au/en/products/detail/PH2RA-40-UA/2057-PH2RA-40-UA-ND/9831053) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/68020-140HLF?qs=QKvFUfBIyQLna9O9OUsYjA%3D%3D) | |
+| 1 | Right Angle 2x20 Header | | [Link](https://www.digikey.com.au/en/products/detail/PH2RA-40-UA/2057-PH2RA-40-UA-ND/9831053) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/68020-140HLF?qs=QKvFUfBIyQLna9O9OUsYjA%3D%3D) | |
 | 1 | Right Angle 1x20 Header | | [Link](https://www.digikey.com.au/product-detail/en/sullins-connector-solutions/PRPC020SBAN-M71RC/S1111EC-20-ND/2775314) | [Link](https://au.mouser.com/ProductDetail/649-1012937992001BLF) | |
 | 2 | 14 POS IC SOCKET | | [Link](https://www.digikey.com.au/product-detail/en/on-shore-technology-inc/ED14DT/ED3045-5-ND/4147595) | [Link](https://au.mouser.com/ProductDetail/571-1-2199298-3) | |
 | 4 | 16 POS IC SOCKET | | [Link](https://www.digikey.com.au/product-detail/en/adam-tech/ICS-316-T/2057-ICS-316-T-ND/9832862) | [Link](https://au.mouser.com/ProductDetail/571-1-2199298-4) | |
@@ -104,7 +104,7 @@ Bare bones kit only includes:
 | 1 | 74HC74 | | [Link](https://www.digikey.com.au/product-detail/en/texas-instruments/SN74HC74N/296-1602-5-ND/277248) | [Link](https://au.mouser.com/ProductDetail/Texas-Instruments/SN74HC74N?qs=p6YqzpSxLIzMm7Vo1aTZ0w%3D%3D) | |
 | 1 | 74HCT32 | | | [Link](https://au.mouser.com/ProductDetail/595-SN74HCT32N) | |
 | 1 | LM311N | | [Link](https://www.digikey.com.au/en/products/detail/texas-instruments/LM311N-NOPB/6175) | [Link](https://au.mouser.com/ProductDetail/926-LM311N-NOPB) | |
-| 1 | Right Angle 20x2 Header | | [Link](https://www.digikey.com.au/en/products/detail/PH2RA-40-UA/2057-PH2RA-40-UA-ND/9831053) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/68020-140HLF?qs=QKvFUfBIyQLna9O9OUsYjA%3D%3D) | |
+| 1 | Right Angle 2x20 Header | | [Link](https://www.digikey.com.au/en/products/detail/PH2RA-40-UA/2057-PH2RA-40-UA-ND/9831053) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/68020-140HLF?qs=QKvFUfBIyQLna9O9OUsYjA%3D%3D) | |
 | 1 | Right Angle 1x20 Header | | [Link](https://www.digikey.com.au/product-detail/en/sullins-connector-solutions/PRPC020SBAN-M71RC/S1111EC-20-ND/2775314) | [Link](https://au.mouser.com/ProductDetail/649-1012937992001BLF) | |
 | 1 | 8 POS IC SOCKET | | [Link](https://www.digikey.com.au/en/products/detail/assmann-wsw-components/A-08-LC-TT/821740) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/DILB8P-223TLF?qs=gISD9T5QW%2FAiSV%252BbCwW%2Fog%3D%3D) | |
 | 2 | 14 POS IC SOCKET | | [Link](https://www.digikey.com.au/product-detail/en/on-shore-technology-inc/ED14DT/ED3045-5-ND/4147595) | [Link](https://au.mouser.com/ProductDetail/571-1-2199298-3) | |
@@ -181,7 +181,7 @@ Bare bones kit only includes:
 | 1 | 74LS07 | | [Link](https://www.digikey.com.au/en/products/detail/texas-instruments/SN74LS07N/563054) | [Link](https://au.mouser.com/ProductDetail/595-SN74LS07N) | |
 | 2 | 74HCT157 | | | [Link](https://au.mouser.com/ProductDetail/595-SN74HCT157N) | |
 | 1 | 3.579545MHz | | | [Link](https://au.mouser.com/ProductDetail/ABRACON/ABL-3579545MHZ-B2?qs=%2Fha2pyFadugmLov0EvILnRfBVMxQdEtu9DZ6bG0nF6HR%2FySr4eE1Sg%3D%3D) | |
-| 1 | Right Angle 20x2 Header | | [Link](https://www.digikey.com.au/en/products/detail/PH2RA-40-UA/2057-PH2RA-40-UA-ND/9831053) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/68020-140HLF?qs=QKvFUfBIyQLna9O9OUsYjA%3D%3D) | |
+| 1 | Right Angle 2x20 Header | | [Link](https://www.digikey.com.au/en/products/detail/PH2RA-40-UA/2057-PH2RA-40-UA-ND/9831053) | [Link](https://au.mouser.com/ProductDetail/Amphenol-FCI/68020-140HLF?qs=QKvFUfBIyQLna9O9OUsYjA%3D%3D) | |
 | 1 | Right Angle 1x20 Header | | [Link](https://www.digikey.com.au/product-detail/en/sullins-connector-solutions/PRPC020SBAN-M71RC/S1111EC-20-ND/2775314) | [Link](https://au.mouser.com/ProductDetail/649-1012937992001BLF) | |
 | 2 | 14 POS IC SOCKET | | [Link](https://www.digikey.com.au/product-detail/en/on-shore-technology-inc/ED14DT/ED3045-5-ND/4147595) | [Link](https://au.mouser.com/ProductDetail/571-1-2199298-3) | |
 | 3 | 16 POS IC SOCKET | | [Link](https://www.digikey.com.au/product-detail/en/adam-tech/ICS-316-T/2057-ICS-316-T-ND/9832862) | [Link](https://au.mouser.com/ProductDetail/571-1-2199298-4) | |

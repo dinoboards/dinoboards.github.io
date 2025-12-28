@@ -59,7 +59,7 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
 |   1   | IDC Connector           |
 |   1   | 74HC138                 |
 |   1   | 74HC00                  |
-|   2   | Right Angle 20x2 Header |
+|   2   | Right Angle 2x20 Header |
 |   2   | 14 POS IC SOCKET        |
 |   2   | 16 POS IC SOCKET        |
 |   1   | PCB                     |

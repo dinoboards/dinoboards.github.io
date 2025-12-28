@@ -96,7 +96,7 @@ INTMODE         .EQU    1               ; INTERRUPTS: 0=NONE, 1=MODE 1, 2=MODE 2
 | 1      |	16 Mhz Oscillator |
 | 1      |	20 Mhz Oscillator |
 | 1      |	7.3728 Mhz Crystal |
-| 2      |	Right Angle 20x2 Header |
+| 2      |	Right Angle 2x20 Header |
 | 1      |	40 POS IC SOCKET |
 | 1      |	24 POS IC SOCKET NARROW |
 | 1      |	20 POS IC SOCKET |

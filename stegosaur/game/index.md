@@ -40,7 +40,7 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 |   2   | Headers 1x3             |
 |   1   | Headers 1x2             |
 |   3   | Shunts                  |
-|   2   | Right Angle 20x2 Header |
+|   2   | Right Angle 2x20 Header |
 |   1   | 14 POS IC SOCKET        |
 |   2   | 16 POS IC SOCKET        |
 |   1   | 40 POS IC SOCKET        |

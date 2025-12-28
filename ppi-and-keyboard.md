@@ -42,7 +42,7 @@ With diodes associated with every switch, it possible to identify all multi key 
 | 1      | 74HC00                  | PPI-U3 |
 | 1      | 74HC153                 | PPI-U4 |
 | 1      | 74HC74                  | PPI-U5 |
-| 1      | Right Angle 20x2 Header | PPI |
+| 1      | Right Angle 2x20 Header | PPI |
 | 1      | Right Angle header 1x20 | PPI |
 | 2      | 14 POS IC SOCKET | PPI |
 | 2      | 16 POS IC SOCKET | PPI |

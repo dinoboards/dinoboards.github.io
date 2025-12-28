@@ -56,7 +56,7 @@ Experience retro sounds with the YM2149 sound and controller module. This module
 |   1   | 74LS07                  | U4                      |
 |   2   | 74HCT157                | U6,U5                   |
 |   1   | 3.579545MHz             | X1                      |
-|   1   | Right Angle 20x2 Header | B1                      |
+|   1   | Right Angle 2x20 Header | B1                      |
 |   1   | Right Angle header 1x20 | B1                      |
 |   2   | 14 POS IC SOCKET        |
 |   3   | 16 POS IC SOCKET        |
