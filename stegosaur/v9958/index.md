@@ -6,10 +6,18 @@ product_url: https://shop.dinoboards.com.au/product/?????
 product_code: DB301
 ---
 
-# Stegosaur V9958 RGB
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 0 0 100px;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+  </div>
+  <div style="flex: 3;">
+    <h1>Stegosaur V9958 RGB</h1>
+    <p>Code: DB301<br/>
+    Memory Expansion: DB302</p>
+  </div>
+</div>
 
-<p>Code: DB301<br/>
-Memory Expansion: DB302</p>
+
 
 A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
 

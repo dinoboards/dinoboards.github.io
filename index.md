@@ -62,7 +62,15 @@ Also checkout my mastodon account for updates and demo videos: <a href="https://
         </a>
 
 <hr/>
-# Green Stegosaur MSX Series
+
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 0 0 100px;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+  </div>
+  <div style="flex: 3;">
+    <h1>Green Stegosaur MSX Series</h1>
+  </div>
+</div>
 
 The Stegosaur Green series are a set of newly designed modules.  Their design is very similar to the Yellow MSX series, with some improvements and simplifications.  The main visual difference being their PCBs heights reduced from 8cm down to a more conventional 5.5cm height.
 
