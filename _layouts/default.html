@@ -118,15 +118,16 @@
   <div class="wrapper">
     <nav>
       <ul></ul>
-      {% unless page.url == "/yellow.html" %}
-        <div><a style="font-weight: bold; color: #222; font-size:1.2em" href="/yellow"><< Yellow MSX Series</a></div>
+      {% unless page.url == "/stegosaur.html" %}
+        <div><a style="font-weight: bold; color: #222; font-size:1.2em" href="/stegosaur"><< Stegosaur Series</a></div>
       {% endunless %}
       {% unless page.url == "/green.html" %}
         <div><a style="font-weight: bold; color: #222; font-size:1.2em" href="/green"><< Green Series</a></div>
       {% endunless %}
-      {% unless page.url == "/stegosaur.html" %}
-        <div><a style="font-weight: bold; color: #222; font-size:1.2em" href="/stegosaur"><< Stegosaur Series</a></div>
-      {% endunless %}    </nav>
+      {% unless page.url == "/yellow.html" %}
+        <div><a style="font-weight: bold; color: #222; font-size:1.2em" href="/yellow"><< Yellow MSX Series</a></div>
+      {% endunless %}
+    </nav>
 
     <section>
       {{ content }}

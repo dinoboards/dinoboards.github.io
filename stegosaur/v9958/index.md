@@ -177,7 +177,7 @@ For a MSX-DOS system, binaries for various apps and demos can be found in the [g
 
 This jumper allows for the selection of the voltage level of the CSYNC output.  (1VPP or a 5V TTL).  For original CRT and old compatible 15Khz monitors, its recommended to set this to 1VPP (short the 2 left pins).
 
-Most upscalers are likely to tolerate a 5V TTL level signal, but supplying 5V signal to a system that expects 1VPP may cause damage to the device.  So its only recommended to set this to the 5V TTL level when the connecting device states it accepts or needs such a signal type.
+Most upscalers are likely to tolerate a 5V TTL level signal, but supplying 5V signal to a system that expects 1VPP may cause damage to the device.  So it is only recommended to set this to the 5V TTL level when the connecting device states it accepts or needs such a signal type.
 
 #### J3 - BUS CLK
 

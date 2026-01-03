@@ -30,12 +30,12 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 * RGBs via 15-pin DSUB/VGA connector.
 * Support for either the V9938 or V9958 Video Display Processor.
 
-## added for V3.8
+#### added for V3.8
 
 * Support for either a V9958 or a V9938 Video Processor
 * A LM311 Voltage Comparator for improved image stability, especially for V9938 chips.
 
-# Images
+<div class="hh1">Images</div>
 
 <table>
   <tr>
@@ -52,66 +52,52 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
   </tr>
 </table>
 
-# DSUB pin out
 
-<table>
-  <tr>
-    <th>Pin</th><th>Signal</th>
-  </tr>
-  <tr><td>1</td><td>Red    </td></tr>
-  <tr><td>2</td><td>Green  </td></tr>
-  <tr><td>3</td><td>Blue   </td></tr>
-  <tr><td>4</td><td>NC     </td></tr>
-  <tr><td>5-8, 10-11</td><td>GND     </td></tr>
-  <tr><td>9, 12</td><td>NC   </td></tr>
-  <tr><td>13</td><td>CSync  </td></tr>
-  <tr><td>14,15</td><td>NC    </td></tr>
+# Bill of Materials
 
-</table>
+#### Base Kit
 
-# Bill of Materials (Base Kit)
+| Count | Name                    |
+| :---: | ----------------------- |
+|   2   | 22pF                    |
+|   1   | 47pF                    |
+|  10   | 0.1uF                   |
+|   3   | 10uF                    |
+|   1   | 10uF (LOW ESR)          |
+|   4   | 220uF                   |
+|   3   | HEADERS 1x3             |
+|   3   | SHUNT 1x2               |
+|   1   | 5.6uH Inductor          |
+|   1   | 1N4148 Diode            |
+|   1   | 15-PIN DSUB             |
+|   3   | 2N3906                  |
+|   1   | 2N3904                  |
+|   6   | 10k Ω (3.4mm)           |
+|   3   | 12k Ω (3.4mm)           |
+|   3   | 27k Ω (3.4mm)           |
+|   1   | 4k7 Ω (3.4mm)           |
+|   1   | 2k2 Ω (3.4mm)           |
+|   7   | 1k Ω (3.4mm)            |
+|   1   | 470 Ω (3.4mm)           |
+|   8   | 100 Ω (3.4mm)           |
+|   1   | LM311N                  |
+|   1   | ATF16V8                 |
+|   1   | V9958 or V9938          |
+|   4   | 41464C                  |
+|   1   | 21.47727MHz             |
+|   1   | Right Angle 2x20 Header |
+|   1   | Right Angle 1x20 Header |
+|   1   | 8 POS IC SOCKET         |
+|   4   | 18 POS IC SOCKET        |
+|   1   | 20 POS IC SOCKET        |
+|   1   | 64 POS IC SOCKET        |
 
-|Count   | Name  |
-|:------:|-------|
-| 2	     | 22pF |
-| 1	     | 47pF |
-| 10     | 0.1uF |
-| 3      | 10uF   |
-| 1	     | 10uF (LOW ESR) |
-| 4	     | 220uF |
-| 3      | HEADERS 1x3 |
-| 3      | SHUNT 1x2 |
-| 1      | 5.6uH Inductor   |
-| 1      | 1N4148 Diode |
-| 1      | 15-PIN DSUB  |
-| 3	     | 2N3906 |
-| 1	     | 2N3904 |
-| 6	     | 10k Ω (3.4mm) |
-| 3	     | 12k Ω (3.4mm) |
-| 3	     | 27k Ω (3.4mm) |
-| 1	     | 4k7 Ω (3.4mm) |
-| 1	     | 2k2 Ω (3.4mm) |
-| 7	     | 1k Ω (3.4mm) |
-| 1	     | 470 Ω (3.4mm) |
-| 8	     | 100 Ω (3.4mm) |
-| 1	     | LM311N |
-| 1	     | ATF16V8 |
-| 1      | V9958 or V9938   |
-| 4      | 41464C  |
-| 1	     | 21.47727MHz |
-| 1	     | Right Angle 2x20 Header |
-| 1	     | Right Angle 1x20 Header |
-| 1	     | 8 POS IC SOCKET |
-| 4	     | 18 POS IC SOCKET |
-| 1	     | 20 POS IC SOCKET |
-| 1	     | 64 POS IC SOCKET |
+#### (VDP + RAM)
 
-### Bill of Materials (VDP + RAM)
-
-|Count   | Name  |
-|:------:|-------|
-| 1	     | V9938 or V9958 VDP |
-| 4	     | 41464C RAM |
+| Count | Name               |
+| :---: | ------------------ |
+|   1   | V9938 or V9958 VDP |
+|   4   | 41464C RAM         |
 
 
 # Output connections
@@ -128,6 +114,23 @@ I have found the low cost arcade converters such as the GBS-8200 and HD-VC9900 c
 
 The GBS-8200 can also be easily modified to produce more customisable and higher quality output - again RetroRGB has it all explained at [GBS Control](https://www.retrorgb.com/gbs-control-installation-overview.html)
 
+# DSUB pin out
+
+<table>
+  <tr>
+    <th>Pin</th><th>Signal</th>
+  </tr>
+  <tr><td>1</td><td>Red    </td></tr>
+  <tr><td>2</td><td>Green  </td></tr>
+  <tr><td>3</td><td>Blue   </td></tr>
+  <tr><td>4</td><td>NC     </td></tr>
+  <tr><td>5-8, 10-11</td><td>GND     </td></tr>
+  <tr><td>92</td><td>Optional 5V passthrough   </td></tr>
+  <tr><td>12</td><td>NC   </td></tr>
+  <tr><td>13</td><td>CSync  </td></tr>
+  <tr><td>14,15</td><td>NC    </td></tr>
+
+</table>
 
 # Video Upscaling Testing status
 
@@ -135,17 +138,50 @@ I have tested both V9958 and V9938 versions of the kit with the low cost GBS-820
 
 My recommendation is to use GBS-8200 or the HD-VC9900 upscalers.  The quality is fine and I do most of my testing on these converters.  Just google their codes and you will find the usual retailers/marketplaces (eg: ebay/amazon/aliexpress) have plenty of purchase options.
 
+There are 2 revisions of the GBS-8200 available (V4.x and V5.x).  The V5.x produces a poorer quality output.  Recommend the older V4 revisions.  You can identify the V4 revisions by the colour of the menu control buttons.  Black for V4 and Yellow for V5.
+
+<table>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v4.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v4.jpg" width="90%"/>GBS8200 - V4 Recommended</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v5.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v5.jpg" width="90%"/>GBS8200 - V5 Not Recommended</a></td>
+  </tr>
+</table>
+
 Other upscalers, such as the OSSC and retroTink may work, but I am unable to verify and confirm.  Your milage may very.  Adapter cables would need to be constructed.
 
 I have **not** tested the unit on a real RGB CRT monitor.
 
+> I have been advised by some builders that they have successfully tested with a real CRT, the OSSC and retrotink devices.
+
 # Operation
 
-## Sample Apps
+<div class="hh2">Sample Apps</div>
 
 For a base ROMWBW build you can find compatible demo apps in the [apps-rc2014](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/apps-rc2014) directory on the github project site.  They can be run under CP/M on a RC2014 system.  The prebuilt binaries can be found in the [bin](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/bin) directory.
 
 For a MSX-DOS system, binaries for various apps and demos can be found in the [github releases](https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases)
+
+## Jumper Settings
+
+#### J1/J2 - V9938/V9958 Selection
+
+Short the 2 top connections when a V9938 chip is selected, and the bottom 2 connections when a V9958 chip is connected.
+Incorrect position of these may result in damage to your chip.
+
+#### J3 BUS CLK OUT
+
+Shorting this jumper, will transmit the clock signal generated by the VDP (3.579545Mhz) to the RC2014/RCBus's CLK1 lane.  This clock signal can then be used to drive your Z80 CPU. Do **not** short this if you have another clock generator on your platform.  For best MSX compatibility, it is recommended to use this clock signal (1/6 of the main V99x8 crystal frequency), and remove any other CLK1 generators.
+
+#### J4 5V ENABLE
+
+Short this connection if you wish to pass through the 5V power via the 15 PIN DSUB connector (pin 9).
+
+#### J5 CSYNC OUT
+
+This jumper allows for the selection of the voltage level of the CSYNC output.  (1VPP or a 5V TTL).  For original CRT and old compatible 15Khz monitors, its recommended to set this to 1VPP (short the 2 right pins).
+
+Most upscalers are likely to tolerate a 5V TTL level signal, but supplying 5V signal to a system that expects 1VPP may cause damage to the device.  So it is only recommended to set this to the 5V TTL level when the connecting device states it accepts or needs such a signal type.
+
 
 ## Port Mapping
 
@@ -153,13 +189,13 @@ The board uses the standard IO addresses for MSX systems.
 
 The first 2 ports are identical as per the TMS9918 chip.  The V9938/58 have additional ports to access higher functions.
 
-| Port |	Description|
-|------|-------------|
-| $98	(r/w) | VRAM data  |
-| $99 (w)	| VDP register selection |
-| $99 (r)	 | Status register |
-| $9A |	Palette access  |
-| $9B	| Indirect register access  |
+| Port      | Description              |
+| --------- | ------------------------ |
+| $98	(r/w) | VRAM data                |
+| $99 (w)   | VDP register selection   |
+| $99 (r)   | Status register          |
+| $9A       | Palette access           |
+| $9B       | Indirect register access |
 
 ## Programming the chip
 
@@ -176,12 +212,17 @@ For specific details on programming the chip, I recommend:
 
 * Schematic (revision 3.8): [schematic-video-rgb-v3.8.pdf](assets/video-v9958/schematic-video-rgb-v3.8.pdf "Schematic (revision 3.8")
 
-# Construction notes
+# Assembly Guide
 
-Please note that due to the finer pitch pins of the V9958, the soldering of this board requires a little more finesse than the typical RC2014 through-hole based boards.  If you have built a few boards already, then you should be fine.  It's recommended that a finer pitch soldering tip be used as it can be easy to accidentally bridge some of the pins.
+{% include soldering-order.md %}
 
-Extra care needed when inserting the V9958 into its socket - there are lots of pins, take your time to avoid bending pins.
+#### NOTE 1
+> Please note that due to the finer pitch pins of the V9958, the soldering of this board requires a little more finesse than the typical RC2014 through-hole based boards.  If you have built a few boards already, then you should be fine.  It's recommended that a finer pitch soldering tip be used as it can be easy to accidentally bridge some of the pins.
 
+#### NOTE 2
+> Extra care needed when inserting the V9958 into its socket - there are lots of pins, take your time to avoid bending pins.
+
+#### NOTE 3
 > **Extremely important to ensure the jumpers are in the correction position for your chosen Video Display Processor.  Incorrect selection may result in damage to your video processor.  See the silkscreen for the 2 relevant jumpers.  V3.8 and V3.9 have the top pins for the V9938 configuration and the bottom pins for V9958**
 
 

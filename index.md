@@ -62,6 +62,17 @@ Also checkout my mastodon account for updates and demo videos: <a href="https://
         </a>
 
 <hr/>
+# Green Stegosaur MSX Series
+
+The Stegosaur Green series are a set of newly designed modules.  Their design is very similar to the Yellow MSX series, with some improvements and simplifications.  The main visual difference being their PCBs heights reduced from 8cm down to a more conventional 5.5cm height.
+
+For specifics on the differences, review the module page section titled : "Key difference with Yellow MSX"
+
+<a href="/stegosaur"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" width="50%"/></a>
+
+<a href="/stegosaur">Click here to see all the first kit available in this series</a>
+
+<hr/>
 # Green Machine Series
 
 The *Green Machine Series* is a series that is still under development, with the *eZ80 for RC* the first kit in the set.  The series goal is to offer as much compatibility as possible with existing RC2014/RCBus module.  With new modules planned to utilise and explore all the capabilities of Zilog's Z80 compatible CPU.
@@ -89,14 +100,4 @@ A working/bootable MSX system can be constructed in various configurations.  You
 
 
 <hr/>
-
-# Green Stegosaur MSX Series
-
-The Stegosaur Green series are a set of newly designed modules.  Their design is very similar to the Yellow MSX series, with some improvements and simplifications.  The main visual difference being their PCBs heights reduced from 8cm down to a more conventional 5.5cm height.
-
-For specifics on the differences, review the module page section titled : "Key difference with Yellow MSX"
-
-<a href="/stegosaur"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" width="50%"/></a>
-
-<a href="/stegosaur">Click here to see all the first kit available in this series</a>
 
