@@ -152,14 +152,15 @@ Its important that the correct rainbow 16 IDC cable is used.  It needs to be a '
 
 # Key difference with Yellow PPI/Keyboard
 
-| Description       | Yellow MSX Version  | Green Stegosaur Version |
-| ----------------- | ------------------- | ----------------------- |
-| PPI PCB Height    | 8.0 cm              | 5.5 cm                  |
-| IDC Connector     | with locking clamps | without locking clamps  |
-| Slot Selector     | Included            | Sold separately         |
-| M1 Wait Generator | Included            | Sold separately         |
-| 82C55 PPI Chiip   | Included            | Sold separately         |
-| Colour            | Yellow              | Green                   |
+| Description           | Yellow MSX Version                          | Green Stegosaur Version                                       |
+| --------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| PPI PCB Height        | 8.0 cm                                      | 5.5 cm                                                        |
+| IDC Connector         | with locking clamps                         | without locking clamps                                        |
+| Slot Selector         | Included                                    | Sold separately                                               |
+| M1 Wait Generator     | Included                                    | Sold separately                                               |
+| 82C55 PPI Chiip       | Included                                    | Sold separately                                               |
+| Backplane Requirement | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
+| Colour                | Yellow                                      | Green                                                         |
 
 
 ## Assembly Guide

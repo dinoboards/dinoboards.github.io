@@ -154,16 +154,17 @@ Select the source of the clock signal used by the above jumpers that is ultimate
 
 # Key difference with Yellow MSX RGB module
 
-| Description             | Yellow MSX Version             | Green Stegosaur Version                         |
-| ----------------------- | ------------------------------ | ----------------------------------------------- |
-| Clock Source            | On board crystal @ 3.579545Mhz | External CLK1 or CLK2 of RC2014/RCBus           |
-| Audio Output            | Mono                           | Stereo - (3 channels mixed into a stereo field) |
-| Audio Output Connection | 3.5mm socket and 2 pin header  | 3.5mm socket only                               |
-| Game Controller Inputs  | on main PCB                    | optional expansion breakout board               |
-| PCB Height              | 8.0 cm                         | 5.5 cm                                          |
-| Support YM2149          | Yes                            | Yes                                             |
-| Support AY-3-8910       | No                             | Yes                                             |
-| Colour                  | Yellow                         | Green                                           |
+| Description             | Yellow MSX Version                          | Green Stegosaur Version                                       |
+| ----------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| Clock Source            | On board crystal @ 3.579545Mhz              | External CLK1 or CLK2 of RC2014/RCBus                         |
+| Audio Output            | Mono                                        | Stereo - (3 channels mixed into a stereo field)               |
+| Audio Output Connection | 3.5mm socket and 2 pin header               | 3.5mm socket only                                             |
+| Game Controller Inputs  | on main PCB                                 | optional expansion breakout board                             |
+| PCB Height              | 8.0 cm                                      | 5.5 cm                                                        |
+| Support YM2149          | Yes                                         | Yes                                                           |
+| Support AY-3-8910       | No                                          | Yes                                                           |
+| Backplane Requirement   | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
+| Colour                  | Yellow                                      | Green                                                         |
 
 # Assembly Guide
 

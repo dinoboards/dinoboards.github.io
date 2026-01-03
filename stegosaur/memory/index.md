@@ -182,12 +182,13 @@ SROM PACMAN.ROM
 
 # Key difference with Yellow MSX Memory
 
-| Description     | Yellow MSX Version              | Green Stegosaur Version              |
-| --------------- | ------------------------------- | ------------------------------------ |
-| PCB Height      | 8.0 cm                          | 5.5 cm                               |
-| Physical Layout | Single PCB for both ROM and RAM | Two separate PCBs for ROM and RAM    |
-| RAM Included    | 2x512K (1MB)                    | 512K with extra 512K sold separately |
-| Colour          | Yellow                          | Green                                |
+| Description           | Yellow MSX Version                          | Green Stegosaur Version                                       |
+| --------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| PCB Height            | 8.0 cm                                      | 5.5 cm                                                        |
+| Physical Layout       | Single PCB for both ROM and RAM             | Two separate PCBs for ROM and RAM                             |
+| RAM Included          | 2x512K (1MB)                                | 512K with extra 512K sold separately                          |
+| Backplane Requirement | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
+| Colour                | Yellow                                      | Green                                                         |
 
 # Assembly Guide
 

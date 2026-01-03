@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Stegosaur V99x8 RGB Video Module
+title: Stegosaur V9958 RGB Video Module
 description: MSX compatible Video Module for RC2014/RCBus
 product_url: https://shop.dinoboards.com.au/product/?????
+product_code: DB301
 ---
 
-# Stegosaur V99x8 Video Module
+# Stegosaur V9958 RGB
 
-A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9938/V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
+<p>Module Code: DB301</p>
+
+A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
 
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" width="90%"/>
@@ -29,9 +32,8 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 * Compatible with RC2014/RomWBW.
 * Support for 64K of VRAM on main PCB, or expanded to full 192K of VRAM with optional VRAM expansion module.
 * RGBs via 15-pin DSUB/VGA connector.
-* A LM311 Voltage Comparator to drive the CSYNC signal to image stability, especially useful for V9938 chips.
 
-# Images
+<div class="hh1">Images</div>
 
 <table>
   <tr>
@@ -52,86 +54,61 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
   </tr>
 </table>
 
-# DSUB pin out
+# Bill of Materials
 
-<table>
-  <tr>
-    <th>Pin</th><th>Signal</th>
-  </tr>
-  <tr><td>1</td><td>Red    </td></tr>
-  <tr><td>2</td><td>Green  </td></tr>
-  <tr><td>3</td><td>Blue   </td></tr>
-  <tr><td>4</td><td>NC     </td></tr>
-  <tr><td>5-8, 10-11</td><td>GND     </td></tr>
-  <tr><td>9, 12</td><td>NC   </td></tr>
-  <tr><td>13</td><td>CSync  </td></tr>
-  <tr><td>14,15</td><td>NC    </td></tr>
+\* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
 
-</table>
+#### Base Kit
 
-# Bill of Materials (Base Kit)
+| Count | Name                         | Self Sourcing*                                            |
+| :---: | ---------------------------- | --------------------------------------------------------- |
+|   2   | 22pF                         |                                                           |
+|   1   | 47pF                         |                                                           |
+|   8   | 0.1uF                        |                                                           |
+|   3   | 10uF                         |                                                           |
+|   1   | 220uF (LOW ESR)              |                                                           |
+|   4   | 220uF                        |                                                           |
+|   1   | Round Female Pin Header 1x40 |                                                           |
+|   1   | HEADERS 1x3                  |                                                           |
+|   1   | HEADERS 1x2                  |                                                           |
+|   2   | SHUNT 1x2                    |                                                           |
+|   1   | 5.6uH Inductor               | Mouser: 871-B78108S1562K                                  |
+|   1   | 15-PIN DSUB                  | Mouser: 649-ICD15S13E4GV00LF<br/>DigiKey: 609-5180-ND     |
+|   3   | 2N3906                       | Mouser: 637-2N3906                                        |
+|   1   | 2N3904                       | Mouser: 637-2N3904                                        |
+|   6   | 10k Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-10K                               |
+|   3   | 12k Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-12K                               |
+|   3   | 27k Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-27K                               |
+|   1   | 4k7 Ω (3.4mm)                |                                                           |
+|   1   | 2k2 Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-2K2                               |
+|   7   | 1k Ω (3.4mm)                 | DigiKey: 13-MFR25SFRF52-4K7CT-ND                          |
+|   1   | 470 Ω (3.4mm)                | Mouser: 603-MFR25SFTF52-470R                              |
+|   7   | 100 Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-100R                              |
+|   1   | LM311N                       | Mouser: 926-LM311N/NOPB<br/> DigiKey: LM311NNS/NOPB-ND    |
+|   1   | ATF16V8B-15PU                | Mouser: 556-AF16V8B15PU<br/>DigiKey:	ATF16V8B-15PU-ND     |
+|   1   | 21.47727MHz                  | Mouser: 520-HCU2147-SX                                    |
+|   2   | Right Angle 2x20 Header      | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
+|   1   | 8 POS IC SOCKET              | Mouser: 649-DILB8P223TLF<br/>DigiKey: AE9986-ND           |
+|   2   | 18 POS IC SOCKET             | Mouser: 571-1-2199298-5<br/>DigiKey: 2057-ICS-318-T-ND    |
+|   1   | 20 POS IC SOCKET             | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
+|   1   | 64 POS IC SOCKET             | DigiKey: 1212-1068-ND                                     |
 
-| Count | Name                         |
-| :---: | ---------------------------- |
-|   2   | 22pF                         |
-|   1   | 47pF                         |
-|   8   | 0.1uF                        |
-|   3   | 10uF                         |
-|   1   | 220uF (LOW ESR)              |
-|   4   | 220uF                        |
-|   1   | Round Female Pin Header 1x40 |
-|   1   | HEADERS 1x3                  |
-|   1   | HEADERS 1x2                  |
-|   2   | SHUNT 1x2                    |
-|   1   | 5.6uH Inductor               |
-|   1   | 15-PIN DSUB                  |
-|   3   | 2N3906                       |
-|   1   | 2N3904                       |
-|   6   | 10k Ω (3.4mm)                |
-|   3   | 12k Ω (3.4mm)                |
-|   3   | 27k Ω (3.4mm)                |
-|   1   | 4k7 Ω (3.4mm)                |
-|   1   | 2k2 Ω (3.4mm)                |
-|   7   | 1k Ω (3.4mm)                 |
-|   1   | 470 Ω (3.4mm)                |
-|   7   | 100 Ω (3.4mm)                |
-|   1   | LM311N                       |
-|   1   | ATF16V8B-15PU                |
-|   1   | 21.47727MHz                  |
-|   2   | Right Angle 2x20 Header      |
-|   1   | 8 POS IC SOCKET              |
-|   2   | 18 POS IC SOCKET             |
-|   1   | 20 POS IC SOCKET             |
-|   1   | 64 POS IC SOCKET             |
+#### (VDP + 64K VRAM)
 
-### Bill of Materials (VDP + 64K VRAM)
+| Count | Name               | Self Sourcing* |
+| :---: | ------------------ | -------------- |
+|   1   | V9938 or V9958 VDP |                |
+|   2   | 41464C RAM         |                |
 
-| Count | Name               |
-| :---: | ------------------ |
-|   1   | V9938 or V9958 VDP |
-|   2   | 41464C RAM         |
+#### (VRAM Expansion)
 
-### Bill of Materials (VRAM Expansion)
-
-| Count | Name                       |
-| :---: | -------------------------- |
-|   6   | 0.1uF                      |
-|   2   | 100 Ω (3.4mm)              |
-|   1   | Round Hole Pin Header 1x40 |
-|   6   | 41464C RAM                 |
-|  16   | 18 POS IC SOCKET           |
-
-# Jumpers
-
-### J1 - CSYNC Voltage level
-
-This jumper allows for the selection of the voltage level of the CSYNC output.  (1VPP or a 5V TTL).  For original CRT and old compatible 15Khz monitors, its recommended to set this to 1VPP (short the 2 left pins).
-
-Most upscalers are likely to tolerate a 5V TTL level signal, but supplying 5V signal to a system that expects 1VPP may cause damage to the device.  So its only recommended to set this to the 5V TTL level when the connecting device states it accepts or needs such a signal type.
-
-### J3 - BUS CLK
-
-Shorting this jumper, will transmit the clock signal generated by the VDP (3.579545Mhz) to the RC2014/RCBus's CLK1 lane.  This clock signal can then be used to drive your Z80 CPU. Do **not** short this if you have another clock generator on your platform.  For best MSX compatibility, it is recommended to use this clock signal (1/6 of the main V99x8 crystal frequency), and remove any other CLK1 generators.
+| Count | Name                       | Self Sourcing*                                         |
+| :---: | -------------------------- | ------------------------------------------------------ |
+|   6   | 0.1uF                      |                                                        |
+|   2   | 100 Ω (3.4mm)              | Mouser: 603-MFR-12FTF52-100R                           |
+|   1   | Round Hole Pin Header 1x40 |                                                        |
+|   6   | 41464C RAM                 |                                                        |
+|  16   | 18 POS IC SOCKET           | Mouser: 571-1-2199298-5<br/>DigiKey: 2057-ICS-318-T-ND |
 
 # Output connections
 
@@ -148,11 +125,37 @@ I have found the low cost arcade converters such as the GBS-8200 and HD-VC9900 c
 The GBS-8200 can also be easily modified to produce more customisable and higher quality output - again RetroRGB has it all explained at <a target="_newwindow" href="https://www.retrorgb.com/gbs-control-installation-overview.html">GBS Control</a>
 
 
-# Video Upscaling Testing status
+## DSUB pin out
 
-I have tested both V9958 and V9938 versions of the kit with the low cost GBS-8200 and HD-VC9900 upscalers.  These have produced solid stable images for the respective VGA and HDMI output.  They seem very tolerant of CSYNC voltage signal levels.
+<table>
+  <tr>
+    <th>Pin</th><th>Signal</th>
+  </tr>
+  <tr><td>1</td><td>Red    </td></tr>
+  <tr><td>2</td><td>Green  </td></tr>
+  <tr><td>3</td><td>Blue   </td></tr>
+  <tr><td>4</td><td>NC     </td></tr>
+  <tr><td>5-8, 10-11</td><td>GND     </td></tr>
+  <tr><td>9, 12</td><td>NC   </td></tr>
+  <tr><td>13</td><td>CSync  </td></tr>
+  <tr><td>14,15</td><td>NC    </td></tr>
+
+</table>
+
+## Upscaling Testing status
+
+As per the Yellow MSX RGB module, I have tested this kit with the low cost GBS-8200 and HD-VC9900 upscalers.  These have produced solid stable images for the respective VGA and HDMI output.  They seem very tolerant of CSYNC voltage signal levels.
 
 My recommendation is to use GBS-8200 or the HD-VC9900 upscalers.  The quality is fine and I do most of my testing on these converters.  Just google their codes and you will find the usual retailers/marketplaces (eg: ebay/amazon/aliexpress) have plenty of purchase options.
+
+There are 2 revisions of the GBS-8200 available (V4.x and V5.x).  The V5.x produces a poorer quality output.  Recommend the older V4 revisions.  You can identify the V4 revisions by the colour of the menu control buttons.  Black for V4 and Yellow for V5.
+
+<table>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v4.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v4.jpg" width="90%"/>GBS8200 - V4 Recommended</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v5.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v5.jpg" width="90%"/>GBS8200 - V5 Not Recommended</a></td>
+  </tr>
+</table>
 
 Other upscalers, such as the OSSC and retroTink may work, but I am unable to verify and confirm.  Your milage may very.  Adapter cables would need to be constructed.
 
@@ -162,11 +165,23 @@ I have **not** tested the unit on a real RGB CRT monitor.
 
 # Operation
 
-## Sample Apps
+<div class="hh2">Sample Apps</div>
 
 For a base ROMWBW build you can find compatible demo apps in the [apps-rc2014](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/apps-rc2014) directory on the github project site.  They can be run under CP/M on a RC2014 system.  The prebuilt binaries can be found in the [bin](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/bin) directory.
 
 For a MSX-DOS system, binaries for various apps and demos can be found in the [github releases](https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases)
+
+## Jumper Settings
+
+#### J1 - CSYNC Voltage level
+
+This jumper allows for the selection of the voltage level of the CSYNC output.  (1VPP or a 5V TTL).  For original CRT and old compatible 15Khz monitors, its recommended to set this to 1VPP (short the 2 left pins).
+
+Most upscalers are likely to tolerate a 5V TTL level signal, but supplying 5V signal to a system that expects 1VPP may cause damage to the device.  So its only recommended to set this to the 5V TTL level when the connecting device states it accepts or needs such a signal type.
+
+#### J3 - BUS CLK
+
+Shorting this jumper, will transmit the clock signal generated by the VDP (3.579545Mhz) to the RC2014/RCBus's CLK1 lane.  This clock signal can then be used to drive your Z80 CPU. Do **not** short this if you have another clock generator on your platform.  For best MSX compatibility, it is recommended to use this clock signal (1/6 of the main V99x8 crystal frequency), and remove any other CLK1 generators.
 
 ## Port Mapping
 
@@ -199,16 +214,17 @@ For specific details on programming the chip, I recommend:
 
 # Key difference with Yellow MSX RGB
 
-| Description                       | Yellow MSX Version                    | Green Stegosaur Version                |
-| --------------------------------- | ------------------------------------- | -------------------------------------- |
-| Max VRAM on main board            | 128K                                  | 64K                                    |
-| VRAM Expandable?                  | No                                    | Yes (up to 192K)                       |
-| V9958 and V9958 Support           | Single PCB can support both VDP types | Different PCB needed for each VDP type |
-| V9958 WAIT signal supported       | Yes                                   | No                                     |
-| RGB Video output design           | unchanged                             | unchanged*                             |
-| Optional 5V out via RGB Connector | Yes                                   | No                                     |
-| PCB Height                        | 8.0 cm                                | 5.5 cm                                 |
-| Colour                            | Yellow                                | Green                                  |
+| Description                       | Yellow MSX Version                          | Green Stegosaur Version                                       |
+| --------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
+| Max VRAM on main board            | 128K                                        | 64K                                                           |
+| VRAM Expandable?                  | No                                          | Yes (up to 192K)                                              |
+| V9958 and V9958 Support           | Single PCB can support both VDP types       | Different PCB needed for each VDP type                        |
+| V9958 WAIT signal supported       | Yes                                         | No                                                            |
+| RGB Video output design           | unchanged                                   | unchanged*                                                    |
+| Optional 5V out via RGB Connector | Yes                                         | No                                                            |
+| PCB Height                        | 8.0 cm                                      | 5.5 cm                                                        |
+| Backplane Requirement             | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
+| Colour                            | Yellow                                      | Green                                                         |
 
 > \* The Green Stegosaur RGB kit utilizes separate PCB designs for the V9938 and V9958 VDPs. This allows the V9958's PCB, to refine the layout and tracing of the power delivery components for the V9958's DAC; minimising, as much as possible, potential EM interference appearing on your display.
 
