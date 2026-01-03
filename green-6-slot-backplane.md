@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/6-slot-green-rcbus-backplane
 
 # 6 Slot Green Backplane
 
+<p>Code: DB206</p>
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/green-6-slot-backplane/pcb-assembled-profile.jpg" width="70%"/>
 </div>

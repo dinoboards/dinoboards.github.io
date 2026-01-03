@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/turbo-cpu-module-designed-fo
 
 # Turbo CPU
 
+<p>Code: DB106</p>
+
 This module is designed to replace your existing RC2014 CPU and Clock Modules and give you the full power of a Z80 running at 20Mhz, yet still be broadly compatible with original software and your other RC2014 modules.
 
 <div style="text-align: center;">

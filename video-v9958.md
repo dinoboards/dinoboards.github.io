@@ -11,6 +11,8 @@ product_code: DB101
 
 # MSX V99x8 Video Module
 
+<p>Code: DB101</p>
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/video-v9958/rgb-v3.8-profile.jpg" width="70%"/>
 </div>

@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/hdmi-for-rc
 
 # HDMI for RC
 
+<p>Code: DB204</p>
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/hdmi-for-rc/hdmi-profile.jpg" width="70%"/>
 </div>

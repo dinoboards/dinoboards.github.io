@@ -69,7 +69,7 @@ The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trad
 <hr/>
 
 
-### CH376 USB Module for RC
+### USB for RC
 
 <div class="tags">
   <div class="tag rcbus"></div>

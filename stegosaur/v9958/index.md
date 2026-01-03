@@ -8,7 +8,8 @@ product_code: DB301
 
 # Stegosaur V9958 RGB
 
-<p>Module Code: DB301</p>
+<p>Code: DB301<br/>
+Memory Expansion: DB302</p>
 
 A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
 
@@ -223,7 +224,6 @@ For specific details on programming the chip, I recommend:
 | RGB Video output design           | unchanged                                   | unchanged*                                                    |
 | Optional 5V out via RGB Connector | Yes                                         | No                                                            |
 | PCB Height                        | 8.0 cm                                      | 5.5 cm                                                        |
-| Backplane Requirement             | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
 | Colour                            | Yellow                                      | Green                                                         |
 
 > \* The Green Stegosaur RGB kit utilizes separate PCB designs for the V9938 and V9958 VDPs. This allows the V9958's PCB, to refine the layout and tracing of the power delivery components for the V9958's DAC; minimising, as much as possible, potential EM interference appearing on your display.

@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/msx-rp5c01-rtc-and-msx-f4-bo
 
 # RP5C01 RTC and MSX F4 board for RC2014
 
+<p>Code: DB109</p>
+
 This kit, designed around the RP5C01 RTC chip, giving your RC2014 the ability to remember the date and time when power is off.
 
 The RPC501 chip maintains a time/date counter and when the machine is switched off, the chip is powered by a coin CR2032 battery.

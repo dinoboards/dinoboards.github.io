@@ -10,6 +10,10 @@ product_url: https://shop.dinoboards.com.au/product/msx-cartridge-slot-extension
 
 # Slot Extension
 
+<p>Slot Extension Code: DB110<br/>
+Blank 16k/32k Code: DB111</p>
+
+
 Tired of slow load times for your games?  Miss the days of flicking the power button and having your game instantly running?  Well perhaps this kit is for you.  Pair the Slot Extension with a MSX configured RC2014 build, and you can load cartridge based games and software with the simple of a flick of the power button.
 
 This module attaches to the right most slot on a RC2014 backplane and gives your RC2014 two 50pin MSX card connectors slots.  It include required decoding logic for addressing the slots as per the MSX standard.

@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/msx-memory-board-for-rc2014
 
 # MSX Memory Module
 
+<p>Code: DB103</p>
+
 This is a kit, that once built and installed on your RC2014 platform along side the other MSX modules, will allow you to boot up MSX software on your RC2014.
 
 The onboard 512K ROM is mapped according to the MSX Architecture, so that the RC2014 can be booted with an MSX BIOS and MSX-DOS ROM image.

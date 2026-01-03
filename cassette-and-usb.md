@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/msx-cassette-usb-module-desi
 
 # MSX Cassette + USB Module
 
+<p>Code: DB108</p>
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/cassette-and-usb/pcb-profile-usb-top.jpg" width="70%"/>
 </div>

@@ -10,6 +10,9 @@ product_url: https://shop.dinoboards.com.au/product/121-backplane-designed-for-r
 
 # 12+1 Backplane
 
+<p>Code: DB112</p>
+
+
 A 13 slot backplane for [RC2014](https://rc2014.co.uk/) compatible modules, well suited for the full complement of Yellow MSX Series of Modules designed for [RC2014](https://rc2014.co.uk/).
 
 Primarily focused on the needs for supporting the full set of MSX modules, the 12+1 Backplane, with its 80 lanes and 13 slots, will meet the needs of any large [RC2014](https://rc2014.co.uk/) configurations.

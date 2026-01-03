@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/ym2413-msx-music-module-desi
 
 # MSX YM2413 Music
 
+<p>Code: DB107</p>
+
 Explore the world of mid 80s music synthesis sound chips - Yamaha's YM2413 OPLL (FM synthesis) as used in the MSX-MUSIC standard.
 
 <img src="{{ site.baseurl }}/assets/music/assembled-profile-1.9.jpg" alt="Assembled Profiled" width="80%"/>

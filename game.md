@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/ym2149-msx-game-board-for-rc
 
 # MSX YM2149 Game Module
 
+<p>Code: DB102</p>
+
 Experience retro sounds with the YM2149 sound and controller module. This module provides MSX-compatible sound and controller support (joysticks, game pads, etc.) for your RC2014 system. It is also compatible with RomWBW sound applications.
 
 <div style="text-align: center;">

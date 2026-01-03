@@ -10,6 +10,8 @@ product_url: https://shop.dinoboards.com.au/product/ez80-for-rc
 
 # eZ80 for RC
 
+<p>Code: DB201</p>
+
 (Revision 1.10/1.11)
 
 The *eZ80 for RC* is a CPU Module designed for the RCBus and RC2014<strong>&trade;</strong> backplanes.

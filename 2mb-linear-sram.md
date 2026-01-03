@@ -10,6 +10,9 @@ product_url: https://shop.dinoboards.com.au/product/2mb-linear-sram-for-ez80
 
 # 2MB Linear SRAM
 
+<p>Code: DB203</p>
+
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/2mb-linear-sram/pcb-profile.jpg" width="70%"/>
 </div>

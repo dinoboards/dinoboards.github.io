@@ -11,6 +11,9 @@ product_url: https://shop.dinoboards.com.au/product/usb-for-rc
 
 # USB for RC
 
+<p>Code: DB205</p>
+
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/usb-for-rc/profile.jpg" width="70%"/>
 </div>

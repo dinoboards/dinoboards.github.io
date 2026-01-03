@@ -10,6 +10,10 @@ product_url: https://shop.dinoboards.com.au/product/msx-keyboard-designed-for-rc
 
 # PPI & Full Size Matrix Keyboard
 
+<p>PPI Code: DB104<br/>
+Keyboard Code: DB105</p>
+
+
 <div style="text-align: center;">
   <img src="{{ site.baseurl }}/assets/ppi-and-keyboard/installed-profile.jpg" width="60%" />
 </div>
