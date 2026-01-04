@@ -65,7 +65,7 @@ Also checkout my mastodon account for updates and demo videos: <a href="https://
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
   </div>
   <div style="flex: 3;">
     <h1>Green Stegosaur MSX Series</h1>

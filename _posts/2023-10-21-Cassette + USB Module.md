@@ -22,7 +22,7 @@ And also - something that I think was kind of cool.  I got a USB to Centronics a
 
 <div style="text-align:center">
 <img style="width:70%" src="{{ site.baseurl }}/assets/images/5446431697853335134.jpg" />
-<img style="width:70%" src="{{ site.baseurl }}/assets/images/7090181697853358229.jpg" />>
+<img style="width:70%" src="{{ site.baseurl }}/assets/images/7090181697853358229.jpg" />
 </div>
 
 I have released on new ROM image on GitHub, that has all the new drivers and software.
