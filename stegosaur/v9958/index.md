@@ -22,13 +22,13 @@ product_code: DB301
 A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" width="90%"/>
+  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" width="90%"/></a>
 </div>
 
 The main PCB supports the installation of 64K of VRAM, sufficient for all screen modes of the processor.  With the use of the optional expansion board, the VRAM can be extended to the full 192K of VRAM that the V9958 is able to address.
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg" width="90%"/>
+  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg" width="90%"/></a>
 </div>
 
 
@@ -219,7 +219,7 @@ For specific details on programming the chip, I recommend:
 
 # Schematic
 
-* <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
+* <a target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
 
 # Key difference with Yellow MSX RGB
 

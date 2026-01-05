@@ -212,7 +212,7 @@ For a bootable MSX system you need at least:
     <a href="./turbo-cpu"><img src="{{ site.baseurl }}/assets/turbo-cpu/assembled-top.jpg" alt="Turbo CPU"></a>
   </div>
   <div>
-    <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014 modules.</p>
+    <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014/RCBus modules.</p>
     <p><a href="./turbo-cpu">Click here for full details</a></p>
     <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/turbo-cpu-module-designed-for-rc2014" class="button" target="_newWindow">

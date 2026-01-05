@@ -51,6 +51,7 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
 ### Stegosaur V99x8 RGB Video Module
 
 <div class="tags">
+  <div class="tag rcbus"></div>
   <div class="tag rc2014"></div>
   <div class="tag romwbw"></div>
   <div class="tag msx required"></div>
@@ -65,6 +66,31 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
     <p><a href="/stegosaur/v9958/">Click here for full details</a></p>
     <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-v9958-rgb/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
+  </div>
+</div>
+
+<hr/>
+### Stegosaur Turbo CPU
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/turbo-cpu/"><img src="{{ site.baseurl }}/stegosaur/turbo-cpu/images/profile.jpg" alt="Stegosaur Turbo CPU Module"></a>
+  </div>
+  <div>
+    <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014/RCBus modules.</p>
+    <p><a href="/stegosaur/turbo-cpu/">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-turbo-cpu/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
