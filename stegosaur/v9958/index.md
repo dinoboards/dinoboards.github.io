@@ -296,8 +296,6 @@ For specific details on programming the chip, I recommend:
 8. Place the VRAM expansion PCB over the top, noting the angle - ensure all headers pins have sufficient height through the VRAM expansion module. (If height is insufficient, review the underside of the VRAM Expansion module to ensure the pins are trimmed sufficiently)
 9. Solder the Headers on the top of VRAM Expansion module.
 
-**TODO ADD IMAGES WHEN THE 0.8mm heigh PCB arrives**
-
 #### NOTE 7 - Expansion VRAM pin orientation
 
 > Note the orientation of how the round headers need to be soldered to the expansion module.
