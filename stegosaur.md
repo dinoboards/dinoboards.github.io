@@ -98,6 +98,32 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
   </div>
 </div>
 
+<hr/>
+### Stegosaur MSX YM2149 Game
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx recommended"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/game/"><img src="{{ site.baseurl }}/stegosaur/game/images/profile.jpg" alt="Stegosaur MSX YM2413 Music"></a>
+  </div>
+  <div>
+    <p>MSX Sound and Optional Game Controller</p>
+    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
+    <p><a href="/stegosaur/game/">Click here for full details</a></p>
+    <!-- <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-game/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div> -->
+  </div>
+</div>
+
 
 <hr/>
 ### Stegosaur MSX YM2413 Music

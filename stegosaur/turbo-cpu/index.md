@@ -61,7 +61,7 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
   </tr>
 </table>
 
-## Bill of Materials
+# Bill of Materials
 
 \* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
 

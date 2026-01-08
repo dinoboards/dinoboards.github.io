@@ -54,7 +54,7 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
   </tr>
 </table>
 
-## Bill of Materials
+# Bill of Materials
 
 \* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
 

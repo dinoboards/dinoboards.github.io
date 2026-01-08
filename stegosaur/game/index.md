@@ -2,15 +2,24 @@
 layout: default
 title: Stegosaur YM2149 Game Module
 description: MSX compatible Sound & Game Controller Module
-product_url: https://shop.dinoboards.com.au/product/?????
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-game
 ---
 
-# Stegosaur YM2149 Game Module
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 0 0 100px;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+  </div>
+  <div style="flex: 3;">
+    <h1>Stegosaur YM2149 Game Module</h1>
+    <p>Code: DB306</p>
+    <p>Optional Controller Expansion: DB307</p>
+  </div>
+</div>
 
 Experience retro sounds with the YM2149 sound and optional expansion game controller module. This module provides MSX-compatible sound and controller support (joysticks, game pads, etc.) for your RC2014/RCBus system. It is also compatible with RomWBW sound applications.
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/stegosaur/game/images/game-profile.jpg" alt="Installed" width="50%"/>
+<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/profile.jpg"><img style="width:70%" src="{{ site.baseurl }}/stegosaur/game/images/profile.jpg" alt="Assembled Profiled" width="100%"/></a>
 </div>
 
 # Features
@@ -20,55 +29,86 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 * Optional expansion board for connecting 2 MSX game controller Inputs (joystick, game-pad, and other input types)
 * Pseudo stereo output with the golden ratio mix
 
+<div class="hh1">Images</div>
+
+<table>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-ym-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-ym-installed.jpg" width="90%"/></a><br/>YM2149 Build</td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-ay-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-ay-installed.jpg" width="90%"/></a><br/>AY-3-8190 Build</td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-installed.jpg" width="90%"/></a><br/>Game Controller Expansion Build</td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-controller-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-controller-installed.jpg" width="90%"/></a><br/>Game Controller Connected</td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-pcb-top.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-pcb-top.jpg" width="90%"/></a><br/>Main PCB Front</td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-pcb-back.jpg" width="90%"/></a><br/>Main PCB Back</td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-top.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-top.jpg" width="90%"/></a><br/>Controller Expansion PCB Front</td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-back.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-back.jpg" width="90%"/></a><br/>Controller Expansion PCB Back</td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-base-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-base-parts.jpg" width="90%"/></a><br/>Main kit parts</td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-parts.jpg" width="90%"/></a>Optional Controller Parts</td>
+  </tr>
+</table>
 
 # Bill of Materials
 
-| Count | Name                    |
-| :---: | ----------------------- |
-|   5   | 10uF                    |
-|   4   | 0.1uF                   |
-|   1   | 3.5 Audio Socket        |
-|   1   | 10k Ω Bussed x 12       |
-|   3   | 1k Ω (3.4mm)            |
-|   1   | 1k6 Ω (3.4mm)           |
-|   4   | 4k7 Ω (3.4mm)           |
-|   2   | 20k Ω (3.4mm)           |
-|   1   | 470 Ω (3.4mm)           |
-|   2   | 74HCT138                |
-|   1   | YM2149                  |
-|   1   | 74HC00                  |
-|   2   | Headers 1x3             |
-|   1   | Headers 1x2             |
-|   3   | Shunts                  |
-|   2   | Right Angle 2x20 Header |
-|   1   | 14 POS IC SOCKET        |
-|   2   | 16 POS IC SOCKET        |
-|   1   | 40 POS IC SOCKET        |
-|   1   | PCB                     |
+\* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
+
+| Count | Name                     | Self Sourcing*                                            |
+| :---: | ------------------------ | --------------------------------------------------------- |
+|   4   | 0.1uF Ceramic Capacitors |                                                           |
+|   5   | 10uF                     |                                                           |
+|   1   | 3.5 Audio Socket         | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
+|   1   | 10k Ω Bussed x 12        |                                                           |
+|   3   | 1k Ω (3.4mm)             |                                                           |
+|   1   | 1k6 Ω (3.4mm)            |                                                           |
+|   4   | 4k7 Ω (3.4mm)            |                                                           |
+|   2   | 20k Ω (3.4mm)            |                                                           |
+|   1   | 470 Ω (3.4mm)            |                                                           |
+|   2   | 74HCT138                 |                                                           |
+|   1   | 74HC00                   |                                                           |
+|   2   | Headers 1x3              |                                                           |
+|   1   | Headers 1x2              |                                                           |
+|   3   | Shunts                   |                                                           |
+|   2   | Right Angle 2x20 Header  | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
+|   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
+|   2   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
+|   1   | 40 POS IC SOCKET         | Mouser: 571-1-2199299-5<br/>DigiKey: 2057-ICS-640-T-ND    |
+|   1   | PCB                      |
 
 ### Optional AY Support
 
-| Count | Name             |
-| :---: | ---------------- |
-|   1   | 0.1uF            |
-|   1   | 74HC74           |
-|   1   | 14 POS IC SOCKET |
+| Count | Name                     | Self Sourcing*                                         |
+| :---: | ------------------------ | ------------------------------------------------------ |
+|   1   | 0.1uF Ceramic Capacitors |                                                        |
+|   1   | 74HC74                   |                                                        |
+|   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND |
 
 ### Optional Controller Expansion
 
-| Count | Name                            |
-| :---: | ------------------------------- |
-|   3   | 0.1uF                           |
-|   1   | 400mA Fuse                      |
-|   1   | 9-PIN DSUB CONNECTOR            |
-|   1   | 10k Ω Bussed x 12 resistor      |
-|   1   | 74LS07                          |
-|   2   | 74HCT157                        |
-|   1   | 14 POS IC SOCKET                |
-|   2   | 16 POS IC SOCKET                |
-|  16   | Jumper wires - female to female |
-|   2   | HEADERS 2x8                     |
-|   1   | PCB                             |
+| Count | Name                            | Self Sourcing*                                             |
+| :---: | ------------------------------- | ---------------------------------------------------------- |
+|   3   | 0.1uF Ceramic Capacitors        |                                                            |
+|   1   | 400mA Fuse                      | Mouser: 530-0ZRG0075FF1E<br/>DigiKey: 5923-0ZRG0075FF1E-ND |
+|   1   | 9-PIN DSUB CONNECTOR            | Mouser: 737-DE09-PL-25<br/>DigiKey: 2057-DE09-PL-25-ND     |
+|   1   | 10k Ω Bussed x 12 resistor      | Mouser: 652-4613X-1LF-10K<br/>DigiKey: 652-4613X-1LF-10K   |
+|   1   | 74LS07                          |                                                            |
+|   2   | 74HCT157                        |                                                            |
+|   1   | 14 POS IC SOCKET                | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND     |
+|   2   | 16 POS IC SOCKET                | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND     |
+|  16   | Jumper wires - female to female |                                                            |
+|   2   | HEADERS 2x8                     |                                                            |
+|   1   | PCB                             |                                                            |
+
+### Optional YM2149
+
+| Count | Name   | Self Sourcing* |
+| :---: | ------ | -------------- |
+|   1   | YM2149 |                |
 
 
 # Operation
@@ -101,17 +141,35 @@ The following table describes the registers of the PSG:
 ## Jumper
 
 The following jumpers are used to select the clock frequency used by the audio chips (YM2149 or the optional AY-3-8910).  Both chips needs a clock frequency of 1.79Mhz (or close to it).  The clock is sourced from the RC2014/RCBus clock lanes as per J3.
+
 The YM2149 has support for an onboard clock divider.
 
-| CLK1 Frequency | Audio Chip Type | J1                  | J2                   | J3          |
-| -------------- | --------------- | ------------------- | -------------------- | ----------- |
-| 3.579545Mhz    | YM2149          | Left 2 pins shorted | lower 2 pins shorted | shorted     |
-| 3.579545Mhz    | AY-3-8910       | Left 2 pins shorted | upper 2 pins shorted | not shorted |
+#### Typical Configurations for CLK1 Source
+
+| CLK1 Frequency | Audio Chip Type | J1          | J2                     | J3                   |
+| -------------- | --------------- | ----------- | ---------------------- | -------------------- |
+| ~3.58Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 left pins shorted. |
+| ~3.58Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 left pins shorted. |
+| ~3.69Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 left pins shorted. |
+| ~3.69Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 left pins shorted. |
+| ~7.37Mhz       | YM2149          | shorted     | upper 2 pins shorted\* | 2 left pins shorted. |
+
+#### Typical Configurations for CLK2 Source
+
+| CLK2 Frequency | Audio Chip Type | J1          | J2                     | J3                    |
+| -------------- | --------------- | ----------- | ---------------------- | --------------------- |
+| ~1.84Mhz       | YM2149          | not shorted | lower 2 pins shorted   | 2 right pins shorted. |
+| ~1.84Mhz       | AY-3-8910       | not shorted | lower 2 pins shorted   | 2 right pins shorted. |
+| ~3.69Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 right pins shorted. |
+| ~3.69Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 right pins shorted. |
+| ~7.37Mhz       | YM2149          | shorted     | upper 2 pins shorted\* | 2 right pins shorted. |
+
+> \* U5 74HC74 must also be inserted.
 
 ### J1 - YM CLOCK DIV
 
 When this jumper is shorted, the onboard clock divider of the YM2149 is enabled.  For operation with an AY-3-8910 this jumper must not be shorted.
-The YM2149 clock divider will halve the clock rate received by the chip.
+The YM2149's on-chip clock divider will halve the clock rate received by the chip.  If the incoming clock rate is ~3.5Mhz, then use this jumper to divide it by 2 to get to the desired rate of ~1.79Mhz.
 
 ### J2 - BUS CLK DIV
 
@@ -120,32 +178,6 @@ Optionally enable the on-board clock divider (if installed).  If the 74HC74 is n
 ### J3 - BUS CLK
 
 Select the source of the clock signal used by the above jumpers that is ultimately supplied to the chip.  For typical MSX configuration, this should be CLK1 (2 left pins shorted), as supplied by the Video Module.
-
-# Images
-
-<table>
-  <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-ym-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-ym-installed.jpg" width="90%"/></a><br/>YM2149 Build</td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-ay-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-ay-installed.jpg" width="90%"/></a><br/>AY-3-8190 Build</td>
-  </tr>
-  <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-installed.jpg" width="90%"/></a><br/>Game Controller Expansion Build</td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-controller-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-controller-installed.jpg" width="90%"/></a><br/>Game Controller Connected</td>
-  </tr>
-  <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-pcb-top.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-pcb-top.jpg" width="90%"/></a><br/>Main PCB Front</td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-pcb-back.jpg" width="90%"/></a><br/>Main PCB Back</td>
-  </tr>
-  <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-top.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-top.jpg" width="90%"/></a><br/>Controller Expansion PCB Front</td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-back.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-back.jpg" width="90%"/></a><br/>Controller Expansion PCB Back</td>
-  </tr>
-  <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/game-base-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/game-base-parts.jpg" width="90%"/></a><br/>Main kit parts</td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/game/images/controller-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/game/images/controller-parts.jpg" width="90%"/></a>Optional Controller Parts</td>
-  </tr>
-</table>
-
 
 
 # Schematic
@@ -170,9 +202,9 @@ Select the source of the clock signal used by the above jumpers that is ultimate
 
 {% include soldering-order.md %}
 
-#### NOTE 1 - U5 only required for AY-3-8910
+#### NOTE 1 - U5 only required on board clock divider
 
-> If you only intend to operate with the YM2149 sound chip, you do not need to solder a socket for IC U5 (74HC75) and its associated decoupling capacitor (0.1uF).  But you do need to ensure J2 has the bottom two pins shorted - either by installing the 3 pin header and applying a shunt, or by simply soldering a wire between the lower 2 pins.
+> If you only intend to operate with the YM2149 sound chip, you typically will not need U5 (74HC74) and its associated decoupling capacitor (0.1uF).  But you do need to ensure J2 has the bottom two pins shorted - either by installing the 3 pin header and applying a shunt, or by simply soldering a wire between the lower 2 pins.
 
 #### NOTE 2 - Connecting of the Optional Controller Board
 
