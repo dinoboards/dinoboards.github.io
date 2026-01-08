@@ -88,12 +88,40 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
   </div>
   <div>
     <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014/RCBus modules.</p>
+    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/turbo-cpu/">Click here for full details</a></p>
-    <div class="buy-on-container">
+    <!-- <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-turbo-cpu/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div>
+    </div> -->
+  </div>
+</div>
+
+
+<hr/>
+### Stegosaur MSX YM2413 Music
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/music/"><img src="{{ site.baseurl }}/stegosaur/music/images/profile.jpg" alt="Stegosaur MSX YM2413 Music"></a>
+  </div>
+  <div>
+    <p>Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip.</p>
+    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
+    <p><a href="/stegosaur/music/">Click here for full details</a></p>
+    <!-- <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div> -->
   </div>
 </div>
 

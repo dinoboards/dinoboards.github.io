@@ -67,7 +67,6 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 
 #### Base Kit
 
-
 | Count | Name                    | Self Sourcing*                                            |
 | :---: | ----------------------- | --------------------------------------------------------- |
 |   5   | 0.1uF                   |                                                           |
@@ -100,25 +99,23 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 | :---: | --------- | -------------- |
 |   1   | Z80 20Mhz | Z84C0020PEG    |
 
-# Operation Reliability
 
-I have tested running at 20Mhz on my specific back-plane and set of modules without any problems.  But due to differences in combination and configuration of RC2014 kits - you may find with your specific situation, there are signal degradation issues at 20Mhz that may cause non-reliable operation.
+
+## Compatibility
+
+I have tested running at 20Mhz on my specific back-plane and set of modules without any problems.  But due to differences in combination and configuration of RC2014 kits - you may find with your specific situation, there are signal degradation issues at 20Mhz that may cause non-reliable operation.  You can use the 3 way slider to force the module to operator at a lower speed.
 
 ### Compatibility with latest build of RomWBW identified
 
-> 2024-07-21: Please note, a recent incompatibility of the Turbo CPU with the latest build of RomWBW has been identified.  The issue appears with the serial SIO/2 driver not functioning shortly after booting.
+> 2025-01-01: Fix created and waiting approval to be merged into main stream of RomWBW. In the meantime, you can build a new version of RomWBW from my branch: [https://github.com/dinoboards/RomWBW/tree/dean-dev-2026-01-08-turbo-cpu-support](https://github.com/dinoboards/RomWBW/tree/dean-dev-2026-01-08-turbo-cpu-support)
 
-I am not sure yet what the issue is, nor exactly when it got introduced.  But a quick fix is to build with the latest version of RomWBW with the interrupts disabled.  To do this follow these steps:
+# Operation
 
-1. Within the file Source/HBIOS/cfg_rcz80.asm, look for this line:
+The 3 way slider at the front of the module is used to change the timing settings of the Z80.  In its top most position, the CPU will operate at the speed as per your bus clock.
 
-```
-INTMODE         .EQU    1               ; INTERRUPTS: 0=NONE, 1=MODE 1, 2=MODE 2, 3=MODE 3 (Z280)
-```
+In the middle position, the processor will boost to 20Mhz, but it includes 3 WAIT states for all memory access.
 
-2. Change the value from 1 to 0 - this will disable the SIO/2 interrupt logic - and it will just poll the SIO/2 chip.
-
-3. Build a new version, as per the build steps for RomWBW and re-flash your ROM chip.
+In the bottom position, the processor will boost to 20Mhz, but only have 1 additional WAIT state added for any memory access.
 
 
 # What else do I need to make this work?

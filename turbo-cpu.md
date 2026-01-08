@@ -55,19 +55,17 @@ I have tested running at 20Mhz on my specific back-plane and set of modules with
 
 ### Compatibility with latest build of RomWBW identified
 
-> 2024-07-21: Please note, a recent incompatibility of the Turbo CPU with the latest build of RomWBW has been identified.  The issue appears with the serial SIO/2 driver not functioning shortly after booting.
+> 2025-01-01: Fix created and waiting approval to be merged into main stream of RomWBW. In the meantime, you can build a new version of RomWBW from my branch: [https://github.com/dinoboards/RomWBW/tree/dean-dev-2026-01-08-turbo-cpu-support](https://github.com/dinoboards/RomWBW/tree/dean-dev-2026-01-08-turbo-cpu-support)
 
-I am not sure yet what the issue is, nor exactly when it got introduced.  But a quick fix is to build with the latest version of RomWBW with the interrupts disabled.  To do this follow these steps:
 
-1. Within the file Source/HBIOS/cfg_rcz80.asm, look for this line:
+# Operation
 
-```
-INTMODE         .EQU    1               ; INTERRUPTS: 0=NONE, 1=MODE 1, 2=MODE 2, 3=MODE 3 (Z280)
-```
+The 3 way slider at the front of the module is used to change the timing settings of the Z80.  In its top most position, the CPU will operate at the speed as per your bus clock.
 
-2. Change the value from 1 to 0 - this will disable the SIO/2 interrupt logic - and it will just poll the SIO/2 chip.
+In the middle position, the processor will boost to 20Mhz, but it includes 3 WAIT states for all memory access.
 
-3. Build a new version, as per the build steps for RomWBW and re-flash your ROM chip.
+In the bottom position, the processor will boost to 20Mhz, but only have 1 additional WAIT state added for any memory access.
+
 
 # Bill of Materials
 
