@@ -88,13 +88,12 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
   </div>
   <div>
     <p>A Z80 CPU module supporting speeds up to 20Mhz - but with the required wait states and clock control to ensure compatibility with existing software and RC2014/RCBus modules.</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/turbo-cpu/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
+    <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-turbo-cpu/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 
