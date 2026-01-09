@@ -71,9 +71,9 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 | Count | Name                         | Self Sourcing*                                            |
 | :---: | ---------------------------- | --------------------------------------------------------- |
-|   2   | 22pF                         |                                                           |
-|   1   | 47pF                         |                                                           |
-|   8   | 0.1uF                        |                                                           |
+|   2   | 22pF  Ceramic Capacitor                        |                                                           |
+|   1   | 47pF Ceramic Capacitor                        |                                                           |
+|   8   | 0.1uF Ceramic Capacitor                       |                                                           |
 |   3   | 10uF                         |                                                           |
 |   1   | 220uF (LOW ESR)              |                                                           |
 |   4   | 220uF                        |                                                           |

@@ -176,3 +176,27 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
     </div> -->
   </div>
 </div>
+
+<hr/>
+### Stegosaur MSX Memory Module
+
+<div class="tags">
+  <div class="tag rcbus required"></div>
+  <div class="tag msx required"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/memory/"><img src="{{ site.baseurl }}/stegosaur/memory/images/rom-ram.jpg" alt="Stegosaur MSX Memory Module"></a>
+  </div>
+  <div>
+    <p>A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.</p>
+    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
+    <p><a href="/stegosaur/ppi-and-keyboard/">Click here for full details</a></p>
+    <!-- <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div> -->
+  </div>
+</div>

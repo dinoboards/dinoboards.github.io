@@ -2,12 +2,27 @@
 layout: default
 title: Stegosaur MSX ROM & RAM Module
 description: Give your RC2014 the power of 512K ROM and 1024K RAM
-product_url: https://shop.dinoboards.com.au/product/????
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-memory
 ---
 
-# MSX ROM & RAM Modules
+#
 
-A full MSX Memory System.  512K of ROM boot code and support software and up to 1MB of paged RAM.  With this module, you can boot into various MSX bios (open source CBIOS, MSX-BIOS/BASIC).
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 0 0 100px;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+  </div>
+  <div style="flex: 3;">
+    <h1>Stegosaur MSX ROM & RAM Modules</h1>
+    <p>RAM: DB310<br/>
+    ROM: DB311</p>
+  </div>
+</div>
+
+A full MSX Memory System.  512K of ROM boot code and support software and up to 1MB of paged RAM.  With these modules, you can boot into various MSX bios (open source CBIOS, MSX-BIOS/BASIC).
+
+<div style="text-align: center;">
+<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/memory/images/rom-ram.jpg"><img style="width:70%" src="{{ site.baseurl }}/stegosaur/memory/images/rom-ram.jpg" alt="Assembled Profiled" width="100%"/></a>
+</div>
 
 The two modules work together to map in a 512K rom image for booting, and page in the RAM using specific MSX memory mapping techniques.
 
@@ -17,18 +32,13 @@ The 2x512K RAM is mapped, using MSX's memory page mapping, enabling compatible s
 
 This module is designed for operation in conjunction with other MSX modules (CPU, GAME, RGB VIDEO, PPI & Keyboard)
 
-# Default ROM Image
+# Key features
 
-The supplied ROM image, contains the following:
+* 512K ROM Image divided up to support various sub-systems
+* up to 1MB of MSX paged banked memory
+* MSX memory system compatibility
 
-* CBIOS, an open source version of MSX BIOS
-* NEXTOR, an officially sanctioned open source version of MSX-DOS (based on the original code)
-* MSX-DOS drivers for various hardware systems (usb, SIO/2, Compact Flash)
-* Embedded ROM DISK image, enabling disk-less boot up
-
-> Alternative ROM images (MSX-BIOS/MSX-BASIC) can be downloaded and flashed onto the supplied ROM chip (appropriate ROM programmer needed), giving your system access to MSX-BASIC and higher levels of game compatibility.  See latest releases at: <a target="_newwindow" href="https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases">https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases</a>
-
-# Images
+<div class="hh1">Images</div>
 
 <table>
   <tr>
@@ -49,7 +59,38 @@ The supplied ROM image, contains the following:
   </tr>
 </table>
 
-# Memory mapping
+# Bill of Materials
+
+\* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
+
+#### Base Kit
+
+| Count | Name                     | Self Sourcing*                                            |
+| :---: | ------------------------ | --------------------------------------------------------- |
+|  13   | 0.1uF Ceramic Capacitor  |                                                           |
+|   1   | 1x3 Header socket        |                                                           |
+|   1   | 1x3 Header plug (17mm)   |                                                           |
+|   1   | ATF22V10C-15PU (RAM SELECTOR) |                                                           |
+|   1   | ATF22V10C-15PU (ROM-MAPPER)   |                                                           |
+|   1   | AS6C4008                 |                                                           |
+|   1   | SST39SF040               |                                                           |
+|   2   | 74HCT30                  |                                                           |
+|   1   | 74HC138                  |                                                           |
+|   1   | 74HCT153                 |                                                           |
+|   1   | 74HCT273                 |                                                           |
+|   1   | 74HC540                  |                                                           |
+|   2   | 74HCT670                 |                                                           |
+|   4   | Right Angle 2x20 Header  | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
+|   2   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
+|   4   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
+|   2   | 20 POS IC SOCKET         | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
+|   2   | 24 POS IC SOCKET         | Mouser: 571-1-2199298-8<br/>DigiKey: 2057-ICS-324-T-ND    |
+|   3   | 32 POS IC SOCKET         | Mouser: 737-ICS-632-T<br/>DigiKey: 2057-ICS-632-T-ND      |
+
+
+# Operation
+
+### Memory mapping
 
 The onboard 512K ROM is mapped according to the MSX specification, so that your system can be booted with an MSX BIOS and MSX-DOS ROM image.
 
@@ -69,7 +110,7 @@ The remaining 28 16K banks mapped to slot 3-3, using the [ASCII16](https://www.m
 
 The source code, build scripts and packaged releases for the alternative custom ROM images, can be found in the repo, under the [msx](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/msx#yellow-msx-for-rc2014-rom-image-builder) directory.
 
-# Dependencies
+### Dependencies
 
 This module must have the following MSX boards:
 
@@ -80,32 +121,7 @@ This module must have the following MSX boards:
 * 80-Way lane compatible backplane (eg: Yellow 12+1 backplane, or the Green Stegosaur 10+Slot backplane).
 * Both the ROM and RAM modules must be installed together - they can not operate on their own and must have their 3 pin headers connected.
 
-# Bill of Materials
-
-| Count | Name                     |
-| :---: | ------------------------ |
-|  13   | 0.1uF                    |
-|   1   | 1x3 Header socket        |
-|   1   | 1x3 Header plug (17mm)   |
-|   1   | ATF22V10C (RAM SELECTOR) |
-|   1   | ATF22V10C (ROM-MAPPER)   |
-|   1   | AS6C4008                 |
-|   1   | SST39SF040               |
-|   2   | 74HCT30                  |
-|   1   | 74HC138                  |
-|   1   | 74HCT153                 |
-|   1   | 74HCT273                 |
-|   1   | 74HC540                  |
-|   2   | 74HCT670                 |
-|   2   | Right Angle 2x20 Header  |
-|   2   | 14 POS IC SOCKET         |
-|   4   | 16 POS IC SOCKET         |
-|   2   | 20 POS IC SOCKET         |
-|   2   | 24 POS IC SOCKET         |
-|   3   | 32 POS IC SOCKET         |
-|   1   | PCB                      |
-
-# Operating
+### MSX-DOS Boot-up
 
 When you boot up your system, you can try a few commands from the diskless embedded floppy image:
 
@@ -161,7 +177,19 @@ Some things to try out and get a feel for your MSX on RC2014 system.
 
 > And if you would like a bit of history of the OS - where is started - [https://www.msx.org/wiki/The_History_of_MSX-DOS](https://www.msx.org/wiki/The_History_of_MSX-DOS)
 
-## ROM Games
+### Default ROM Image
+
+The supplied ROM image, contains the following:
+
+* CBIOS, an open source version of MSX BIOS
+* NEXTOR, an officially sanctioned open source version of MSX-DOS (based on the original code)
+* MSX-DOS drivers for various hardware systems (usb, SIO/2, Compact Flash)
+* Embedded ROM DISK image, enabling disk-less boot up
+
+> Alternative ROM images (MSX-BIOS/MSX-BASIC) can be downloaded and flashed onto the supplied ROM chip (appropriate ROM programmer needed), giving your system access to MSX-BASIC and higher levels of game compatibility.  See latest releases at: <a target="_newwindow" href="https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases">https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases</a>
+
+
+### ROM Games
 
 If you have not built a system with a cartridge slot, you can still play most games by using the utility `SROM`.  See the Author's page for more details https://www.louthrax.net/mgr/
 
@@ -184,10 +212,10 @@ SROM PACMAN.ROM
 
 | Description           | Yellow MSX Version                          | Green Stegosaur Version                                       |
 | --------------------- | ------------------------------------------- | ------------------------------------------------------------- |
-| PCB Height            | 8.0 cm                                      | 5.5 cm                                                        |
 | Physical Layout       | Single PCB for both ROM and RAM             | Two separate PCBs for ROM and RAM                             |
-| RAM Included          | 2x512K (1MB)                                | 512K with extra 512K sold separately                          |
+| RAM Included          | 2x512K (1MB)                                | 512K with optional extra 512K                          |
 | Backplane Requirement | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
+| PCB Height            | 8.0 cm                                      | 5.5 cm                                                        |
 | Colour                | Yellow                                      | Green                                                         |
 
 # Assembly Guide
