@@ -177,7 +177,7 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
 </div>
 
 <hr/>
-### Stegosaur MSX Memory Module
+### Stegosaur MSX Memory Modules
 
 <div class="tags">
   <div class="tag rcbus required"></div>
@@ -189,7 +189,7 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
     <a href="/stegosaur/memory/"><img src="{{ site.baseurl }}/stegosaur/memory/images/rom-ram.jpg" alt="Stegosaur MSX Memory Module"></a>
   </div>
   <div>
-    <p>A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.</p>
+    <p>A full MSX2 compatible ROM and RAM solution for your RC2014/RCBus system.</p>
     <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/ppi-and-keyboard/">Click here for full details</a></p>
     <!-- <div class="buy-on-container">

@@ -138,7 +138,7 @@ For a bootable MSX system you need at least:
     <a href="./msx-memory"><img src="{{ site.baseurl }}/assets/msx-memory/assembled.jpg" alt="MSX Memory Module"></a>
   </div>
   <div>
-    <p>Give your RC2014 the power of 512K ROM and 1024K RAM.</p>
+    <p>A full MSX2 compatible ROM and RAM solution for your RC2014/RCBus system.</p>
     <p><a href="./msx-memory">Click here for full details</a></p>
     <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/msx-memory-board-for-rc2014" class="button" target="_newWindow">
