@@ -105,10 +105,6 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 
 I have tested running at 20Mhz on my specific back-plane and set of modules without any problems.  But due to differences in combination and configuration of RC2014 kits - you may find with your specific situation, there are signal degradation issues at 20Mhz that may cause non-reliable operation.  You can use the 3 way slider to force the module to operator at a lower speed.
 
-### Compatibility with latest build of RomWBW identified
-
-> 2025-01-01: Fix created and waiting approval to be merged into main stream of RomWBW. In the meantime, you can build a new version of RomWBW from my branch: [https://github.com/dinoboards/RomWBW/tree/dean-dev-2026-01-08-turbo-cpu-support](https://github.com/dinoboards/RomWBW/tree/dean-dev-2026-01-08-turbo-cpu-support)
-
 # Operation
 
 The 3 way slider at the front of the module is used to change the timing settings of the Z80.  In its top most position, the CPU will operate at the speed as per your bus clock.
