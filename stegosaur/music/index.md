@@ -45,12 +45,15 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 
 <table>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/parts-4-3.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/parts-4-3.jpg" width="90%"/></a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/pcb-assembled.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/pcb-assembled.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/parts-4-3.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/parts-4-3.jpg" width="90%"/><br/>Base Kit Parts</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/pcb-assembled.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/pcb-assembled.jpg" width="90%"/><br/>Assembled Kit</a></td>
   </tr>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/pcb-front.jpg" width="90%"/></a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/pcb-back.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/pcb-front.jpg" width="90%"/><br/>PCB Front</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/pcb-back.jpg" width="90%"/><br/>PCB Back</a></td>
+  </tr>
+  <tr>
+    <td colspan=2 width="50%"><div style="text-align: center;"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/music/images/3.5mm-cable.jpg"><img src="{{ site.baseurl }}/stegosaur/music/images/3.5mm-cable.jpg" width="25%"/><br/>short cable to connect to GAME module</a></div></td>
   </tr>
 </table>
 
@@ -87,6 +90,12 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 | Count | Name          | Self Sourcing* |
 | :---: | ------------- | -------------- |
 |   1   | Yamaha YM2413 |                |
+
+#### Optional Short audio cable
+
+| Count | Name          | Self Sourcing* |
+| :---: | ------------- | -------------- |
+|   1   | Short 3.5mm audio cable               |                                                           |
 
 
 # Operation
@@ -143,7 +152,7 @@ The board uses the standard IO addresses for MSX systems.
 | Passthrough input | mono only via 2 pin header             | stereo mix via 3.5mm socket                                                    |
 | Audio Quality     | Lower top frequency                    | Brighter sound, with a higher top frequency roll-off and reduced digital noise |
 | MSX Support       | On board MSX-MUSIC ROM                 | Requires additional ROM Card for full MSX Support                              |
-| Clock Source | On board clock | Requires external clock source, supplied via RC2014/RCBus's CLK1 or CLK2 lane* |
+| Clock Source      | On board clock                         | Requires external clock source, supplied via RC2014/RCBus's CLK1 or CLK2 lane* |
 | PCB Height        | 8.0 cm                                 | 5.5 cm                                                                         |
 | Colour            | Yellow                                 | Green                                                                          |
 
