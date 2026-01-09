@@ -66,7 +66,7 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 
 | Count | Name                                  | Self Sourcing*                                            |
 | :---: | ------------------------------------- | --------------------------------------------------------- |
-|   3   | 0.1uF Ceramic Capacitors              |                                                           |
+|   3   | 0.1uF Ceramic Capacitor              |                                                           |
 |   2   | 3.5mm audio socket                    | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
 |   2   | 1uF Electrolytic Capacitors           |                                                           |
 |   4   | 2.2uF Electrolytic Capacitors         |                                                           |

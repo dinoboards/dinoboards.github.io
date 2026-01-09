@@ -2,13 +2,23 @@
 layout: default
 title: Stegosaur PPI & Full Size Matrix Keyboard
 description: A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.
-product_url: https://shop.dinoboards.com.au/product/?????
+product_url: https://shop.dinoboards.com.au/product/stegosaur-ppi-and-keyboard
 ---
 
-# PPI & Full Size Matrix Keyboard
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 0 0 100px;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+  </div>
+  <div style="flex: 3;">
+    <h1>PPI & Full Size Matrix Keyboard</h1>
+    <p>PPI Code: DB308<br/>
+    Keyboard: DB309</p>
+  </div>
+</div>
+
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-and-key-closeup.jpg" width="60%" />
+<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-and-key-closeup.jpg"><img style="width:65%;" src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-and-key-closeup.jpg" alt="Assembled Profiled" width="80%"/></a>
 </div>
 
 A full size keyboard kit for your RC2014/RCBus system giving your kit that perfect clicky keyboard.
@@ -45,79 +55,76 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/msx-slot-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/msx-slot-parts.jpg" width="90%"/><br/>Optional MSX Slot Selector Parts</a></td>
   </tr>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-82c55-part.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-82c55-part.jpg" width="90%"/><br/>PPI 8255 PPI Chip</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/82c55-4-3.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/82c55-4-3.jpg" width="90%"/><br/>PPI 8255 PPI Chip</a></td>
   </tr>
 </table>
 
 # Bill of Materials
 
-## PPI Module
+\* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
 
-| Count | Name                    |
-| :---: | ----------------------- |
-|   3   | 0.1uF                   |
-|   1   | IDC Connector           |
-|   1   | 74HC138                 |
-|   1   | 74HC00                  |
-|   2   | Right Angle 2x20 Header |
-|   2   | 14 POS IC SOCKET        |
-|   2   | 16 POS IC SOCKET        |
-|   1   | 40 POS IC SOCKET        |
-|   1   | PCB                     |
-|   1   | 16 Way IDC Cable        |
+#### PPI & Keyboard Module
 
-## Keyboard
+| Count | Name                      | Self Sourcing*                                            |
+| :---: | ------------------------- | --------------------------------------------------------- |
+|   5   | 0.1uF Ceramic Capacitor   |                                                           |
+|   2   | IDC Connector (No Clamps) | DigiKey: 2057-BHR-16-HUA-ND                               |
+|  81   | 1N4148                    |                                                           |
+|   3   | 470 Ω                     |                                                           |
+|   1   | 10k Ω Bussed (8)          | Mouser: 652-4609X-1LF-10K<br/>DigiKey: 4609X-101-103LF-ND |
+|   3   | 74HC138                   |                                                           |
+|   1   | 74HC00                    |                                                           |
+|   3   | 3mm LEDS                  |                                                           |
+|   2   | Right Angle 2x20 Header   | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
+|   1   | 14 POS IC SOCKET          | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
+|   3   | 16 POS IC SOCKET          | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
+|   1   | 40 POS IC SOCKET          | Mouser: 571-1-2199299-5<br/>DigiKey: 2057-ICS-640-T-ND    |
+|   1   | 16 Way IDC Cable          |                                                           |
 
-| Count | Name             |
-| :---: | ---------------- |
-|   2   | 0.1uF            |
-|  81   | 1N4148           |
-|   3   | 3mm LEDS         |
-|   1   | IDC Connector    |
-|   3   | 470 Ω            |
-|   1   | 10k Ω Bussed (8) |
-|   2   | 74HC138          |
-|   1   | PCB              |
-
-## Optional MSX Slot Selector Signals
+#### Optional MSX Slot Selector Signals
 
 * Required for MSX compatibility
 
-| Count | Name             |
-| :---: | ---------------- |
-|   1   | 0.1uF            |
-|   1   | 74HC153          |
-|   1   | 16 POS IC SOCKET |
+| Count | Name                    | Self Sourcing*                                         |
+| :---: | ----------------------- | ------------------------------------------------------ |
+|   1   | 0.1uF Ceramic Capacitor |
+|   1   | 74HC153                 |
+|   1   | 16 POS IC SOCKET        | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND |
 
-## Optional MSX M1 Wait State Generator
+#### Optional MSX M1 Wait State Generator
 
 * Required if using RC2014 stock Z80 module. Not needed if using MSX Turbo CPU module.
 
-| Count | Name             |
-| :---: | ---------------- |
-|   1   | 0.1uF            |
-|   1   | 1N4148           |
-|   1   | 74HC74           |
-|   1   | 1x2 HEADER       |
-|   1   | Shunt 1x2        |
-|   1   | 14 POS IC SOCKET |
+| Count | Name                      | Self Sourcing*                                         |
+| :---: | ------------------------- | ------------------------------------------------------ |
+|   1   | 0.1uF   Ceramic Capacitor |                                                        |
+|   1   | 1N4148                    |                                                        |
+|   1   | 74HC74                    |                                                        |
+|   1   | 1x2 HEADER                |                                                        |
+|   1   | Shunt 1x2                 |                                                        |
+|   1   | 14 POS IC SOCKET          | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND |
 
-## 82C55 PPI Chip
+#### 82C55 PPI Chip
 
 * Required unless you have sourced your own chip.
 
-| :---: | ----------------------- |
-|   1   | 82C55                   |
+| Count | Name  | Self Sourcing* |
+| :---: | ----- | -------------- |
+|   1   | 82C55 |                |
 
-# Jumpers
+# Operation
 
-### J2 - M 1 WAIT STATE GENERATOR
+### Jumpers
+
+#### J2 - M 1 WAIT STATE GENERATOR
 
 When shorted, a WAIT signal for 1 clock cycle is generated when the Z80 fetches a instruction.  This is only required for MSX software compatibility. Short for MSX compatibility, leave unconnected otherwise.
 
-The MSX Turbo CPU modules also include a M1 Wait State Generator. Having 2 active will not cause any issues, but only 1 is required for compatibility.
+When in MSX configuration or paired with the Turbo CPU, this jumper should not be shorted.
 
-# Using the keyboard on RomWBW
+> The MSX Turbo CPU modules also include a M1 Wait State Generator. Having the wait state generator of the PPI active, will cause the Turbo CPU to have additional unnecessary wait states.
+
+### Using the keyboard on RomWBW
 
 Although this kit is designed to work under MSX's software, it can be used in a stock RC2014 system with a correctly configured RomWBW ROM image.
 
@@ -162,7 +169,7 @@ Its important that the correct rainbow 16 IDC cable is used.  It needs to be a '
 | Colour                | Yellow                                      | Green                                                         |
 
 
-## Assembly Guide
+# Assembly Guide
 
 {% include soldering-order.md %}
 
@@ -183,7 +190,7 @@ Start with just one or two switches first -- push in, then check pins, then sold
 
 Once all the soldering is done, you can move onto mounting the stabilizers.
 
-## Assembling the stabilizers
+## Stabilizers
 
 To assemble the stabilizers, you can use the following images to get an idea of how they go together.
 

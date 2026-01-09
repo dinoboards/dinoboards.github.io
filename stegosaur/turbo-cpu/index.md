@@ -69,7 +69,7 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 
 | Count | Name                    | Self Sourcing*                                            |
 | :---: | ----------------------- | --------------------------------------------------------- |
-|   5   | 0.1uF                   |                                                           |
+|   5   | 0.1uF Ceramic Capacitor                  |                                                           |
 |   2   | 22pF                    |                                                           |
 |   1   | 47 Ω (3.4mm)            |                                                           |
 |   2   | 470 Ω (3.4mm)           |                                                           |
