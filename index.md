@@ -57,7 +57,7 @@ There are 2 main sets of kits:
 </ul>
 </div>
 
-Also checkout my mastodon account for updates and demo videos: <a href="https://mastodon.social/@dinotron/with_replies"  target="_new" style="">
+Also checkout my mastodon account for updates and demo videos: <a rel="me" href="https://mastodon.social/@dinotron" target="_new">
           <img src="{{ site.baseurl }}/assets/mastodon-logo.svg" style="position: relative; top:4px; height: 1em" />&nbsp;mastodon.social/@dinotron
         </a>
 
@@ -108,4 +108,3 @@ A working/bootable MSX system can be constructed in various configurations.  You
 
 
 <hr/>
-
