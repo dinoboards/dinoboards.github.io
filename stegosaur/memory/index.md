@@ -222,7 +222,7 @@ SROM PACMAN.ROM
 
 #### NOTE 1
 
-Solder the 1x3 Header socket onto the RAM module and the associated male connector onto the ROM Module.  The male connector needs to be soldered on the top-side of the ROM Module.
+> Solder the 1x3 Header socket onto the RAM module and the associated male connector onto the ROM Module.  The male connector needs to be soldered on the top-side of the ROM Module.
 
 <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/memory/images/modules-connected.jpg"><img src="{{ site.baseurl }}/stegosaur/memory/images/modules-connected.jpg" width="40%"/></a>
 

@@ -45,7 +45,10 @@ layout: default
 
 The Stegosaur Green series are a set of newly designed modules.  Their design is very similar to the Yellow MSX series, with some improvements and simplifications; with the main visual difference being their PCBs heights reduced from 8cm down to a more conventional 5.5cm height.
 
-At this time, there is only the V9958 RGB module, but new modules will be introduced shortly.
+The Stegosaur Green series is generally compatible with the Yellow MSX Series.  You can mix up the modules. Although please note the need for the 80Way RCBus backplane.
+
+Under each module's description, you will see a '**Difference**' section that highlights the main differences between each of of the Yellow and Stegosaur modules.
+
 
 <hr/>
 ### Stegosaur V99x8 RGB Video Module
@@ -79,7 +82,7 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
   <div class="tag rcbus"></div>
   <div class="tag rc2014"></div>
   <div class="tag romwbw"></div>
-  <div class="tag msx optional"></div>
+  <div class="tag msx required"></div>
 </div>
 
 <div class="product-listing">
@@ -191,7 +194,31 @@ At this time, there is only the V9958 RGB module, but new modules will be introd
   <div>
     <p>A full MSX2 compatible ROM and RAM solution for your RC2014/RCBus system.</p>
     <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
-    <p><a href="/stegosaur/ppi-and-keyboard/">Click here for full details</a></p>
+    <p><a href="/stegosaur/memory/">Click here for full details</a></p>
+    <!-- <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+<hr/>
+### Stegosaur 10 + MSX Slot Backplane
+
+<div class="tags">
+  <div class="tag rcbus compatible"></div>
+  <div class="tag msx recommended"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/backplane-10-plus-slot/"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/profile.jpg" alt="Stegosaur 10 + MSX Slot Backplane"></a>
+  </div>
+  <div>
+    <p>A 10 slot RCBus 80 way backplane plus a single MSX 50 way cartridge edge connector.</p>
+    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
+    <p><a href="/stegosaur/backplane-10-plus-slot/">Click here for full details</a></p>
     <!-- <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>

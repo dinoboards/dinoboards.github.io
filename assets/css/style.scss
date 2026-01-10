@@ -717,6 +717,10 @@ screen and (max-width: 580px) {
   content: "MSX Recommended";
 }
 
+.tag.rcbus.compatible::before {
+  content: "RCBus Compatible";
+}
+
 .tag.rcbus {
   background-color: green;
   color: white;
