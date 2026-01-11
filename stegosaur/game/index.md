@@ -184,7 +184,7 @@ Select the source of the clock signal used by the above jumpers that is ultimate
 
 * Schematic (revision 1.1): <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
 
-# Key difference with Yellow MSX RGB module
+# Key difference with Yellow MSX GAME module
 
 | Description             | Yellow MSX Version                          | Green Stegosaur Version                                       |
 | ----------------------- | ------------------------------------------- | ------------------------------------------------------------- |
