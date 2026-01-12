@@ -2,8 +2,9 @@
 layout: default
 title: Stegosaur MSX YM2413 Music Module
 description: Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip
-product_url: https://shop.dinoboards.com.au/product/stegosaur-ym2413-music/
 ---
+
+<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-ym2413-music/ -->
 
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
@@ -66,7 +67,7 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 
 | Count | Name                                  | Self Sourcing*                                            |
 | :---: | ------------------------------------- | --------------------------------------------------------- |
-|   3   | 0.1uF Ceramic Capacitor              |                                                           |
+|   3   | 0.1uF Ceramic Capacitors              | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   2   | 3.5mm audio socket                    | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
 |   2   | 1uF Electrolytic Capacitors           |                                                           |
 |   4   | 2.2uF Electrolytic Capacitors         |                                                           |
@@ -93,9 +94,9 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 
 #### Optional Short audio cable
 
-| Count | Name          | Self Sourcing* |
-| :---: | ------------- | -------------- |
-|   1   | Short 3.5mm audio cable               |                                                           |
+| Count | Name                    | Self Sourcing* |
+| :---: | ----------------------- | -------------- |
+|   1   | Short 3.5mm audio cable |                |
 
 # What's included?
 

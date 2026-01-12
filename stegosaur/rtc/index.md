@@ -2,11 +2,9 @@
 layout: default
 title: RP5C01 RTC and MSX F4 board for RC2014
 description: An MSX compatible Real time clock and MSX F4 Boot register.
-tindie_product_url: https://www.tindie.com/products/dinotron/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014/
-github_url: https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/rtc#readme
-hackaday_url: https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014
-product_url: https://shop.dinoboards.com.au/product/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014
 ---
+
+<!-- product_url: https://shop.dinoboards.com.au/product/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014 -->
 
 # RP5C01 RTC and MSX F4 board for RC2014
 
@@ -147,37 +145,37 @@ A driver for this chip has been submitted and accepted by Wayne Warthen and is n
 
 ## Port Mappings
 
-| Port |  Description
-|------|--------------------|
-|  B4    | RP5C01 Register Selection |
-|  B5    | RP5C01 Data R/W  |
-|  F4    | BIT 7 Cold/Warm Boot state |
+| Port | Description                |
+| ---- | -------------------------- |
+| B4   | RP5C01 Register Selection  |
+| B5   | RP5C01 Data R/W            |
+| F4   | BIT 7 Cold/Warm Boot state |
 
 # Bill of Materials
 
-|Count   | Name  |  Designator |
-|:------:|-------|-------------|
-| 1      |	CR2032 Holder  |	B1 |
-| 8      |	0.1uf |	C1,C2,C3,C4,C8,C9,C7
-| 1      |	33pF |	C5 |
-| 1      |	Trimmer Capacitor | C6
-| 1      |	1N4148	| D1,D2,D3,D4
-| 1      |	HEADER 1x1 |	J1
-| 1      |	HEADER 1x2 |	J2
-| 2      |	10K Ω |	R2,R6
-| 2      |	100K Ω |	R3,R4
-| 2      |	1K Ω |	R5,R7
-| 1      |	RP5C01|	U1 |
-| 1      |	74HCT175	| U2 |
-| 1      |	ADM691A	 | U3 |
-| 1      |	74HCT138	| U4 |
-| 1      |	74HCT02	| U5 |
-| 1      |	74HC125	| U6 |
-| 1      |	74HC74	| U7 |
-| 1      |	74HCT21	| U8 |
-| 1      |	32.768KHz |	X1
-| 0      |	Right Angle | 2x20 Header
-| 2      |	Right Angle | 1x20 Header
+| Count | Name                     | Designator                                         |
+| :---: | ------------------------ | -------------------------------------------------- |
+|   1   | CR2032 Holder            | B1                                                 |
+|   8   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND |
+|   1   | 33pF                     | C5                                                 |
+|   1   | Trimmer Capacitor        | C6                                                 |
+|   1   | 1N4148                   | D1,D2,D3,D4                                        |
+|   1   | HEADER 1x1               | J1                                                 |
+|   1   | HEADER 1x2               | J2                                                 |
+|   2   | 10K Ω                    | R2,R6                                              |
+|   2   | 100K Ω                   | R3,R4                                              |
+|   2   | 1K Ω                     | R5,R7                                              |
+|   1   | RP5C01                   | U1                                                 |
+|   1   | 74HCT175                 | U2                                                 |
+|   1   | ADM691A                  | U3                                                 |
+|   1   | 74HCT138                 | U4                                                 |
+|   1   | 74HCT02                  | U5                                                 |
+|   1   | 74HC125                  | U6                                                 |
+|   1   | 74HC74                   | U7                                                 |
+|   1   | 74HCT21                  | U8                                                 |
+|   1   | 32.768KHz                | X1                                                 |
+|   0   | Right Angle              | 2x20 Header                                        |
+|   2   | Right Angle              | 1x20 Header                                        |
 
 # PCB Images
 

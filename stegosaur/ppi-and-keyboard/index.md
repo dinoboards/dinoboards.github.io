@@ -2,8 +2,9 @@
 layout: default
 title: Stegosaur PPI & Full Size Matrix Keyboard
 description: A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.
-product_url: https://shop.dinoboards.com.au/product/stegosaur-ppi-and-keyboard
 ---
+
+<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-ppi-module-keyboard/ -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
@@ -67,7 +68,7 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
 
 | Count | Name                      | Self Sourcing*                                            |
 | :---: | ------------------------- | --------------------------------------------------------- |
-|   5   | 0.1uF Ceramic Capacitor   |                                                           |
+|   5   | 0.1uF Ceramic Capacitors  | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   2   | IDC Connector (No Clamps) | DigiKey: 2057-BHR-16-HUA-ND                               |
 |  81   | 1N4148                    |                                                           |
 |   3   | 470 Ω                     |                                                           |
@@ -81,28 +82,28 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
 |   1   | 40 POS IC SOCKET          | Mouser: 571-1-2199299-5<br/>DigiKey: 2057-ICS-640-T-ND    |
 |   1   | 16 Way IDC Cable          |                                                           |
 
-#### Optional MSX Slot Selector Signals
+#### Optional MSX Slot Selector
 
 * Required for MSX compatibility
 
-| Count | Name                    | Self Sourcing*                                         |
-| :---: | ----------------------- | ------------------------------------------------------ |
-|   1   | 0.1uF Ceramic Capacitor |
-|   1   | 74HC153                 |
-|   1   | 16 POS IC SOCKET        | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND |
+| Count | Name                     | Self Sourcing*                                         |
+| :---: | ------------------------ | ------------------------------------------------------ |
+|   1   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
+|   1   | 74HC153                  |
+|   1   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND |
 
 #### Optional MSX M1 Wait State Generator
 
 * Required if using RC2014 stock Z80 module. Not needed if using MSX Turbo CPU module.
 
-| Count | Name                      | Self Sourcing*                                         |
-| :---: | ------------------------- | ------------------------------------------------------ |
-|   1   | 0.1uF   Ceramic Capacitor |                                                        |
-|   1   | 1N4148                    |                                                        |
-|   1   | 74HC74                    |                                                        |
-|   1   | 1x2 HEADER                |                                                        |
-|   1   | Shunt 1x2                 |                                                        |
-|   1   | 14 POS IC SOCKET          | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND |
+| Count | Name                     | Self Sourcing*                                         |
+| :---: | ------------------------ | ------------------------------------------------------ |
+|   1   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
+|   1   | 1N4148                   |                                                        |
+|   1   | 74HC74                   |                                                        |
+|   1   | 1x2 HEADER               |                                                        |
+|   1   | Shunt 1x2                |                                                        |
+|   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND |
 
 #### 82C55 PPI Chip
 
@@ -116,16 +117,18 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
 
 This project includes both the keyboard kit and the PPI interface board kit.
 
-* Keyboard PCB and components (passive components, IDC socket, and ICs)
-* PPI PCB and components (passive components, IDC socket, and ICs with a tested 82C55 chip optionally included)
+* Keyboard PCB and components (passive components, IDC socket, and ICs).
+* PPI PCB and components (passive components, IDC socket, and ICs with a tested 82C55 chip optionally included).
+* The MSX Slot Selector option is only required for MSX configurations.
+* The optional M1 Wait State Generator is only needed for MSX configuration with a stock Z80 CPU  The Stegosaur and Yellow Turbo CPUs modules already include the M1 Wait State Generator.
 
-> Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://shop.dinoboards.com.au/product/keycap-set-for-msx-rc2014-keyboard) and [compatible switches here](https://shop.dinoboards.com.au/product/switches-and-stabilizers-for-msx-rc2014-keyboard)
+> **Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://shop.dinoboards.com.au/product/keycap-set-for-msx-rc2014-keyboard) and [compatible switches here](https://shop.dinoboards.com.au/product/switches-and-stabilizers-for-msx-rc2014-keyboard)**
 
 # What else do I need?
 
 This module can work in a standard RC2014/RCBus RomWBW bootable system.
 
-It is required for a full MSX configured system.
+It is required for a MSX configured system.
 
 
 # Operation

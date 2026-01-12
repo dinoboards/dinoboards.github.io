@@ -2,8 +2,9 @@
 layout: default
 title: Stegosaur MSX ROM & RAM Module
 description: Give your RC2014 the power of 512K ROM and 1024K RAM
-product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-memory
 ---
+
+<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-memory -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
@@ -63,27 +64,27 @@ This module is designed for operation in conjunction with other MSX modules (CPU
 
 #### Base Kit
 
-| Count | Name                     | Self Sourcing*                                            |
-| :---: | ------------------------ | --------------------------------------------------------- |
-|  13   | 0.1uF Ceramic Capacitor  |                                                           |
-|   1   | 1x3 Header socket        |                                                           |
-|   1   | 1x3 Header plug (17mm)   |                                                           |
+| Count | Name                          | Self Sourcing*                                            |
+| :---: | ----------------------------- | --------------------------------------------------------- |
+|  13   | 0.1uF Ceramic Capacitors      | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
+|   1   | 1x3 Header socket             |                                                           |
+|   1   | 1x3 Header plug (17mm)        |                                                           |
 |   1   | ATF22V10C-15PU (RAM SELECTOR) |                                                           |
 |   1   | ATF22V10C-15PU (ROM-MAPPER)   |                                                           |
-|   1   | AS6C4008                 |                                                           |
-|   1   | SST39SF040               |                                                           |
-|   2   | 74HCT30                  |                                                           |
-|   1   | 74HC138                  |                                                           |
-|   1   | 74HCT153                 |                                                           |
-|   1   | 74HCT273                 |                                                           |
-|   1   | 74HC540                  |                                                           |
-|   2   | 74HCT670                 |                                                           |
-|   4   | Right Angle 2x20 Header  | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
-|   2   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
-|   4   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
-|   2   | 20 POS IC SOCKET         | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
-|   2   | 24 POS IC SOCKET         | Mouser: 571-1-2199298-8<br/>DigiKey: 2057-ICS-324-T-ND    |
-|   3   | 32 POS IC SOCKET         | Mouser: 737-ICS-632-T<br/>DigiKey: 2057-ICS-632-T-ND      |
+|   1   | AS6C4008                      |                                                           |
+|   1   | SST39SF040                    |                                                           |
+|   2   | 74HCT30                       |                                                           |
+|   1   | 74HC138                       |                                                           |
+|   1   | 74HCT153                      |                                                           |
+|   1   | 74HCT273                      |                                                           |
+|   1   | 74HC540                       |                                                           |
+|   2   | 74HCT670                      |                                                           |
+|   4   | Right Angle 2x20 Header       | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
+|   2   | 14 POS IC SOCKET              | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
+|   4   | 16 POS IC SOCKET              | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
+|   2   | 20 POS IC SOCKET              | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
+|   2   | 24 POS IC SOCKET              | Mouser: 571-1-2199298-8<br/>DigiKey: 2057-ICS-324-T-ND    |
+|   3   | 32 POS IC SOCKET              | Mouser: 737-ICS-632-T<br/>DigiKey: 2057-ICS-632-T-ND      |
 
 # What's included?
 
@@ -217,7 +218,7 @@ SROM PACMAN.ROM
 | Description           | Yellow MSX Version                          | Green Stegosaur Version                                       |
 | --------------------- | ------------------------------------------- | ------------------------------------------------------------- |
 | Physical Layout       | Single PCB for both ROM and RAM             | Two separate PCBs for ROM and RAM                             |
-| RAM Included          | 2x512K (1MB)                                | 512K with optional extra 512K                          |
+| RAM Included          | 2x512K (1MB)                                | 512K with optional extra 512K                                 |
 | Backplane Requirement | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
 | PCB Height            | 8.0 cm                                      | 5.5 cm                                                        |
 | Colour                | Yellow                                      | Green                                                         |

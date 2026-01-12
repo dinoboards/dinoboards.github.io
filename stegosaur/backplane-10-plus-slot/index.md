@@ -2,9 +2,10 @@
 layout: default
 title: Stegosaur 10 + MSX Slot Backplane
 description: A RCBus 80 way backplane and single MSX Game Cartridge Slot
-product_url: https://shop.dinoboards.com.au/product/stegosaur-backplane-10-plus-slot
 
 ---
+
+<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-backplane-10-plus-slot -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
@@ -36,8 +37,6 @@ With enough slots to fit the Stegosaur MSX+ modules, with a single plus one RC20
 * 4 way power terminal block for easy extension or alternative powering
 * Optional direct 5V in via DC barrel connector
 
-Please note that mounting stand-offs are not supplied.
-
 <div class="hh1">Images</div>
 
 <table>
@@ -61,8 +60,8 @@ Please note that mounting stand-offs are not supplied.
 
 | Count | Name                       | Self Sourcing*                                         |
 | :---: | -------------------------- | ------------------------------------------------------ |
-|  20   | 40 Way SIL Socket*         |
-|  12   | 0.1uF ceramic capacitors   |
+|  20   | 40 Way SIL Socket*         |                                                        |
+|  12   | 0.1uF Ceramic Capacitors   | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
 |   1   | 2.1mm Power Jack           | Mouser: 490-PJ-002B<br/>DigiKey: CP-002B-ND            |
 |   1   | Tactile Switch             | Mouser: 506-FSM4JH<br/>DigiKey: CP-002B-ND             |
 |   1   | SPDT Toggle Switch         | Mouser: 612-200MSP1T1B2M6QE                            |
@@ -72,19 +71,6 @@ Please note that mounting stand-offs are not supplied.
 |   1   | ATF16V8B-15PU              | Mouser: 556-AF16V8B15PU<br/>DigiKey:	ATF16V8B-15PU-ND  |
 |   1   | 20 POS IC SOCKET           | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND |
 |   1   | 50 Pin Card Edge Connector | Mouser: 571-5530841-5<br/>DigiKey: 5530841-5-ND        |
-
-# What's included?
-
-The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
-
-The ATF16V8B-15PU PLD is supplied flashed.
-
-# What else do I need?
-
-This backplane requires modules.  Any compatible RC2014/RCBus module can operate on this backplane.
-
-The MSX Cartridge slot will only work if you have the required set of MSX modules.  It is not compatible with RomWBW.
-
 
 #### Optional 5V Converter
 
@@ -97,6 +83,21 @@ The MSX Cartridge slot will only work if you have the required set of MSX module
 | Count | Name                              | Self Sourcing*                                                                |
 | :---: | --------------------------------- | ----------------------------------------------------------------------------- |
 |   1   | Optional 5V to +/-12VDC Converter | Mouser: 709-DPU01L-12<br/>~~DigiKey: 1866-1408-ND~~<br/>DigiKey: 1951-3433-ND |
+
+# What's included?
+
+The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
+
+The ATF16V8B-15PU PLD is supplied flashed.
+
+Please note that mounting stand-offs are not supplied.
+
+# What else do I need?
+
+This backplane requires modules.  Any compatible RC2014/RCBus module can operate on this backplane.
+
+The MSX Cartridge slot will only work if you have the required set of MSX modules.  It is not compatible with RomWBW.
+
 
 # Operation
 

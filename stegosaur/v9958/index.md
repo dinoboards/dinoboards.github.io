@@ -71,9 +71,9 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 | Count | Name                         | Self Sourcing*                                            |
 | :---: | ---------------------------- | --------------------------------------------------------- |
-|   2   | 22pF  Ceramic Capacitor                        |                                                           |
-|   1   | 47pF Ceramic Capacitor                        |                                                           |
-|   8   | 0.1uF Ceramic Capacitor                       |                                                           |
+|   2   | 22pF  Ceramic Capacitor      |                                                           |
+|   1   | 47pF Ceramic Capacitor       |                                                           |
+|   8   | 0.1uF Ceramic Capacitors     | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   3   | 10uF                         |                                                           |
 |   1   | 220uF (LOW ESR)              |                                                           |
 |   4   | 220uF                        |                                                           |
@@ -104,16 +104,16 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 #### (VDP + 64K VRAM)
 
-| Count | Name               | Self Sourcing* |
-| :---: | ------------------ | -------------- |
-|   1   | V9958 VDP |                |
-|   2   | 41464C RAM         |                |
+| Count | Name       | Self Sourcing* |
+| :---: | ---------- | -------------- |
+|   1   | V9958 VDP  |                |
+|   2   | 41464C RAM |                |
 
 #### (VRAM Expansion)
 
 | Count | Name                       | Self Sourcing*                                         |
 | :---: | -------------------------- | ------------------------------------------------------ |
-|   6   | 0.1uF                      |                                                        |
+|   6   | 0.1uF Ceramic Capacitors   | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
 |   2   | 100 Ω (3.4mm)              | Mouser: 603-MFR-12FTF52-100R                           |
 |   1   | Round Hole Pin Header 1x40 |                                                        |
 |   6   | 41464C RAM                 |                                                        |
@@ -237,16 +237,16 @@ For specific details on programming the chip, I recommend:
 
 # Key difference with Yellow MSX RGB
 
-| Description                       | Yellow MSX Version                          | Green Stegosaur Version                                       |
-| --------------------------------- | ------------------------------------------- | ------------------------------------------------------------- |
-| Max VRAM on main board            | 128K                                        | 64K                                                           |
-| VRAM Expandable?                  | No                                          | Yes (up to 192K)                                              |
-| V9958 and V9958 Support           | Single PCB can support both VDP types       | Different PCB needed for each VDP type                        |
-| V9958 WAIT signal supported       | Yes                                         | No                                                            |
-| RGB Video output design           | unchanged                                   | unchanged*                                                    |
-| Optional 5V out via RGB Connector | Yes                                         | No                                                            |
-| PCB Height                        | 8.0 cm                                      | 5.5 cm                                                        |
-| Colour                            | Yellow                                      | Green                                                         |
+| Description                       | Yellow MSX Version                    | Green Stegosaur Version                |
+| --------------------------------- | ------------------------------------- | -------------------------------------- |
+| Max VRAM on main board            | 128K                                  | 64K                                    |
+| VRAM Expandable?                  | No                                    | Yes (up to 192K)                       |
+| V9958 and V9958 Support           | Single PCB can support both VDP types | Different PCB needed for each VDP type |
+| V9958 WAIT signal supported       | Yes                                   | No                                     |
+| RGB Video output design           | unchanged                             | unchanged*                             |
+| Optional 5V out via RGB Connector | Yes                                   | No                                     |
+| PCB Height                        | 8.0 cm                                | 5.5 cm                                 |
+| Colour                            | Yellow                                | Green                                  |
 
 > \* The Green Stegosaur RGB kit utilizes separate PCB designs for the V9938 and V9958 VDPs. This allows the V9958's PCB, to refine the layout and tracing of the power delivery components for the V9958's DAC; minimising, as much as possible, potential EM interference appearing on your display.
 

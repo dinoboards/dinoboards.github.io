@@ -2,8 +2,9 @@
 layout: default
 title: Stegosaur MSX SLOT 3-1 FOR MSX Music Module
 description: ROM Support for MSX Music Module
-product_url: https://shop.dinoboards.com.au/product/msx-music-rom
 ---
+
+<!-- product_url: https://shop.dinoboards.com.au/product/msx-music-rom -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
@@ -49,12 +50,12 @@ The on-board ROM includes the MSX-MUSIC basic extensions enabling the ability to
 
 | Count | Name                          | Self Sourcing*                                            |
 | :---: | ----------------------------- | --------------------------------------------------------- |
-|   5   | 0.1uF Ceramic Capacitor       |                                                           |
-|   1   | 74HCT21                       | |
-|   1   | 74HCT32                       | |
-|   1   | 74HCT138                      | |
-|   1   | 74HCT273                      | |
-|   1   | SST39SF040 512K NOR Flash ROM | |
+|   5   | 0.1uF Ceramic Capacitors      | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
+|   1   | 74HCT21                       |                                                           |
+|   1   | 74HCT32                       |                                                           |
+|   1   | 74HCT138                      |                                                           |
+|   1   | 74HCT273                      |                                                           |
+|   1   | SST39SF040 512K NOR Flash ROM |                                                           |
 |   1   | 32 POS IC SOCKET              | Mouser: 737-ICS-632-T<br/>DigiKey: 2057-ICS-632-T-ND      |
 |   1   | 20 POS IC SOCKET              | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
 |   1   | 16 POS IC SOCKET              | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |

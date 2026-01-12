@@ -60,7 +60,7 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 
 | Count | Name                     | Self Sourcing*                                            |
 | :---: | ------------------------ | --------------------------------------------------------- |
-|   4   | 0.1uF Ceramic Capacitors |                                                           |
+|   4   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   5   | 10uF                     |                                                           |
 |   1   | 3.5 Audio Socket         | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
 |   1   | 10k Ω Bussed x 12        |                                                           |
@@ -84,7 +84,7 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 
 | Count | Name                     | Self Sourcing*                                         |
 | :---: | ------------------------ | ------------------------------------------------------ |
-|   1   | 0.1uF Ceramic Capacitors |                                                        |
+|   1   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
 |   1   | 74HC74                   |                                                        |
 |   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND |
 
@@ -92,7 +92,7 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 
 | Count | Name                            | Self Sourcing*                                             |
 | :---: | ------------------------------- | ---------------------------------------------------------- |
-|   3   | 0.1uF Ceramic Capacitors        |                                                            |
+|   3   | 0.1uF Ceramic Capacitors        | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND         |
 |   1   | 400mA Fuse                      | Mouser: 530-0ZRG0075FF1E<br/>DigiKey: 5923-0ZRG0075FF1E-ND |
 |   1   | 9-PIN DSUB CONNECTOR            | Mouser: 737-DE09-PL-25<br/>DigiKey: 2057-DE09-PL-25-ND     |
 |   1   | 10k Ω Bussed x 12 resistor      | Mouser: 652-4613X-1LF-10K<br/>DigiKey: 652-4613X-1LF-10K   |
