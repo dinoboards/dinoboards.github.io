@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Turbo CPU
+title: Stegosaur Turbo CPU
 description: Z80 CPU running at up to 20Mhz.
 product_url: https://shop.dinoboards.com.au/product/stegosaur-turbo-cpu/
 ---
@@ -69,7 +69,7 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 
 | Count | Name                    | Self Sourcing*                                            |
 | :---: | ----------------------- | --------------------------------------------------------- |
-|   5   | 0.1uF Ceramic Capacitor                  |                                                           |
+|   5   | 0.1uF Ceramic Capacitor |                                                           |
 |   2   | 22pF                    |                                                           |
 |   1   | 47 Ω (3.4mm)            |                                                           |
 |   2   | 470 Ω (3.4mm)           |                                                           |
@@ -173,15 +173,15 @@ The 3 way slider's state is sent to these 2 chips to allow the user to select 2 
 
 # Key difference with Yellow Turbo CPU
 
-| Description                | Yellow MSX Version                                         | Green Stegosaur Version          |
-| -------------------------- | ---------------------------------------------------------- | -------------------------------- |
-| Turbo Clock                | On board 20Mhz                                             | On board 20Mhz                   |
-| Slow Clock (CLK1)          | On board with selectable rates from 0.3072Mhz to 7.3728Mhz | **Requires external slow clock** |
-| Clock (CLK2)               | On board with selectable rates from 0.3072Mhz to 7.3728Mhz | None                             |
-| External Slow Clock Source | Optional via jumpers                                       | Required                         |
-| Power On Reset | None | Enabled from version 1.1 and above |
-| PCB Height                 | 8.0 cm                                                     | 5.5 cm                           |
-| Colour                     | Yellow                                                     | Green                            |
+| Description                | Yellow MSX Version                                         | Green Stegosaur Version            |
+| -------------------------- | ---------------------------------------------------------- | ---------------------------------- |
+| Turbo Clock                | On board 20Mhz                                             | On board 20Mhz                     |
+| Slow Clock (CLK1)          | On board with selectable rates from 0.3072Mhz to 7.3728Mhz | **Requires external slow clock**   |
+| Clock (CLK2)               | On board with selectable rates from 0.3072Mhz to 7.3728Mhz | None                               |
+| External Slow Clock Source | Optional via jumpers                                       | Required                           |
+| Power On Reset             | None                                                       | Enabled from version 1.1 and above |
+| PCB Height                 | 8.0 cm                                                     | 5.5 cm                             |
+| Colour                     | Yellow                                                     | Green                              |
 
 # Assembly Guide
 

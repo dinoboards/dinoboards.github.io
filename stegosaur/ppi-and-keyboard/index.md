@@ -112,6 +112,15 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
 | :---: | ----- | -------------- |
 |   1   | 82C55 |                |
 
+# What's included
+
+This project includes both the keyboard kit and the PPI interface board kit.
+
+* Keyboard PCB and components (passive components, IDC socket, and ICs)
+* PPI PCB and components (passive components, IDC socket, and ICs including the 82C55 chip)
+
+> Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://shop.dinoboards.com.au/product/keycap-set-for-msx-rc2014-keyboard) and [compatible switches here](https://shop.dinoboards.com.au/product/switches-and-stabilizers-for-msx-rc2014-keyboard)
+
 # Operation
 
 ### Jumpers
@@ -130,14 +139,6 @@ Although this kit is designed to work under MSX's software, it can be used in a 
 
 See RomWBW for details on configuring and building a version of RomWBW for keyboard function.
 
-# What's included
-
-This project includes both the keyboard kit and the PPI interface board kit.
-
-* Keyboard PCB and components (passive components, IDC socket, and ICs)
-* PPI PCB and components (passive components, IDC socket, and ICs including the 82C55 chip)
-
-> Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://shop.dinoboards.com.au/product/keycap-set-for-msx-rc2014-keyboard) and [compatible switches here](https://shop.dinoboards.com.au/product/switches-and-stabilizers-for-msx-rc2014-keyboard)
 
 ### Rainbow Cable types
 
