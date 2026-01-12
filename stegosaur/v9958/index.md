@@ -106,7 +106,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 | Count | Name               | Self Sourcing* |
 | :---: | ------------------ | -------------- |
-|   1   | V9938 or V9958 VDP |                |
+|   1   | V9958 VDP |                |
 |   2   | 41464C RAM         |                |
 
 #### (VRAM Expansion)
@@ -119,11 +119,25 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 |   6   | 41464C RAM                 |                                                        |
 |  16   | 18 POS IC SOCKET           | Mouser: 571-1-2199298-5<br/>DigiKey: 2057-ICS-318-T-ND |
 
-# Output connections
+# What's included?
+
+The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
+
+A tested V9958 and tested RAM chips can be optionally supplied, or you can source your own.
+
+The optional VRAM Expansion kit is also supplied with main components, with tested RAM chips optionally included.
+
+# What else do I need?
+
+This module can work in a standard RC2014/RCBus RomWBW bootable system, or a MSX configured bootable system.
+
+You will need a compatible display.  See next section
+
+## Output connections
 
 You will want to think about how you plan to connect this board to your chosen monitor.  The video signals produced by 80's hardware is not trivial to connect to modern LCD monitors.  For such monitors you will need a converter to upscale the output.  Although VGA Monitors can accept a RGB signal, they are unlikely to support the lower frequency of 15Khz produced by this module.
 
-The RGBs module provides connection via the 15-pin DSUB/VGA connector.  This output is well suited to connect via a VGA cable to a compatible HDMI/VGA up-converter that accepts a RGBs signal over the 15pin connection, such as the GBS-8200 or HD-VC9900 converters.  For more information on the DSUB RGB/VGA see <a target="_newwindow" href="https://www.retrorgb.com/vgaconnector.html">RetroRGB's VGA article<a/>
+The RGBs module provides connection via the 15-pin DSUB/VGA connector.  This output is well suited to connect via a VGA cable to a compatible HDMI/VGA up-converter that accepts a RGBs signal over the 15pin connection, such as the GBS-8200 (V4 recommended) or HD-VC9900 converters.  For more information on the DSUB RGB/VGA see <a target="_newwindow" href="https://www.retrorgb.com/vgaconnector.html">RetroRGB's VGA article</a>
 
 The <a target="_newwindow" href="https://www.retrorgb.com/upscalers.html">RetroRGB upscalers article</a> has a good description for some of the converter options.
 

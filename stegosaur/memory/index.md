@@ -85,6 +85,22 @@ This module is designed for operation in conjunction with other MSX modules (CPU
 |   2   | 24 POS IC SOCKET         | Mouser: 571-1-2199298-8<br/>DigiKey: 2057-ICS-324-T-ND    |
 |   3   | 32 POS IC SOCKET         | Mouser: 737-ICS-632-T<br/>DigiKey: 2057-ICS-632-T-ND      |
 
+# What's included?
+
+The full kits includes everything you need (2 PCB, capacitors, IC sockets, connectors, and the ICs).
+
+The supplied ROM image will be flash with your choice of 50Hz or 60Hz CBIOS/MSX-DOS image.  Additional ROM images are available for download that include MSX-BIOS and MSX-BASIC and configured for different regions.
+
+# What else do I need?
+
+This module is the core of a MSX configured build. It will only enable a bootable system if you have the required additional MSX modules:
+
+* Z80 Turbo CPU (or stock RC2014/RCBus Z80 CPU).
+* V99x8 RGB Video Module.
+* YM2149 GAME.
+* PPI & Keyboard.
+* 80-Way lane compatible backplane (eg: Yellow 12+1 backplane, or the Green Stegosaur 10+Slot backplane).
+* Both the ROM and RAM modules must be installed together - they can not operate on their own and must have their 3 pin headers connected.
 
 # Operation
 
@@ -108,16 +124,6 @@ The remaining 28 16K banks mapped to slot 3-3, using the [ASCII16](https://www.m
 
 The source code, build scripts and packaged releases for the alternative custom ROM images, can be found in the repo, under the [msx](https://github.com/dinoboards/yellow-msx-series-for-rc2014/tree/main/msx#yellow-msx-for-rc2014-rom-image-builder) directory.
 
-### Dependencies
-
-This module must have the following MSX boards:
-
-* Z80 Turbo CPU (or stock RC2014/RCBus Z80 CPU).
-* V99x8 RGB Video Module.
-* YM2149 GAME.
-* PPI & Keyboard.
-* 80-Way lane compatible backplane (eg: Yellow 12+1 backplane, or the Green Stegosaur 10+Slot backplane).
-* Both the ROM and RAM modules must be installed together - they can not operate on their own and must have their 3 pin headers connected.
 
 ### MSX-DOS Boot-up
 

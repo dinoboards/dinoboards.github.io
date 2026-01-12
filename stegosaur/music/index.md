@@ -97,6 +97,21 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 | :---: | ------------- | -------------- |
 |   1   | Short 3.5mm audio cable               |                                                           |
 
+# What's included?
+
+This base kit includes the usual main components (PCB, capacitors, IC sockets, connectors, and the ICs)
+
+A tested YM2413 can be optionally included or you can source your own.
+
+The optional short 3.5mm audio cable is supplied to connect to the MSX Game Modules's output and passthrough and mix with the Music module.
+
+# What else do I need?
+
+This module can work in a standard RC2014/RCBus RomWBW bootable system, or a MSX configured bootable system.
+
+You need an external powered speaker to hear the audio.  It is recommended to use stereo speakers to enjoy the stereo mix.
+
+The connecting 3.5mm cable must be the 3 pole stereo type.
 
 # Operation
 

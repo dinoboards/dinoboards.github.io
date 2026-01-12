@@ -117,9 +117,16 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
 This project includes both the keyboard kit and the PPI interface board kit.
 
 * Keyboard PCB and components (passive components, IDC socket, and ICs)
-* PPI PCB and components (passive components, IDC socket, and ICs including the 82C55 chip)
+* PPI PCB and components (passive components, IDC socket, and ICs with a tested 82C55 chip optionally included)
 
 > Please note, this kit does not include switches and keycaps.  You can choose to source these yourself, or purchase the [Keyboard caps here](https://shop.dinoboards.com.au/product/keycap-set-for-msx-rc2014-keyboard) and [compatible switches here](https://shop.dinoboards.com.au/product/switches-and-stabilizers-for-msx-rc2014-keyboard)
+
+# What else do I need?
+
+This module can work in a standard RC2014/RCBus RomWBW bootable system.
+
+It is required for a full MSX configured system.
+
 
 # Operation
 

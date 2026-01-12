@@ -69,11 +69,11 @@ The SST39SF040 ROM is supplied flashed with MSX-MUSIC extensions for MSX BASIC.
 
 # What else do I need?
 
-This module is designed to operate within a MSX configured RC2014/RCBus system.  It is not compatible with RomWBW.
+This module is designed to operate within a MSX configured RC2014/RCBus bootable system only.  It is not compatible with RomWBW.
 
-As such you need a bootable MSX system, as well as the Stegosaur MSX YM2413 Music Module.
+You also must have the Stegosaur MSX YM2413 Music Module.
 
-The onboard MSX-MUSIC basic extensions, requires your main Memory board has MSX-BASIC installed.
+The onboard MSX-MUSIC basic extensions, requires your main Memory board have a MSX-BIOS/MSX-BASIC version flashed.
 
 # Operation
 

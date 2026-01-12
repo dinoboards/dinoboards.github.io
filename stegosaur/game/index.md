@@ -110,6 +110,23 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 | :---: | ------ | -------------- |
 |   1   | YM2149 |                |
 
+# What's included?
+
+This base kit includes the usual main components (PCB, capacitors, IC sockets, connectors, and the ICs)
+
+A tested YM2149 can be optionally included or you can source your own.
+
+The optional Expansion Module includes parts need to assemble it and a set of 16 connecting jumpers.
+
+The optional on-board clock divider parts can also be included is desired.  See the Jumper section below to determine if you need the divider installed.
+
+# What else do I need?
+
+This module can work in a standard RC2014/RCBus RomWBW bootable system, or a MSX configured bootable system.
+
+You need an external powered speaker to hear the audio.  It is recommended to use stereo speakers to enjoy the stereo mix.
+
+The connecting 3.5mm cable must be the 3 pole stereo type.
 
 # Operation
 
@@ -146,23 +163,23 @@ The YM2149 has support for an onboard clock divider.
 
 #### Typical Configurations for CLK1 Source
 
-| CLK1 Frequency | Audio Chip Type | J1          | J2                     | J3                   |
-| -------------- | --------------- | ----------- | ---------------------- | -------------------- |
-| ~3.58Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 left pins shorted. |
-| ~3.58Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 left pins shorted. |
-| ~3.69Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 left pins shorted. |
-| ~3.69Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 left pins shorted. |
-| ~7.37Mhz       | YM2149          | shorted     | upper 2 pins shorted\* | 2 left pins shorted. |
+| CLK1 Frequency | Audio Chip Type | J1          | J2                     | J3                   | On-board clock divider needed |
+| -------------- | --------------- | ----------- | ---------------------- | -------------------- | ----------------------------- |
+| ~3.58Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 left pins shorted. | No                            |
+| ~3.58Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 left pins shorted. | Yes                           |
+| ~3.69Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 left pins shorted. | No                            |
+| ~3.69Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 left pins shorted. | Yes                           |
+| ~7.37Mhz       | YM2149          | shorted     | upper 2 pins shorted\* | 2 left pins shorted. | Yes                           |
 
 #### Typical Configurations for CLK2 Source
 
-| CLK2 Frequency | Audio Chip Type | J1          | J2                     | J3                    |
-| -------------- | --------------- | ----------- | ---------------------- | --------------------- |
-| ~1.84Mhz       | YM2149          | not shorted | lower 2 pins shorted   | 2 right pins shorted. |
-| ~1.84Mhz       | AY-3-8910       | not shorted | lower 2 pins shorted   | 2 right pins shorted. |
-| ~3.69Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 right pins shorted. |
-| ~3.69Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 right pins shorted. |
-| ~7.37Mhz       | YM2149          | shorted     | upper 2 pins shorted\* | 2 right pins shorted. |
+| CLK2 Frequency | Audio Chip Type | J1          | J2                     | J3                    | On-board clock divider needed |
+| -------------- | --------------- | ----------- | ---------------------- | --------------------- | ----------------------------- |
+| ~1.84Mhz       | YM2149          | not shorted | lower 2 pins shorted   | 2 right pins shorted. | No                            |
+| ~1.84Mhz       | AY-3-8910       | not shorted | lower 2 pins shorted   | 2 right pins shorted. | No                            |
+| ~3.69Mhz       | YM2149          | shorted     | lower 2 pins shorted   | 2 right pins shorted. | No                            |
+| ~3.69Mhz       | AY-3-8910       | not shorted | upper 2 pins shorted\* | 2 right pins shorted. | Yes                           |
+| ~7.37Mhz       | YM2149          | shorted     | upper 2 pins shorted\* | 2 right pins shorted. | Yes                           |
 
 > \* U5 74HC74 must also be inserted.
 

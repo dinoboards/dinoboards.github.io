@@ -73,6 +73,17 @@ Please note that mounting stand-offs are not supplied.
 |   1   | 20 POS IC SOCKET           | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND |
 |   1   | 50 Pin Card Edge Connector | Mouser: 571-5530841-5<br/>DigiKey: 5530841-5-ND        |
 
+# What's included?
+
+The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
+
+The ATF16V8B-15PU PLD is supplied flashed.
+
+# What else do I need?
+
+This backplane requires modules.  Any compatible RC2014/RCBus module can operate on this backplane.
+
+The MSX Cartridge slot will only work if you have the required set of MSX modules.  It is not compatible with RomWBW.
 
 
 #### Optional 5V Converter

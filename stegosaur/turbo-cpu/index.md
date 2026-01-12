@@ -99,11 +99,23 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 | :---: | --------- | -------------- |
 |   1   | Z80 20Mhz | Z84C0020PEG    |
 
+# What's included?
 
+The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
+
+The ATF22V10C and ATF16V8 PLD chips are supplied flashed.
+
+The optional Z80Mhz can be included or you can source your own.,
+
+# What else do I need?
+
+This module is designed to drive a standard RC2014/RCBus RomWBW system, or a MSX configured system.
+
+Unlike the Yellow Turbo CPU Module, this module still requires an external clock source (slow-clock).  This slow clock can be generated using any RC2014/RCBus clock modules (eg: The RC2014 Dual Clock Module).  You can also use the V99x8 RGB Video modules, with their appropriate jumper settings to create a 'slow clock' signal onto the CLK1 bus lane.
 
 ## Compatibility
 
-I have tested running at 20Mhz on my specific back-plane and set of modules without any problems.  But due to differences in combination and configuration of RC2014 kits - you may find with your specific situation, there are signal degradation issues at 20Mhz that may cause non-reliable operation.  You can use the 3 way slider to force the module to operator at a lower speed.
+I have tested running at 20Mhz on my specific back-plane and set of modules without any problems.  But due to differences in combination and configuration of RC2014 kits - you may find with your specific situation, there are signal degradation issues at 20Mhz that may cause non-reliable operation.  You can use the 3 way slider to force the module to operator at a lower speed and ensure good compatibility
 
 # Operation
 
@@ -113,16 +125,6 @@ In the middle position, the processor will boost to 20Mhz, but it includes 3 WAI
 
 In the bottom position, the processor will boost to 20Mhz, but only have 1 additional WAIT state added for any memory access.
 
-
-# What else do I need to make this work?
-
-You need a RC2014/RCBus build.  This can be configured with MSX modules or other RC2014/RCBus modules.
-
-I have tested on a conventional RC2014 build and with the MSX Modules.
-
-It will replace your RC2014 CPU.
-
-Unlike the Yellow Turbo CPU Module, this module still requires an external clock source (slow-clock).  This slow clock can be generated using any RC2014/RCBus clock modules (eg: The RC2014 Dual Clock Module).  You can also use the V99x8 RGB Video modules, with their appropriate jumper settings to create a 'slow clock' signal onto the CLK1 bus lane.
 
 # How does it work?
 
