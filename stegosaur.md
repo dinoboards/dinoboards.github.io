@@ -152,6 +152,33 @@ Under each module's description, you will see a '**Difference**' section that hi
   </div>
 </div>
 
+
+<hr/>
+### Stegosaur MSX SLOT 3-1 FOR MSX Music Module
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag msx optional"></div>
+  <div class="tag notromwbw"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/music-rom/"><img src="{{ site.baseurl }}/stegosaur/music-rom/images/profile.jpg" alt="Stegosaur MSX YM2413 Music"></a>
+  </div>
+  <div>
+    <p>Add MSX-BIOS and MSX-BASIC support functions for the MSX YM2413 Music Module</p>
+    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
+    <p><a href="/stegosaur/music-rom/">Click here for full details</a></p>
+    <!-- <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-music-rom/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div> -->
+  </div>
+</div>
+
+
 <hr/>
 ### Stegosaur MSX PPI Module & Keyboard
 
@@ -184,6 +211,7 @@ Under each module's description, you will see a '**Difference**' section that hi
 <div class="tags">
   <div class="tag rcbus required"></div>
   <div class="tag msx required"></div>
+  <div class="tag notromwbw"></div>
 </div>
 
 <div class="product-listing">

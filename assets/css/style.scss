@@ -688,6 +688,11 @@ screen and (max-width: 580px) {
   content: "RomWBW";
 }
 
+.tag.notromwbw::before {
+  content: "Incompatible RomWBW";
+  // text-decoration: line-through;
+}
+
 .tag.ez80::before {
   content: "eZ80";
 }
@@ -734,6 +739,11 @@ screen and (max-width: 580px) {
 .tag.romwbw {
   background-color: green;
   color: white;
+}
+
+.tag.notromwbw {
+  background-color: green;
+  color: rgb(204, 204, 204);
 }
 
 .tag.msx {
