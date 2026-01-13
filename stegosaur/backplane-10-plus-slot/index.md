@@ -2,14 +2,13 @@
 layout: default
 title: Stegosaur 10 + MSX Slot Backplane
 description: A RCBus 80 way backplane and single MSX Game Cartridge Slot
-
+product_url: https://shop.dinoboards.com.au/product/stegosaur-10-rcbus-msx-slot-backplane/
 ---
 
-<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-backplane-10-plus-slot -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
   </div>
   <div style="flex: 3;">
     <h1>Stegosaur 10 + MSX Slot Backplane</h1>

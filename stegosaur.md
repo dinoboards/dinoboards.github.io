@@ -112,7 +112,7 @@ Under each module's description, you will see a '**Difference**' section that hi
 
 <div class="product-listing">
   <div>
-    <a href="/stegosaur/game/"><img src="{{ site.baseurl }}/stegosaur/game/images/profile.jpg" alt="Stegosaur MSX YM2413 Music"></a>
+    <a href="/stegosaur/game/"><img src="{{ site.baseurl }}/stegosaur/game/images/profile.jpg" alt="Stegosaur MSX YM2149 GAME"></a>
   </div>
   <div>
     <p>MSX Sound and Optional Game Controller</p>
@@ -142,13 +142,12 @@ Under each module's description, you will see a '**Difference**' section that hi
   </div>
   <div>
     <p>Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip.</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/music/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-ym2413-music/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -164,17 +163,16 @@ Under each module's description, you will see a '**Difference**' section that hi
 
 <div class="product-listing">
   <div>
-    <a href="/stegosaur/music-rom/"><img src="{{ site.baseurl }}/stegosaur/music-rom/images/profile.jpg" alt="Stegosaur MSX YM2413 Music"></a>
+    <a href="/stegosaur/music-rom/"><img src="{{ site.baseurl }}/stegosaur/music-rom/images/profile.jpg" alt="Stegosaur MSX SLOT 3-1 FOR MSX Music Module"></a>
   </div>
   <div>
     <p>Add MSX-BIOS and MSX-BASIC support functions for the MSX YM2413 Music Module</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/music-rom/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-ym2413-music/" class="button" target="_newWindow">
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-slot-3-1/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -195,13 +193,12 @@ Under each module's description, you will see a '**Difference**' section that hi
   </div>
   <div>
     <p>A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/ppi-and-keyboard/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
+    <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-ppi-module-keyboard/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 
@@ -244,12 +241,11 @@ Under each module's description, you will see a '**Difference**' section that hi
   </div>
   <div>
     <p>A 10 slot RCBus 80 way backplane plus a single MSX 50 way cartridge edge connector.</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/backplane-10-plus-slot/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-10-rcbus-msx-slot-backplane/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>

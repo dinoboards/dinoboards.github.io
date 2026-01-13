@@ -2,14 +2,13 @@
 layout: default
 title: Stegosaur MSX YM2413 Music Module
 description: Enhanced MSX+ sounds with the YM2413 (OPLL) sound chip
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-ym2413-music/
 ---
-
-<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-ym2413-music/ -->
 
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
   </div>
   <div style="flex: 3;">
     <h1>Stegosaur MSX YM2413 Music</h1>

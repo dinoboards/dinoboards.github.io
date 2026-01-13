@@ -2,13 +2,12 @@
 layout: default
 title: Stegosaur MSX SLOT 3-1 FOR MSX Music Module
 description: ROM Support for MSX Music Module
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-slot-3-1/
 ---
-
-<!-- product_url: https://shop.dinoboards.com.au/product/msx-music-rom -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
   </div>
   <div style="flex: 3;">
     <h1>Stegosaur MSX SLOT 3-1 FOR MSX Music Module</h1>
@@ -121,7 +120,7 @@ upload these files to your system, and then at the msx-dos prompt type:
 
 | Description     | Yellow MSX Version                     | Green Stegosaur Version                       |
 | --------------- | -------------------------------------- | --------------------------------------------- |
-| MSX Support     | YM2413 & MSX-MUSIC ROM on single board | Seperate modules for YM2413 and MSX-BUSIC ROM |
+| MSX Support     | YM2413 & MSX-MUSIC ROM on single board | Separate modules for YM2413 and MSX-MUSIC ROM |
 | ROM re-flashing | supported                              | not supported                                 |
 | PCB Height      | 8.0 cm                                 | 5.5 cm                                        |
 | Colour          | Yellow                                 | Green                                         |

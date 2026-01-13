@@ -2,13 +2,13 @@
 layout: default
 title: Stegosaur PPI & Full Size Matrix Keyboard
 description: A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-ppi-module-keyboard/
 ---
 
-<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-ppi-module-keyboard/ -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
   </div>
   <div style="flex: 3;">
     <h1>PPI & Full Size Matrix Keyboard</h1>
