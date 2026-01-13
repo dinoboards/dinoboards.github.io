@@ -217,13 +217,12 @@ Under each module's description, you will see a '**Difference**' section that hi
   </div>
   <div>
     <p>A full MSX2 compatible ROM and RAM solution for your RC2014/RCBus system.</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
     <p><a href="/stegosaur/memory/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-music/" class="button" target="_newWindow">
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-rom-ram/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 

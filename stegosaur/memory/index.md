@@ -2,9 +2,8 @@
 layout: default
 title: Stegosaur MSX ROM & RAM Module
 description: Give your RC2014 the power of 512K ROM and 1024K RAM
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-rom-ram/
 ---
-
-<!-- product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-memory -->
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 0 0 100px;">
