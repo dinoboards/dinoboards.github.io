@@ -46,8 +46,8 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 <table>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-pcb-top.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-pcb-top.jpg" width="90%"/></a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-pcb-bottom.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-pcb-bottom.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/pcb-front.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/pcb-back.jpg" width="90%"/></a></td>
   </tr>
   <tr>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-top-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-top-installed.jpg" width="90%"/></a></td>
