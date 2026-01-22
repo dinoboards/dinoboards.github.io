@@ -137,15 +137,18 @@ You will need a compatible display.  See next section
 
 You will want to think about how you plan to connect this board to your chosen monitor.  The video signals produced by 80's hardware is not trivial to connect to modern LCD monitors.  For such monitors you will need a converter to upscale the output.  Although VGA Monitors can accept a RGB signal, they are unlikely to support the lower frequency of 15Khz produced by this module.
 
-The RGBs module provides connection via the 15-pin DSUB/VGA connector.  This output is well suited to connect via a VGA cable to a compatible HDMI/VGA up-converter that accepts a RGBs signal over the 15pin connection, such as the GBS-8200 (V4 recommended) or HD-VC9900 converters.  For more information on the DSUB RGB/VGA see <a target="_newwindow" href="https://www.retrorgb.com/vgaconnector.html">RetroRGB's VGA article</a>
+The RGBs module provides connection via the 15-pin DSUB/VGA connector.  This output is well suited to connect via a VGA cable to a compatible HDMI/VGA up-converter that accepts a RGBs signal over the 15pin connection, such as the *GBS-8200*, *HD-VC9900* or *<a target="_newwindow" href="https://github.com/RetroScaler/gbsc-pro">RetroScaler GBSC PRO</a>* converters.  For more information on the DSUB RGB/VGA see <a target="_newwindow" href="https://www.retrorgb.com/vgaconnector.html">RetroRGB's VGA article</a>
 
 The <a target="_newwindow" href="https://www.retrorgb.com/upscalers.html">RetroRGB upscalers article</a> has a good description for some of the converter options.
 
 Items such as retroTink and OSSC are very high quality converters - but also have a decent price tag.
 
-I have found the low cost arcade converters such as the GBS-8200 and HD-VC9900 converters produce excellent results.  The upscalers can be acquired through the usual ebay, amazon and other sellers at very reasonable prices.
+I found the low cost arcade converters such as the GBS-8200 and HD-VC9900 converters produce ok results, but recent iterations of these products have downgraded quality quite a bit.  I am unsure if these products have a consistent quality of operation and reliability when sourced from the various market places. I personally have had some units arrive that do not work as well (or at all) as other units.
 
-The GBS-8200 can also be easily modified to produce more customisable and higher quality output - again RetroRGB has it all explained at <a target="_newwindow" href="https://www.retrorgb.com/gbs-control-installation-overview.html">GBS Control</a>
+
+The GBS-8200 can also be easily modified to produce more customisable and higher quality output, although this is a modification I have done done or tested personally.  Again, RetroRGB has it all explained at <a target="_newwindow" href="https://www.retrorgb.com/gbs-control-installation-overview.html">GBS Control</a>
+
+My current recommendation, other than the high end converters such as retroTink and OSSC, is the *RetroScaler GBSC PRO*  for HDMI conversion. The project is hosted on github here *<a target="_newwindow" href="https://github.com/RetroScaler/gbsc-pro">https://github.com/RetroScaler/gbsc-pro</a>* - which includes a link to their store to purchase a full unit.  This product is a little more pricy than the stock GBS-8200, but you will unlikely have any conversion issues.  I have tested with this unit, and found it produces excellent results.
 
 
 ## DSUB pin out
@@ -167,20 +170,30 @@ The GBS-8200 can also be easily modified to produce more customisable and higher
 
 ## Upscaling Testing status
 
-As per the Yellow MSX RGB module, I have tested this kit with the low cost GBS-8200 and HD-VC9900 upscalers.  These have produced solid stable images for the respective VGA and HDMI output.  They seem very tolerant of CSYNC voltage signal levels.
+My current recommended converter is the *<a target="_newwindow" href="https://github.com/RetroScaler/gbsc-pro">RetroScaler GBSC PRO</a>* .  I have tested this unit and have found it produces excellent output to my HDMI 4:3 monitor.
 
-My recommendation is to use GBS-8200 or the HD-VC9900 upscalers.  The quality is fine and I do most of my testing on these converters.  Just google their codes and you will find the usual retailers/marketplaces (eg: ebay/amazon/aliexpress) have plenty of purchase options.
+<div style="text-align: center;">
+  <a target="_newwindow" href="https://github.com/RetroScaler/gbsc-pro"><img src="{{ site.baseurl }}/assets/images/retroscaler-gbsc-pro.jpg" width="45%"/><br/>RetroScaler GBSC PRO - Highly Recommended*</a>
+</div>
 
-There are 2 revisions of the GBS-8200 available (V4.x and V5.x).  The V5.x produces a poorer quality output.  Recommend the older V4 revisions.  You can identify the V4 revisions by the colour of the menu control buttons.  Black for V4 and Yellow for V5.
+<br/>
+
+I have also tested this kit with success, using the low cost GBS-8200 and HD-VC9900 upscalers.  These have mostly produced solid stable images for the respective VGA and HDMI output.  They seem very tolerant of CSYNC voltage signal levels.
+
+But I can no longer recommend the use of the GBS-8200 or the HD-VC9900 upscalers.  I have found that the quality of the units can vary, depending on specific iteration and some units I have recently purchased do not convert at all.
+
+If you do wish to try the GBS-8200, I do recommend the V4.x version and not the V5.x version.  The V5.x produces a poorer quality output.  You can identify the V4 revisions by the colour of the menu control buttons.  Black for V4 and Yellow for V5.
 
 <table>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v4.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v4.jpg" width="90%"/>GBS8200 - V4 Recommended</a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v5.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v5.jpg" width="90%"/>GBS8200 - V5 Not Recommended</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v4.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v4.jpg" width="80%"/><br/>GBS8200 - V4 Recommended*</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/gbs8200-v5.jpg"><img src="{{ site.baseurl }}/assets/gbs8200-v5.jpg" width="80%"/><br/>GBS8200 - V5 Not Recommended</a></td>
   </tr>
 </table>
 
-Other upscalers, such as the OSSC and retroTink may work, but I am unable to verify and confirm.  Your milage may very.  Adapter cables would need to be constructed.
+> \* Caveat with the GBS-8200 recommendation is that I have found some units fail to convert.  Its possible there is a firmware variation at play.  I suspect, but have not confirmed, that the GBS-Control modification may resolve the issue.
+
+Other upscalers, such as the OSSC and retroTink probably work very well, but I am unable to verify and confirm.  Your milage may very.  Adapter cables may need to be constructed.
 
 I have **not** tested the unit on a real RGB CRT monitor.
 
