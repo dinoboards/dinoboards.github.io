@@ -29,6 +29,12 @@ Experience retro sounds with the YM2149 sound and optional expansion game contro
 * Optional expansion board for connecting 2 MSX game controller Inputs (joystick, game-pad, and other input types)
 * Pseudo stereo output with the golden ratio mix
 
+Here is a short video of the module playing music on a RomWBW booted system.
+
+<div style="text-align: center;">
+<iframe width="400" height="225" src="https://www.youtube.com/embed/7JhOI1DCN58?si=lUgcVlgV1YXXIhsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 <div class="hh1">Images</div>
 
 <table>

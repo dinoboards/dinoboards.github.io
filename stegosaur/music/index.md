@@ -41,6 +41,20 @@ When installed in a conventional RomWBW based RC2014/RCBus system, using the pat
 * Pseudo stereo output with the Melody (MO) and Rhythm (RO) outputs spread across the left and right channels
 * 3.5mm stereo socket to mix in the audio from the MSX Game module
 
+Here is a short video of the module playing music on a RomWBW booted system:
+
+<div style="text-align: center;">
+<iframe width="400" height="225" src="https://www.youtube.com/embed/bsC1YktqRuA?si=f0DviR6RWTVKqIpp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+And here is a video of the module, booted in a MSX configuration, with stereo output mixed with the Stegosaur YM2149 Game Module:
+
+<div style="text-align: center;">
+<iframe width="400" height="225" src="https://www.youtube.com/embed/-CsA9YbaxGs?si=00M0EPOxEBr2tnYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 <div class="hh1">Images</div>
 
 <table>
