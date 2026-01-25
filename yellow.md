@@ -37,22 +37,13 @@ layout: default
 
 # Yellow MSX Series
 
-These are a series of boards developed to achieve MSX+ compatibility.
+These are a series of boards designed for compatibility with the RC2014 and RCBus systems.
 
-The idea is that you can build each board one at a time, test it and play with it under RomWBW - and then once you have the set - load up some MSX games!
+Many of the modules are compatible with a standard RomWBW system (and its CP/M implementation), giving your system access to things such as full matrix keyboards, sounds, and video.  Or with a complete set, turn your system into a bootable MSX2 compatible computer.
 
-A working/bootable MSX system can be constructed in various configurations.  You can have all *Yellow* series modules, or use a mixture of Yellow and stock RC2014 modules.
+Many of these Yellow MSX modules have upgrade equivalent modules under the [Stegosaur Series](/stegosaur).  You may want to check them out.
 
-For a bootable MSX system you need at least:
-
-| Name | Options |
-| ---- | --------|
-| Backplane | The RC2014 Pro can work, although some signals will need to be connected via jumpers.  The Yellow 12+1 Backplane is recommended. |
-| CPU  | The Yellow Turbo CPU module or a stock RC2014 Z80 |
-| Memory | The MSX Memory Module is required. |
-| Keyboard | The PPI Module & Keyboard is required. |
-| Video | The Yellow V99x8 MSX Video Module is required. |
-| Sound | The Yellow YM2149 Game Module is highly recommended. |
+See bottom of this page for details on building a MSX bootable system.
 
 <hr/>
 ### MSX V99x8 Video Module
@@ -288,3 +279,23 @@ For a bootable MSX system you need at least:
     </div>
   </div>
 </div>
+
+<br/>
+<hr/>
+
+## MSX Operation
+
+If you like to go to the next step, you can create a fully bootable MSX compatible computer and run original MSX games and software!
+
+A working/bootable MSX system can be constructed in various configurations.  You can have all *Yellow* series modules, or use a mixture of Yellow, Green, Stegosaur or other stock RC2014 modules.
+
+For a bootable MSX system you need at least:
+
+| Name      | Options                                                                                                                                                           |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Backplane | The RC2014 Pro can work, although some signals will need to be connected via jumpers.  The Yellow 12+1 Backplane, or Stegosaur 10+slot Backplane are recommended. |
+| CPU       | The Turbo CPU module or a stock RC2014 Z80                                                                                                                        |
+| Memory    | The MSX Memory Module is required.                                                                                                                                |
+| Keyboard  | The PPI Module & Keyboard is required.                                                                                                                            |
+| Video     | The V99x8 MSX Video Module is required.                                                                                                                           |
+| Sound     | The YM2149 Game Module is highly recommended.                                                                                                                     |

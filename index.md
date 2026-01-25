@@ -7,11 +7,11 @@ layout: default
 
 I have designed and developed a number of retro computer kits, based on technology from the 1980s.  They are designed around the RC2014 and RCBus platforms.
 
-There are 2 main sets of kits:
+There are 3 main sets of kits:
 
-* **Yellow MSX Series** - a series of RC2014/RCBus compatible modules, when connected together allow for a full working reproduction of an original MSX Computer
-* **Green Machine Series** - a new series under development based around the eZ80 CPU - the *enhanced Z80* CPU from Zilog
-
+* **Yellow Series** - a series of RC2014/RCBus compatible modules
+* **Stegosaur Series** - an upgraded/alternative set of modules to the Yellow MSX set, but with smaller more conventional RC2014/RCBus form factors
+* **Green Machine Series** - a series of module for the RC2014/RCBus - with the star of the set being the *enhanced eZ80* CPU from Zilog
 
 <style>
 .journal-highlights {

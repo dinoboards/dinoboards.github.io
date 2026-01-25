@@ -43,15 +43,19 @@ layout: default
   </div>
 </div>
 
-The Stegosaur Green series are a set of newly designed modules.  Their design is very similar to the Yellow MSX series, with some improvements and simplifications; with the main visual difference being their PCBs heights reduced from 8cm down to a more conventional 5.5cm height.
 
-The Stegosaur Green series is generally compatible with the Yellow MSX Series.  You can mix up the modules. Although please note the need for the 80Way RCBus backplane.
+The Stegosaur Green series are a set of modules designed to be compatible with RC2014/RCBus systems.  Their design is very similar to the Yellow MSX series, with some improvements and simplifications; with the main visual difference being their PCBs heights reduced from 8cm down to a more conventional 5.5cm height.
+
+Many of the modules are compatible with a standard RomWBW system (and its CP/M implementation), giving your system access to things such as full matrix keyboards, sounds, and video.  Or with a complete set, turn your system into a bootable MSX2 compatible computer.
+
+You can mix modules from other series. Although please note, the Stegosaur modules typically need a full 80Way RCBus backplane.
 
 Under each module's description, you will see a '**Difference**' section that highlights the main differences between each of of the Yellow and Stegosaur modules.
 
+See bottom of this page for details on building a MSX bootable system.
 
 <hr/>
-### Stegosaur V99x8 RGB Video Module
+### Stegosaur V9958 RGB Video Module
 
 <div class="tags">
   <div class="tag rcbus"></div>
@@ -248,3 +252,24 @@ Under each module's description, you will see a '**Difference**' section that hi
     </div>
   </div>
 </div>
+
+<br/>
+<hr/>
+
+## MSX Operation
+
+Just like the Yellow Series, if you like to go to the next step, you can use these modules to create a fully bootable MSX compatible computer and run original MSX games and software!
+
+A working/bootable MSX system can be constructed in various configurations.  You can have all *Stegosaur* series modules, or use a mixture of Yellow, Green, Stegosaur or other stock RC2014 modules.
+
+For a bootable MSX system you need at least:
+
+| Name      | Options                                                                                                                   |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Backplane | A 80 way RCBus backplane is required - the Stegosaur 10 + MSX Slot Backplane or the Yellow 12+1 Backplane are recommended |
+| CPU       | The Turbo CPU module or a stock RC2014 Z80                                                                                |
+| Memory    | The MSX Memory module is required.                                                                                        |
+| Keyboard  | The PPI module & Keyboard is required.                                                                                    |
+| Video     | The V9958 MSX Video module is required.                                                                                   |
+| Sound     | The MSX YM2149 Game module is highly recommended.                                                                         |
+
