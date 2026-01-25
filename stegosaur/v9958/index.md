@@ -117,13 +117,13 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 |   2   | 100 Ω (3.4mm)              | Mouser: 603-MFR-12FTF52-100R                           |
 |   1   | Round Hole Pin Header 1x40 |                                                        |
 |   6   | 41464C RAM                 |                                                        |
-|  16   | 18 POS IC SOCKET           | Mouser: 571-1-2199298-5<br/>DigiKey: 2057-ICS-318-T-ND |
+|   6   | 18 POS IC SOCKET           | Mouser: 571-1-2199298-5<br/>DigiKey: 2057-ICS-318-T-ND |
 
 # What's included?
 
-The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
+The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs), with the retro chips optionally included.
 
-A tested V9958 and tested RAM chips can be optionally supplied, or you can source your own.
+The tested V9958 and RAM chips can be optionally supplied, or you can source your own.
 
 The optional VRAM Expansion kit is also supplied with main components, with tested RAM chips optionally included.
 

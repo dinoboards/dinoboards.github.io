@@ -1,35 +1,122 @@
 ---
 layout: default
-title: RP5C01 RTC and MSX F4 board for RC2014
+title: Stegosaur RTC + MSX F4 Module
 description: An MSX compatible Real time clock and MSX F4 Boot register.
 ---
 
 <!-- product_url: https://shop.dinoboards.com.au/product/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014 -->
 
-# RP5C01 RTC and MSX F4 board for RC2014
 
-This kit, designed around the RP5C01 RTC chip, giving your RC2014 the ability to remember the date and time when power is off.
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+  <div style="flex: 0 0 100px;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
+  </div>
+  <div style="flex: 3;">
+    <h1>Stegosaur RTC + MSX F4 Module</h1>
+    <p>Code: DB313</p>
+  </div>
+</div>
 
-The RPC501 chip maintains a time/date counter and when the machine is switched off, the chip is powered by a coin CR2032 battery.
+
+Designed around the RP5C01 RTC chip, this kit gives your system the ability to remember the date and time when power is off.  Its powered offline with a CR2450 battery.
+
+<div style="text-align: center;">
+<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/rtc/images/profile.jpg"><img style="width:80%" src="{{ site.baseurl }}/stegosaur/rtc/images/profile.jpg" alt="Assembled Profiled" width="100%"/></a>
+</div>
 
 In addition to keeping time, it also has a small amount of onboard RAM, that is also powered by the battery when main power is off.  This RAM can be used to store machine specific settings, such as boot screen color and mode.
 
-It can also reliably apply a RESET signal to your CPU when power is first applied.
+It also includes a reliable power-on-reset feature, sending RESET signal to your CPU when power is first applied.
 
 # Key Features
 
 * MSX2 compatible Real Time Clock
 * Optional Reset on Power signal
 * MSX2+ compatible F4 cold/boot register
-* Compatible with RomWBW*
+* Compatible with RomWBW
 
-# Power on reset
+<div class="hh1">Images</div>
+
+<table>
+  <tr>
+    <td colspan=2 style=" text-align: center;"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/rtc/images/parts-4-3.jpg"><img src="{{ site.baseurl }}/stegosaur/rtc/images/parts-4-3.jpg" width="50%"/><br/>Kit Parts</a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/rtc/images/assembled.jpg"><img src="{{ site.baseurl }}/stegosaur/rtc/images/assembled.jpg" width="90%"/><br/>Assembled Kit</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/rtc/images/assembled-without-f4.jpg"><img src="{{ site.baseurl }}/stegosaur/rtc/images/assembled-without-f4.jpg" width="90%"/><br/>Assembled Kit (without MSX F4 Boot Register)</a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/rtc/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/rtc/images/pcb-front.jpg" width="90%"/><br/>PCB Front</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/rtc/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/rtc/images/pcb-back.jpg" width="90%"/><br/>PCB Back</a></td>
+  </tr>
+</table>
+
+# Bill of Materials
+
+\* Self Source Reference are supplied as a guide only.  Please double check, in case of typo or errors in listing.
+
+#### Base Kit
+
+| Count | Name                     | Self Sourcing*                                            |
+| :---: | ------------------------ | --------------------------------------------------------- |
+|   1   | CR2450 Battery Holder    |                                                           |
+|   5   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
+|   2   | 33pF                     |                                                           |
+|   1   | 1N4148                   |                                                           |
+|   1   | HEADER 1x1               |                                                           |
+|   1   | HEADER 1x2               |                                                           |
+|   2   | 10K Ω (3.4mm)            |                                                           |
+|   1   | 100K Ω (3.4mm)           |                                                           |
+|   1   | 74HCT175                 |                                                           |
+|   1   | 74HCT138                 |                                                           |
+|   1   | 74HCT21                  |                                                           |
+|   1   | 32.768KHz                |                                                           |
+|   2   | Right Angle 2x20 Header  | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
+|   3   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
+|   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
+|   1   | 18 POS IC SOCKET         | Mouser: 571-1-2199298-5<br/>DigiKey: 2057-ICS-318-T-ND    |
+
+
+#### Retro Chips
+
+| Count | Name    | Self Sourcing* |
+| :---: | ------- | -------------- |
+|   1   | ADM691A |                |
+|   1   | RP5C01  |                |
+
+
+#### MSX F4 Register
+
+| Count | Name                     | Self Sourcing*                                         |
+| :---: | ------------------------ | ------------------------------------------------------ |
+|   3   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
+|   2   | 1K Ω (3.4mm)             |                                                        |
+|   1   | 74HCT02                  |                                                        |
+|   1   | 74HC125                  |                                                        |
+|   1   | 74HC74                   |                                                        |
+|   3   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND |
+
+# What's included?
+
+The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs), with the retro chips optionally included.
+
+The set of tested retro chips can be optionally included, or you can source your own.
+
+The parts to enable the MSX specific F4 register feature can be optionally included.
+
+A battery is **not** included.  Requires a standard coin CR2450 battery.
+
+# What else do I need?
+
+This module can work in a standard RC2014/RCBus RomWBW bootable system, or a MSX configured bootable system.
+
+# Power on reset Compatibility
 
 The circuits power is managed by the ADM691 based supervisory circuit.  This chip maintains power to the RP5C01 by switching between the battery and the main power.
 
 The ADM691 chip has the ability to generate a reset signal, when main power is turned on.  This can be mapped to the Z80's reset line to ensure the CPU always has a clean reset at startup.
 
-There is a jumper (J2) on the board to map this signal to the RESET line on the backplane.  If you jumper this line, it will drive the RESET low on initial powering.  This is an open drain connection - as such it does not hold the line high.
+There is a jumper (H1) on the board to map this signal to the RESET line on the backplane.  If you jumper this line, it will drive the RESET low on initial powering.  This is an open drain connection - as such it does not hold the line high.
 
 The RC2014 Dual Clock Module, also has a reset on power circuit.  The Dual Clock Module's circuit does have an issue - see [Paul Williamson's Must Be Art Blog Post](https://www.mustbeart.com/wp/2019/04/27/reset-mod-for-rc2014-dual-clock-and-reset-board/) for details and a specific modification.
 
@@ -51,34 +138,10 @@ Apply a 10K resistor to the RESET line and VCC.  I used the cathode point of D1 
 
 <img src="{{ site.baseurl }}/assets/rtc-and-f4/10k-pull-up.jpg" alt="10K Pull Up" width="60%"/>
 
-# What's included in this kit
 
-The full kits includes (PCB, passive components, IC and their sockets, including the RP5C01 chip)
+# Operation
 
-A battery is **not** included.  Requires a standard coin CR2032 battery.
-
-# What else do I need to make this work?
-
-* You need a working RC2014 system (CPU, Clock, etc).
-* Enhanced Bus backplane required.
-
-> For MSX operation, you need the other Yellow MSX series for RC2014 modules (PPI/Keyboard, ROM/RAM Memory, V9958 Video)
-
-# Operating
-
-## Calibrating
-
-The RTC module requires calibration.  There is a small trimmer capacitor that will provide a very small change to the clock frequency.
-
-If the module is not calibrated, the clock will still work, but may slowly gain or lose time.
-
-> Please note, I can provide no guarantees as to the accuracy of this clock over time with or without calibration.
-
-To aid in calibration, I wrote a small MSX-DOS application `RTCCALB.COM`, that allows you to calibrate the RTC against your CPU's clock.  This should allow for a good approximation.  Do not worry if you can not get the clock the sync with the CPU clock.  Just get as close as you can.  If you notice your clock is gaining or losing time, you may want to retry calibration and apply a fudge factor to your calibration.
-
-You can build the application from within this repo, or download a pre-compiled version under the github [releases](https://github.com/dinoboards/yellow-msx-series-for-rc2014/releases)
-
-## MSX Bios Access
+<div class="hh2">MSX BIOS Access</div>
 
 You can access the chip directly thru the relevant ports, but under MSX, the 'correct' way is via the sub-rom bios calls:
 
@@ -107,7 +170,7 @@ Registers: F
 
 For more information on how to use and program the chip, checkout the [msx.org page](https://www.msx.org/wiki/Ricoh_RP-5C01).
 
-## MSX F4 Boot Register
+<div class="hh2">MSX F4 Boot Register</div>
 
 The MSX2+ standard introduced the F4 Boot register.  This is a register that, only when power is first applied, will reset itself.  Thereafter only a software command will change the state of the register.  For example, when the user reset the computer, the state of this register is not altered. This allows the software to know if the system had a cold or warm boot.
 
@@ -135,13 +198,18 @@ Registers: None
 
 [Source](http://map.grauw.nl/resources/msxbios.php)
 
-## Synchronizing with external time using ESP8266 Wifi Module
-
-It is possible to synchronise the RTC via the ESP8266 to an internet synchronised clock.  It requires the WIFI module and SIO/2 be linked via the 2nd serial channel.  The `ESP8266.COM` application along with custom firmware for the ESP8266 are still under development.  See the [Hackaday project log](https://hackaday.io/project/175574-msx-compatible-boards-for-rc2014/log/197686-integrating-the-rc2014-wifi-module) for current status.
-
-## RomWBW Compatibility
+<div class="hh2">RomWBW Compatibility</div>
 
 A driver for this chip has been submitted and accepted by Wayne Warthen and is now included in the main release.
+
+## Jumper Settings
+
+#### H1 - PWR ON RESET
+
+Short this jumper to enable the power on reset feature.
+
+Please see the Power On Reset Compatibility section above
+
 
 ## Port Mappings
 
@@ -151,53 +219,35 @@ A driver for this chip has been submitted and accepted by Wayne Warthen and is n
 | B5   | RP5C01 Data R/W            |
 | F4   | BIT 7 Cold/Warm Boot state |
 
-# Bill of Materials
-
-| Count | Name                     | Designator                                         |
-| :---: | ------------------------ | -------------------------------------------------- |
-|   1   | CR2032 Holder            | B1                                                 |
-|   8   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND |
-|   1   | 33pF                     | C5                                                 |
-|   1   | Trimmer Capacitor        | C6                                                 |
-|   1   | 1N4148                   | D1,D2,D3,D4                                        |
-|   1   | HEADER 1x1               | J1                                                 |
-|   1   | HEADER 1x2               | J2                                                 |
-|   2   | 10K Ω                    | R2,R6                                              |
-|   2   | 100K Ω                   | R3,R4                                              |
-|   2   | 1K Ω                     | R5,R7                                              |
-|   1   | RP5C01                   | U1                                                 |
-|   1   | 74HCT175                 | U2                                                 |
-|   1   | ADM691A                  | U3                                                 |
-|   1   | 74HCT138                 | U4                                                 |
-|   1   | 74HCT02                  | U5                                                 |
-|   1   | 74HC125                  | U6                                                 |
-|   1   | 74HC74                   | U7                                                 |
-|   1   | 74HCT21                  | U8                                                 |
-|   1   | 32.768KHz                | X1                                                 |
-|   0   | Right Angle              | 2x20 Header                                        |
-|   2   | Right Angle              | 1x20 Header                                        |
-
-# PCB Images
-
-### Assembled
----------
-<img src="{{ site.baseurl }}/assets/rtc-and-f4/assembled.jpg" alt="Assembled" width="50%"/>
-
-### Top Side
----------
-<img src="{{ site.baseurl }}/assets/rtc-and-f4/pcb-front.jpg" alt="PCB Front" width="50%"/>
-
-### Bottom Side
----------
-<img src="{{ site.baseurl }}/assets/rtc-and-f4/pcb-back.jpg" alt="PCB Back" width="50%"/>
-
-### Kit Parts
----------
-<img src="{{ site.baseurl }}/assets/rtc-and-f4/kit.jpg" alt="Kit Parts" width="50%"/>
-
-
 # Schematics
 
-* Schematic: [schematic.pdf](assets/rtc-and-f4/schematic.pdf "Schematic")
+* <a target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
+
+# Key difference with Yellow MSX RGB
+
+| Description                      | Yellow MSX Version                  | Green Stegosaur Version          |
+| -------------------------------- | ----------------------------------- | -------------------------------- |
+| Calibration                      | on board trimmer capacitor | none                             |
+| Battery                          | CR2032                              | CR2450                           |
+| Diagnostic 'Alarm/Timing' Signal | exposed with pull up resistor       | Exposed, but no pull up resistor |
+| PCB Height                       | 8.0 cm                              | 5.5 cm                           |
+| Colour                           | Yellow                              | Green                            |
+
+# Assembly Guide
+
+{% include soldering-order.md %}
+
+#### NOTE 1 The (CR2450) battery holder
+
+> Before soldering the (CR2450) battery holder, you may want to place a small amount of solder on its ground pad.  This will ensure a good contact when you insert a battery.
+
+<div style="text-align: center;">
+  <a href="{{ site.baseurl }}/stegosaur/rtc/images//bat-holder-pads-pre-soldered.jpg" target="_blank">
+    <img src="{{ site.baseurl }}/stegosaur/rtc/images//bat-holder-pads-pre-soldered.jpg" width="50%" style="width: 50%;">
+  </a>
+</div>
+
+> Also you may find it easier to apply a small amount of solder to the main positive pads.  Secure the battery holder down with some tweezer, then apply heat to seat the holder flush to the PCB.
+
 
 {% include disclaimer.md %}

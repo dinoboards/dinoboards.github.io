@@ -296,7 +296,7 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 <li>Solder the 2x3 (6pin) programming header on the CPU Module.  That will complete the CPU Module.</li>
 
 
-<li>Before soldering the (CR2540) battery holder, you may want to place a small amount of solder on its ground pad.  This will ensure a good contact when you insert a battery.</li>
+<li>Before soldering the (CR2450) battery holder, you may want to place a small amount of solder on its ground pad.  This will ensure a good contact when you insert a battery.</li>
 
 <div style="text-align: center;">
   <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pre-soldering-battery-pads.jpg" target="_blank">
