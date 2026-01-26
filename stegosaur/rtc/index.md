@@ -2,9 +2,8 @@
 layout: default
 title: Stegosaur RTC + MSX F4 Module
 description: An MSX compatible Real time clock and MSX F4 Boot register.
+product_url: https://shop.dinoboards.com.au/product/stegosaur-rtc-msx-f4/
 ---
-
-<!-- product_url: https://shop.dinoboards.com.au/product/msx-rp5c01-rtc-and-msx-f4-board-for-rc2014 -->
 
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
@@ -63,8 +62,8 @@ It also includes a reliable power-on-reset feature, sending RESET signal to your
 |   5   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   2   | 33pF                     |                                                           |
 |   1   | 1N4148                   |                                                           |
-|   1   | HEADER 1x1               |                                                           |
-|   1   | HEADER 1x2               |                                                           |
+|   1   | Header 1x2               |                                                           |
+|   1   | Shunt 1x2                |                                                           |
 |   2   | 10K Ω (3.4mm)            |                                                           |
 |   1   | 100K Ω (3.4mm)           |                                                           |
 |   1   | 74HCT175                 |                                                           |

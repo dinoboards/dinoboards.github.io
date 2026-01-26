@@ -80,7 +80,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 |   1   | Round Female Pin Header 1x40 |                                                           |
 |   1   | HEADERS 1x3                  |                                                           |
 |   1   | HEADERS 1x2                  |                                                           |
-|   2   | SHUNT 1x2                    |                                                           |
+|   2   | Shunt 1x2                    |                                                           |
 |   1   | 5.6uH Inductor               | Mouser: 871-B78108S1562K                                  |
 |   1   | 15-PIN DSUB                  | Mouser: 649-ICD15S13E4GV00LF<br/>DigiKey: 609-5180-ND     |
 |   3   | 2N3906                       | Mouser: 637-2N3906                                        |

@@ -231,6 +231,31 @@ See bottom of this page for details on building a MSX bootable system.
 </div>
 
 <hr/>
+### Stegosaur RTC + MSX F4 Module
+
+<div class="tags">
+  <div class="tag rcbus compatible"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx recommended"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/rtc/"><img src="{{ site.baseurl }}/stegosaur/rtc/images/profile.jpg" alt="Stegosaur 10 + MSX Slot Backplane"></a>
+  </div>
+  <div>
+    <p>A battery backed Real Time Clock and MSX F4 Boot Register</p>
+    <p><a href="/stegosaur/rtc/">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-rtc-msx-f4/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
+  </div>
+</div>
+
+<hr/>
 ### Stegosaur 10 + MSX Slot Backplane
 
 <div class="tags">
@@ -254,33 +279,6 @@ See bottom of this page for details on building a MSX bootable system.
 </div>
 
 
-<hr/>
-### Stegosaur RTC + MSX F4 Module
-
-<div class="tags">
-  <div class="tag rcbus compatible"></div>
-  <div class="tag rc2014"></div>
-  <div class="tag romwbw"></div>
-  <div class="tag msx recommended"></div>
-</div>
-
-<div class="product-listing">
-  <div>
-    <a href="/stegosaur/rtc/"><img src="{{ site.baseurl }}/stegosaur/rtc/images/profile.jpg" alt="Stegosaur 10 + MSX Slot Backplane"></a>
-  </div>
-  <div>
-    <p>A battery backed Real Time Clock and MSX F4 Boot Register</p>
-    <img style="float:left; margin-bottom: 10px; margin-top:-10px; margin-right:10px" src="{{ site.baseurl }}/assets/coming-soon.png" width="70px"/>
-    <p><a href="/stegosaur/rtc/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-10-rcbus-msx-slot-backplane/" class="button" target="_newWindow">
-        BUY <img src="/logo-black.png" class="buy-on-shop"/>
-      </a>
-    </div> -->
-  </div>
-</div>
-
-<br/>
 <hr/>
 
 ## MSX Operation

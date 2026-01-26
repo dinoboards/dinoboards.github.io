@@ -79,7 +79,7 @@ Here is a short video of the module playing music on a RomWBW booted system.
 |   1   | 74HC00                   |                                                           |
 |   2   | Headers 1x3              |                                                           |
 |   1   | Headers 1x2              |                                                           |
-|   3   | Shunts                   |                                                           |
+|   3   | Shunt 1x2                |                                                           |
 |   2   | Right Angle 2x20 Header  | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
 |   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
 |   2   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
