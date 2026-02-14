@@ -40,16 +40,36 @@ With enough slots to fit the Stegosaur MSX+ modules, with a single plus one RC20
 
 <table>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-front.jpg" width="90%"/><br/>PCB Front</a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-back.jpg" width="90%"/><br/>PCB Back</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-front.jpg" width="90%"/><br/>PCB (V1.0) Front</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-back.jpg" width="90%"/><br/>PCB (V1.0) Back</a></td>
   </tr>
 
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/assembled.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/assembled.jpg" width="90%"/><br/>PCB Front</a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/parts.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/parts.jpg" width="90%"/><br/>PCB Back</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-1.1-front.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-1.1-front.jpg" width="90%"/><br/>PCB (V1.1) Front</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-1.1-back.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/pcb-1.1-back.jpg" width="90%"/><br/>PCB (V1.1) Back</a></td>
+  </tr>
+
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/backplane-1.1-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/backplane-1.1-installed.jpg" width="90%"/><br/>PCB (V1.1) Assembled</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/parts.jpg"><img src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/parts.jpg" width="90%"/><br/>Main Parts</a></td>
   </tr>
 
 </table>
+
+# Revisions
+
+## V1.0
+
+First release
+
+## V1.1
+
+The PCBs width has been extended and the cartridge slot spaced a bit further away from slot 10.  This enables the installation of the wide V9958 Module with its expansion RAM to fit comfortably.  The image below show the V1.1 backplane fully stacked with all the Stegosaur modules and the Green USB for RC module.
+
+<div style="text-align: center;">
+<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/backplane-1.1-profile-installed.jpg"><img style="width:65%" src="{{ site.baseurl }}/stegosaur/backplane-10-plus-slot/images/backplane-1.1-profile-installed.jpg" alt="Assembled Profiled" /></a>
+</div>
+<br/>
 
 # Bill of Materials
 
