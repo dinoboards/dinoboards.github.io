@@ -133,7 +133,7 @@ These 2 sounds chips are almost identical and will for the most part produce ide
 | Feature                  | YM2149 | AY-3-8910 |
 | ------------------------ | :----: | :-------: |
 | hardware volume envelope | 5 bits |  4 bits   |
-| On board clock divider   |  Yes   |    No     |
+| On chip clock divider   |  Yes   |    No     |
 | Register Reads           |  Yes   | Always 0  |
 
 # What's included?
@@ -237,9 +237,11 @@ Select the source of the clock signal used by the above jumpers that is ultimate
 | Game Controller Inputs  | on main PCB                                 | optional expansion breakout board                             |
 | PCB Height              | 8.0 cm                                      | 5.5 cm                                                        |
 | Support YM2149          | Yes                                         | Yes                                                           |
-| Support AY-3-8910       | No                                          | Yes                                                           |
+| Support AY-3-8910       | Yes                                         | Yes*                                                          |
 | Backplane Requirement   | 80 Way RCBus or RC2014 via external Jumpers | Wired permanently to 80 Way RCBus 'User' lanes (37-40, 77-80) |
 | Colour                  | Yellow                                      | Green                                                         |
+
+> \* Optional external clock divider needed.
 
 # Assembly Guide
 
