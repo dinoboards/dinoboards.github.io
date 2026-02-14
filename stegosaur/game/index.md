@@ -116,6 +116,26 @@ Here is a short video of the module playing music on a RomWBW booted system.
 | :---: | ------ | -------------- |
 |   1   | YM2149 |                |
 
+> The YM2149 is tested to confirm the chip's function.
+
+### Optional AY-3-8910
+
+| Count | Name      | Self Sourcing* |
+| :---: | --------- | -------------- |
+|   1   | AY-3-8910 |                |
+
+> The AY-3-8910 is tested to confirm the chip's function.  It may have been incorrectly marked as a YM2149.  Requires the **Optional AY Support** for the external clock divider circuit.
+
+## YM2149 vs AY-3-8910
+
+These 2 sounds chips are almost identical and will for the most part produce identical sound output.  Due to the 2nd hand nature of these chips, the AY-3-8910 may have been re-marked as a YM2149.  See <a href="https://maidavale.org/blog/ay-ym-differences/" target="_newwindow">https://maidavale.org/blog/ay-ym-differences/</a> for a thorough description of the differences.
+
+| Feature                  | YM2149 | AY-3-8910 |
+| ------------------------ | :----: | :-------: |
+| hardware volume envelope | 5 bits |  4 bits   |
+| On board clock divider   |  Yes   |    No     |
+| Register Reads           |  Yes   | Always 0  |
+
 # What's included?
 
 This base kit includes the usual main components (PCB, capacitors, IC sockets, connectors, and the ICs)
