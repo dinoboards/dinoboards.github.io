@@ -8,6 +8,8 @@ The official programmer from Zilog enables flashing and debugging of the eZ80, b
 
 An alternative solution, detailed here, is to use the low cost Raspberry Pi Pico (original V1) to flash your eZ80.
 
+You can manually connect a Pi Pico Module directly, as described below, or if you have purchased the optional Pi Pico Programmer Kit and connect it via a 6 Pin IDC Cable.
+
 To make a *Pi Pico Programmer*, we need to do the following:
 
 1. Download the software image required to run on the Raspberry Pi Pico.
@@ -22,9 +24,9 @@ To make a *Pi Pico Programmer*, we need to do the following:
 
 There are 2 downloads available.  tagged Releases and general releases.  The tagged releases will have more testing conducted compared to the general releases
 
-* <a href="https://github.com/dinoboards/ez80-for-rc/releases" target="_blank">Tagged Releases</a>
+* <a href="https://github.com/dinoboards/ez80-for-rc/releases" target="_newwindow">Tagged Releases</a>
   Expand the *Assets* section under the tag release you want and download the main zip file.
-* <a href="https://github.com/dinoboards/ez80-for-rc/actions/workflows/ez80-for-rc.yml?query=branch%3Amain+is%3Asuccess" target="_blank">General Releases</a>
+* <a href="https://github.com/dinoboards/ez80-for-rc/actions/workflows/ez80-for-rc.yml?query=branch%3Amain+is%3Asuccess" target="_newwindow">General Releases</a>
   Click on a build, then under *Artifacts* select the **pi-pico-firmware** download.
 
 ### Updating your Pi Pico
@@ -36,7 +38,9 @@ There are 2 downloads available.  tagged Releases and general releases.  The tag
 5. After copying, the device should reboot.
 6. Confirm you can connect on serial over USB, using your favourite serial terminal application (such as PuTTY).  You will need to find the COMx number that the USB has remounted as.
 
-### Wiring up
+### Wiring up a PI Pico Directly
+
+If you only have a Pi Pico (and do not have the Pico Programmer kit), you can directly connect a PI Pico module as described here.
 
 | Pi Pico | ZDI Interface   |
 |---------|-----------------|
@@ -92,12 +96,12 @@ You can use the images below, and follow the colours the ensure you have correct
 
 <div class="image-gallery">
   <div class="image-column">
-    <a href="{{ site.baseurl }}/assets/images/ez80-zdi-connector-left-side-example.jpg" target="_blank">
+    <a href="{{ site.baseurl }}/assets/images/ez80-zdi-connector-left-side-example.jpg" target="_newwindow">
       <img src="{{ site.baseurl }}/assets/images/ez80-zdi-connector-left-side-example.jpg" alt="ZDI Left Side Wiring Example">
     </a>
     </div>
     <div class="image-column">
-    <a href="{{ site.baseurl }}/assets/images/ez80-zdi-connector-right-side-example.jpg" target="_blank">
+    <a href="{{ site.baseurl }}/assets/images/ez80-zdi-connector-right-side-example.jpg" target="_newwindow">
       <img src="{{ site.baseurl }}/assets/images/ez80-zdi-connector-right-side-example.jpg" alt="ZDI Right Side Wiring Example">
     </a>
   </div>
@@ -105,10 +109,20 @@ You can use the images below, and follow the colours the ensure you have correct
 
 
 <div style="text-align: center;">
-<a href="{{ site.baseurl }}/assets/images/pi-pico-example-wiring.jpg" target="_blank">
+<a href="{{ site.baseurl }}/assets/images/pi-pico-example-wiring.jpg" target="_newwindow">
   <img src="{{ site.baseurl }}/assets/images/pi-pico-example-wiring.jpg" style="width:90%" alt="Pi Pico Example">
 </a>
 </div>
+
+### Wiring up a PI Pico via the optional programmer kit
+
+If you have the optional programmer kit, after assemblying it, you can wire up the module as per this image:
+
+<div style="text-align: center;">
+<a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-connected-closeup.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-connected-closeup.jpg" width="90%"/></a>
+</div>
+
+> **As per the Zilog Programmer, make sure the orientation of the IDC connector on the eZ80 CPU module is correct, otherwise you risk damaging your eZ80.**
 
 ### Flashing your eZ80 CPU
 

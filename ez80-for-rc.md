@@ -53,35 +53,85 @@ The eZ80 CPU module will come with all the surface mounted components soldered. 
 
 A 20Mhz and an optional 25Mhz crystal to allow you to 'overclock' your eZ80.
 
+<div class="hh1">Images</div>
+
+<table>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" width="90%"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled-with-cpu.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled-with-cpu.jpg" width="90%"/></a></td>
+  </tr>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/images/ez80-cpu.jpg"><img src="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg"><img src="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" width="90%"/></a></td>
+  </tr>
+
+</table>
+
+<div class="hh2">Optional PI Pico Programmer Images</div>
+
+<table>
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-pcb-front.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-pcb-front.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-pcb-back.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-pcb-back.jpg" width="90%"/></a></td>
+  </tr>
+
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-assembled-profiled.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-assembled-profiled.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-parts-4-3.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-parts-4-3.jpg" width="90%"/></a></td>
+  </tr>
+
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-connected.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-connected.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-connected-closeup.jpg"><img src="{{ site.baseurl }}/assets/ez80-for-rc/pi-programmer-connected-closeup.jpg" width="90%"/></a></td>
+  </tr>
+
+</table>
+
+
 # Bill Of Materials
 
-|Quantity | Component|
-|--------| -----------------------------------------|
-|   2    | Right Angle 2x20 Header                  |
-|   6    | 100nF                                    |
-|   1    | 10uF Radial                              |
-|   2    | 1uF Radial                               |
-|   2    | HDR M 2.54 1x40                          |
-|   2    | Shunts 1x2                               |
-|   1    | 3mm Green LED                            |
-|   1    | 20MHz Crystal Oscillator                 |
-|   4    | 3.4mm 4.7kΩ resistor                     |
-|   2    | 3.4mm 1kΩ resistor                       |
-|   7    | 3.4mm 10kΩ resistor                      |
-|   1    | 3.4mm 47Ω resistor                       |
-|   1    | 3.4mm 470Ω resistor                      |
-|   5    | 74HCT245                                 |
-|   1    | ATF16V8C-7PU                             |
-|   1    | TLV1117LV33DCYR**                        |
-|   1    | BAT-HLD-006-SMT**                        |
-|   1    | MCP130-475DI/TO                          |
-|   6    | 20 POS IC DIP SOCKET                     |
-|   1    | 4 POS SOCKET FOR OSCILLATOR              |
-|  1     | Interface PCB for RC2014/RCBus Backplane |
-|  1     | pre-assembled eZ80 CPU Module            |
-
+| Quantity | Component                                |
+| -------- | ---------------------------------------- |
+| 2        | Right Angle 2x20 Header                  |
+| 6        | 100nF                                    |
+| 1        | 10uF Radial                              |
+| 2        | 1uF Radial                               |
+| 2        | HDR M 2.54 1x40                          |
+| 2        | Shunts 1x2                               |
+| 1        | 3mm Green LED                            |
+| 1        | 20MHz Crystal Oscillator                 |
+| 4        | 3.4mm 4.7kΩ resistor                     |
+| 2        | 3.4mm 1kΩ resistor                       |
+| 7        | 3.4mm 10kΩ resistor                      |
+| 1        | 3.4mm 47Ω resistor                       |
+| 1        | 3.4mm 470Ω resistor                      |
+| 5        | 74HCT245                                 |
+| 1        | ATF16V8C-7PU                             |
+| 1        | TLV1117LV33DCYR**                        |
+| 1        | BAT-HLD-006-SMT**                        |
+| 1        | MCP130-475DI/TO                          |
+| 6        | 20 POS IC DIP SOCKET                     |
+| 1        | 4 POS SOCKET FOR OSCILLATOR              |
+| 1        | Interface PCB for RC2014/RCBus Backplane |
+| 1        | pre-assembled eZ80 CPU Module            |
 
 \** The battery holder and 3.3V (TLV1117) DC converter are surface mounted components - but are not hard to solder with a conventional soldering iron.
+
+### Optional Pi Pico Programmer
+
+| Quantity | Component                 |
+| -------- | ------------------------- |
+| 1        | Pi Pico                   |
+| 1        | PCB                       |
+| 1        | IDC Connector 2x3         |
+| 2        | Slim Header - Male 1x20   |
+| 2        | Slim Header - Female 1x20 |
+| 1        | 6 way idc cable           |
+
 
 # What else is needed
 
@@ -109,7 +159,22 @@ There are 2 options for the programmer.  The Zilog's official programmer (*Zilog
 
 ## Pi Pico Programmer
 
-An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here for instructions of setting up a Pi Pico Programmer](./pi-pico-programmer)
+An alternative and lower cost option is to use a Raspberry PI Pico.  If you have a Pi Pico handy, you can, via some jumper wires, connect it directly - or you can get the optional eZ80 Pi Pico Programmer kit.
+
+[Click here for instructions of setting up a Pi Pico Programmer](./pi-pico-programmer)
+
+## Programmer header orientation
+
+When connecting the programming IDC cable to the eZ80 CPU module, its **very important** to get  the orientation correct - as its not keyed it is possible to have this oriented wrong and if powered, possibly damage your eZ80.
+
+See this image for correct orientation.
+
+<div style="text-align: center;">
+<a href="{{ site.baseurl }}/assets/ez80-for-rc/programmer-idc-orientation.jpg" target="_newwindow_">
+  <img src="{{ site.baseurl }}/assets/ez80-for-rc/programmer-idc-orientation.jpg" style="width:45%;">
+</a>
+</div>
+
 
 # Caveats
 
@@ -120,33 +185,6 @@ An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here
 * This revision has support for a much larger battery (CR2450) and so battery life should be much improved over the old version.
 * Also note, when using an oscillator other than 20Mhz, and there is no battery power, the system will not be able to adjust the speed of the serial correctly.  You would need to use a battery or build a custom firmware image.
 
-# Images
-
-<div class="image-gallery">
-  <div class="image-column">
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-top-v1.10.jpg" alt="eZ80 Interface PCB Top Layer">
-    </a>
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled.jpg">
-    </a>
-     <a href="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/ez80-cpu.jpg" alt="eZ80 CPU module">
-    </a>
-  </div>
-  <div class="image-column">
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pcb-bottom-v1.10.jpg" alt="eZ80 Interface PCB Bottom Layer">
-    </a>
-    <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled-with-cpu.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.11/assembled-with-cpu.jpg">
-    </a>
-    <a href="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" target="_blank">
-      <img src="{{ site.baseurl }}/assets/images/ez80-kit-parts.jpg" alt="ez80 for rc kit parts">
-    </a>
- </div>
-
-</div>
 
 # Errata
 
@@ -226,10 +264,10 @@ The voltage level for operating the I2C bus.
 # eZ80 CPU Module pinout
 
 <div style="text-align: center;">
-<a href="{{ site.baseurl }}/assets/ez80-for-rc/ez80-cpu-module-pinout.png" target="_blank">
+<a href="{{ site.baseurl }}/assets/ez80-for-rc/ez80-cpu-module-pinout.png" target="_newwindow_">
   <img src="{{ site.baseurl }}/assets/ez80-for-rc/ez80-cpu-module-pinout.png" style="width:80%;" alt="ez80 for rc kit parts">
 </a>
-  </div>
+</div>
 
 # Assembly Guide
 
@@ -299,7 +337,7 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 <li>Before soldering the (CR2450) battery holder, you may want to place a small amount of solder on its ground pad.  This will ensure a good contact when you insert a battery.</li>
 
 <div style="text-align: center;">
-  <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pre-soldering-battery-pads.jpg" target="_blank">
+  <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pre-soldering-battery-pads.jpg" target="_newwindow_">
     <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/pre-soldering-battery-pads.jpg" width="50%" style="width: 50%;">
   </a>
 </div>
@@ -307,7 +345,7 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 <li>Solder the SMD battery holder, then the SMD 3.3V (TLV1117LV33DCYR) DC converter.  Pay attention to the orientation of the battery holder otherwise you will not be able to insert a battery.</li>
 
 <div style="text-align: center;">
-  <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/battery-holder-soldered.jpg" target="_blank">
+  <a href="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/battery-holder-soldered.jpg" target="_newwindow_">
     <img src="{{ site.baseurl }}/assets/ez80-for-rc/v1.10/battery-holder-soldered.jpg" width="50%" style="width: 50%;">
   </a>
 </div>
