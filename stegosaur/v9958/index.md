@@ -77,7 +77,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 |   3   | 10uF                         |                                                           |
 |   1   | 220uF (LOW ESR)              |                                                           |
 |   4   | 220uF                        |                                                           |
-|   1   | Round Female Pin Header 1x40 |                                                           |
+|   1   | Round Female Pin Header 1x3  |                                                           |
 |   1   | HEADERS 1x3                  |                                                           |
 |   1   | HEADERS 1x2                  |                                                           |
 |   2   | Shunt 1x2                    |                                                           |
@@ -91,7 +91,6 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 |   1   | 4k7 Ω (3.4mm)                |                                                           |
 |   1   | 2k2 Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-2K2                               |
 |   7   | 1k Ω (3.4mm)                 | DigiKey: 13-MFR25SFRF52-4K7CT-ND                          |
-|   1   | 470 Ω (3.4mm)                | Mouser: 603-MFR25SFTF52-470R                              |
 |   7   | 100 Ω (3.4mm)                | Mouser: 603-MFR-12FTF52-100R                              |
 |   1   | LM311N                       | Mouser: 926-LM311N/NOPB<br/> DigiKey: LM311NNS/NOPB-ND    |
 |   1   | ATF16V8B-15PU                | Mouser: 556-AF16V8B15PU<br/>DigiKey:	ATF16V8B-15PU-ND     |

@@ -69,12 +69,11 @@ Here is a short video of the module playing music on a RomWBW booted system.
 |   4   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   5   | 10uF                     |                                                           |
 |   1   | 3.5 Audio Socket         | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
-|   1   | 10k Ω Bussed x 12        |                                                           |
 |   3   | 1k Ω (3.4mm)             |                                                           |
 |   1   | 1k6 Ω (3.4mm)            |                                                           |
 |   4   | 4k7 Ω (3.4mm)            |                                                           |
 |   2   | 20k Ω (3.4mm)            |                                                           |
-|   1   | 470 Ω (3.4mm)            |                                                           |
+|   3   | 470 Ω (3.4mm)            |                                                           |
 |   2   | 74HCT138                 |                                                           |
 |   1   | 74HC00                   |                                                           |
 |   2   | Headers 1x3              |                                                           |
