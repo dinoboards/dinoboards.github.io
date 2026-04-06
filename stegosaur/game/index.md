@@ -69,8 +69,8 @@ Here is a short video of the module playing music on a RomWBW booted system.
 |   4   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   5   | 10uF                     |                                                           |
 |   1   | 3.5 Audio Socket         | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
-|   3   | 1k Ω (3.4mm)             |                                                           |
-|   1   | 1k6 Ω (3.4mm)            |                                                           |
+|   2   | 1k Ω (3.4mm)             |                                                           |
+|   2   | 1k6 Ω (3.4mm)            |                                                           |
 |   4   | 4k7 Ω (3.4mm)            |                                                           |
 |   2   | 20k Ω (3.4mm)            |                                                           |
 |   3   | 470 Ω (3.4mm)            |                                                           |
@@ -132,7 +132,7 @@ These 2 sounds chips are almost identical and will for the most part produce ide
 | Feature                  | YM2149 | AY-3-8910 |
 | ------------------------ | :----: | :-------: |
 | hardware volume envelope | 5 bits |  4 bits   |
-| On chip clock divider   |  Yes   |    No     |
+| On chip clock divider    |  Yes   |    No     |
 | Register Reads           |  Yes   | Always 0  |
 
 # What's included?
@@ -225,6 +225,16 @@ Select the source of the clock signal used by the above jumpers that is ultimate
 # Schematic
 
 * Schematic (revision 1.1): <a  target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
+* Schematic (revision 1.3): <a  target="_newwindow" href="./schematic-1.3.pdf">Schematic (revision 1.3)</a>
+
+## PCB/Design Revisions
+
+| PCB Version | Changes                                 |
+| ----------- | --------------------------------------- |
+| 1.1         | Initial verified design.                |
+| 1.2         | Skipped - not produced.                 |
+| 1.3         | R3 changed from 1K to 1K6 ohm resistor. |
+
 
 # Key difference with Yellow MSX GAME module
 
@@ -245,6 +255,11 @@ Select the source of the clock signal used by the above jumpers that is ultimate
 # Assembly Guide
 
 {% include soldering-order.md %}
+
+#### ERRATA 1 R3 SHOULD BE 1.6K
+
+> On PCB versions 1.1 the resistor R3 is incorrectly specified as 1K ohm.  For a better balance, it should be 1.6K ohm
+
 
 #### NOTE 1 - U5 only required on board clock divider
 
