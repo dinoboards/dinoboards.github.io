@@ -41,7 +41,7 @@ The emulated Z80 is not 'cycle' accurate.  Some instructions may be quicker than
 
 ### More to do
 
-The emulator code for the eZ80 is sitting on a branch on the [github repo](https://github.com/dinoboards/ez80-for-rc/commits/dean/firmware-z80-emulator/)
+The emulator code for the eZ80 is sitting on a branch on the [github repo](https://codeberg.org/dinoboards/ez80-for-rc/commits/dean/firmware-z80-emulator/)
 
 There are still some Z80 opcodes not implemented yet.  And I need to do a lot more testing.
 

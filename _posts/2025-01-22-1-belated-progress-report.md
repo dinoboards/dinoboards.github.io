@@ -36,7 +36,7 @@ Suffice it to say, I now have a cross-compiler that I can run on my PC and build
 
 The repo for the tool chain is at: [https://github.com/dinoboards/ez80-clang](https://github.com/dinoboards/ez80-clang)
 
-And within my main repo, I have a number of sample applications, that are compiled as ADL mode applications: [https://github.com/dinoboards/ez80-for-rc/tree/main/apps](https://github.com/dinoboards/ez80-for-rc/tree/main/apps)
+And within my main repo, I have a number of sample applications, that are compiled as ADL mode applications: [https://codeberg.org/dinoboards/ez80-for-rc/src/branch/main/apps](https://codeberg.org/dinoboards/ez80-for-rc/src/branch/main/apps)
 
 ## CH376 True USB Module
 
@@ -66,7 +66,7 @@ EXE BBCBASIC
 
 I can run the BBCBasic interpreter, with access to 2MB of RAM, running on CP/M.  At this stage I still have some code to write to enable it to access the various graphic capabilities of the V9958/TMS9918 video modules commonly available for the RCBus/RC2014 systems.
 
-Code for my port can be found at: [https://github.com/dinoboards/ez80-for-rc-bbc-basic/tree/dean-converting-to-ez80-for-rc](https://github.com/dinoboards/ez80-for-rc-bbc-basic/tree/dean-converting-to-ez80-for-rc)
+Code for my port can be found at: [https://codeberg.org/dinoboards/eZ80-for-rc-basic](https://codeberg.org/dinoboards/eZ80-for-rc-basic)
 
 ## Wolfenstein 3D port
 
@@ -82,7 +82,7 @@ I have tried to take advantage of the eZ80's 24 bit registers/operations, and be
 
 I have no idea if I can make this a truly 'playable' version - But when I first started, with no optimisation, I was able to get the demos playing at about 1 FPS.  After some optimisation, got it upto 4FPS.  And I know there is still a lot of optimisation potential.  Perhaps I can do it, if I dont get distracted again!
 
-The code for this port can be found at: [https://github.com/dinoboards/ez80-for-rc/tree/dean/wolf3d/apps/wolf3d](https://github.com/dinoboards/ez80-for-rc/tree/dean/wolf3d/apps/wolf3d)
+The code for this port can be found at: [https://codeberg.org/dinoboards/ez80-for-rc/src/branch/main/apps/wolf3d](https://codeberg.org/dinoboards/ez80-for-rc/src/branch/main/apps/wolf3d)
 
 > I had not based my port on the very original Wolf3D code.  Instead I used the 'NakedWolf3D' port. The original C code has a lot of segmented memory access (lots of near and far pointers) and some x86 assembly.  The NakedWolf3D is all C code - but targeting SDL for sound, control and graphics.  But its an easier place to start for the porting.
 

@@ -31,7 +31,7 @@ The firmware of the eZ80, in addition to managing the CSx configuration, will as
 
 The eZ80 has a 24 bit address bus, so it can address upto 16MB of Memory without the need for bank switching.
 
-The firmware you flash, supplied from the github repo [https://github.com/dinoboards/ez80-for-rc](https://github.com/dinoboards/ez80-for-rc) configures the eZ80's memory timings and addresses to the following layout:
+The firmware you flash, supplied from the github repo [https://codeberg.org/dinoboards/ez80-for-rc](https://codeberg.org/dinoboards/ez80-for-rc) configures the eZ80's memory timings and addresses to the following layout:
 
 
 | Address Range    | Description |

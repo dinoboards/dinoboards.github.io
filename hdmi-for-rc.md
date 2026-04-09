@@ -162,7 +162,7 @@ The FPGA code emulating a V9958 VDP has some additional registers to enable the 
 
 > If you have a `eZ80 for RC` based system, you may want to investigate the support for these resolutions available from the ez80-clang project [https://github.com/dinoboards/ez80-clang](https://github.com/dinoboards/ez80-clang)
 
-> The BBC Basic port for the ez80 platform (see [https://github.com/dinoboards/eZ80-for-rc-basic](https://github.com/dinoboards/eZ80-for-rc-basic)) also can utilise these higher resolutions.
+> The BBC Basic port for the ez80 platform (see [https://codeberg.org/dinoboards/ez80-for-rc-basic](https://codeberg.org/dinoboards/ez80-for-rc-basic)) also can utilise these higher resolutions.
 
 For description of the extended registers available, see [https://github.com/dinoboards/V9958-Super/blob/main/docs/vdp_super_res.md](https://github.com/dinoboards/V9958-Super/blob/main/docs/vdp_super_res.md)
 
@@ -181,9 +181,9 @@ There are 3 ports to control an attached WS2812 LED strip.
 
 The ez80 clang compiler, includes C libraries to control a V9958 and the higher resolution extensions implemented by this module.  It also includes libraries to manage an attached LED strip.
 
-The compiler can be found at: [https://github.com/dinoboards/ez80-clang](https://github.com/dinoboards/ez80-clang)
+The compiler can be found at: [https://codeberg.org/dinoboards/ez80-clang](https://codeberg.org/dinoboards/ez80-clang)
 
-Some sample applications (for eZ80 only) can be found in the Apps section of [https://github.com/dinoboards/ez80-for-rc](https://github.com/dinoboards/ez80-for-rc)
+Some sample applications (for eZ80 only) can be found in the Apps section of [https://codeberg.org/dinoboards/ez80-for-rc](https://codeberg.org/dinoboards/ez80-for-rc)
 
 # Resources
 

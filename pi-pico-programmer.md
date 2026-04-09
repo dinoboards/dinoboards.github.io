@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pi Pico Programmer
-github_url: https://github.com/dinoboards/ez80-for-rc/tree/main/programmer
+github_url: https://codeberg.org/dinoboards/ez80-for-rc/src/branch/main/programmer
 ---
 
 The official programmer from Zilog enables flashing and debugging of the eZ80, but at cost of over $100 USD is certainly not a cheap option.
@@ -24,9 +24,9 @@ To make a *Pi Pico Programmer*, we need to do the following:
 
 There are 2 downloads available.  tagged Releases and general releases.  The tagged releases will have more testing conducted compared to the general releases
 
-* <a href="https://github.com/dinoboards/ez80-for-rc/releases" target="_newwindow">Tagged Releases</a>
+* <a href="https://codeberg.org/dinoboards/ez80-for-rc/releases" target="_newwindow">Tagged Releases</a>
   Expand the *Assets* section under the tag release you want and download the main zip file.
-* <a href="https://github.com/dinoboards/ez80-for-rc/actions/workflows/ez80-for-rc.yml?query=branch%3Amain+is%3Asuccess" target="_newwindow">General Releases</a>
+* <a href="https://codeberg.org/dinoboards/ez80-for-rc/actions?workflow=&actor=0&status=1" target="_newwindow">General Releases</a>
   Click on a build, then under *Artifacts* select the **pi-pico-firmware** download.
 
 ### Updating your Pi Pico

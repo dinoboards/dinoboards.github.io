@@ -3,7 +3,7 @@ layout: default
 title: 2MB Linear SRAM
 description: Provide up to 2MB of linearly addressable memory for your eZ80 CPU
 tindie_product_url: https://www.tindie.com/products/dinotron/2mb-linear-sram-for-ez80/
-github_url: https://github.com/dinoboards/ez80-for-rc
+github_url: https://codeberg.org/dinoboards/ez80-for-rc
 lectronz_product_url: https://lectronz.com/products/-2mb-linear-sram-for-ez80
 product_url: https://shop.dinoboards.com.au/product/2mb-linear-sram-for-ez80
 ---
@@ -61,8 +61,8 @@ For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 
 There are currently a number of software projects under development to take advantage of this memory module.
 
-* A port of **BBC-BASIC*** (version 5) for development of BASIC programs [https://github.com/dinoboards/eZ80-for-rc-basic](https://github.com/dinoboards/eZ80-for-rc-basic).
-* A port of **Clang*** (with associated c runtime) for building C and Assembly language programs [https://github.com/dinoboards/ez80-clang](https://github.com/dinoboards/ez80-clang).
+* A port of **BBC-BASIC*** (version 5) for development of BASIC programs [https://codeberg.org/dinoboards/eZ80-for-rc-basic](https://codeberg.org/dinoboards/eZ80-for-rc-basic).
+* A port of **Clang*** (with associated c runtime) for building C and Assembly language programs [https://codeberg.org/dinoboards/ez80-clang](https://codeberg.org/dinoboards/ez80-clang).
 * **EZ80.COM** - a CP/M program to allow for managing and testing the extended memory.
 * **EXE.COM** - a program for loading and executing programs in the extended memory.
 
@@ -73,7 +73,7 @@ There are currently a number of software projects under development to take adva
 
 > Although it may be possible to use the official Zilog ZDS II development studio to create your own 'applications' - this is not a recommended approach.
 
-The **EZ80.COM** and **EXE.COM** applications can be downloaded from the one of the official releases on the github repo : [https://github.com/dinoboards/ez80-for-rc/releases](https://github.com/dinoboards/ez80-for-rc/releases).  Download the releases.zip under the Assets section of the release you want to use.  Within that zip file you find the compiled applications.  These are standard CP/M applications and will only execute on an eZ80 CPU.
+The **EZ80.COM** and **EXE.COM** applications can be downloaded from the one of the official releases on the github repo : [https://codeberg.org/dinoboards/ez80-for-rc/releases](https://codeberg.org/dinoboards/ez80-for-rc/releases).  Download the releases.zip under the Assets section of the release you want to use.  Within that zip file you find the compiled applications.  These are standard CP/M applications and will only execute on an eZ80 CPU.
 
 # Testing the memory
 

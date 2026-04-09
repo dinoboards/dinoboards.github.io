@@ -1,7 +1,7 @@
 ---
 layout: default
 description: Powerup your retro computer with Zilog's eZ80 CPU
-github_url: https://github.com/dinoboards/ez80-for-rc
+github_url: https://codeberg.org/dinoboards/ez80-for-rc
 hackaday_url: https://hackaday.io/project/196330-ez80-cpu-for-rc2014-and-other-backplanes
 tindie_product_url: https://www.tindie.com/products/dinotron/ez80-for-rc/
 lectronz_product_url: https://lectronz.com/products/ez80-for-rc
