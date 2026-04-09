@@ -38,7 +38,7 @@ This module is an alternative to the [MSX V99x8 Video Module](./video-v9958.md)
 * Digitise an analogue audio input and transmit as a digital signal to the HDMI output
 * Or flash the FPGA with your own code and make it do whatever you want
 
-# Images
+<div class="hh1">Images</div>
 
 <table>
   <tr>
@@ -54,6 +54,40 @@ This module is an alternative to the [MSX V99x8 Video Module](./video-v9958.md)
   </tr>
 </table>
 
+# Bill of Materials
+
+| Count      | Name                    |
+| ---------- | ----------------------- |
+| 4          | 0.1uF                   |
+| 1          | 22nF                    |
+| 1          | 1uF                     |
+| 1          | 1N4148                  |
+| 1          | 1K Ω (3.4mm)            |
+| 3          | 10K Ω (3.4mm)           |
+| 1          | 2k2 Ω (3.4mm)           |
+| 1          | MCP3202-BI/P            |
+| 1          | 74HCT32                 |
+| 3          | 74LVC245                |
+| 1          | Right Angle HEADER 1x3  |
+| 1          | HEADER 1x2              |
+| 1          | HEADER 2x3              |
+| 3          | SHUNT 1x2               |
+| 2          | 1x10 header socket      |
+| 1          | Right Angle 40x2 Header |
+| 1          | 8 POS IC SOCKET         |
+| 1          | 14 POS IC SOCKET        |
+| 3          | 20 POS IC SOCKET        |
+| 1          | PCB                     |
+| 1 optional | TANG NANO 20K           |
+
+# What's included in this kit
+
+The full kits includes everything you need (PCB, capacitors, resistors, IC sockets, connectors, and the ICs).  The Tang Nano 20K can be optionally included.
+
+# What else do I need?
+
+* A working RC2014/RCBus system
+* An appropriate boot system - such as RomWBW with support for V9958 VDP, or other appropriate VDP software
 
 # Testing Status
 
@@ -67,45 +101,11 @@ The HDMI/DVI output has been tested on a handful of monitor and with some passiv
 
 # RC2014/RCBus Compatibility
 
-* This module is designed to operate in Z80 Interrupt Mode 1 only.
+This module is designed to operate in Z80 Interrupt Mode 1 only.
 
-# What's included in this kit
+# Operation
 
-The full kits includes everything you need (PCB, capacitors, resistors, IC sockets, connectors, and the ICs).  The Tang Nano 20K can be optionally included.
-
-# Bill of Materials
-
-|Count | Name  |
-|------|-------|
-| 4    |  0.1uF                     |
-| 1    | 22nF     |
-| 1    | 1uF     |
-| 1    | 1N4148     |
-| 1    | 1K Ω (3.4mm)     |
-| 3    | 10K Ω (3.4mm)     |
-| 1    | 2k2 Ω (3.4mm)     |
-| 1    | MCP3202-BI/P     |
-| 1    | 74HCT32     |
-| 3    | 74LVC245     |
-| 1    | Right Angle HEADER 1x3 |
-| 1    | HEADER 1x2     |
-| 1    | HEADER 2x3     |
-| 3    | SHUNT 1x2     |
-| 2    | 1x10 header socket      |
-| 1    | Right Angle 40x2 Header     |
-| 1    | 8 POS IC SOCKET     |
-| 1    | 14 POS IC SOCKET     |
-| 3    | 20 POS IC SOCKET     |
-| 1    | PCB |
-| 1 optional | TANG NANO 20K |
-
-
-# What else do I need to make this work?
-
-* A working RC2014/RCBus system
-* An appropriate boot system - such as RomWBW with support for V9958 VDP, or other appropriate VDP software
-
-# Port Mapping
+## Port Mapping
 
 The Tang Nano 20K is wired to the RC2014/RCBus interface such that the code within the FPGA can be configured to respond to any I/O port request.  So the ports this
 module will respond to are dependant on what image is flashed onto the Tang Nano 20K.
@@ -113,29 +113,41 @@ module will respond to are dependant on what image is flashed onto the Tang Nano
 Please see [https://github.com/dinoboards/V9958-Super](https://github.com/dinoboards/V9958-Super) for the code to emulate a V9958.  If the Tang Nano 20K is included
 in the order, it will be supplied with a version from that repository already flashed.
 
-
-| Port |	Description|
-|------|-------------|
-| $98	(r/w) | VRAM data  |
-| $99 (w)	| VDP register selection |
-| $99 (r)	 | Status register |
-| $9A |	Palette access  |
-| $9B	| Indirect register access  |
-| $30 | WS2812 Pixel Current Index |
-| $31 | WS2812 Pixel RGB |
-| $32 | WS2812 Total Pixel Count |
+| Port      | Description                |
+| --------- | -------------------------- |
+| $98	(r/w) | VRAM data                  |
+| $99 (w)   | VDP register selection     |
+| $99 (r)   | Status register            |
+| $9A       | Palette access             |
+| $9B       | Indirect register access   |
+| $30       | WS2812 Pixel Current Index |
+| $31       | WS2812 Pixel RGB           |
+| $32       | WS2812 Total Pixel Count   |
 
 * The $98 to $9B are as per a standard TMS/V9938/V9958 VDP.
 * The $30 to $32 are for controlling an attached WS2812 led strip
 
-# Jumpers/Headers
+## Jumpers/Headers
 
-| Name | Description |
-| ---- | ----------- |
-| J1   | When shorted, the module will digitise any incoming analogue signal and send to the HDMI.  Please note, passive HDMI to DVI converters may not work with this enabled. |
-| J2   | Program/Operate. Short the 3 jumpers when in operations.  When programming the Tang Nano, its advised to remove these jumpers |
-| J3   | Transmit a clock signal to the RC2014/RCBus backplane.  Do not short this is a clock signal is already supplied to backplane |
-| H1   | WS2812 connection.  Top Pin is GND, bottom pin is 5V and middle pin is the Data (D0) signal |
+### J1 - ENABLE AUDIO
+
+When shorted, the module will digitise any incoming analogue signal and send to the HDMI.  Please note, passive HDMI to DVI converters may not work with this enabled.
+
+### J2 - PROGRAM/OPERATE
+
+Short the 3 jumpers when in operations.  When programming the Tang Nano, its advised to remove these jumpers
+
+### J3 - BUS CLOCK
+
+Transmit a clock signal to the RC2014/RCBus backplane.
+
+**Do not short this is a clock signal is already supplied to backplane.**
+
+### H1 - WS2812 OUT
+
+For connection to a WS2812 LED strip.
+
+Top Pin is GND, bottom pin is 5V and middle pin is the Data (D0) signal
 
 ## Flashing Tang Nano 20K
 
@@ -166,18 +178,17 @@ The FPGA code emulating a V9958 VDP has some additional registers to enable the 
 
 For description of the extended registers available, see [https://github.com/dinoboards/V9958-Super/blob/main/docs/vdp_super_res.md](https://github.com/dinoboards/V9958-Super/blob/main/docs/vdp_super_res.md)
 
-
 ## Programming the WS2812 Interface
 
 There are 3 ports to control an attached WS2812 LED strip.
 
-| Port Address | Port Name | Description |
-| ------------ | --------- | ----------- |
-| $30 | `WS2812_LEDIDX` | Set the LED strip's pixel read/write zero based index. Once set, send 3 bytes to the `WS2812_LEDVAL` port to set the RGB values of the pixel.
-| $31 | `WS2812_LEDVAL` | Write the 3 separate RGB values for current pixel.  After assigning the index with port `WS2812_LEDIDX`, three bytes are expected to be written to this port. The three bytes represent the current pixel's Red, Green and Blue 8 bit values. After the 3 bytes are exchanged, the index is auto incremented. |
-| $32 | `WS2812_LEDCNT` | Define the current maximum number of pixels available on the attached strip.  When auto indexing reaches the end (as per this setting), the index is automatically reset back to 0. |
+| Port Address | Port Name       | Description                                                                                                                                                                                                                                                                                                   |
+| ------------ | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| $30          | `WS2812_LEDIDX` | Set the LED strip's pixel read/write zero based index. Once set, send 3 bytes to the `WS2812_LEDVAL` port to set the RGB values of the pixel.                                                                                                                                                                 |
+| $31          | `WS2812_LEDVAL` | Write the 3 separate RGB values for current pixel.  After assigning the index with port `WS2812_LEDIDX`, three bytes are expected to be written to this port. The three bytes represent the current pixel's Red, Green and Blue 8 bit values. After the 3 bytes are exchanged, the index is auto incremented. |
+| $32          | `WS2812_LEDCNT` | Define the current maximum number of pixels available on the attached strip.  When auto indexing reaches the end (as per this setting), the index is automatically reset back to 0.                                                                                                                           |
 
-# eZ80 Support
+## eZ80 Support
 
 The ez80 clang compiler, includes C libraries to control a V9958 and the higher resolution extensions implemented by this module.  It also includes libraries to manage an attached LED strip.
 
@@ -189,5 +200,21 @@ Some sample applications (for eZ80 only) can be found in the Apps section of [ht
 
 * Schematic: [schematic](assets/hdmi-for-rc/schematic.pdf)
 * Datasheet: [Tang Nano 20K](https://wiki.sipeed.com/hardware/en/tang/tang-nano-20k/nano-20k.html#Hardware-information)
+
+# Assembly Guide
+
+{% include soldering-order.md %}
+
+#### NOTE 1 - SPECIAL CARE WITH SOLDERING LOW PROFILE HEADERS
+
+> With kits supplied with the low profile slim 1x20 headers, special care is recommend with the soldering of the female headers to the PCB.  There is a risk that when soldering, solder will flow down into the header - and thus prevent a good fit with the associated male headers.
+
+##### RECOMMENDED SOLDERING PROCESS
+
+1.  First carefully solder the male headers to the Tang Nano 20K.
+2.  Attach the female headers to soldered male headers.
+3.  Insert into the main PCB.
+4.  Using a PCB holder or grip, orient the PCB side ways, to reduce chance gravity will encourage solder to flow into the header.
+5.  Solder the female headers, fully attached, to main PCB.
 
 {% include disclaimer.md %}
