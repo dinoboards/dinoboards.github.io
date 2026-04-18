@@ -3,6 +3,7 @@ layout: default
 title: Stegosaur Turbo CPU
 description: Z80 CPU running at up to 20Mhz.
 product_url: https://shop.dinoboards.com.au/product/stegosaur-turbo-cpu/
+lectronz_product_url: https://lectronz.com/products/stegosaur-turbo-cpu-for-rc2014-rcbus
 ---
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
