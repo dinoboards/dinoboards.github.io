@@ -38,13 +38,25 @@
   </header>
 
   <div id="banner"
-    class="{% if page.tindie_product_url or page.lectronz_product_url %}product{% else %}home{% endif %}">
+    class="{% if page.lectronz_product_url %}product{% else %}home{% endif %}">
 
     <div class="banner-bar">
 
       <a href="/" class="button "><strong>Home</strong></a>
 
       <a href="/journal" class="button"><strong>Journal</strong></a>
+
+      <a href="{{ page.product_url | default: 'https://shop.dinoboards.com.au' }}" class="button"
+        target="_newWindow">
+        <strong style="margin-left: 2px">
+          {% if page.product_url %}
+          BUY DIRECT <img src="/logo-black.png"
+            style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px" />
+          {% else %}
+          Dinoboard's Shop
+          {% endif %}
+        </strong>
+      </a>
 
       <a href="{{ page.lectronz_product_url | default: 'https://lectronz.com/stores/dino-boards' }}" class="button"
         target="_newWindow">
@@ -62,7 +74,7 @@
         </strong>
       </a>
 
-      <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button"
+      <!-- <a href="{{ page.tindie_product_url | default: 'https://www.tindie.com/stores/dinotron/' }}" class="button"
         target="_newWindow">
         <strong style="margin-left: 0px">
           {% if page.tindie_product_url %}
@@ -73,7 +85,7 @@
           <img src="/assets/images/tindie-logo.png"
             style="height: 24px;margin-left: 2px;margin-top: -15px;padding: 0;position: relative;top: 8px;margin-right: -3px" />
         </strong>
-      </a>
+      </a> -->
 
       {% if page.github_url %}
       <a href="{{page.github_url}}" class="button" style="float:right" target="_newWindow"><strong>Github

@@ -3,6 +3,7 @@ layout: default
 title: Stegosaur PPI & Full Size Matrix Keyboard
 description: A full size keyboard kit for your RC2014 system, for use with 5 pin Cherry compatible switches.
 product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-ppi-module-keyboard/
+lectronz_product_url: https://lectronz.com/products/stegosaur-msx-ppi-keyboard-for-rcbus-rc2014
 ---
 
 
@@ -39,23 +40,27 @@ A full size keyboard kit for your RC2014/RCBus system giving your kit that perfe
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-pcb-front.jpg" width="90%"/><br/>PPI PCB Front</a></td>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-pcb-back.jpg" width="90%"/><br/>PPI PCB Back</a></td>
   </tr>
+
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-front.jpg" width="90%"/><br/>Keyboard PCB Front</a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-back.jpg" width="90%"/><br/>Keyboard PCB Back</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-front-1.4.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-front-1.4.jpg" width="90%"/><br/>Keyboard PCB Front (Revision 1.4)</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-back-1.4.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-back-1.4.jpg" width="90%"/><br/>Keyboard PCB Back (Revision 1.4)</a></td>
   </tr>
+
+  <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-assembled-1.4.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-pcb-assembled-1.4.jpg" width="90%"/><br/>Keyboard (1.4) Assembled (with switches)</a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-assembled-caps.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-assembled-caps.jpg" width="90%"/><br/>Full Assembled (1.2)</a></td>
+  </tr>
+
   <tr>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-assembled.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-assembled.jpg" width="90%"/><br/>PPI Fully Assembled</a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-assembled-caps.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/key-assembled-caps.jpg" width="90%"/><br/>Keyboard Assembled (with switches & key caps)</a></td>
-  </tr>
-  <tr>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-and-key-closeup.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-and-key-closeup.jpg" width="90%"/><br/>Closeup of Keyboard and PPI connected</a></td>
+  </tr>
+  <tr>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-key-base-kit.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/ppi-key-base-kit.jpg" width="90%"/><br/>Base Kit Parts</a></td>
-  </tr>
-  <tr>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/m1-wait-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/m1-wait-parts.jpg" width="90%"/><br/>Optional MSX Wait State Generator Parts</a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/msx-slot-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/msx-slot-parts.jpg" width="90%"/><br/>Optional MSX Slot Selector Parts</a></td>
   </tr>
   <tr>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/msx-slot-parts.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/msx-slot-parts.jpg" width="90%"/><br/>Optional MSX Slot Selector Parts</a></td>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/82c55-4-3.jpg"><img src="{{ site.baseurl }}/stegosaur/ppi-and-keyboard/images/82c55-4-3.jpg" width="90%"/><br/>PPI 8255 PPI Chip</a></td>
   </tr>
 </table>
@@ -130,7 +135,6 @@ This module can work in a standard RC2014/RCBus RomWBW bootable system.
 
 It is required for a MSX configured system.
 
-
 # Operation
 
 ### Jumpers
@@ -166,6 +170,16 @@ Its important that the correct rainbow 16 IDC cable is used.  It needs to be a '
 
 * <a target="_newwindow" href="./ppi-schematic.pdf">PPI Schematic</a>
 * <a target="_newwindow" href="./keyboard-schematic.pdf">Keyboard Schematic</a>
+
+## Revisions
+
+### Keyboard PCB
+
+| Revision | Description                                           |
+| -------- | ----------------------------------------------------- |
+| 1.2      | Initial Release                                       |
+| 1.3      | Not released                                          |
+| 1.4      | Footprint for IDC connector change to non latching type.<br/>Switches footprints rotated.                                      |
 
 # Key difference with Yellow PPI/Keyboard
 

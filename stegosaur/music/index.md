@@ -123,6 +123,8 @@ The optional short 3.5mm audio cable is supplied to connect to the MSX Game Modu
 
 This module can work in a standard RC2014/RCBus RomWBW bootable system, or a MSX configured bootable system.
 
+For operation within an MSX Configuration, you will also need the associated [Stegosaur MSX SLOT 3-1 FOR MSX Music Module](https://www.dinoboards.com.au/stegosaur/music-rom/)
+
 You need an external powered speaker to hear the audio.  It is recommended to use stereo speakers to enjoy the stereo mix.
 
 The connecting 3.5mm cable must be the 3 pole stereo type.

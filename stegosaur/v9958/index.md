@@ -3,6 +3,7 @@ layout: default
 title: Stegosaur V9958 RGB Video Module
 description: MSX compatible Video Module for RC2014/RCBus
 product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-v9958-rgb/
+lectronz_product_url: https://lectronz.com/products/stegosaur-msx-v9958-rgb
 product_code: DB301
 ---
 
