@@ -8,9 +8,6 @@ product_code: DB301
 ---
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
-  <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
-  </div>
   <div style="flex: 3;">
     <h1>Stegosaur V9958 RGB</h1>
     <p>Code: DB301<br/>

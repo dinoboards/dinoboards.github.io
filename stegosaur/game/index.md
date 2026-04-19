@@ -3,12 +3,10 @@ layout: default
 title: Stegosaur YM2149 Game Module
 description: MSX compatible Sound & Game Controller Module
 product_url: https://shop.dinoboards.com.au/product/stegosaur-ym2149-game/
+lectronz_product_url: https://lectronz.com/products/stegosaur-ym2149-game-for-rc2014-rcbus
 ---
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
-  <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
-  </div>
   <div style="flex: 3;">
     <h1>Stegosaur YM2149 Game Module</h1>
     <p>Code: DB306</p>

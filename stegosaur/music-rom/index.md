@@ -6,9 +6,6 @@ product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-slot-3-1/
 ---
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
-  <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/new.png" width="100px"/>
-  </div>
   <div style="flex: 3;">
     <h1>Stegosaur MSX SLOT 3-1 FOR MSX Music Module</h1>
     <p>Code: DB305</p>

@@ -6,9 +6,6 @@ product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-rom-ram/
 ---
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
-  <div style="flex: 0 0 100px;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px"/>
-  </div>
   <div style="flex: 3;">
     <h1>Stegosaur MSX ROM & RAM Modules</h1>
     <p>RAM: DB310<br/>
