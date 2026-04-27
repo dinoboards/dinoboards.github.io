@@ -42,7 +42,7 @@ The CH376 module provides a high level interface for connecting to the most comm
 * Drivers written in C so a little more accessible than pure Z80 assembly
 * Individually programmable LEDs to indicate USB operation
 
-# Images
+<div class="hh1">Images</div>
 
 <table>
   <tr>
@@ -55,6 +55,35 @@ The CH376 module provides a high level interface for connecting to the most comm
   </tr>
 </table>
 
+# Bill of Materials
+
+| Count | Name                             |
+| :---: | -------------------------------- |
+|   4   | 0.1uF                            |
+|   1   | 220uF                            |
+|   3   | 1N4148                           |
+|   2   | 3mm	leds                         |
+|   1   | 4.7kΩ (3mm)                      |
+|   2   | 470Ω Resistor (3mm)              |
+|   1   | CH376S USB Module                |
+|   1   | 74HCT138                         |
+|   1   | 74HCT32                          |
+|   1   | 74HC74                           |
+|   2   | Right Angle 2x20 Header          |
+|   2   | 14 POS IC SOCKET                 |
+|   1   | 16 POS IC SOCKET                 |
+|   1   | 512MB USB Flash Drive (optional) |
+|   1   | PCB                              |
+
+# What's included in this kit
+
+The full kits includes everything you need (PCB, capacitors, IC sockets, CH376S module, connectors, and the ICs).  And an optional small Flash drive that's been tested and confirmed to work.
+
+
+# What else do I need to make this work?
+
+* A working RC2014/RCBus system
+* An updated RomWBW ROM image configured to enable the CH376 'native' driver.
 
 # Testing Status
 
@@ -238,37 +267,9 @@ All but one of the hubs tested works.  All but one of the hub seemed to have bee
 
 * This module has only been tested in kit configuration using Z80 Interrupt Mode 1 only.
 
-# What's included in this kit
+# Operation
 
-The full kits includes everything you need (PCB, capacitors, IC sockets, CH376S module, connectors, and the ICs).  And an optional small Flash drive that's been tested and confirmed to work.
-
-# Bill of Materials
-
-|Count   | Name  |
-|:------:|-------|
-| 4      |  0.1uF                     |
-| 1      |  220uF                     |
-| 3      |  1N4148                    |
-| 2      |  3mm	leds                  |
-| 1      |  4.7kΩ (3mm)               |
-| 2      |  470Ω Resistor (3mm)       |
-| 1      |  CH376S USB Module         |
-| 1      |  74HCT138                  |
-| 1      |  74HCT32                   |
-| 1      |  74HC74                    |
-| 2      |	Right Angle 1x20 Header   |
-| 2      |	14 POS IC SOCKET          |
-| 1      |	16 POS IC SOCKET          |
-| 1      |	512MB USB Flash Drive (optional)     |
-| 1      | PCB |
-
-
-# What else do I need to make this work?
-
-* A working RC2014/RCBus system
-* An updated RomWBW ROM image configured to enable the CH376 'native' driver.
-
-# Updating RomWBW
+## Updating RomWBW
 
 You will probably need to update your image of RomWBW.  Please refer to the official instructions for updating and flashing the ROM at [https://github.com/wwarthen/RomWBW](https://github.com/wwarthen/RomWBW)
 
@@ -308,16 +309,22 @@ STAT CON:=CRT:
 
 > Please note the software driver for the Keyboard is still under development - and not all keys will be mapped, and characters may get dropped if you type too fast.
 
-# Port Mapping
+## Jumper
+
+#### H1 - INT
+
+Not used.  An option to connect the CH376's interrupt signal to the bus.  Current software drivers do not support interrupt generation.  Leave unpopulated.
+
+## Port Mapping
 
 #### The board use the following IO addresses
 
-| Port |	Description|
-|------|-------------|
-| $88	(r/w) | CH376 data port  |
-| $89	(r/w) | CH376 command port  |
-| $8A (w) | LED control (bit 0 and 1 only) |
-| $8B (w) | mirror of $8A |
+| Port      | Description                    |
+| --------- | ------------------------------ |
+| $88	(r/w) | CH376 data port                |
+| $89	(r/w) | CH376 command port             |
+| $8A (w)   | LED control (bit 0 and 1 only) |
+| $8B (w)   | mirror of $8A                  |
 
 
 <!-- # Accessing a USB printer.
@@ -329,6 +336,12 @@ For example, the following MSX-DOS command will send the file, `MYTEXT.TXT`, fil
 ```
 COPY MYTEXT.TXT PRN
 ``` -->
+
+# Assembly Guide
+
+{% include soldering-order.md %}
+
+There are no specific notes for this module.
 
 # Resources
 

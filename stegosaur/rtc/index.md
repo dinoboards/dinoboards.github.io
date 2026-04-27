@@ -61,8 +61,8 @@ It also includes a reliable power-on-reset feature, sending RESET signal to your
 |   1   | 1N4148                   |                                                           |
 |   1   | Header 1x2               |                                                           |
 |   1   | Shunt 1x2                |                                                           |
-|   2   | 10K Ω (3.4mm)            |                                                           |
-|   1   | 100K Ω (3.4mm)           |                                                           |
+|   1   | 10K Ω (3.4mm)            |                                                           |
+|   2   | 100K Ω (3.4mm)           |                                                           |
 |   1   | 74HCT175                 |                                                           |
 |   1   | 74HCT138                 |                                                           |
 |   1   | 74HCT21                  |                                                           |
@@ -221,13 +221,13 @@ Please see the Power On Reset Compatibility section above
 
 # Key difference with Yellow MSX RGB
 
-| Description                      | Yellow MSX Version                  | Green Stegosaur Version          |
-| -------------------------------- | ----------------------------------- | -------------------------------- |
-| Calibration                      | on board trimmer capacitor | none                             |
-| Battery                          | CR2032                              | CR2450                           |
-| Diagnostic 'Alarm/Timing' Signal | exposed with pull up resistor       | Exposed, but no pull up resistor |
-| PCB Height                       | 8.0 cm                              | 5.5 cm                           |
-| Colour                           | Yellow                              | Green                            |
+| Description                      | Yellow MSX Version            | Green Stegosaur Version          |
+| -------------------------------- | ----------------------------- | -------------------------------- |
+| Calibration                      | on board trimmer capacitor    | none                             |
+| Battery                          | CR2032                        | CR2450                           |
+| Diagnostic 'Alarm/Timing' Signal | exposed with pull up resistor | Exposed, but no pull up resistor |
+| PCB Height                       | 8.0 cm                        | 5.5 cm                           |
+| Colour                           | Yellow                        | Green                            |
 
 # Assembly Guide
 
