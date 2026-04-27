@@ -80,14 +80,16 @@ And here is a video of the module, booted in a MSX configuration, with stereo ou
 |   3   | 0.1uF Ceramic Capacitors              | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
 |   2   | 3.5mm audio socket                    | Mouser: 490-SJ1-3523N<br/>DigiKey: CP1-3523N-ND           |
 |   2   | 1uF Electrolytic Capacitors           |                                                           |
+|   2   | 10nF Ceramic Capacitors               |                                                           |
+|   2   | 100nF Ceramic Capacitors              |                                                           |
 |   4   | 2.2uF Electrolytic Capacitors         |                                                           |
 |   1   | 220uF Electrolytic Capacitors LOW ESR | Mouser: 80-A750BG227M0JAAE20<br/>DigiKey: 399-13660-ND    |
 |   1   | 560 uH Inductor                       | Mouser: 652-5300-34-RC                                    |
 |   1   | 47 Ω Resistor (3.4mm)                 |                                                           |
-|   1   | 1K Ω Resistor (3.4mm)                 |                                                           |
-|   1   | 2.2K Ω Resistor (3.4mm)               |                                                           |
-|   1   | 47K Ω Resistor (3.4mm)                |                                                           |
-|   1   | 100K Ω Resistor (3.4mm)               |                                                           |
+|   3   | 1K Ω Resistor (3.4mm)                 |                                                           |
+|   6   | 2.2K Ω Resistor (3.4mm)               |                                                           |
+|   2   | 47K Ω Resistor (3.4mm)                |                                                           |
+|   2   | 100K Ω Resistor (3.4mm)               |                                                           |
 |   1   | TL072IP dual op-amp                   | Mouser: 595-TL072IP<br/>DigiKey: 96-14997-5-ND            |
 |   1   | TC7660 charge pump                    | Mouser: 579-TC7660HCPA<br/>DigiKey: TC7660HCPA-ND         |
 |   2   | 74HCT688                              |                                                           |

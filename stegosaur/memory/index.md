@@ -67,7 +67,7 @@ This module is designed for operation in conjunction with other MSX modules (CPU
 |   1   | 1x3 Header plug (17mm)        |                                                           |
 |   1   | ATF22V10C-15PU (RAM SELECTOR) |                                                           |
 |   1   | ATF22V10C-15PU (ROM-MAPPER)   |                                                           |
-|   1   | AS6C4008                      |                                                           |
+|   1*  | AS6C4008                      |                                                           |
 |   1   | SST39SF040                    |                                                           |
 |   2   | 74HCT30                       |                                                           |
 |   1   | 74HC138                       |                                                           |
@@ -81,6 +81,8 @@ This module is designed for operation in conjunction with other MSX modules (CPU
 |   2   | 20 POS IC SOCKET              | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
 |   2   | 24 POS IC SOCKET              | Mouser: 571-1-2199298-8<br/>DigiKey: 2057-ICS-324-T-ND    |
 |   3   | 32 POS IC SOCKET              | Mouser: 737-ICS-632-T<br/>DigiKey: 2057-ICS-632-T-ND      |
+
+\* optional extra AS6C4008 for total of 2 RAM chips (1024KB max RAM)
 
 # What's included?
 
