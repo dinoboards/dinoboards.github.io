@@ -68,7 +68,6 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 | Count | Name                     | Self Sourcing*                                            |
 | :---: | ------------------------ | --------------------------------------------------------- |
 |   5   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND        |
-|   2   | 22pF                     |                                                           |
 |   1   | 47 Ω (3.4mm)             |                                                           |
 |   2   | 470 Ω (3.4mm)            |                                                           |
 |   1   | 10K Ω (3.4mm)            |                                                           |
@@ -78,8 +77,6 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 |   1   | ATF16V8                  |                                                           |
 |   1   | 74AC153                  |                                                           |
 |   1   | 74AC74                   |                                                           |
-|   1   | 74HC02                   |                                                           |
-|   1   | 74HC393                  |                                                           |
 |   1   | SP3T Slide Switch        | Mouser: 611-OS103011MA7QP1<br/>DigiKey: CKN9561-ND        |
 |   1   | 20 Mhz Oscillator        | Mouser: 774-MXO45HS-3C-20.0<br/>DigiKey: 535-9173-5-ND    |
 |   2   | Right Angle 2x20 Header  | Mouser: 649-68020-140HLF<br/>DigiKey: 2057-PH2RA-40-UA-ND |
@@ -87,7 +84,7 @@ Here is a demonstration of the very similar Yellow MSX Turbo CPU module, to give
 |   1   | 24 POS IC SOCKET NARROW  | Mouser: 571-1-2199298-8<br/>DigiKey: 2057-ICS-324-T-ND    |
 |   1   | 20 POS IC SOCKET         | Mouser: 571-1-2199298-6<br/>DigiKey: 2057-ICS-320-T-ND    |
 |   1   | 16 POS IC SOCKET         | Mouser: 571-1-2199298-4<br/>DigiKey: 2057-ICS-316-T-ND    |
-|   4   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
+|   1   | 14 POS IC SOCKET         | Mouser: 571-1-2199298-3<br/>DigiKey: 2057-ICS-314-T-ND    |
 |   1   | 4 OSCILLATOR SOCKET      | Mouser: 535-1108800<br/>DigiKey: A463-ND                  |
 |   1   | PCB                      |                                                           |
 
