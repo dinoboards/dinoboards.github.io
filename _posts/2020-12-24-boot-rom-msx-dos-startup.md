@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "BOOT ROM/MSX-DOS Startup"
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 <p>So after what seems like a million and one flashes of the ROM chip, I now have a booting image.</p>

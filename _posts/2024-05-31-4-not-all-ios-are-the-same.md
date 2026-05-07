@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "4: Not all IOs are the same"
-tags: eZ80
+tags: eZ80 Green
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Progress Update"
-tags: msx
+tags: MSX RC2014
 ---
 
 Its been a while since I posted here about the project.

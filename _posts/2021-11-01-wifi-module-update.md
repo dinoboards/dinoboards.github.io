@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Wifi Module update
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 Over the last few weeks, I have been mostly working on the software interface for the RC2014 Wifi module.

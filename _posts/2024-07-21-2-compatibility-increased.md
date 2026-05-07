@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compatibility Increased
-tags: eZ80
+tags: eZ80 RC2014 RCBus Green
 ---
 
 As shown in the previous post, I built a new eZ80 CPU module and paired with a newly designed Bus interface module.  This new interface module has solved some critical compatibility issues I was having.

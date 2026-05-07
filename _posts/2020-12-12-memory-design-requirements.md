@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Memory Design/Requirements"
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 I have completed a first design and ordered a PCB for the memory board.  This board has had to solve a few challenges.

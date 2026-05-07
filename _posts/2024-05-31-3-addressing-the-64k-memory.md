@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "3: Addressing the 64K memory"
-tags: eZ80
+tags: eZ80 Green
 ---
 
-​The eZ80 has 4 configurable Chip Select signals (CS0 to CS3), in addition to the MREQ and IOREQ signals. The chip-select signals can be configured to activate for range of memory or IO requests.
+The eZ80 has 4 configurable Chip Select signals (CS0 to CS3), in addition to the MREQ and IOREQ signals. The chip-select signals can be configured to activate for range of memory or IO requests.
 
 As the MREQ and IOREQ for the eZ80 assume a much larger address range than the RC2014™ modules will support, (24bit for memory and 16bit for IO), I need to utilise the CSx signals to provide compatible signals for the backplane.
 

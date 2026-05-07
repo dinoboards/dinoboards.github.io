@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Green And Gold
-tags: Green eZ80 MSX Yellow
+tags: Green eZ80 MSX Yellow RCBus
 ---
 
 I have not had the privilege of a lot of free time over the last few months, which limited my ability to explore and experiment with the eZ80 RC2014/RCBus system.  And with so many things on the backlog....

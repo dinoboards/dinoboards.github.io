@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stegosaur YM2149 Game Module for RC2014/RCBus
-tags: stegosaur msx ym2149
+tags: stegosaur MSX Green YM2149 RC2014 RCBus
 ---
 
 Next module to be downsized, is the YM2149 Game Module.

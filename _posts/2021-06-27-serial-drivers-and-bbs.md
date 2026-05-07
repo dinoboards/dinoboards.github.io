@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Serial Drivers and BBS
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 

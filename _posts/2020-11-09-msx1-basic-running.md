@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PPI for keyboard"
-tags: msx rc2014
+tags: MSX RC2014 Keyboard
 ---
 
 Using the keyboard and the TMS9918 board, i was able to load and run MSX1 BASIC ROM

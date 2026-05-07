@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "V9958 Testing Continued"
-tags: msx rc2014
+tags: MSX RC2014 V9958
 ---
 
 Well I think I am gonna abandon trying to get the V9958 to work with SRAM.

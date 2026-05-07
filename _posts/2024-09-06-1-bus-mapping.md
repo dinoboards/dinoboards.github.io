@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RC2014/RCBus Mapping
-tags: eZ80
+tags: eZ80 RC2014 RCBus Green
 ---
 
 As the eZ80 CPU has some differences and additional control signals, I need to consider how some of these signals have to be mapped, and how their slight difference may impact compatibility. I have already had to 'resolve' issues with the timing of the `WR` signal to ensure operation of the Bank Memory module and the Compact Flash module.

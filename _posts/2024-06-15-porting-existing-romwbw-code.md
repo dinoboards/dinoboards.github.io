@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Porting existing RomWBW code
-tags: eZ80
+tags: eZ80 Green
 ---
 
 Porting RomWBW to support the eZ80 CPU requires a number of things to be achieved:

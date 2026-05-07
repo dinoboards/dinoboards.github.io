@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RTC Working Not Working
-tags: eZ80
+tags: eZ80 RC2014 RCBus Green
 ---
 
 Well this was an interesting day.  Spent much of it getting the Real Time Clock working.  Created code for the on-chip firmware to initialise and configure the on-chip RTC.  Added a RTC driver in my RomWBW branch to interface with it.  All working perfectly.

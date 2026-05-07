@@ -41,6 +41,7 @@ layout: default
   color: #ffcc00;
 }
 
+
 </style>
 
 This page lists a number of my blog posts regarding the development of the Yellow MSX Series and the Green eZ80 Green modules.
@@ -50,6 +51,8 @@ Many of these entries are dual posted on my hackaday site at: [https://hackaday.
 I also sometimes post updates on my mastodon account: <a rel="me" href="https://mastodon.social/@dinotron" target="_new">
           <img src="{{ site.baseurl }}/assets/mastodon-logo.svg" style="position: relative; top:4px; height: 1em" />&nbsp;mastodon.social/@dinotron
         </a>
+
+{% include journal-filters.md %}
 
 {% assign posts = site.posts | sort: 'date' | reverse %}
 {% assign currentYear = "" %}

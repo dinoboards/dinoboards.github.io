@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Belated Progress Report
-tags: eZ80
+tags: eZ80 Green RCBus
 
 ---
 

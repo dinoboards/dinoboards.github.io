@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Hot Flashing
+tags: eZ80 Green RCBus
 ---
 
 Been working on understanding and writing code to re-flash the on-chip ROM from a CP/M application.

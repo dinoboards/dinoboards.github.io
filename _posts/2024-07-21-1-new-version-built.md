@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New version built
-tags: eZ80
+tags: eZ80 RC2014 RCBus Green
 ---
 
 I have achieved some success since my self inflicted RTC issue.

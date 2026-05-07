@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Backplane and Cartridge Extension
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 One of the developments that been wanting for time, is the development of a custom backplane and cartridge extension.

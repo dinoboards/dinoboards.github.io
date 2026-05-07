@@ -53,7 +53,7 @@ I also sometimes post updates on my mastodon account: <a rel="me" href="https://
 
 {% include journal-filters.md %}
 
-{% assign posts = site.tags["eZ80"] | sort: 'date' | reverse %}
+{% assign posts = site.tags["Green"] | sort: 'date' | reverse %}
 {% assign currentYear = "" %}
 
 <ul class="journal-list">

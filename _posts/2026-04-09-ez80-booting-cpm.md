@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eZ80 natively booting into CP/M
-tags: eZ80 RC2014 RCBUS CPM
+tags: eZ80 Green RC2014 RCBus CPM
 ---
 
 I have started exploring and learning how to make the eZ80 CPU module boot directly into an operating system such as CP/M (CP/M 2.2), without the need for ROMWBW or the 512K RAM/ROM module.

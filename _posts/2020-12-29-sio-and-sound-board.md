@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SIO and Sound Board"
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 <p><strong>RC2014 SIO/2</strong></p>

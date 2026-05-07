@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Sound & Controller Board"
-tags: msx rc2014
+tags: MSX RC2014 Game
 ---
 
 <p>Just completed the build for the game board.&nbsp; This board is based on the YM2149 audio chip - with integrated game controller ports.</p>

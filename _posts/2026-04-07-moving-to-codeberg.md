@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Moving my github code repos to Codeberg
+tags: github codeberg git
 ---
 
 [https://codeberg.org/dinoboards](https://codeberg.org/dinoboards)

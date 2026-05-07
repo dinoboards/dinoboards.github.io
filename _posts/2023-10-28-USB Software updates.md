@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "USB Software updates"
-tags: msx
+tags: MSX USB
 ---
 
 I have been updating the USB software over the last week or so and making some progress with support for additional hardware types.

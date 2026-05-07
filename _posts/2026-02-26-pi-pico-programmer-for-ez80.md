@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PI Pico Programmer Kit for eZ80
-tags: Z80 eZ80 RC2014 RCBUS
+tags: Z80 eZ80 Green RC2014 RCBus
 ---
 
 

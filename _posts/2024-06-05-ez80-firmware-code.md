@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eZ80 firmware code
-tags: eZ80
+tags: eZ80 Green
 ---
 Just published the firmware code I am developing on ~~github~~ codeberg - its on my new account - dinoboards
 

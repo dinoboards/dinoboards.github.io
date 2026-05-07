@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Green Stegosaur Turbo CPU for RC2014/RCBus
-tags: Green stegosaur msx turbo-cpu
+tags: Green stegosaur MSX Turbo RC2014 RCBus
 ---
 
 Next module to be downsized, is the Turbo CPU module.

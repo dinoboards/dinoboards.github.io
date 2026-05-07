@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overclocking the eZ80
-tags: eZ80
+tags: eZ80 RC2014 RCBus Green
 ---
 
 In addition to testing my recent changes around the data buffering, I also conducted some overclocking tests.

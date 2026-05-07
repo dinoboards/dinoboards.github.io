@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MSX-DOS is also CP/M
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 One of the aspects of MSX-DOS I find fascinating, is its CP/M compatibility.  In all the reading and conspiracy theories that MS-DOS stole from CP/M - I never heard anyone discuss MSX-DOS.  Here is an Operating System that bridges CP/M and MS-DOS.  It runs many of your favourite CP/M programs just fine, saving and reading from the MS-DOS compatible disk format FAT.

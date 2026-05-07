@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overclocking the Turbo CPU - attempt 2
-tags: Z80 TURBO MSX RC2014 RCBUS
+tags: Z80 Green Turbo MSX RC2014 RCBus
 ---
 
 OK.  So now back to my attempt to overclock the CPU beyond the 20Mhz rate.

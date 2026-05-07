@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Video Evidence
+tags: MSX RC2014 RCBus
 ---
 
 Thought I should share a quick little demo video, showcasing some of the progress with porting RomWBW to the eZ80 CPU.

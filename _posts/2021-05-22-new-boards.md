@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New boards under development
-tags: msx rc2014
+tags: MSX RC2014 RTC Music CART
 ---
 
 

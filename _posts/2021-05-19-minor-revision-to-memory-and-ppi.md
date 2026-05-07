@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Minor revision to Memory & PPI Boards
-tags: msx rc2014
+tags: MSX RC2014 Game
 ---
 
 

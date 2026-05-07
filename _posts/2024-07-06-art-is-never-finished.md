@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Art is never finished"
-tags: msx
+tags: MSX RC2014
 ---
 
 <strong>Art is never finished only abandoned</strong>

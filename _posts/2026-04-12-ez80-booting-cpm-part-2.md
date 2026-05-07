@@ -1,7 +1,7 @@
 ---
 layout: post
 title: eZ80 natively booting into CP/M Part 2
-tags: eZ80 RC2014 RCBUS CPM
+tags: eZ80 Green RC2014 RCBUS CPM
 ---
 
 Made some more progress with porting of CP/M to the eZ80 for RC module.  Tidied up a few things and executed a few applications.

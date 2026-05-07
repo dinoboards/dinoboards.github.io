@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fixing the fix to Turbo CPU's BRAKE
-tags: Z80 TURBO MSX RC2014 RCBUS
+tags: Z80 Turbo MSX Green RC2014 RCBus
 ---
 
 Well.  Perhaps readers of this blog, should ignore my previous posting.  It seems I got a fundamental bit of logic wrong.  What I thought was a failure of the BRAKE Generator to slow down the CPU upon an IORQ request, was not an entirely correct analysis of the situation.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: General Update
-tags: msx rc2014
+tags: MSX RC2014 V9958
 ---
 
 
@@ -67,6 +67,6 @@ Next Steps
 
 2. Get kits of the Keyboard, Memory and RTC boards on Tindie.
 
-3. Get my rc2014 Floppy module to work with the system.
+3. Get my RC2014 Floppy module to work with the system.
 
 4. Everything else!

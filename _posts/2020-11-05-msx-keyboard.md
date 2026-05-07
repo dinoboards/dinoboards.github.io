@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MSX Keyboard"
-tags: msx rc2014
+tags: MSX RC2014 Keyboard
 ---
 
 Now have a keyboard.
@@ -12,7 +12,7 @@ I used the keyboard driver within CBIOS (https://sourceforge.net/projects/cbios/
 
 As for the RTC, the initial version of the driver is sitting on my RomWBW fork (https://github.com/vipoo/RomWBW/blob/dean/dev-msxkeyboard/Source/HBIOS/msxkeyb.asm)
 
-I can now boot up my rc2014, using TMS 9918 video and standalone keyboard. No serial interface required.
+I can now boot up my RC2014, using TMS 9918 video and standalone keyboard. No serial interface required.
 
 Its nice to finally be able to use cp/m and microsoft basic with a proper keyboard and a wonderful 40 column display.
 

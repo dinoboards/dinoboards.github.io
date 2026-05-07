@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cassette + USB Module"
-tags: msx
+tags: MSX RC2014
 ---
 
 Okay,

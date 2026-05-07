@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Software for the MSX on RC2014"
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 <p>I received and assembled the Memory boards.&nbsp; Now i just need some software to put on it!</p>

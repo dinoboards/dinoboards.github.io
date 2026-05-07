@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overclocking the Turbo CPU - attempt 1
-tags: Z80 TURBO MSX RC2014 RCBUS
+tags: Z80 Turbo MSX Green RC2014 RCBus
 ---
 
 My Turbo CPU (both the Yellow and Stegosaur versions), run a stock Z80 at its maximum officially supported speed (for the DIP40 version) of 20Mhz.  As mentioned in previous posts, the Turbo CPU runs the CPU at 2 different speeds - the slow standard speed when accessing I/O devices (such as the VDP or SIO/2 modules).  And the boost speed (20Mhz) when accessing memory or crunching instructions.

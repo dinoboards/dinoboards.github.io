@@ -1,7 +1,7 @@
 ---
 layout: post
 title: New Series of modules
-tags: Green stegosaur msx v9958
+tags: Green stegosaur MSX V9958 RC2014 RCBus
 ---
 
 It's a new year, and I have some new modules under development.

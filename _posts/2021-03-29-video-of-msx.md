@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Video of MSX on RC2014 in action
-tags: msx rc2014
+tags: MSX RC2014 V9958
 ---
 
 

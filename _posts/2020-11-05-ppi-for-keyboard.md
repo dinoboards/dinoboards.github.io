@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PPI for keyboard"
-tags: msx rc2014
+tags: MSX RC2014 Keyboard
 ---
 
 The keyboard requires a 82c55 PPI board to drive the scan rows and columns.

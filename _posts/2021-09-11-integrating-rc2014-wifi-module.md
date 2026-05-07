@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Integrating the RC2014 WIFI Module
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 Over the last couple of weekends I have manage to get the [RC2014 ESP8266 WIFI Module](https://z80kits.com/shop/esp8266-wifi-module/) working in MSX-DOS.

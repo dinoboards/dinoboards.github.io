@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Backplane and Cartridge Extension
-tags: msx rc2014
+tags: MSX RC2014
 ---
 
 In my previous post, I showed the progress for the Cartridge Slot extension.  I mentioned that I had yet to test with original cartridges.

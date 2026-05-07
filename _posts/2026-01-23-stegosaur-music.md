@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stegosaur MSX YM2413 Music for RC2014/RCBus
-tags: stegosaur msx ym2413
+tags: stegosaur MSX Green YM2413
 ---
 
 Next module to be downsized, is the MSX YM2413 Music Module.

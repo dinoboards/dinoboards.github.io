@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Possible issue with V9958
-tags: msx rc2014
+tags: MSX RC2014 V9958
 ---
 
 Just received a report of an issue with the Video board - in particular the address selection logic.

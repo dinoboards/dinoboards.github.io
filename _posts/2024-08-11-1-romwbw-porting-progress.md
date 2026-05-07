@@ -1,7 +1,7 @@
 ---
 layout: post
 title: RomWBW porting progress
-tags: eZ80
+tags: eZ80 RC2014 RCBus Green
 ---
 
 ## Show me the code!

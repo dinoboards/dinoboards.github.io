@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Factory assembled CPU Modules
+tags: eZ80 Green
 ---
 
 Last week, I submitted to the PCB manufacturer, an order for assembled CPU modules.  This is the first time I have submitted an order to the factory to place and solder components onto one of my PCB designs.  It was quick, easy and generally quite simple.

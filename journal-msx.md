@@ -51,12 +51,13 @@ I also sometimes post updates on my mastodon account: <a rel="me" href="https://
           <img src="{{ site.baseurl }}/assets/mastodon-logo.svg" style="position: relative; top:4px; height: 1em" />&nbsp;mastodon.social/@dinotron
         </a>
 
-{% assign posts = site.posts | sort: 'date' | reverse %}
+{% include journal-filters.md %}
+
+{% assign posts = site.tags["MSX"] | sort: 'date' | reverse %}
 {% assign currentYear = "" %}
 
 <ul class="journal-list">
 {% for post in posts %}
-{% unless post.tags contains 'eZ80' %}
   {% assign postYear = post.date | date: "%Y" %}
 
   {% if currentYear != postYear %}
@@ -68,6 +69,5 @@ I also sometimes post updates on my mastodon account: <a rel="me" href="https://
     <span class="entry-date">{{ post.date | date: "%Y-%m-%d" }}</span>
     <span class="entry-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
   </li>
-{% endunless %}
 {% endfor %}
 </ul>

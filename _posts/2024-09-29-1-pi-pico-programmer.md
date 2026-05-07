@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PI Pico Programmer
-tags: eZ80
+tags: eZ80 Green RCBus
 ---
 
 This weekend, I made significant progress in making a PI Pico module connect to the eZ80.  Enabling the ability to erase and write to the on-chip flash ROM.  This will be an alternative and cheaper way to program the eZ80 compared to Zilog's Smart Programmer.

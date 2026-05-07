@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CH376 Module Challenge"
-tags: msx
+tags: MSX USB RC2014
 ---
 
 Can you tell the difference between these modules - they are both sold as CH376 Modules?
