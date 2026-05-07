@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Interface PCB for the backplane
+title: "6: Interface PCB for the backplane"
+tags: eZ80
 ---
 
 Next part of the design is the RC2014/RCBus compatible interface PCB.

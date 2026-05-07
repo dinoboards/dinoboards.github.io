@@ -1,6 +1,7 @@
 ---
 layout: post
 title: HBIOS booted on the eZ80
+tags: eZ80
 ---
 
 I just managed to get <a href="https://github.com/wwarthen/RomWBW" target="_blank">RomWBW</a> HBIOS's to boot over the eZ80's UART, using a standard <a href="https://rc2014.co.uk/modules/512k-rom-512k-ram-module/" target="_blank">RC2014 memory module</a>.

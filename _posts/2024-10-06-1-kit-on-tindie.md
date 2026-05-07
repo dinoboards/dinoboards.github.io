@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kit available on Tindie
+tags: eZ80
 ---
 
 The **eZ80 for RC** kit is now available from my Tindie store.

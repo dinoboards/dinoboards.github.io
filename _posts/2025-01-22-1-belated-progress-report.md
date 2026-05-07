@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Belated Progress Report
+tags: eZ80
+
 ---
 
 Ok, so its been quite a while since I provided an update for the *eZ80 For RC* module.  What can I say, I am easily distracted.

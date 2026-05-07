@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RC2014 512K RAM/ROM module compatibility
+tags: eZ80
 ---
 
 As mentioned in a previous post, I had issues with the RAM/ROM module not working when using 74HCT670 register chips.  I was only able to get a booting system, if I used the HC variants of those chips (74HC670).

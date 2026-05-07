@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The eZ80 is more than a souped up Z80"
-tags: ez80
+title:  "1: The eZ80 is more than a souped up Z80"
+tags: eZ80
 ---
 
 <p>The eZ80 is kind of compatible with the Z80, but has a number of key differences that need to be considered for this to work:<br></p>

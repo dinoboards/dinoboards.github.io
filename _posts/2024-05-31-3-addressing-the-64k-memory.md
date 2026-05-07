@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Addressing the 64K memory"
+title:  "3: Addressing the 64K memory"
+tags: eZ80
 ---
 
 ​The eZ80 has 4 configurable Chip Select signals (CS0 to CS3), in addition to the MREQ and IOREQ signals. The chip-select signals can be configured to activate for range of memory or IO requests.

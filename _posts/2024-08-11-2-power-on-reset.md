@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Power on reset
+tags: eZ80
 ---
 
 One issue I hit when I was attempting to port the V9958 driver code (TMS9918 compatible driver), was an apparent intermittent fault.  After a few frustrating hours, I figured out that the V9958 was not being 'reset' on power up - and could not be initialised correctly by the CPU.

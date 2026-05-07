@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Even more compatibility
+tags: eZ80
 ---
 
 In my previous post, I looked at how to improve compatibility with modules where the write logic is triggered on the positive edge of the `WR` signal.  This is important for Modules such at the Compact Flash and banking Memory Modules.  But I have since found I introduced an issue with the next module I attempted to test with; the [SN76489 sound module by J.B. Langston](https://github.com/jblang/SN76489).

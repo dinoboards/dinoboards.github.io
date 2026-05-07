@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Battery Power and clocks
+tags: eZ80
 ---
 
 A new PCB arrived last week.  This iteration, V1.5, has a number of improvements, including a small battery holder for CR1216/1225 3V Lithium Batteries.

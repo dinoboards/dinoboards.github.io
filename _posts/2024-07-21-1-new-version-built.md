@@ -1,6 +1,7 @@
 ---
 layout: post
 title: New version built
+tags: eZ80
 ---
 
 I have achieved some success since my self inflicted RTC issue.

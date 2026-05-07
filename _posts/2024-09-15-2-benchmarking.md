@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Benchmarking
+tags: eZ80
 ---
 
 My primary goal with the eZ80 module is to achieve maximum compatibility with RC2014/RCBus modules and configurations. The eZ80 is a significantly faster processor. However, to ensure communication with older, slower retro modules, appropriate wait states must be introduced, which means some performance will be sacrificed. Despite this, the system remains much faster than a standard Z80 running at 7MHz.

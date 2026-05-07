@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RomWBW porting progress
+tags: eZ80
 ---
 
 ## Show me the code!

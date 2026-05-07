@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "eZ80 never need stop"
+title:  "2: eZ80 never need stop"
+tags: eZ80
 ---
 
 <p>I want this new eZ80 module to operate on a backplane, with an original Z80 module also.&nbsp; <strong>Dual CPU mode</strong>.&nbsp;&nbsp;</p>

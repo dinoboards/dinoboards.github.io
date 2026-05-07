@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Issue with Data bus Buffering
+tags: eZ80
 ---
 
 As mentioned in a previous post [HBIOS booted on the eZ80]({% link _posts/2024-06-02-hbios-booted-on-the-ez80.md %}), there was an issue with the Memory Module - where it would only work if I used the 74HC670 chips (instead of the similar 74HCT670).  I think the problem for this might have to do with a problem I had discovered with the way I was buffering the Data lines (D0-D7) between the eZ80 and the backplane.

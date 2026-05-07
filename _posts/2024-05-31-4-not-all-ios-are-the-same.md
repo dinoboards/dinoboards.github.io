@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Not all IOs are the same
+title: "4: Not all IOs are the same"
+tags: eZ80
+
 ---
 
 <p>Unlike memory, IO will be a bit more tricky.</p>

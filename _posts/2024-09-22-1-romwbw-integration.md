@@ -1,6 +1,7 @@
 ---
 layout: post
 title: RomWBW Integration
+tags: eZ80
 ---
 
 I am very excited to announce that Wayne Warthen has accepted my pull requests for the eZ80 module into his mega [RomWBW](https://github.com/wwarthen/RomWBW) project. The eZ80 support is now part of the mainline code base.  Still very much under development and early alpha - but official!
