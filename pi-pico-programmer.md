@@ -124,6 +124,17 @@ If you have the optional programmer kit, after assemblying it, you can wire up t
 
 > **As per the Zilog Programmer, make sure the orientation of the IDC connector on the eZ80 CPU module is correct, otherwise you risk damaging your eZ80.**
 
+### PI PICO Programmer Assembly
+
+##### NOTE 1 - SPECIAL CARE WITH SOLDERING LOW PROFILE HEADERS
+
+> With kits supplied with the low profile slim 1x20 headers, special care is recommend with the soldering of the female headers to the PCB.  There is a risk that when soldering, solder will flow down into the header - and thus prevent a good fit with the associated male headers.
+
+##### NOTE 2 - PAY ATTENTION TO IDC SOCKET ORIENTATION
+
+> Ensure you solder the 6 pin IDC socket in its correction orientation.  See the PCB's silkscreen layout.  Incorrect orientation may result in damaging your eZ80 CPU.
+
+
 ### Flashing your eZ80 CPU
 
 1. Plug a USB cable between your *Pi Pico Programmer* and your main PC.
@@ -206,5 +217,6 @@ str [ADDR]
 reboot
   Reset and restart the eZ80 firmware
 ```
+
 
 {% include disclaimer.md %}

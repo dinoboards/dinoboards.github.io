@@ -359,4 +359,17 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 
 > If installing this module in a case, take into account the available space and select the appropriate type for the 6-pin UART header. You can choose either a right-angle or straight header based on your requirements and preferences.
 
+
+### Pi Programmer Assembly
+
+#### NOTE 1 - SPECIAL CARE WITH SOLDERING LOW PROFILE HEADERS
+
+> With kits supplied with the low profile slim 1x20 headers, special care is recommend with the soldering of the female headers to the PCB.  There is a risk that when soldering, solder will flow down into the header - and thus prevent a good fit with the associated male headers.
+
+#### NOTE 2 - PAY ATTENTION TO IDC SOCKET ORIENTATION
+
+> Ensure you solder the 6 pin IDC socket in its correction orientation.  See the PCB's silkscreen layout.  Incorrect orientation may result in damaging your eZ80 CPU.
+
+[Click here for more details](./pi-pico-programmer)
+
 {% include disclaimer.md %}
