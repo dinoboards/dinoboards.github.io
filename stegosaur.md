@@ -69,13 +69,38 @@ See bottom of this page for details on building a MSX bootable system.
     <a href="/stegosaur/v9958/"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" alt="Stegosaur V9958 RGB module"></a>
   </div>
   <div>
-    <p>Give your RC2014 the advanced graphic capabilities of the mid to late 80s. This kit is powered by the V9958 Video Display Processors (VDP)</p>
+    <p>Give your RC2014 the advanced graphic capabilities of the mid to late 80s. This kit is powered by the V9958 Video Display Processor (VDP).</p>
     <p><a href="/stegosaur/v9958/">Click here for full details</a></p>
     <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-v9958-rgb/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
+  </div>
+</div>
+
+<hr/>
+### Stegosaur V9938 RGB Video Module
+
+<div class="tags">
+  <div class="tag rcbus"></div>
+  <div class="tag rc2014"></div>
+  <div class="tag romwbw"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/v9938/"><img src="{{ site.baseurl }}/stegosaur/v9938/images/v9938-profile.jpg" alt="Stegosaur V9938 RGB module"></a>
+  </div>
+  <div>
+    <p>A lower cost alternative to the <i>V9958 RGB Video Module</i> that still gives your RC2014 cool graphic capabilities. This kit is powered by the predecessor of the V9958 - the V9938 Video Display Processor.</p>
+    <p><a href="/stegosaur/v9938/">Click here for full details</a></p>
+    <!-- <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-v9938-rgb/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div> -->
   </div>
 </div>
 

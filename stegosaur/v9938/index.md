@@ -1,36 +1,37 @@
 ---
 layout: default
-title: Stegosaur V9958 RGB Video Module
+title: Stegosaur V9938 RGB Video Module
 description: MSX compatible Video Module for RC2014/RCBus
-product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-v9958-rgb/
-lectronz_product_url: https://lectronz.com/products/stegosaur-msx-v9958-rgb
-product_code: DB301
+# product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-v9938-rgb/
+# lectronz_product_url: https://lectronz.com/products/stegosaur-msx-v9938-rgb
+product_code: DB314
 ---
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 3;">
-    <h1>Stegosaur V9958 RGB</h1>
-    <p>Code: DB301<br/>
+    <h1>Stegosaur V9938 RGB</h1>
+  <div style="width: 100%;">
+    <img src="{{ site.baseurl }}/assets/coming-soon.png" style="float: left; margin-right: 20px; margin-bottom: 10px; width: 150px; height: auto; width:15%">
+
+    <p>Code: DB314<br/>
     Memory Expansion: DB302</p>
   </div>
 </div>
-
-
-
-A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9958 Video Display Processor (VDP) which powered the MSX2/MSX2+ line of 8 bit Z80 computers.
-
-<div style="text-align: center;">
-  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" width="90%"/></a>
 </div>
 
-The main PCB supports the installation of 64K of VRAM, sufficient for all screen modes of the processor.  With the use of the optional expansion board, the VRAM can be extended to the full 192K of VRAM that the V9958 is able to address.
+A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9938 Video Display Processor (VDP) which powered the MSX2 line of 8 bit Z80 computers.
 
 <div style="text-align: center;">
-  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg" width="90%"/></a>
+  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9938/images/v9938-profile.jpg"><img src="{{ site.baseurl }}/stegosaur/v9938/images/v9938-profile.jpg" width="90%"/></a>
 </div>
 
+The main PCB supports the installation of 64K of VRAM, sufficient for all screen modes of the processor.  With the use of the optional expansion board, the VRAM can be extended to the full 192K of VRAM that the V9938 is able to address.
 
-This V9958 chip, was produced by Yamaha in the late 80s and was an update to the the V9938 chip, which was itself, a successor to TI's TMS9918.  The V9938/V9958 addressed many of the shortcomings of the original TMS9918.
+<div style="text-align: center;">
+  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-with-192k-ram-profile.jpg" width="80%"/></a>
+</div>
+
+This V9938 chip, was produced by Yamaha in the late 80s and was a backwards compatible VDP to TI's TMS9918.  It preceeded their V9958 VDP.  The V9938/V9958 addressed many of the shortcomings of the original TMS9918.
 
 The V9938 and V9958 are very similar in capability.  See the relevant datasheets below to get some details of the differences.
 
@@ -44,12 +45,12 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 <table>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/pcb-front.jpg" width="90%"/></a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/pcb-back.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9938/images/pcb-front.jpg"><img src="{{ site.baseurl }}/stegosaur/v9938/images/pcb-front.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9938/images/pcb-back.jpg"><img src="{{ site.baseurl }}/stegosaur/v9938/images/pcb-back.jpg" width="90%"/></a></td>
   </tr>
   <tr>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-top-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-top-installed.jpg" width="90%"/></a></td>
-    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/v9958-kit-contents.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-kit-contents.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9938/images/v9938-top-installed.jpg"><img src="{{ site.baseurl }}/stegosaur/v9938/images/v9938-top-installed.jpg" width="90%"/></a></td>
+    <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9938/images/v9938-kit-contents.jpg"><img src="{{ site.baseurl }}/stegosaur/v9938/images/v9938-kit-contents.jpg" width="90%"/></a></td>
   </tr>
   <tr>
     <td width="50%"><a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/ram-expansion-pcb-top.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/ram-expansion-pcb-top.jpg" width="90%"/></a></td>
@@ -103,7 +104,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 | Count | Name       | Self Sourcing* |
 |:-----:|------------|----------------|
-|   1   | V9958 VDP  |                |
+|   1   | V9938 VDP  |                |
 |   2   | 41464C RAM |                |
 
 #### (VRAM Expansion)
@@ -120,7 +121,7 @@ The V9938 and V9958 are very similar in capability.  See the relevant datasheets
 
 The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs), with the retro chips optionally included.
 
-The tested V9958 and RAM chips can be optionally supplied, or you can source your own.
+The tested V9938 and RAM chips can be optionally supplied, or you can source your own.
 
 The optional VRAM Expansion kit is also supplied with main components, with tested RAM chips optionally included.
 
@@ -237,8 +238,8 @@ Have a look at the sample apps included in this repo [apps-rc2014](https://githu
 For specific details on programming the chip, I recommend:
 
 * <a href="http://rs.gr8bit.ru/Documentation/V9938-programmers-guide.pdf" target="_blank">V9938 Programmers Guide</a> hosted on <a target="_newwindow" href="http://www.gr8bit.ru/gr8bit-knowledge-base.html" target="_blank">gr8bit.ru</a>
-* <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9958/yamaha_v9938.pdf" target="_blank">V9938 Datasheet</a>
-* <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9958/yamaha_v9958.pdf" target="_blank">V9958 Datasheet</a>
+* <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9938/yamaha_v9938.pdf" target="_blank">V9938 Datasheet</a>
+* <a target="_newwindow" href="{{ site.baseurl }}/assets/video-v9938/yamaha_v9958.pdf" target="_blank">V9958 Datasheet</a>
 * Also worth checking out some MSX VDP specific articles at: <a target="_newwindow" href="http://map.grauw.nl/articles/" target="_blank">http://map.grauw.nl/articles/</a>.
 
 # V9958 vs V9938
@@ -255,9 +256,10 @@ The following table highlights some of the key differences between the 2 chips.
 
 \* Mouse and Composite video are not implemented on the V9938 PCB.
 
+
 # Schematic
 
-* <a target="_newwindow" href="./schematic-1.1.pdf">Schematic (revision 1.1)</a>
+* <a target="_newwindow" href="./schematic.pdf">Schematic</a>
 
 # Key difference with Yellow MSX RGB
 
@@ -279,24 +281,14 @@ The following table highlights some of the key differences between the 2 chips.
 {% include soldering-order.md %}
 
 #### NOTE 1
-> Due to the finer pitch pins of the V9958, the soldering of this board requires a little more finesse than the typical RC2014 through-hole based boards.  If you have built a few boards already, then you should be fine.  It's recommended that a finer pitch soldering tip be used as it can be easy to accidentally bridge some of the pins.
+> Due to the finer pitch pins of the V9938, the soldering of this board requires a little more finesse than the typical RC2014 through-hole based boards.  If you have built a few boards already, then you should be fine.  It's recommended that a finer pitch soldering tip be used as it can be easy to accidentally bridge some of the pins.
 
 #### NOTE 2
-> Extra care needed when inserting the V9958 into its socket - there are lots of pins, take your time to avoid bending pins.
-
-#### NOTE 3
-> There is a 220uF capacitor that, due to space constraints, needs to be mounted on the back of the PCB.  You can choose to solder this first and applying solder on the front of the PCB.  But my personal recommendation is to solder it last.  After all other components have been soldered, you can place the capacitor over on its side, as shown below, clipping the wires as required before inserting, and then soldering on the underside of PCB.
-
-<div style="text-align: center;">
-  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/cap-prep.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/cap-prep.jpg" width="20%"/></a>
-  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/cap-ready.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/cap-ready.jpg" width="20%"/></a>
-  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/cap-orientation.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/cap-orientation.jpg" width="28%"/></a>
-  <a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/cap-soldered.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/cap-soldered.jpg" width="20%"/></a>
-</div>
+> Extra care needed when inserting the V9938 into its socket - there are lots of pins, take your time to avoid bending pins.
 
 <br/>
 
-#### NOTE 4
+#### NOTE 3
 
 <div style="display:grid;grid-template-columns: 3fr 1fr;gap: 20px;">
 <div>
@@ -309,18 +301,17 @@ The following table highlights some of the key differences between the 2 chips.
 
 <br/>
 
-#### NOTE 5
+#### NOTE 4
 
 <div style="display:grid;grid-template-columns: 3fr 1fr;gap: 20px;">
 <div>
-<blockquote>Pay close attention to the position of Jumper J3 1 x 2 header, the 5.6uH inductor and 0.1uF capacitor, as they have a minimal fit between the 64pin IC socket and mounting right angler header.</blockquote>
-</div>
-<div>
-<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/v9958/images/header-inductor-cap-fit.jpg"><img src="{{ site.baseurl }}/stegosaur/v9958/images/header-inductor-cap-fit.jpg" width="100%"/></a>
+<blockquote>Pay close attention to the position of Jumper J3 1 x 2 header as it has a minimal fit between the 64pin IC socket.</blockquote>
 </div>
 </div>
 
-#### NOTE 6 - Assembling/soldering order for the Options Expansion Module
+<br/>
+
+#### NOTE 5 - Assembling/soldering order for the Options Expansion Module
 
 > The bottom of the VRAM exapnsion RAM module, once soldered, will make contact with the V99x8 VDP plastic cover.  The PCB is designed to be installed at a slight angle.  To ensure a good fit perform the assembly in the following process:
 
@@ -334,7 +325,7 @@ The following table highlights some of the key differences between the 2 chips.
 8. Place the VRAM expansion PCB over the top, noting the angle - ensure all headers pins have sufficient height through the VRAM expansion module. (If height is insufficient, review the underside of the VRAM Expansion module to ensure the pins are trimmed sufficiently)
 9. Solder the Headers on the top of VRAM Expansion module.
 
-#### NOTE 7 - Expansion VRAM pin orientation
+#### NOTE 6 - Expansion VRAM pin orientation
 
 > Note the orientation of how the round headers need to be soldered to the expansion module.
 
@@ -343,6 +334,5 @@ The following table highlights some of the key differences between the 2 chips.
 </div>
 
 <br/>
-
 
 {% include disclaimer.md %}
