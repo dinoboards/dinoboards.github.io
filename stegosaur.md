@@ -96,11 +96,11 @@ See bottom of this page for details on building a MSX bootable system.
   <div>
     <p>A lower cost alternative to the <i>V9958 RGB Video Module</i> that still gives your RC2014 cool graphic capabilities. This kit is powered by the predecessor of the V9958 - the V9938 Video Display Processor.</p>
     <p><a href="/stegosaur/v9938/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
+    <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-v9938-rgb/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-    </div> -->
+    </div>
   </div>
 </div>
 

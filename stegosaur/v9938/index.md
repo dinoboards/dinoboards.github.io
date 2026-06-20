@@ -2,7 +2,7 @@
 layout: default
 title: Stegosaur V9938 RGB Video Module
 description: MSX compatible Video Module for RC2014/RCBus
-# product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-v9938-rgb/
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-v9938-rgb/
 # lectronz_product_url: https://lectronz.com/products/stegosaur-msx-v9938-rgb
 product_code: DB314
 ---
@@ -10,13 +10,9 @@ product_code: DB314
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 3;">
     <h1>Stegosaur V9938 RGB</h1>
-  <div style="width: 100%;">
-    <img src="{{ site.baseurl }}/assets/coming-soon.png" style="float: left; margin-right: 20px; margin-bottom: 10px; width: 150px; height: auto; width:15%">
-
     <p>Code: DB314<br/>
     Memory Expansion: DB302</p>
   </div>
-</div>
 </div>
 
 A complete kit to give your RC2014/RCBus platform, the advanced graphic capabilities of the mid to late 80s. It based around the V9938 Video Display Processor (VDP) which powered the MSX2 line of 8 bit Z80 computers.
