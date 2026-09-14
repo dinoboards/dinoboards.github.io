@@ -303,6 +303,28 @@ See bottom of this page for details on building a MSX bootable system.
   </div>
 </div>
 
+<hr/>
+### Stegosaur 12 + 1 Slot Backplane
+
+<div class="tags">
+  <div class="tag rcbus compatible"></div>
+  <div class="tag msx recommended"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/backplane-12-plus-one/"><img src="{{ site.baseurl }}/stegosaur/backplane-12-plus-one/images/profile-empty.jpg" alt="Stegosaur 12 + 1  Backplane"></a>
+  </div>
+  <div>
+    <p>A 13 slot RCBus 80 way backplane ideal for a full compliment of Stegosaur MSX and Green Modules.</p>
+    <p><a href="/stegosaur/backplane-12-plus-one/">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-12-plus-one/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
+  </div>
+</div>
 
 <hr/>
 
