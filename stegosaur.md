@@ -69,7 +69,7 @@ See bottom of this page for details on building a MSX bootable system.
     <a href="/stegosaur/v9958/"><img src="{{ site.baseurl }}/stegosaur/v9958/images/v9958-profile.jpg" alt="Stegosaur V9958 RGB module"></a>
   </div>
   <div>
-    <p>Give your RC2014 the advanced graphic capabilities of the mid to late 80s. This kit is powered by the V9958 Video Display Processor (VDP).</p>
+    <p>Give your system the advanced graphic capabilities of the mid to late 80s. This kit is powered by the V9958 Video Display Processor (VDP).</p>
     <p><a href="/stegosaur/v9958/">Click here for full details</a></p>
     <div class="buy-on-container">
       <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-v9958-rgb/" class="button" target="_newWindow">
@@ -303,8 +303,8 @@ See bottom of this page for details on building a MSX bootable system.
   </div>
 </div>
 
-<hr/>
-### Stegosaur 12 + 1 Slot Backplane
+<!-- <hr/> -->
+<!-- ### Stegosaur 12 + 1 Backplane
 
 <div class="tags">
   <div class="tag rcbus compatible"></div>
@@ -327,6 +327,30 @@ See bottom of this page for details on building a MSX bootable system.
 </div>
 
 <hr/>
+### Stegosaur MSX Dual Cart Extension
+
+<div class="tags">
+  <div class="tag rcbus compatible"></div>
+  <div class="tag msx optional"></div>
+</div>
+
+<div class="product-listing">
+  <div>
+    <a href="/stegosaur/cart-extension/"><img src="{{ site.baseurl }}/stegosaur/cart-extension/images/profile.jpg" alt="Stegosaur MSX Dual Cart Extension"></a>
+  </div>
+  <div>
+    <p>An extension module for the 12+1 Stegosaur backplane to support MSX Cartridges</p>
+    <p><a href="/stegosaur/cart-extension/">Click here for full details</a></p>
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-cart-extension/" class="button" target="_newWindow">
+        BUY <img src="/logo-black.png" class="buy-on-shop"/>
+      </a>
+    </div>
+  </div>
+</div>
+ -->
+
+<hr/>
 
 ## MSX Operation
 
@@ -338,7 +362,7 @@ For a bootable MSX system you need at least:
 
 | Name      | Options                                                                                                                   |
 | --------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Backplane | A 80 way RCBus backplane is required - the Stegosaur 10 + MSX Slot Backplane or the Yellow 12+1 Backplane are recommended |
+| Backplane | A 80 way RCBus backplane is required - the 10 + MSX Slot Backplane or the 12+1 Backplane are recommended                  |
 | CPU       | The Turbo CPU module or a stock RC2014 Z80                                                                                |
 | Memory    | The MSX Memory module is required.                                                                                        |
 | Keyboard  | The PPI module & Keyboard is required.                                                                                    |

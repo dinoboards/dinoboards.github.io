@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stegosaur 12 + 1 Slot Backplane
+title: Stegosaur 12 + 1 Backplane
 description: A RCBus 80 way backplane ideal for MSX configuration
 product_url: https://shop.dinoboards.com.au/product/stegosaur-12-plus-one/
 ---
@@ -17,7 +17,7 @@ product_url: https://shop.dinoboards.com.au/product/stegosaur-12-plus-one/
 A 13 slot RCBus 80 way backplane for RC2014 or RCBus Modules.  Well suited for the full compliment of Stegosaur MSX and Green Modules.
 
 <div style="text-align: center;">
-<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-12-plus-one/images/profile-empty.jpg"><img style="width:70%" src="{{ site.baseurl }}/stegosaur/backplane-12-plus-one/images/profile-empty.jpg" alt="profile-empty Profiled" width="100%"/></a>
+<a target="_newwindow" href="{{ site.baseurl }}/stegosaur/backplane-12-plus-one/images/profile-empty.jpg"><img style="width:70%" src="{{ site.baseurl }}/stegosaur/backplane-12-plus-one/images/profile-empty.jpg" alt="Assembled Kit" /></a>
 </div>
 
 The backplane is an alternative to the <a href="/backplane">Yellow MSX 12+1 Backplane</a>.
@@ -80,7 +80,7 @@ The 13th slot is offset slightly from the rest of the slots, to allow for connec
 
 The full kits includes everything you need (PCB, capacitors, IC sockets, connectors, and the ICs).
 
-The optional 5VDC converter, as with all parts, may have an alternative with similar specifications supplied.
+The optional 5VDC converter, as with all parts, may be supplied with an alternative of similar specifications.
 
 Please note that mounting stand-offs are not supplied.
 
