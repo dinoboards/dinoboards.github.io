@@ -2,7 +2,7 @@
 layout: default
 title: Stegosaur 12 + 1 Backplane
 description: A RCBus 80 way backplane ideal for MSX configuration
-product_url: https://shop.dinoboards.com.au/product/stegosaur-12-plus-one/
+product_url: https://shop.dinoboards.com.au/product/stegosaur-12-1-backplane/
 ---
 
 
@@ -58,21 +58,21 @@ The 13th slot is offset slightly from the rest of the slots, to allow for connec
 
 #### Base Kit
 
-| Count | Name                       | Self Sourcing*                                         |
-| :---: | -------------------------- | ------------------------------------------------------ |
-|  26   | 40 Way SIL Socket*         |                                                        |
-|  13   | 0.1uF Ceramic Capacitors   | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND     |
-|   1   | 2.1mm Power Jack           | Mouser: 490-PJ-002B<br/>DigiKey: CP-002B-ND            |
-|   1   | Tactile Switch             | Mouser: 506-FSM4JH<br/>DigiKey: CP-002B-ND             |
-|   1   | SPDT Toggle Switch         | Mouser: 612-200MSP1T1B2M6QE                            |
-|   1   | 2 Way Screw Terminal       | Mouser: 490-TB001-500-02BE                             |
-|   1   | 470 Ω (3.4mm)              |                                                        |
-|   1   | 3mm LEDs                   |                                                        |
+| Count | Name                     | Self Sourcing*                                     |
+|:-----:|--------------------------|----------------------------------------------------|
+|  26   | 40 Way SIL Socket*       |                                                    |
+|  13   | 0.1uF Ceramic Capacitors | Mouser: 594-K104K10X7RF53L2<br/>DigiKey: BC5137-ND |
+|   1   | 2.1mm Power Jack         | Mouser: 490-PJ-002B<br/>DigiKey: CP-002B-ND        |
+|   1   | Tactile Switch           | Mouser: 506-FSM4JH<br/>DigiKey: CP-002B-ND         |
+|   1   | SPDT Toggle Switch       | Mouser: 612-200MSP1T1B2M6QE                        |
+|   1   | 2 Way Screw Terminal     | Mouser: 490-TB001-500-02BE                         |
+|   1   | 470 Ω (3.4mm)            |                                                    |
+|   1   | 3mm LEDs                 |                                                    |
 
 #### Optional 5V Converter
 
 | Count | Name                           | Self Sourcing*                                                                                                         |
-| :---: | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------- |
+|:-----:|--------------------------------|------------------------------------------------------------------------------------------------------------------------|
 |   1   | Optional ~12V to 5DC Converter | Mouser: 919-R-78K5.0-2.0L<br/>DigiKey: 945-R-78K5.0-2.0L-ND<br/>~~Mouser: 946-MEZD71202A-G<br/>DigiKey: 1589-1465-ND~~ |
 
 
@@ -103,10 +103,10 @@ The 5V DC converter optionally supplied is rated at 5V @ 2 Amps.
 
 # Key difference with Yellow MSX 12+1 Backplane
 
-| Description         | Yellow MSX Version                      | Green Stegosaur Version    |
-| ------------------- | --------------------------------------- | -------------------------- |
-| Colour              | Yellow                                  | Green                      |
-| On board LEDS       | 12 5V rated Yellow 5mm LEDS + power led | Single 3mm power led       |
+| Description   | Yellow MSX Version      | Green Stegosaur Version |
+|---------------|-------------------------|-------------------------|
+| Colour        | Yellow                  | Green                   |
+| On board LEDs | 12 x 5V yellow 5mm LEDs | Single 3mm power LED    |
 
 # Assembly Guide
 

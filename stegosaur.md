@@ -303,8 +303,8 @@ See bottom of this page for details on building a MSX bootable system.
   </div>
 </div>
 
-<!-- <hr/> -->
-<!-- ### Stegosaur 12 + 1 Backplane
+<hr/>
+### Stegosaur 12 + 1 Backplane
 
 <div class="tags">
   <div class="tag rcbus compatible"></div>
@@ -319,7 +319,7 @@ See bottom of this page for details on building a MSX bootable system.
     <p>A 13 slot RCBus 80 way backplane ideal for a full compliment of Stegosaur MSX and Green Modules.</p>
     <p><a href="/stegosaur/backplane-12-plus-one/">Click here for full details</a></p>
     <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-12-plus-one/" class="button" target="_newWindow">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-12-1-backplane/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
@@ -342,13 +342,12 @@ See bottom of this page for details on building a MSX bootable system.
     <p>An extension module for the 12+1 Stegosaur backplane to support MSX Cartridges</p>
     <p><a href="/stegosaur/cart-extension/">Click here for full details</a></p>
     <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-cart-extension/" class="button" target="_newWindow">
+      <a href="https://shop.dinoboards.com.au/product/stegosaur-msx-dual-cart-extension/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
     </div>
   </div>
 </div>
- -->
 
 <hr/>
 

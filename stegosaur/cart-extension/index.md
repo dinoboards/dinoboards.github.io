@@ -2,18 +2,15 @@
 layout: default
 title: Stegosaur MSX Dual Cart Extension
 description: A extension module for the 12+1 backplane to support MSX Cartridges
-tindie_product_url:
-github_url:
-hackaday_url:
-product_url:
+product_url: https://shop.dinoboards.com.au/product/stegosaur-msx-dual-cart-extension/
 ---
 
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
   <div style="flex: 3;">
     <h1>Stegosaur MSX Dual Cart Extension</h1>
-    <p>Slot Extension Code: DBxxx<br/>
-    Blank 16k/32k Code: DBxxx</p>
+    <p>Slot Extension Code: DB316<br/>
+    Blank 16k/32k Code: DB111</p>
   </div>
 </div>
 
@@ -164,7 +161,7 @@ If you wish to reset your MegaFlashROM, follow the official process to restore y
 | Description          | Yellow MSX Version  | Green Stegosaur Version                            |
 |----------------------|---------------------|----------------------------------------------------|
 | Colour               | Yellow              | Green                                              |
-| On board LEDS        | 5mm LEDS            | 3mm LEDS                                           |
+| On board LEDs        | 5mm LEDs            | 3mm LEDs                                           |
 | Card Edge Connectors | PCB screw mountable | Equivalent alternative without screw mount support |
 | Optional 16/32K Cart | Yellow Version      | Yellow Version (with Green coming soon)            |
 
