@@ -20,7 +20,7 @@ product_url: https://shop.dinoboards.com.au/product/
 
 An alternative to the <a href="/2mb-linear-sram">RCBus 2MB linear memory</a> module, this module uses a specially designed interface to allow for high speed memory operation.  Break the 64K barrier with this high speed memory module designed for the <a href="/green/ozraptor">ozRaptor module</a>
 
-The ozRaptor module supports up to to of these modules, to allow for up to 4MB of linear direct access 0 wait state memory.
+The ozRaptor module supports up to two of these modules, to allow for up to 4MB of linear direct access 0 wait state memory.
 
 # General Description
 
@@ -159,6 +159,20 @@ This kit can also be supplied with the SMD parts already soldered for you.
 
 * a <a href="/green/ozraptor/">ozRaptor</a> with required RCBus modules.
 
+# Jumpers/Headers
+
+#### J0..J3 - MEMORY ADDRESS CONFIGURATION
+
+J0 to J3 are pads that need to be bridge to enable a specific memory address operations.  The module support 2 memory ranges.
+
+Solder and short the top two pads of each, to configure the memory for address range 0x400000 to 0x05FFFF
+
+And short the bottom two pads of each, to configure the memory for address range 0x060000 to 0x7FFFF
+
+> ***WARNING: Its important not to insert two memory modules into an ozRaptor base configured for the same address range.  This will conflict and possible damage the RAM or the eZ80 CPU.***
+
+> ***WARNING: Do not short all three pads, as this would also cause operational conflicts.***
+
 # Resources
 
 * Schematic: [Schematic](/green/fast-linear-ram/schematic.pdf)
@@ -198,7 +212,7 @@ This kit can also be supplied with the SMD parts already soldered for you.
 
 3. After all the ICs are done & connection continuity verified, only then proceed with soldering the capacitors.
 
-4. And finally, solder the 3 set of headers (2x20, 2x3 and 2x19).
+4. And finally, solder the 3 set of headers (2x20, 2x3 and 2x16).
 
 <hr/>
 
