@@ -36,7 +36,7 @@ See the Wikipedia page for basic overview of the CPU (<a href="https://en.wikipe
   <li>Compatibility with many existing RCBus and RC2014<strong>&trade;</strong> retro modules.</li>
   <li>A fun DIY kit that can be assembled by anyone with basic soldering skills.</li>
   <li>Works in conjunction with RomWBW/HBIOS ensuring a high degree of compatibility with existing OS and applications (HBIOS, CP/M, BASIC, etc).</li>
-  <li>Lots of potential for to do your own hacking and tinkering with the eZ80.</li>
+  <li>Lots of potential to do your own hacking and tinkering with the eZ80.</li>
 </ul>
 
 # Demo Video
@@ -161,7 +161,7 @@ There are 2 options for the programmer.  The Zilog's official programmer (*Zilog
 
 An alternative and lower cost option is to use a Raspberry PI Pico.  If you have a Pi Pico handy, you can, via some jumper wires, connect it directly - or you can get the optional eZ80 Pi Pico Programmer kit.
 
-[Click here for instructions of setting up a Pi Pico Programmer](./pi-pico-programmer)
+[Click here for instructions of setting up a Pi Pico Programmer](/pi-pico-programmer)
 
 ## Programmer header orientation
 
@@ -370,6 +370,6 @@ First I start with the PCB pins on the CPU PCB and the associated Round Machine 
 
 > Ensure you solder the 6 pin IDC socket in its correction orientation.  See the PCB's silkscreen layout.  Incorrect orientation may result in damaging your eZ80 CPU.
 
-[Click here for more details](./pi-pico-programmer)
+[Click here for more details](/pi-pico-programmer)
 
 {% include disclaimer.md %}

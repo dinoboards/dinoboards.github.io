@@ -66,18 +66,18 @@ For more information of the eZ80 CPU, see the [eZ80 CPU kit](/ez80-for-rc).
 
 The following items will be included in your kit.
 
-|Count   | Name  | Detail  | Vendor Link* |
-|:------:|-------| ------- | ---- |
-| 4      |  0.1uF | Multilayer Ceramic Capacitors MLCC 2.54mm | [mouser](https://au.mouser.com/ProductDetail/594-K104K15X7RF5UL2) |
-| 12     | 1x40 header socket (green & black) | 2.54mm spacing | EBAY SEARCH: 40Pin Female Single Row Header Strip |
-| 1      | 3mm GREEN LED | Conventional 3mm LED | |
-| 1      | 1	470 Ω | 3.4mm width | |
-| 1      | DC Barrel Connector | Same Sky: PJ-002B (2.5mm/6.5mm) | [mouser](https://au.mouser.com/ProductDetail/490-PJ-002B) |
-| 1      | Tactile Switch | 5.99mm | [mouser](https://au.mouser.com/ProductDetail/506-FSM4JH) |
-| 1	     | Power Terminal Block (2POS) | | [mouser](https://au.mouser.com/ProductDetail/179-TB0010-500-02GR) |
-| 1	     | SPDT Toggle Switch | E-Switch: 200MSP1T1B2M6QE | [mouser](https://au.mouser.com/ProductDetail/612-200MSP1T1B2M6QE)
-| 1      | Compatible DC Converter 12V to 5V (2amp) | MPS: MEZD71202A-G LM7805 Compatible* | [element14-aus](https://au.element14.com/monolithic-power-systems-mps/mezd71202a-g/dc-dc-converter-5v-2a/dp/3346295)
-| 1      | 2 Layer PCB
+| Count | Name                                     | Detail                                    | Vendor Link*                                                                                                         |
+|:-----:|------------------------------------------|-------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+|   4   | 0.1uF                                    | Multilayer Ceramic Capacitors MLCC 2.54mm | [mouser](https://au.mouser.com/ProductDetail/594-K104K15X7RF5UL2)                                                    |
+|  12   | 1x40 header socket (green & black)       | 2.54mm spacing                            | EBAY SEARCH: 40Pin Female Single Row Header Strip                                                                    |
+|   1   | 3mm GREEN LED                            | Conventional 3mm LED                      |                                                                                                                      |
+|   1   | 1	470 Ω                                  | 3.4mm width                               |                                                                                                                      |
+|   1   | DC Barrel Connector                      | Same Sky: PJ-002B (2.5mm/6.5mm)           | [mouser](https://au.mouser.com/ProductDetail/490-PJ-002B)                                                            |
+|   1   | Tactile Switch                           | 5.99mm                                    | [mouser](https://au.mouser.com/ProductDetail/506-FSM4JH)                                                             |
+|   1   | Power Terminal Block (2POS)              |                                           | [mouser](https://au.mouser.com/ProductDetail/179-TB0010-500-02GR)                                                    |
+|   1   | SPDT Toggle Switch                       | E-Switch: 200MSP1T1B2M6QE                 | [mouser](https://au.mouser.com/ProductDetail/612-200MSP1T1B2M6QE)                                                    |
+|   1   | Compatible DC Converter 12V to 5V (2amp) | MPS: MEZD71202A-G LM7805 Compatible*      | [element14-aus](https://au.element14.com/monolithic-power-systems-mps/mezd71202a-g/dc-dc-converter-5v-2a/dp/3346295) |
+|   1   | 2 Layer PCB                              |                                           |                                                                                                                      |
 
 \* Vendor links are supplied for reference only.  Specific product may vary, vendor may change its offering and/or components may cease production.
 

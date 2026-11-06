@@ -116,7 +116,7 @@ There are 2 options for the programmer.  The Zilog's official programmer (*Zilog
 
 ## Pi Pico Programmer
 
-An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here for instructions of setting up a Pi Pico Programmer](./pi-pico-programmer)
+An alternative and lower cost option is to use a Raspberry PI Pico.  [Click here for instructions of setting up a Pi Pico Programmer](/pi-pico-programmer)
 
 # Caveats
 

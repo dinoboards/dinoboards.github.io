@@ -4,6 +4,13 @@
 
 You can use any RCBus compatible backplane that supports all 80 bus lines.  You can even use non-green ones!  Just make sure it has the full 80 lanes (2x40 pin headers)
 
+### the eZ80 CPU Module
+
+The eZ80 Zilog CPU is an updated version of their Z80 CPU. It comes in a few variations with many on chip facilities in addition to the basic CPU such as flash ROM, RAM, GPIO and other IO services.
+
+The green series has a specially designed CPU module.  This module is included with all the surfaced mounted components assembled and soldered.  Both the the <a href="/ez80-for-rc">ez80 for RC</a> and the <a href="/green/ozraptor">ozRaptor</a> kits use the same CPU module.
+
+<b>More detail here: <a href="/green/ez80-variants">The Green eZ80 CPU Module</a>.</b>
 
 ### How do the Linear and the normal Memory Modules work together
 
@@ -37,6 +44,9 @@ The firmware you flash, supplied from the github repo [https://codeberg.org/dino
 | Address Range    | Description |
 | ---------------- | ----------- |
 | 000000 -> 01FFFF | ON-CHIP ROM |
-| 02E000 -> 02FFFF | ON-CHIP RAM |
+| 02E000 -> 02FFFF | ON-CHIP RAM* |
 | 030000 -> 03FFFF | EXTERNAL ROM/RAM (CS3) FOR Z80 COMPATIBILITY MODE |
 | 200000 -> 3FFFFF | EXTERNAL LINEAR RAM (CS0) 2MB |
+
+\* For the F93 eZ80 variant, the onchip RAM starts at 02F000
+
