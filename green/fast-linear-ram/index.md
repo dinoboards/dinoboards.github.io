@@ -2,15 +2,10 @@
 layout: default
 title: 2MB Fast Linear SRAM
 description: upto 2MB of fast linear memory for the ozRaptor board
-product_url: https://shop.dinoboards.com.au/product/
+product_url: https://shop.dinoboards.com.au/product/2mb-fast-ram-for-ozraptor/
 ---
 
-<div>
-  <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px" style="float: right; margin-left: 20px; margin-bottom: 20px;"/>
-
-  <h1>2MB Fast Linear SRAM</h1>
-
-</div>
+# 2MB Fast Linear SRAM
 
 <p>Code: DB213</p>
 

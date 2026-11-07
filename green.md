@@ -41,12 +41,8 @@ A FAQ for the green series is being constructed.  You can read it here [Green Se
 
 <hr/>
 
-<div>
-  <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px" style="float: right; margin-left: 20px; margin-bottom: 20px;"/>
+### eZ80 ozRaptor
 
-  <h3>eZ80 ozRaptor</h3>
-
-</div>
 
 <div class="tags" style="margin-bottom: 15px;">
   <div class="tag rcbus"></div>
@@ -64,23 +60,18 @@ A FAQ for the green series is being constructed.  You can read it here [Green Se
   <div>
     <p>The ozRaptor is a combination of the <i>eZ80 for RC</i> and a powered RCBus/RC2014<strong>&trade;</strong> backplane.  The 4 layer PCB with the specially designed memory interface allows for higher speed operation.</p>
     <p style="float: left"><a href="/green/ozraptor">Click here for full details</a></p>
-  <!-- <div class="buy-on-container">
-      <a href="https://shop.dinoboards.com.au/product/ozraptor" class="button" target="_newWindow">
+    <div class="buy-on-container">
+      <a href="https://shop.dinoboards.com.au/product/ozraptor/" class="button" target="_newWindow">
       BUY <img src="/logo-black.png" class="buy-on-shop"/>
       </a>
-  </div>-->
+    </div>
   </div>
 </div>
 
 
 <hr/>
 
-<div>
-  <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px" style="float: right; margin-left: 20px; margin-bottom: 20px;"/>
-
-  <h3>Fast Linear RAM for ozRaptor</h3>
-
-</div>
+### Fast Linear RAM for ozRaptor
 
 
 <div class="tags">
@@ -97,11 +88,11 @@ A linear memory module designed for the ozRaptor baseplane.  Supports up to 2MB 
     <p>Install up to 4 512K fast SRAM chips to enable your eZ80 to address a total of 2MB of memory directly.</p>
     <p>The ozRaptor can support a maximum of 2 of these modules, giving a total of 4MB of fast ram.</p>
     <p style="float: left"><a href="/green/fast-linear-ram/">Click here for full details</a></p>
-    <!-- <div class="buy-on-container">
-       <a href="https://shop.dinoboards.com.au/product/ozraptor" class="button" target="_newWindow">
+    <div class="buy-on-container">
+       <a href="https://shop.dinoboards.com.au/product/2mb-fast-ram-for-ozraptor/" class="button" target="_newWindow">
         BUY <img src="/logo-black.png" class="buy-on-shop"/>
        </a>
-    </div> -->
+    </div>
   </div>
 </div>
 

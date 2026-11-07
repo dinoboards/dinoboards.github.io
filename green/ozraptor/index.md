@@ -1,15 +1,10 @@
 ---
 layout: default
 description: eZ80 baseplane with 3 RCBus/RC2014 compatible slots
-product_url: https://shop.dinoboards.com.au/product/
+product_url: https://shop.dinoboards.com.au/product/ozraptor/
 ---
 
-<div>
-  <img src="{{ site.baseurl }}/assets/coming-soon.png" width="100px" style="float: right; margin-left: 20px; margin-bottom: 20px;"/>
-
-  <h1>eZ80 ozRaptor Baseplane</h1>
-
-</div>
+# eZ80 ozRaptor Baseplane
 
 <p>Code: DB212</p>
 
