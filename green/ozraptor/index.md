@@ -114,7 +114,6 @@ RCBus/RC2014<strong>&trade;</strong> expansion modules sold separately.
 
 | Quantity | Component                         | Self Sourcing*                                                  |
 |:--------:|-----------------------------------|-----------------------------------------------------------------|
-|    2     | Right Angle 2x20 Header           | Digikey: 2057-PH2RA-40-UA-ND<br/>Mouser: 649-68020-140HLF       |
 |    6     | 1x40 2.54mm Male headers          |                                                                 |
 |    4     | 1x3 2.54mm Male headers           |                                                                 |
 |    4     | 1x20 2.54mm Male headers          |                                                                 |
