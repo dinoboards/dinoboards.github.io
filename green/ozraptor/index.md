@@ -147,7 +147,7 @@ RCBus/RC2014<strong>&trade;</strong> expansion modules sold separately.
 |    1     | 4 POS SOCKET FOR OSCILLATOR       | Digikey: A463-ND<br/>Mouser: 535-1108800                        |
 |    1     | 4 Layer PCB                       |                                                                 |
 |    1     | pre-assembled eZ80 CPU Module     |                                                                 |
-|    1     | Compatible DC Converter 12V to 5V | Digikey: 1951-TSR3-2450N-ND<br/>Digikey: 3182-LMS78_05-2.0RL-ND |
+|    1     | Compatible DC Converter 12V to 5V | Digikey: 1951-TSR3-2450N-ND<br/>Digikey: 3182-LMS78_05-2.0R-ND  |
 |    1     | IDC Connector 2x3                 | Digikey: BHR-06-VUA                                             |
 
 \** The 3.3V (TLV1117) DC converter is a surface mounted component - but is not hard to solder with a conventional soldering iron.
